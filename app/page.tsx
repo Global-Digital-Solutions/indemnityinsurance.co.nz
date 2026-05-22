@@ -45,7 +45,7 @@ export default function HomePage() {
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact/"
                   className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-bold px-6 py-3 rounded-xl transition-colors shadow-lg">
-                  Get a Free Quote →
+                  Get a Quote →
                 </Link>
                 <Link href="/professional-indemnity-insurance/"
                   className="inline-block bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-6 py-3 rounded-xl transition-colors">
@@ -144,7 +144,7 @@ export default function HomePage() {
           <div className="text-center mt-10">
             <Link href="/contact/"
               className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-lg">
-              Get Started — Free Quote
+              Get Started — Quote
             </Link>
           </div>
         </div>
@@ -210,7 +210,7 @@ export default function HomePage() {
           <p className="text-brand-300 text-lg mb-8">Licensed NZ advisers compare the market and get back to you within one business day — at no cost to you.</p>
           <Link href="/contact/"
             className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-extrabold px-10 py-4 rounded-2xl transition-colors shadow-xl text-lg">
-            Get My Free Quote →
+            Get a Quote →
           </Link>
           <p className="text-brand-500 text-xs mt-4">No spam. No obligation. NZ-based advisers only.</p>
         </div>

@@ -9,22 +9,22 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          50:  '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          300: '#93c5fd',
-          400: '#60a5fa',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
-          800: '#1e3a8a',
-          900: '#0f2060',
-          950: '#07112e',
+          50:  '#fff7ed',  // orange-50
+          100: '#ffedd5',  // orange-100
+          200: '#fed7aa',  // orange-200
+          300: '#d1d5db',  // gray-300 (subtle text on dark)
+          400: '#9ca3af',  // gray-400
+          500: '#f97316',  // orange-500
+          600: '#ea580c',  // orange-600
+          700: '#f97316',  // orange-500 (links, CTAs, accents)
+          800: '#1f2937',  // gray-800
+          900: '#111827',  // gray-900
+          950: '#030712',  // gray-950
         },
         gold: {
-          400: '#fbbf24',
-          500: '#f59e0b',
-          600: '#d97706',
+          400: '#fb923c',
+          500: '#f97316',
+          600: '#ea580c',
         },
       },
     },

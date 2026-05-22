@@ -60,7 +60,7 @@ export default function AboutPage() {
 
         <div className="mt-8 text-center">
           <Link href="/contact/" className="inline-block bg-brand-700 hover:bg-brand-800 text-white font-bold px-8 py-3 rounded-xl transition-colors">
-            Get a Free Quote →
+            Get a Quote →
           </Link>
         </div>
       </div>
