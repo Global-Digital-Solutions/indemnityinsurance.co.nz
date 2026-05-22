@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-slate-900;
+  }
+}
+
+@layer components {
+  .prose-indemnity {
+    @apply text-slate-700 leading-relaxed;
+  }
+  .prose-indemnity h2 {
+    @apply text-2xl font-extrabold text-slate-900 mt-8 mb-4;
+  }
+  .prose-indemnity h3 {
+    @apply text-xl font-bold text-slate-900 mt-6 mb-3;
+  }
+  .prose-indemnity p {
+    @apply mb-4;
+  }
+  .prose-indemnity ul {
+    @apply list-disc list-inside mb-4 space-y-1;
+  }
+  .prose-indemnity ol {
+    @apply list-decimal list-inside mb-4 space-y-1;
+  }
+  .prose-indemnity li {
+    @apply text-slate-700;
+  }
+  .prose-indemnity strong {
+    @apply font-bold text-slate-900;
+  }
+}
