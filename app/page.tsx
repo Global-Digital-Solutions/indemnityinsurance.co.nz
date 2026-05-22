@@ -57,7 +57,7 @@ export default function HomePage() {
                 </Link>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                {['Cover from $85/month', 'No Obligation', 'Quote in 1 Business Day', 'Multiple Insurers Compared'].map(pill => (
+                {['Cover from $85/month', 'No Obligation', 'Quick Response', 'Multiple Insurers Compared'].map(pill => (
                   <span key={pill} className="text-xs text-gray-300 bg-gray-800/70 px-3 py-1 rounded-full border border-gray-700">✓ {pill}</span>
                 ))}
               </div>
@@ -136,7 +136,7 @@ export default function HomePage() {
               { n: '01', title: 'Tell Us About Your Work', desc: 'Complete the quick quote form — profession, cover type and level needed. Takes 2 minutes.' },
               { n: '02', title: 'Adviser Reviews Your Needs', desc: 'A licensed NZ insurance adviser assesses your risk profile and coverage requirements.' },
               { n: '03', title: 'Market Comparison', desc: 'Multiple insurers are approached — QBE, Dual, BHSI, Vero, AIG — to find the best fit.' },
-              { n: '04', title: 'Get Your Quote', desc: 'Receive a personalised quote within one business day. No obligation, no pressure.' },
+              { n: '04', title: 'Get Your Quote', desc: 'Receive a personalised quote quickly. No obligation, no pressure.' },
             ].map(step => (
               <div key={step.n} className="text-center">
                 <div className="w-14 h-14 rounded-full bg-brand-700 border-2 border-brand-500 flex items-center justify-center text-gold-400 font-extrabold text-lg mx-auto mb-4">{step.n}</div>
@@ -211,7 +211,7 @@ export default function HomePage() {
       <div className="py-16 bg-gradient-to-br from-brand-900 to-brand-800">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">Ready to Get Covered?</h2>
-          <p className="text-brand-300 text-lg mb-8">Licensed NZ advisers compare the market and get back to you within one business day — at no cost to you.</p>
+          <p className="text-brand-300 text-lg mb-8">Licensed NZ advisers compare the market and get back to you quickly — at no cost to you.</p>
           <Link href="/contact/"
             className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-extrabold px-10 py-4 rounded-2xl transition-colors shadow-xl text-lg">
             Get a Quote →
