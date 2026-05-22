@@ -33,29 +33,32 @@ export default function HomePage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="inline-block bg-gold-500/20 border border-gold-400/40 text-gold-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
-                NZ Professional Indemnity Specialists
+              <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
+                Need to Protect Your Business?
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-                Indemnity Insurance for
-                <span className="text-brand-300"> NZ Professionals</span>
+                Indemnity Insurance That Covers You,<br />
+                <span className="text-orange-400">Your Work & Your Reputation</span>
               </h1>
-              <p className="text-brand-200 text-lg leading-relaxed mb-8 max-w-xl">
-                Professional indemnity, public liability, management liability and statutory liability — compared and quoted by licensed NZ insurance advisers. Cover from $85/month.
+              <p className="text-gray-300 text-xl leading-relaxed mb-4 max-w-xl font-medium">
+                For less than you think.
+              </p>
+              <p className="text-gray-400 text-base leading-relaxed mb-8 max-w-xl">
+                One claim from a client — a missed deadline, a disputed report, a costly piece of advice — can threaten everything you've built. Licensed NZ advisers compare the market and find the right cover for your profession, your budget, and your peace of mind.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact/"
-                  className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-bold px-6 py-3 rounded-xl transition-colors shadow-lg">
+                  className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors shadow-lg">
                   Get a Quote →
                 </Link>
                 <Link href="/professional-indemnity-insurance/"
                   className="inline-block bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-6 py-3 rounded-xl transition-colors">
-                  What Is PI Insurance?
+                  What Does PI Cover?
                 </Link>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                {['Licensed NZ Advisers', 'No Obligation', 'Quote in 1 Business Day', 'Multiple Insurers Compared'].map(pill => (
-                  <span key={pill} className="text-xs text-brand-300 bg-brand-800/60 px-3 py-1 rounded-full border border-brand-700">✓ {pill}</span>
+                {['Cover from $85/month', 'No Obligation', 'Quote in 1 Business Day', 'Multiple Insurers Compared'].map(pill => (
+                  <span key={pill} className="text-xs text-gray-300 bg-gray-800/70 px-3 py-1 rounded-full border border-gray-700">✓ {pill}</span>
                 ))}
               </div>
             </div>
