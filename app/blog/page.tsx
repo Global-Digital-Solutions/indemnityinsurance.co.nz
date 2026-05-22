@@ -16,7 +16,7 @@ export default function BlogPage() {
       <div className="bg-brand-900 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Guides & Resources</h1>
-          <p className="text-brand-300 text-lg max-w-2xl">Expert guidance on professional indemnity and liability insurance in New Zealand.</p>
+          <p className="text-brand-300 text-lg max-w-2xl">Expert guidance on professional indemnity and liability insurance.</p>
           <div className="flex flex-wrap gap-2 mt-6">
             {categories.map(cat => (
               <span key={cat} className="text-xs bg-brand-800 text-brand-300 px-3 py-1 rounded-full border border-brand-700">{cat}</span>

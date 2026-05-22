@@ -13,8 +13,8 @@ export default function PiInsuranceCostPage() {
     <div className="bg-slate-50 min-h-screen">
       <div className="bg-brand-900 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">PI Insurance Cost NZ — 2026 Guide</h1>
-          <p className="text-brand-300 text-lg max-w-2xl">How much does professional indemnity insurance cost in New Zealand? A full breakdown by profession, cover level and the factors that affect your premium.</p>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">PI Insurance Cost — 2026 Guide</h1>
+          <p className="text-brand-300 text-lg max-w-2xl">How much does professional indemnity insurance cost? A full breakdown by profession, cover level and the factors that affect your premium.</p>
         </div>
       </div>
 

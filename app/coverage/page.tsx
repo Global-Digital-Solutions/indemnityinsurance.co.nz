@@ -14,7 +14,7 @@ export default function CoveragePage() {
       <div className="bg-brand-900 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Coverage Types</h1>
-          <p className="text-brand-300 text-lg max-w-2xl">Professional indemnity, public liability, management liability, statutory liability, D&O and run-off cover — for NZ professionals and businesses.</p>
+          <p className="text-brand-300 text-lg max-w-2xl">Professional indemnity, public liability, management liability, statutory liability, D&O and run-off cover — for professionals and businesses.</p>
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

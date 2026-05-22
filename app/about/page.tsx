@@ -13,7 +13,7 @@ export default function AboutPage() {
       <div className="bg-brand-900 text-white py-14">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">About Us</h1>
-          <p className="text-brand-300 text-lg max-w-2xl">IndemnityInsurance.co.nz helps NZ professionals understand and access the right professional indemnity and liability insurance for their specific needs.</p>
+          <p className="text-brand-300 text-lg max-w-2xl">IndemnityInsurance.co.nz helps professionals understand and access the right professional indemnity and liability insurance for their specific needs.</p>
         </div>
       </div>
 

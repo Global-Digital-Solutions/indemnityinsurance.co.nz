@@ -13,8 +13,8 @@ export default function PiInsurancePage() {
     <div className="bg-slate-50 min-h-screen">
       <div className="bg-brand-900 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Professional Indemnity Insurance NZ</h1>
-          <p className="text-brand-300 text-lg max-w-2xl">A complete guide to professional indemnity (PI) insurance for New Zealand professionals — what it covers, who needs it, how much it costs, and how to get the right policy.</p>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Professional Indemnity Insurance</h1>
+          <p className="text-brand-300 text-lg max-w-2xl">A complete guide to professional indemnity (PI) insurance — what it covers, who needs it, how much it costs, and how to get the right policy for your profession.</p>
         </div>
       </div>
 

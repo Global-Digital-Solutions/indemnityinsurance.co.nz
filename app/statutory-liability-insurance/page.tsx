@@ -13,8 +13,8 @@ export default function StatutoryLiabilityPage() {
     <div className="bg-slate-50 min-h-screen">
       <div className="bg-brand-900 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Statutory Liability Insurance NZ</h1>
-          <p className="text-brand-300 text-lg max-w-2xl">Statutory liability insurance protects NZ businesses and directors against defence costs and reparations arising from prosecution under New Zealand legislation.</p>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Statutory Liability Insurance</h1>
+          <p className="text-brand-300 text-lg max-w-2xl">Statutory liability insurance protects businesses and directors against defence costs and reparations arising from prosecution under legislation — from health &amp; safety to environmental law.</p>
         </div>
       </div>
 
