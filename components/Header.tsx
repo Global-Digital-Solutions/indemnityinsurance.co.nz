@@ -155,7 +155,6 @@ export default function Header() {
               { href: '/compare/', label: 'Compare Providers' },
               { href: '/blog/', label: 'Resources' },
               { href: '/faq/', label: 'FAQs' },
-              { href: '/about/', label: 'About' },
             ].map(l => (
               <Link key={l.href} href={l.href}
                 className="block py-1.5 text-sm text-gray-300 hover:text-white"

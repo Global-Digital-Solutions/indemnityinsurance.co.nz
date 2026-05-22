@@ -42,7 +42,7 @@ export default async function ProfessionPage({ params }: { params: Promise<{ slu
     <div className="bg-slate-50 min-h-screen">
       {/* Hero */}
       <div className="relative text-white py-14"
-        style={{ backgroundImage: `linear-gradient(to bottom right, rgba(7,17,46,0.90) 0%, rgba(29,78,216,0.75) 60%, rgba(7,17,46,0.95) 100%), url('${pt.image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        style={{ backgroundImage: `linear-gradient(to bottom right, rgba(17,24,39,0.88) 0%, rgba(31,41,55,0.65) 60%, rgba(17,24,39,0.92) 100%), url('${pt.image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/professions/" className="text-brand-300 hover:text-white text-sm font-semibold mb-4 inline-block">← All Professions</Link>
           <div className="flex items-start gap-4">
