@@ -4,325 +4,397 @@
   <!-- Core pages -->
   <url>
     <loc>https://www.indemnityinsurance.co.nz/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/contact/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/about/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/faq/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/compare/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- SEO landing pages -->
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/professional-indemnity-insurance/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://www.indemnityinsurance.co.nz/pi-insurance-cost/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.indemnityinsurance.co.nz/indemnity-insurance-for-contractors/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.indemnityinsurance.co.nz/statutory-liability-insurance/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.indemnityinsurance.co.nz/employers-liability-insurance/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.indemnityinsurance.co.nz/run-off-cover-insurance/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <loc>https://www.indemnityinsurance.co.nz/blog/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Coverage type pages -->
+  <!-- Coverage types -->
   <url>
     <loc>https://www.indemnityinsurance.co.nz/coverage/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/coverage/professional-indemnity/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/coverage/public-liability/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.indemnityinsurance.co.nz/coverage/statutory-liability/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.indemnityinsurance.co.nz/coverage/employers-liability/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.indemnityinsurance.co.nz/coverage/directors-officers/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/coverage/management-liability/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/coverage/run-off-cover/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/coverage/statutory-liability/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/coverage/employers-liability/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/coverage/directors-officers/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/coverage/run-off-cover/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Profession pages -->
   <url>
     <loc>https://www.indemnityinsurance.co.nz/professions/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/professions/accountants/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/professions/architects-engineers/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/professions/it-consultants/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/professions/financial-advisers/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.indemnityinsurance.co.nz/professions/real-estate-agents/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.indemnityinsurance.co.nz/professions/consultants/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/professions/healthcare/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/professions/real-estate-agents/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/professions/mortgage-brokers/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/professions/consultants/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
-  <!-- Blog index -->
+  <!-- High-intent commercial landing pages -->
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <loc>https://www.indemnityinsurance.co.nz/pi-insurance-auckland/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/pi-insurance-wellington/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/pi-insurance-christchurch/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/professional-indemnity-insurance-sole-traders-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/compare-professional-indemnity-insurance-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/professional-liability-insurance-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/indemnity-insurance-small-business-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/pi-insurance-government-contractors-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Static landing pages -->
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/professional-indemnity-insurance/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/employers-liability-insurance/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/statutory-liability-insurance/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/run-off-cover-insurance/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/indemnity-insurance-for-contractors/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/pi-insurance-cost/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- Blog articles -->
   <url>
     <loc>https://www.indemnityinsurance.co.nz/blog/what-is-professional-indemnity-insurance-nz/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-cost-nz-2026/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/blog/professional-indemnity-vs-public-liability-nz/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/claims-made-vs-occurrence-pi-insurance-nz/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-claims-nz-examples/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/mandatory-pi-nz-construction-sector-2025/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/claims-made-vs-occurrence-pi-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/fmca-pi-insurance-financial-advisers-nz/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-sole-traders-contractors-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/indemnity-insurance-for-contractors-nz/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/mandatory-pi-insurance-nz-professions/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/statutory-liability-nz-health-safety/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-it-consultants-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/directors-officers-nz-sme/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/run-off-cover-nz-guide/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/run-off-cover-retiring-nz-professionals/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-financial-advisers-fmca-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-nz-it-sector/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-architects-engineers-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/management-liability-nz-what-is-included/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/statutory-liability-nz-worksafe/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/employment-practices-liability-nz/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/management-liability-insurance-nz-directors/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/indemnity-insurance-nz-accountants-guide/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-real-estate-agents-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-real-estate-nz-rea/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-accountants-nz-caanz/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/compare-pi-insurance-providers-nz/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-healthcare-hpca-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/indemnity-insurance-nz-healthcare-practitioners/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/public-liability-vs-pi-contractors-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/switching-pi-insurer-nz/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-government-contracts-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-nz-architects-2026/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-small-business-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.indemnityinsurance.co.nz/blog/retroactive-dates-run-off-cover-nz/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-nz-recruitment-consultants/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-marketing-pr-consultants-nz/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-excess-nz-guide/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/blog/top-pi-insurance-mistakes-nz-professionals/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.indemnityinsurance.co.nz/blog/pi-insurance-nz-engineers-2026/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
-  <!-- Legal pages -->
+  <!-- Legal / utility -->
   <url>
     <loc>https://www.indemnityinsurance.co.nz/privacy/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/terms/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.indemnityinsurance.co.nz/disclaimer/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

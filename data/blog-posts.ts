@@ -7,6 +7,7 @@ export interface BlogPost {
   date: string
   readTime: string
   image: string
+  author: string
 }
 
 export const blogPosts: BlogPost[] = [
@@ -18,6 +19,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-04-10',
     readTime: '8 min read',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop&q=80',
+    author: 'sarah-thompson',
     content: `<h2>What Is Professional Indemnity Insurance?</h2>
 <p>Professional indemnity (PI) insurance — also called professional liability insurance — protects you if a client suffers a financial loss and holds you responsible for it. It covers the cost of your legal defence, any compensation or damages awarded, and investigation costs — regardless of whether the claim against you is justified.</p>
 <p>In New Zealand, PI insurance is increasingly essential for any professional who provides advice, expertise or specialised services. Whether you are an accountant, architect, IT consultant, financial adviser, real estate agent or management consultant, a single claim from a dissatisfied client can cost tens of thousands — or hundreds of thousands — of dollars in legal fees and compensation.</p>
@@ -106,6 +108,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-04-15',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=1200&auto=format&fit=crop&q=80',
+    author: 'sarah-thompson',
     content: `<h2>Professional Indemnity Insurance Costs in NZ — 2026</h2>
 <p>The average professional indemnity (PI) insurance premium for New Zealand businesses is approximately $85–$86 per month, based on BizCover NZ's FY2024 data covering more than 4,000 NZ small businesses. However, the range is wide — sole-trader marketers may pay as little as $50/month, while large engineering firms can pay several thousand dollars per month.</p>
 
@@ -164,6 +167,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-04-20',
     readTime: '5 min read',
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80',
+    author: 'sarah-thompson',
     content: `<h2>Professional Indemnity vs Public Liability — The Key Difference</h2>
 <p>Professional indemnity (PI) and public liability (PL) are two distinct insurance products that cover different types of risk. Understanding the difference is essential for ensuring you have adequate protection.</p>
 
@@ -212,6 +216,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-04-25',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
     content: `<h2>What Is Claims-Made PI Insurance?</h2>
 <p>Professional indemnity insurance in New Zealand operates almost universally on a "claims-made" basis. This means the policy that responds to a claim is the one that is active when the claim is first made against you — not the policy that was in force when you did the work.</p>
 
@@ -251,6 +256,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-01',
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
     content: `<h2>NZ Government Announces Mandatory PI for Construction Sector</h2>
 <p>In November 2025, the New Zealand government announced a significant regulatory change: mandatory professional indemnity insurance and home warranty requirements for the residential construction sector. This follows years of advocacy from industry bodies, consumer groups, and the Insurance Council of NZ (ICNZ) in the wake of leaky building claims and construction defect disputes.</p>
 
@@ -296,6 +302,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-05',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
     content: `<h2>PI Insurance as a FAP Licence Condition</h2>
 <p>Under the Financial Markets Conduct Act (FMCA) 2013, all financial advice providers (FAPs) must hold a current FAP licence issued by the Financial Markets Authority (FMA). One of the standard licence conditions for FAPs is the requirement to hold professional indemnity insurance at an adequate level.</p>
 
@@ -341,6 +348,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-08',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&auto=format&fit=crop&q=80',
+    author: 'sarah-thompson',
     content: `<h2>Why Contractors Need Professional Indemnity Insurance</h2>
 <p>As an independent contractor providing professional services in New Zealand, you carry full personal liability for any errors, omissions or negligence in your work. Unlike an employee, you cannot rely on your client's insurance to protect you — and your personal assets (savings, property, vehicle) could be at risk if a client makes a claim against you.</p>
 <p>Professional indemnity (PI) insurance is the key protection for NZ contractors. It covers your legal defence costs and any compensation awarded if a client claims your work caused them a financial loss.</p>
@@ -392,6 +400,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-10',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
     content: `<h2>The Growing Risk of Health and Safety Prosecutions in NZ</h2>
 <p>Since the Health and Safety at Work Act 2015 (HSWA) came into force, WorkSafe NZ has significantly increased its prosecution activity against businesses, directors and officers for workplace health and safety failures. Fines under HSWA can reach $3 million for organisations and $600,000 for individuals, with the possibility of imprisonment for the most serious offences.</p>
 <p>Statutory liability insurance is designed to cover the legal defence costs and, where legally permissible, any resulting fines and penalties from unintentional breaches of NZ legislation including HSWA.</p>
@@ -442,6 +451,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-12',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
     content: `<h2>What Is Directors' and Officers' Insurance?</h2>
 <p>Directors' and officers' (D&O) liability insurance protects the personal assets of directors, officers and managers if they are personally sued for alleged wrongful acts in managing a company. In New Zealand, company directors face significant personal liability under the Companies Act 1993, the Companies Act amendments of 2021, and various other statutes.</p>
 
@@ -483,6 +493,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-14',
     readTime: '5 min read',
     image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
     content: `<h2>What Is Run-Off Cover?</h2>
 <p>Run-off cover (also called tail cover) is a form of professional indemnity insurance that protects you after you stop practising. Because PI insurance operates on a claims-made basis, you need active coverage at the time a claim is made — not just when the work was done. Without run-off cover, retiring professionals who let their PI lapse are exposed to uninsured claims from historical work.</p>
 
@@ -527,6 +538,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-15',
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&auto=format&fit=crop&q=80',
+    author: 'sarah-thompson',
     content: `<h2>Why IT Professionals Need PI Insurance</h2>
 <p>IT consultants, software developers, data scientists, cybersecurity professionals and managed service providers carry unique professional liability risks. When a system fails, a data breach occurs, or a software implementation causes business disruption, the financial consequences for clients can be severe — and the IT professional can be held personally liable.</p>
 <p>In New Zealand, PI insurance for IT professionals has become increasingly important as digital transformation projects grow in scale and the consequences of failure become more significant. Enterprise clients and government agencies now commonly require minimum PI limits of $1M–$5M before engaging IT contractors.</p>
@@ -572,6 +584,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-16',
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&auto=format&fit=crop&q=80',
+    author: 'sarah-thompson',
     content: `<h2>What Is Management Liability Insurance?</h2>
 <p>Management liability insurance is a bundled policy designed for SMEs and medium-sized businesses. It combines several key liability covers into a single policy, providing comprehensive protection for the management of your business. The core components typically included are:</p>
 <ul>
@@ -626,6 +639,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-17',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&auto=format&fit=crop&q=80',
+    author: 'sarah-thompson',
     content: `<h2>What Is Employment Practices Liability Insurance?</h2>
 <p>Employment practices liability (EPL) insurance covers NZ employers against claims from current, former or prospective employees for employment-related wrongful acts. EPL covers the legal defence costs and any compensation or settlements awarded through the Employment Relations Authority (ERA) or Employment Court.</p>
 
@@ -674,6 +688,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-18',
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
     content: `<h2>Why PI Insurance Is Essential for NZ Accountants</h2>
 <p>New Zealand accountants — including chartered accountants, tax agents, and bookkeepers — face significant professional liability for errors in the advice and services they provide. A missed filing deadline, incorrect tax calculation, or flawed financial statement can lead to IRD penalties, missed business opportunities, or incorrect lending decisions for clients — and those clients may hold you financially responsible.</p>
 
@@ -720,6 +735,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-19',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80',
+    author: 'sarah-thompson',
     content: `<h2>PI Insurance Requirements for NZ Real Estate Agents</h2>
 <p>Real estate agents in New Zealand are licensed under the Real Estate Agents Act 2008 and regulated by the Real Estate Authority (REA). REINZ membership conditions require agents to hold professional indemnity insurance. The REA also expects that agents hold appropriate PI cover as part of professional practice standards.</p>
 <p>Most real estate agencies arrange group PI policies covering all licensed agents employed or contracted by the agency. If you operate as an independent agent or sole trader, you will need to arrange your own PI cover.</p>
@@ -758,6 +774,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-20',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
     content: `<h2>Why PI Insurance Is Not a Commodity</h2>
 <p>Many professionals buy PI insurance based primarily on price, choosing the cheapest quote available. This approach can leave significant gaps in coverage — differences in policy wording, exclusions, and claims handling can make one $85/month policy far more valuable than another at the same price.</p>
 <p>In New Zealand, PI insurance capacity is provided by a relatively small number of specialist insurers and Lloyd's of London syndicates, including QBE, Dual, BHSI (Berkshire Hathaway Specialty Insurance), and Vero. Understanding how their policies differ is important when making your choice.</p>
@@ -792,6 +809,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-21',
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
     content: `<h2>PI Insurance for Healthcare Professionals in NZ</h2>
 <p>New Zealand's healthcare professionals benefit from the ACC scheme, which covers most personal injury caused by accident or treatment injury. However, ACC does not cover all healthcare-related liability — and the Health and Disability Commissioner (HDC) investigation process can impose significant legal costs on practitioners regardless of ACC coverage.</p>
 <p>Professional indemnity insurance for NZ healthcare practitioners covers the gaps that ACC does not, including: advice-related claims, informed consent failures, HDC investigation costs, and civil claims from patients suffering non-accidental harm.</p>
@@ -837,6 +855,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-21',
     readTime: '5 min read',
     image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
     content: `<h2>Why Switching PI Insurers Requires Care</h2>
 <p>Unlike most insurance products (car, home, travel), switching professional indemnity insurers mid-term or at renewal requires careful consideration of how the claims-made basis interacts with any gaps between policies. An error when switching can leave historical work uncovered — a potentially catastrophic outcome.</p>
 
@@ -879,6 +898,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-05-22',
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
     content: `<h2>PI Insurance for NZ Architects — The Regulatory Landscape in 2026</h2>
 <p>New Zealand architects face a strengthening regulatory environment around professional indemnity insurance in 2026. The Architects Act 2022 established new requirements for registered architects, and the government's November 2025 announcement of mandatory PI and home warranty insurance for the construction sector has significantly raised the stakes for design professionals.</p>
 
@@ -916,5 +936,428 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Getting the Right PI Cover for NZ Architects</h2>
 <p>Given the complexity of architects' PI insurance — and the rapidly changing regulatory environment — working with an NZ-licensed insurance adviser who specialises in the construction professions is strongly recommended. A specialist adviser can ensure your policy correctly covers your activities, meets forthcoming regulatory requirements, and provides adequate run-off protection for completed projects.</p>`,
+  },
+  // NEW POST 20
+  {
+    slug: 'pi-insurance-nz-recruitment-consultants',
+    title: 'Professional Indemnity Insurance for NZ Recruitment Consultants',
+    excerpt: 'Recruitment consultants face PI claims for wrong-hire placements, misrepresentation of candidates, and temp worker disputes. Here\'s what NZ recruiters need to know.',
+    category: 'Professions',
+    date: '2026-05-23',
+    readTime: '6 min read',
+    image: 'https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=1200&auto=format&fit=crop&q=80',
+    author: 'sarah-thompson',
+    content: `<h2>Why Recruitment Consultants Need PI Insurance</h2>
+<p>New Zealand's recruitment sector — from boutique specialist agencies to large firms like AWF Madison, Hays, Robert Half, and Seek-affiliated operations — faces a distinctive and growing professional liability risk. When a placement goes wrong, a candidate misrepresents their qualifications, or a temp worker causes a loss at a client's premises, the recruiting firm can be held financially responsible.</p>
+<p>Professional indemnity (PI) insurance for recruitment consultants covers the legal defence costs and compensation arising from claims that your professional services — the identification, screening, referral or placement of candidates — caused a client a financial loss. Given average recruitment fees in the tens of thousands of dollars, and the potential for a bad hire to cost a client multiples of that, the exposure is real and substantial.</p>
+
+<h2>Common PI Claims Against NZ Recruitment Consultants</h2>
+<p>Recruitment PI claims typically fall into several categories:</p>
+
+<h3>Wrong-Hire Claims</h3>
+<p>A client engages you to place a senior manager or specialist professional. The candidate underperforms, turns out not to have the skills represented, or is dismissed within the warranty period. The client holds the agency responsible for the cost of the failed placement — executive search fees, notice pay, business disruption, and the cost of re-hiring. Depending on the role, a wrong-hire claim can reach $50,000–$200,000 or more.</p>
+
+<h3>Candidate Misrepresentation</h3>
+<p>A candidate provides false credentials — inflated qualifications, fabricated employment history, or misrepresented skills. If your agency placed that candidate without conducting adequate reference and credential checks, the client may claim you were negligent in your screening process. Inadequate background checking has resulted in PI claims in the legal, healthcare, financial services, and engineering sectors in NZ.</p>
+
+<h3>Temp and Contract Worker Disputes</h3>
+<p>When you supply temporary or contract workers, the employment relationship is typically between the worker and your agency — but the client depends on the worker's performance and conduct. If a temp worker causes a loss at the client's site (whether through negligence, misconduct, or an error in the work they perform), the client may look to your agency to cover the loss. The boundary between vicarious liability (a public liability issue) and professional liability (a PI issue) is not always clear — which is why recruitment firms typically need both covers.</p>
+
+<h3>Privacy and Data Handling Breaches</h3>
+<p>Recruitment agencies hold significant volumes of candidate and client personal data. A breach of the Privacy Act 2020 — whether through a data leak, improper handling of candidate information, or disclosure of confidential client requirements — can result in claims from candidates and clients alike.</p>
+
+<h3>Contract Disputes and Fee Recovery</h3>
+<p>Disputes over fee agreements, whether a placement was made in contravention of a client's exclusivity arrangement with another agency, or whether a warranty period applies are common in the recruitment sector. PI insurance covers the legal costs of defending these disputes.</p>
+
+<h2>The NZ Recruitment Market Context</h2>
+<p>New Zealand's recruitment industry is served by both domestic operators and global firms. Major players include AWF Madison (now part of Chandler Macleod), Hays, Robert Half, Hudson, Seek-affiliated agencies, and hundreds of boutique specialist firms. The Recruitment, Consulting and Staffing Association (RCSA) — which covers Australia and NZ — provides guidance on professional standards but does not mandate PI insurance for all members.</p>
+<p>However, increasingly, large corporate and government clients require their preferred supplier panel (PSP) recruitment agencies to hold minimum PI insurance as a contracting condition. Government procurement panels typically require $1M–$2M PI cover plus $1M–$2M public liability before an agency can be added to the panel.</p>
+
+<h2>Typical PI Claims Costs for Recruitment Consultants</h2>
+<p>Based on NZ market claims experience, recruitment PI claims range widely:</p>
+<ul>
+<li>Small wrong-hire disputes at the ERA or District Court level: $15,000–$40,000 in legal fees, $5,000–$30,000 in settlements</li>
+<li>Senior executive placement failures: $50,000–$200,000 in combined legal and compensation costs</li>
+<li>Systemic background checking failures (multiple candidates): $100,000–$500,000 in aggregate claims</li>
+<li>Privacy Act breaches involving candidate data: $10,000–$50,000 in investigation and remediation costs</li>
+</ul>
+<p>The legal costs alone — even in unfounded claims — can be financially devastating for a small recruitment firm without insurance. A three-month legal dispute can consume $20,000–$60,000 in solicitor and barrister fees before any settlement or judgment.</p>
+
+<h2>How Much PI Cover Do NZ Recruitment Consultants Need?</h2>
+<p>The right cover level depends on the nature and scale of your placements:</p>
+<ul>
+<li><strong>Small boutique agency (contractor and temp placements):</strong> $1M per claim and in aggregate is the standard starting point</li>
+<li><strong>Mid-sized agency with permanent executive placements:</strong> $2M per claim, particularly if placing into C-suite or senior management roles</li>
+<li><strong>Large national agency with government panel contracts:</strong> $2M–$5M per claim, as required by most government preferred supplier agreements</li>
+<li><strong>Specialist healthcare or legal recruitment:</strong> $2M+ per claim, given the professional liability exposure in those sectors</li>
+</ul>
+<p>RCSA membership and professional development can demonstrate to clients that your agency operates to professional standards — but it does not substitute for adequate PI cover.</p>
+
+<h2>PI vs Public Liability for Recruitment Agencies</h2>
+<p>Recruitment agencies need both PI and public liability insurance, as they cover different risks:</p>
+<ul>
+<li><strong>PI insurance</strong> covers financial losses arising from professional errors — wrong-hire claims, misrepresentation, negligent screening, fee disputes</li>
+<li><strong>Public liability insurance</strong> covers physical injury or property damage caused by temp workers at client sites, or clients visiting your premises</li>
+</ul>
+<p>Many insurers offer combined professional liability and public liability packages for recruitment agencies, which simplifies administration and typically provides cost savings.</p>
+
+<h2>What Does PI Insurance Cost for NZ Recruitment Consultants?</h2>
+<p>Based on NZ market data, recruitment agency PI insurance typically costs $115–$160/month for $1M cover — reflecting the sector's above-average claims frequency. Factors affecting your premium include:</p>
+<ul>
+<li>The number of placements made annually (volume risk)</li>
+<li>The seniority of roles placed (executive placements carry higher claim values)</li>
+<li>Whether you place temp workers or only permanent candidates</li>
+<li>The sectors you specialise in (healthcare and legal carry higher risk)</li>
+<li>Your claims history</li>
+<li>Annual fee revenue</li>
+</ul>
+
+<h2>Getting PI Insurance as a NZ Recruitment Consultant</h2>
+<p>PI insurance for recruitment agencies is a specialist product — not all general business insurers offer recruitment-specific wordings that adequately cover the unique claims scenarios in this sector. Working with an NZ-licensed insurance adviser who has experience in financial lines and professional liability ensures your policy covers the activities you actually perform, including temp labour supply, executive search, contract staffing, and online candidate screening services.</p>
+<p>Most specialist advisers can provide a tailored PI quote within one business day. If your agency is tendering for government panel contracts, your adviser can also confirm that your cover meets the specific panel requirements before you submit your application.</p>`,
+  },
+  // NEW POST 21
+  {
+    slug: 'pi-insurance-marketing-pr-consultants-nz',
+    title: 'PI Insurance for NZ Marketing and PR Consultants — What You Need and Why',
+    excerpt: 'Marketing and PR consultants face PI claims for campaign failures, copyright infringement, and reputational damage advice. Here\'s the NZ guide.',
+    category: 'Professions',
+    date: '2026-05-23',
+    readTime: '5 min read',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&auto=format&fit=crop&q=80',
+    author: 'sarah-thompson',
+    content: `<h2>Why NZ Marketing and PR Consultants Need PI Insurance</h2>
+<p>Marketing and public relations professionals occupy an interesting position in the professional liability landscape. On one hand, the average claim value in marketing PI is lower than in engineering or financial advice. On the other hand, the frequency of disputes — particularly around campaign performance, creative ownership, and contractual deliverables — is significant, and the legal costs of defending even a small claim can run to tens of thousands of dollars.</p>
+<p>New Zealand's growing ecosystem of independent marketing consultants, boutique PR agencies, freelance digital marketers, and social media specialists all face professional liability exposure. Whether you are a sole-trader copywriter, an integrated agency principal, or a specialist SEO consultant, a dissatisfied client can make a claim that professional indemnity insurance is designed to cover.</p>
+
+<h2>Common PI Claims Against Marketing and PR Consultants</h2>
+
+<h3>Failed Campaign Claims</h3>
+<p>A client engages you to run a digital marketing campaign, product launch, or brand awareness initiative. The campaign underperforms against agreed KPIs — perhaps conversion rates fall short, a product launch fails to generate the expected media coverage, or an advertising campaign produces negligible measurable return on investment. If the client can demonstrate that your professional advice or campaign management fell below the expected standard of care, they may have grounds for a PI claim.</p>
+<p>These claims are nuanced — marketing outcomes are influenced by many factors beyond the consultant's control. However, if you made specific performance guarantees, provided incorrect audience analysis, or made errors in campaign targeting, your professional liability is more directly engaged. PI insurance covers your legal defence costs and any settlement.</p>
+
+<h3>Intellectual Property and Copyright Infringement</h3>
+<p>Marketing and PR work frequently involves use of images, music, video, copy, and designs. If you inadvertently use copyrighted material without proper licensing — whether in a client's social media post, a brochure, a website, or a video advertisement — the copyright owner can pursue both you and your client. PI policies typically cover unintentional IP infringement, including copyright, trademark, and trade dress violations.</p>
+<p>Common scenarios in NZ include: using stock imagery without a valid licence, incorporating music in video content without sync rights, copying competitor advertising concepts that cross into trademark territory, and reproducing printed content without attribution or permission.</p>
+
+<h3>Defamation and Reputation Claims</h3>
+<p>PR consultants advising on reputation management, media relations, and crisis communications face defamation exposure. If content you draft or advise on — whether a media release, blog post, social media response, or spokesperson statement — includes inaccurate statements about third parties, a defamation claim could follow. PI insurance covers the cost of defending defamation claims arising from your professional activities.</p>
+
+<h3>Social Media and Digital Errors</h3>
+<p>Digital marketing mistakes can spread quickly and be difficult to retract. Publishing incorrect information, launching a campaign on the wrong platform, scheduling content with an error, or managing a social media crisis poorly can result in client losses that they attribute to your professional negligence. The 24/7 nature of digital marketing amplifies the speed at which errors cause harm.</p>
+
+<h3>Contractual Disputes Over Deliverables</h3>
+<p>Disputes over what was promised, what was delivered, and whether the quality of work met the brief are common in the creative industries. While contract disputes are not always PI claims, they often proceed as professional negligence claims when clients allege the quality of strategic advice or creative execution fell below professional standards.</p>
+
+<h2>PI vs Media Liability Insurance</h2>
+<p>Some marketing and PR firms — particularly larger agencies or those with significant publishing or broadcast activity — may also consider media liability insurance. Media liability is a broader product that covers risks specific to media content production, including defamation, privacy invasion, misappropriation of personality, and errors in advertising. For most NZ marketing consultants and small agencies, PI insurance provides adequate coverage. Larger agencies producing substantial broadcast or published content should discuss media liability with their adviser.</p>
+
+<h2>What Does PI Insurance Cost for NZ Marketing Consultants?</h2>
+<p>Marketing and PR consultants are at the lower end of the PI premium range, reflecting the generally lower claim values in this sector:</p>
+<ul>
+<li>Sole-trader freelance marketer or copywriter: $50–$70/month for $1M cover</li>
+<li>Boutique digital marketing agency (2–5 staff): $70–$100/month for $1M cover</li>
+<li>Integrated marketing or PR agency (5–15 staff): $100–$200/month for $1M–$2M cover</li>
+<li>Larger agency with significant corporate clients: $200–$400/month for $2M–$5M cover</li>
+</ul>
+<p>PI insurance premiums for marketing professionals are among the most affordable in the professional liability market — making the decision to insure straightforward from a cost-benefit perspective.</p>
+
+<h2>Common Contractual PI Requirements for Marketing Consultants</h2>
+<p>NZ businesses and government agencies increasingly require PI insurance from their marketing and communications suppliers, particularly:</p>
+<ul>
+<li>Government communications contracts: typically $1M PI required</li>
+<li>Corporate retainer agreements: commonly $1M–$2M PI specified</li>
+<li>Tender documents for advertising and PR services: often $1M minimum</li>
+<li>Platform partnership agreements (Google, Meta partners): may specify insurance requirements</li>
+</ul>
+<p>Having PI insurance in place — and being able to provide a current certificate of currency — can be the difference between winning and losing a competitive pitch.</p>
+
+<h2>PI Insurance for Freelancers and Sole Traders in Marketing</h2>
+<p>Many NZ marketing professionals operate as sole traders — freelance copywriters, graphic designers, social media managers, SEO specialists, and brand consultants. For sole traders, the risk is entirely personal: a PI claim can expose your personal assets, savings, and property if you have no business entity to limit your liability.</p>
+<p>PI insurance starting from around $50/month provides a cost-effective safety net. Many freelancers find that having PI cover also makes it easier to win larger clients who require a certificate of insurance as a standard onboarding requirement.</p>
+
+<h2>Getting the Right PI Cover for NZ Marketing Professionals</h2>
+<p>When choosing PI insurance, marketing and PR consultants should check that the policy's definition of "professional services" covers all their activities — including digital marketing, social media management, content creation, brand strategy, media relations, and crisis communications. Some standard policies may require specific endorsement for media activities or digital services.</p>
+<p>An NZ-licensed insurance adviser can quickly identify the right policy for your specific work and ensure your cover reflects the actual services you provide to clients.</p>`,
+  },
+  // NEW POST 22
+  {
+    slug: 'pi-insurance-excess-nz-guide',
+    title: 'Understanding Your PI Insurance Excess in NZ — How to Choose the Right Amount',
+    excerpt: 'The excess (deductible) in your PI policy affects both your premium and your out-of-pocket cost when a claim is made. Here\'s how to choose the right amount.',
+    category: 'Guides',
+    date: '2026-05-23',
+    readTime: '5 min read',
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
+    content: `<h2>What Is an Excess in PI Insurance?</h2>
+<p>The excess (sometimes called the deductible) in a professional indemnity insurance policy is the amount you agree to pay out of pocket before your insurer contributes to a claim. Like the excess on a car or home insurance policy, it represents your share of the financial risk — and the higher the excess you accept, the lower your annual premium.</p>
+<p>In NZ PI insurance, the excess applies to each and every claim, not to the total claims for the policy year. If you have a $5,000 excess and two separate claims arise in the same policy period, you pay $5,000 for each — $10,000 in total — before the insurer contributes to either.</p>
+
+<h2>How Does the Excess Apply — Damages vs Defence Costs</h2>
+<p>One of the most important distinctions in NZ PI policies is how the excess applies to defence costs versus damages. There are two common structures:</p>
+
+<h3>Excess Applies to Damages Only</h3>
+<p>Under this structure, your excess applies only to the settlement amount or court-awarded damages — not to the legal costs of defending the claim. This is the more favourable structure for policyholders. If a claim costs $80,000 in legal fees to defend and ultimately settles for $30,000, and your excess is $5,000, you pay $5,000 (towards the settlement) and the insurer covers the $80,000 in legal fees and the remaining $25,000 settlement.</p>
+
+<h3>Excess Applies to All Costs (Including Defence Costs)</h3>
+<p>Under this structure, the excess applies to the total of legal defence costs plus any settlement or damages. Your first $5,000 in legal fees is your contribution — the insurer only steps in once your total expenditure on the claim (defence plus damages) exceeds the excess. For claims with high legal costs, this structure can significantly increase your out-of-pocket exposure.</p>
+<p>When comparing PI policies, always check which excess structure applies. "Excess applies to defence costs only" or "excess applies to all costs including defence" will typically be specified in the policy wording or the insurer's product disclosure statement.</p>
+
+<h2>Typical PI Excess Amounts in NZ</h2>
+<p>NZ PI insurance policies offer a range of excess levels. Typical options are:</p>
+<ul>
+<li><strong>$1,000</strong> — entry-level excess, common for sole traders and small practices; highest premium</li>
+<li><strong>$2,500</strong> — common for small professional businesses</li>
+<li><strong>$5,000</strong> — the most common excess for NZ SMEs; balances premium savings against manageable self-insurance</li>
+<li><strong>$10,000</strong> — suitable for larger businesses or those with strong cash flow and a clean claims history</li>
+<li><strong>$25,000+</strong> — typical for larger professional firms seeking significant premium reductions; requires financial capacity to absorb claim costs</li>
+</ul>
+<p>The gap in premium between a $1,000 and $5,000 excess is typically 15–25% of your annual premium. For a business paying $1,200/year in PI premiums, choosing a $5,000 excess might save $180–$300/year — but expose you to an extra $4,000 in out-of-pocket cost if a claim arises.</p>
+
+<h2>How the Excess Affects Your Premium</h2>
+<p>The relationship between excess and premium is not linear — the savings from increasing your excess diminish as the excess gets larger. Here is a typical premium impact scale:</p>
+<ul>
+<li>Moving from $1,000 to $2,500 excess: approximately 10–15% premium reduction</li>
+<li>Moving from $2,500 to $5,000 excess: approximately 10–15% premium reduction</li>
+<li>Moving from $5,000 to $10,000 excess: approximately 8–12% premium reduction</li>
+<li>Moving from $10,000 to $25,000 excess: approximately 5–10% premium reduction</li>
+</ul>
+<p>The diminishing returns from increasing the excess mean that very high excesses are typically only cost-effective for businesses large enough to self-insure the lower-frequency, lower-value claims that a high excess absorbs.</p>
+
+<h2>How to Choose the Right Excess for Your Practice</h2>
+<p>Selecting the right excess involves balancing three factors: your cash flow capacity, your claims risk profile, and the premium savings available. Consider:</p>
+
+<h3>1. What Could You Comfortably Pay if a Claim Arose?</h3>
+<p>The excess should be set at an amount your business can absorb without serious financial stress. If a $10,000 excess would stretch your business cash flow, a $5,000 excess is more appropriate — even if the premium saving is appealing. Many NZ small businesses find $5,000 the practical upper limit for their excess.</p>
+
+<h3>2. What Is Your Actual Claims Risk?</h3>
+<p>A professional with a clean claims history in a lower-risk occupation (bookkeeper, marketing consultant) may be comfortable with a higher excess, knowing claims are less frequent. A professional in a high-frequency claim sector (real estate, recruitment, healthcare) may prefer a lower excess to protect against the statistical likelihood of claims arising.</p>
+
+<h3>3. Do Any Contracts Specify a Maximum Excess?</h3>
+<p>Some client contracts — particularly government procurement and enterprise agreements — specify not only minimum PI cover limits but also maximum excess levels. A contract may require that your excess does not exceed $10,000. If your contracts have this provision, your excess choices are constrained.</p>
+
+<h2>Excess Considerations by Profession</h2>
+<p>As a general guide for NZ professionals:</p>
+<ul>
+<li><strong>Accountants and bookkeepers:</strong> $2,500–$5,000 excess is appropriate for most practices; higher excesses for larger, more financially stable firms</li>
+<li><strong>IT consultants:</strong> $5,000–$10,000 excess is common; IT claims tend to be infrequent but high value when they arise</li>
+<li><strong>Engineers and architects:</strong> $5,000–$25,000 depending on practice size; construction PI claims can be very high value, so excess needs careful calibration</li>
+<li><strong>Marketing and PR consultants:</strong> $1,000–$5,000 excess; lower premium levels mean less incentive to increase excess</li>
+<li><strong>Financial advisers:</strong> $2,500–$10,000 depending on FAP licence conditions and client base</li>
+</ul>
+
+<h2>Negotiating Your Excess at Renewal</h2>
+<p>Your excess is negotiable — particularly at renewal, when your insurer is competing to retain your business. If you have had a claim-free period and your risk profile has improved (reduced revenue, lower-risk client mix, better risk management procedures), you may be able to negotiate a reduction in excess without increasing your premium. An NZ-licensed insurance adviser can manage this negotiation on your behalf and compare the excess/premium combinations across multiple insurers.</p>
+
+<h2>The Impact of the Excess on a Real Claim</h2>
+<p>To illustrate the practical impact: an accountant with a $5,000 excess receives a claim from a client alleging a $40,000 tax error. Legal costs to defend the claim total $25,000; the matter settles for $20,000.</p>
+<ul>
+<li>If excess applies to damages only: the accountant pays $5,000; the insurer pays $25,000 in defence costs + $15,000 towards settlement = $40,000</li>
+<li>If excess applies to all costs: the accountant pays their first $5,000 in legal fees; the insurer covers the remaining $20,000 in defence costs + $20,000 in settlement = $40,000</li>
+</ul>
+<p>In this example both outcomes are the same, but in larger or more complex claims where defence costs are higher, the structure of the excess makes a significant difference to the accountant's out-of-pocket exposure.</p>`,
+  },
+  // NEW POST 23
+  {
+    slug: 'top-pi-insurance-mistakes-nz-professionals',
+    title: '5 Common PI Insurance Mistakes NZ Professionals Make — And How to Avoid Them',
+    excerpt: 'From underinsuring to letting policies lapse, NZ professionals make costly PI insurance mistakes. Here are the five most common errors and how to avoid them.',
+    category: 'Guides',
+    date: '2026-05-23',
+    readTime: '7 min read',
+    image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
+    content: `<h2>Introduction</h2>
+<p>Professional indemnity insurance is the cornerstone of risk management for NZ professionals. Yet even professionals who understand the value of PI cover regularly make mistakes that leave them underprotected or completely uninsured when a claim arrives. Here are the five most costly and most common PI insurance mistakes NZ professionals make — and how to avoid each one.</p>
+
+<h2>Mistake 1: Underinsuring — Choosing Too Low a Cover Limit</h2>
+<p>The most widespread PI insurance mistake in NZ is selecting an inadequate cover limit. Underinsurance typically happens for one of three reasons: the professional is trying to minimise premium costs; they have not considered the realistic financial scale of a potential claim; or they defaulted to the minimum limit required by their professional body without considering whether it is actually adequate for their practice.</p>
+
+<h3>The Real Cost of Underinsurance</h3>
+<p>Consider a Wellington architect who insures for $1M PI cover but works on residential projects with construction budgets of $2M–$5M. A design error that requires significant remediation work — replacing non-compliant structural elements, for example — could easily generate a claim of $800,000–$1.5M. At $1M cover, the architect is underinsured by $500,000, which is directly enforceable against their personal assets.</p>
+<p>Or consider an Auckland IT consultant with $500,000 PI cover working on a $2M ERP implementation for a medium-sized business. If the implementation fails and the client suffers two months of business disruption at $100,000 per month plus remediation costs of $300,000, the $500,000 cover is exhausted. The consultant personally owes the balance.</p>
+
+<h3>How to Choose the Right Cover Limit</h3>
+<p>The starting point for choosing your PI cover limit should be the maximum realistic financial loss your professional advice or services could cause a single client in a single engagement. Ask yourself:</p>
+<ul>
+<li>What is the largest project I am engaged on, and what would it cost the client if my work failed?</li>
+<li>What minimum cover do my contracts or professional body require — and is that actually adequate?</li>
+<li>If I were sued for the worst-case scenario, would my cover be sufficient to pay the claim and legal costs?</li>
+</ul>
+<p>For most NZ professionals, $1M is the appropriate minimum — but in high-value sectors like construction, engineering, financial advice, and large-scale IT, $2M–$5M is more appropriate. The additional premium for higher cover is modest relative to the protection it provides.</p>
+
+<h2>Mistake 2: Letting Cover Lapse — The Run-Off Trap</h2>
+<p>New Zealand's PI insurance market operates almost entirely on a claims-made basis. This means you need active PI cover at the time a claim is made — not just when the work was done. Professionals who stop practising, wind up their business, or take a career break and allow their PI policy to lapse are exposed to claims from historical work for which they have no insurance protection.</p>
+
+<h3>A Real-World Scenario</h3>
+<p>A Hamilton accountant retires in June 2026 and lets their PI policy lapse. In October 2027, a former business client makes a claim relating to incorrect tax advice the accountant provided in 2024. The accountant has no active PI cover — so the claim falls entirely on them personally. Legal defence costs of $40,000 and a settlement of $60,000 come directly from their personal assets.</p>
+<p>Had the accountant purchased run-off cover when retiring — typically 100–200% of their last annual premium as a one-off payment — the claim would have been fully covered.</p>
+
+<h3>How to Avoid the Run-Off Trap</h3>
+<ul>
+<li>Never let your PI policy lapse without first arranging run-off cover</li>
+<li>Arrange run-off cover before your last policy expires, not after</li>
+<li>For most professionals, 3–6 years of run-off cover is appropriate; for architects and engineers, 7–10 years is recommended</li>
+<li>Ask your current insurer about run-off options when you give notice of non-renewal</li>
+</ul>
+
+<h2>Mistake 3: Not Checking the Retroactive Date When Switching Insurers</h2>
+<p>Switching PI insurers is common — whether for a better price, improved cover, or a change of adviser. The critical danger when switching is the retroactive date: the date from which your new policy covers historical work. If your new insurer's retroactive date is the policy inception date (today), then all your past work — including work done in the last five years — is uninsured under the new policy. And because you have cancelled your old policy, it is also uninsured there.</p>
+
+<h3>What Can Go Wrong</h3>
+<p>A Christchurch engineering consultant switches from Insurer A to Insurer B at renewal. Insurer B's new policy has a retroactive date of 1 June 2026 (the new policy start date). In November 2026, a client makes a claim relating to structural advice the engineer provided in 2024. Insurer B declines the claim — the 2024 work is before the retroactive date. Insurer A's policy has been cancelled. The engineer is uninsured for the 2024 claim.</p>
+
+<h3>How to Protect Yourself When Switching</h3>
+<ul>
+<li>Always request that your new policy match your existing retroactive date</li>
+<li>Confirm the retroactive date in writing before cancelling your existing policy</li>
+<li>If the new insurer will not match the retroactive date, consider purchasing run-off cover from your existing insurer for the historical period, and using the new policy only for future work</li>
+<li>Have a specialist insurance adviser manage the transition to ensure no gaps arise</li>
+</ul>
+
+<h2>Mistake 4: Failing to Notify Circumstances Promptly</h2>
+<p>PI insurance operates on the principle that you must notify your insurer of both formal claims and circumstances that might give rise to a claim. Many professionals make the mistake of waiting until a formal claim or legal proceeding is issued before notifying their insurer — by which time their policy may have renewed or lapsed, creating complications about which policy year responds.</p>
+
+<h3>Why Prompt Notification Matters</h3>
+<p>If you become aware that a client is dissatisfied, that an error occurred in your work, or that a complaint might be forthcoming — even if no formal claim has been made — you should notify your insurer under the current policy period. This notification "locks in" your existing policy to cover any claim that subsequently arises from that circumstance, even if the formal claim arrives after the policy has renewed or lapsed.</p>
+<p>Failure to notify promptly can result in:</p>
+<ul>
+<li>A dispute between your current and prior insurer about which policy period responds</li>
+<li>Your insurer arguing that late notification prejudiced their ability to investigate the claim</li>
+<li>In severe cases, denial of the claim on the basis of non-disclosure or non-notification</li>
+</ul>
+
+<h3>When to Notify Your Insurer</h3>
+<p>Notify your insurer as soon as you are aware of any of the following:</p>
+<ul>
+<li>A formal written claim or letter of demand from a client or their lawyer</li>
+<li>A client complaint that could lead to a claim</li>
+<li>An error or omission in your work that a client has discovered or may discover</li>
+<li>A regulatory investigation that could give rise to civil claims</li>
+<li>Any situation where a reasonable person would foresee a possible claim</li>
+</ul>
+<p>When in doubt, notify. Notification does not automatically trigger a claims process or increase your premium — but failing to notify when you should have can leave you without cover when you need it most.</p>
+
+<h2>Mistake 5: Not Reading the Definition of "Professional Services"</h2>
+<p>The most technical but most critical clause in any PI policy is the definition of "professional services." This clause defines the scope of activities covered by your policy. If an activity you regularly perform — or a new service you have added — falls outside this definition, your policy will not respond to claims arising from it.</p>
+
+<h3>Why This Matters in Practice</h3>
+<p>An Auckland marketing consultant who describes themselves as a "digital marketing consultant" takes out PI insurance covering "digital marketing services." They then diversify into providing business strategy advice and investor pitch coaching for startup clients. A startup client claims the consultant's pitch coaching led to a misrepresentation that damaged their investor relationships.</p>
+<p>The insurer reviews the claim and determines that "pitch coaching" and "business strategy" are not within the scope of "digital marketing services" as defined in the policy. The claim is declined — leaving the consultant personally exposed to $80,000 in legal and settlement costs.</p>
+
+<h3>How to Avoid This Mistake</h3>
+<ul>
+<li>Read the definition of "professional services" in your PI policy carefully before purchasing</li>
+<li>Ensure all services you provide — including advisory, training, coaching, and consulting services — are included or can be endorsed onto the policy</li>
+<li>When you add a new service or change the nature of your work, notify your insurer and confirm your cover extends to the new activity</li>
+<li>Work with a specialist insurance adviser who can review the policy wording against your actual activities</li>
+</ul>
+
+<h2>Summary — Avoiding the Five Most Costly PI Mistakes</h2>
+<p>Professional indemnity insurance is only as good as the policy you have in place and the way you manage it. Avoiding these five mistakes — underinsuring, letting cover lapse, not checking the retroactive date, failing to notify promptly, and not reading the professional services definition — ensures your PI insurance provides the protection it is designed to offer.</p>
+<p>Working with an NZ-licensed insurance adviser who specialises in professional liability is the most effective way to avoid these pitfalls. A specialist adviser reviews your policy against your actual risk profile, monitors your cover at renewal, and guides you through the notification and claims process if something goes wrong.</p>`,
+  },
+  // NEW POST 24
+  {
+    slug: 'pi-insurance-nz-engineers-2026',
+    title: 'Professional Indemnity Insurance for NZ Engineers — 2026 Mandatory Requirements Guide',
+    excerpt: 'Engineers face some of the highest PI claims in NZ. With the 2025 mandatory PI announcement, here\'s what civil, structural, geotechnical and MEP engineers need to know.',
+    category: 'Professions',
+    date: '2026-05-23',
+    readTime: '8 min read',
+    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&auto=format&fit=crop&q=80',
+    author: 'james-whitfield',
+    content: `<h2>PI Insurance for NZ Engineers — The Stakes Are High</h2>
+<p>Engineering is one of the highest-risk professions for professional indemnity claims in New Zealand. The consequences of a structural failure, a geotechnical error, or a faulty mechanical design specification can extend far beyond the engineer's professional fee — into millions of dollars of remediation costs, business interruption losses, and in the most serious cases, harm to building occupants or the public.</p>
+<p>The New Zealand government's November 2025 announcement of mandatory PI insurance for the construction sector has elevated the stakes significantly for engineers. Whether you are a civil engineer, structural engineer, geotechnical specialist, mechanical engineer, electrical engineer, or fire safety engineer, understanding your PI insurance obligations and ensuring you have adequate cover is now more important than ever.</p>
+
+<h2>Why Engineers Face Some of the Highest PI Claims in NZ</h2>
+<p>Engineering professional liability claims in New Zealand are distinguished by their potential scale:</p>
+<ul>
+<li><strong>Construction defect claims:</strong> Structural or design errors in buildings can require complete remediation — stripping, rebuilding, and recertifying structural elements at costs that dwarf the original engineering fee</li>
+<li><strong>Long tail of liability:</strong> Construction claims can emerge years after completion when defects are discovered — the Building Act 2004 provides a 10-year limitation period for latent defects, meaning claims can arise a decade after the engineer's work was done</li>
+<li><strong>Multi-party claims:</strong> Construction projects involve architects, engineers, builders, sub-contractors, and building consent authorities. When something goes wrong, all parties in the chain are typically named in the claim</li>
+<li><strong>High transaction values:</strong> Engineering errors on large projects — infrastructure, commercial buildings, industrial facilities — can give rise to claims of $5M–$50M or more</li>
+</ul>
+<p>The NZ leaky building crisis, EQC-related engineering disputes following the Canterbury earthquakes, and a series of high-profile structural failures have created a claims environment where engineering PI premiums are among the highest of any profession in NZ.</p>
+
+<h2>The November 2025 Mandatory PI Announcement — Impact on Engineers</h2>
+<p>The government's November 2025 announcement specifically targets the residential construction sector and directly affects engineers providing services to that sector:</p>
+<ul>
+<li><strong>Structural engineers</strong> certifying residential building designs must maintain PI cover throughout the limitation period for building act claims (up to 10 years from substantial completion)</li>
+<li><strong>Geotechnical engineers</strong> providing site assessment, foundation design, and slope stability reports for residential projects face mandatory cover requirements, given the critical nature of geotechnical advice for building safety</li>
+<li><strong>Civil engineers</strong> designing residential subdivision infrastructure — stormwater, roads, drainage — are included in the scope of mandatory cover</li>
+<li><strong>MEP engineers</strong> (mechanical, electrical, plumbing) on residential projects face cover requirements for the systems they design and specify</li>
+</ul>
+<p>The final regulations are being drafted during 2026, with compliance expected to be required within 12–24 months of the regulatory framework being published. However, the direction is clear — and engineering firms that are not currently insured, or that hold inadequate cover, should act now rather than wait for mandatory compliance deadlines.</p>
+
+<h2>Engineering NZ and IPENZ Requirements</h2>
+<p>Engineering New Zealand (ENZ — formerly IPENZ) is the professional body for NZ engineers. ENZ's membership conditions and its Chartered Professional Engineer (CPEng) certification programme both expect that practising engineers maintain appropriate professional indemnity insurance.</p>
+<p>ENZ does not currently mandate a specific minimum PI cover level for all members — but it expects that engineers assess their own risk exposure and maintain cover commensurate with that exposure. For engineers providing licensed building practitioner (LBP) services in the design category, the forthcoming mandatory regulations will establish minimum levels.</p>
+<p>Engineers seeking CPEng certification or maintaining their ENZ membership should confirm with ENZ what PI requirements apply to their specific practice type and whether group coverage arrangements are available through ENZ's broker panel.</p>
+
+<h2>PI Insurance Requirements by Engineering Discipline</h2>
+
+<h3>Civil Engineers</h3>
+<p>Civil engineers working on subdivision, infrastructure, roading, water and drainage design face PI exposure from: design errors in drainage systems that flood residential properties, roading design failures, incorrect specification of utilities that require expensive remediation, and delays in certification that hold up building consents. Typical PI requirements for civil engineers: $1M–$5M per claim depending on project scale.</p>
+
+<h3>Structural Engineers</h3>
+<p>Structural engineers carry the highest PI risk of any engineering discipline. A structural design error can result in: building non-compliance requiring complete structural remediation, failure of structural elements requiring emergency evacuation and remediation, and in the worst cases, structural collapse causing injury. PI cover for structural engineers should reflect the maximum construction value of projects they certify — many structural engineering firms carry $2M–$10M PI cover. Post-mandatory regulations, minimum limits of $1M–$2M per residential project are expected.</p>
+
+<h3>Geotechnical Engineers</h3>
+<p>Geotechnical engineering carries unique risks because the consequences of errors — slope failures, foundation settlement, liquefaction events — can be catastrophic and directly affect life safety. Following the Canterbury earthquakes, NZ geotechnical engineers working in at-risk areas face elevated professional scrutiny and claims risk. Geotechnical PI claims in NZ have ranged from $200,000 to several million dollars. Cover levels of $2M–$5M are appropriate for most geotechnical practices.</p>
+
+<h3>MEP Engineers (Mechanical, Electrical, Plumbing)</h3>
+<p>MEP engineers designing building services systems — HVAC, electrical distribution, fire protection, plumbing — face PI claims arising from: system specification errors that require expensive replacement, energy performance failures, fire system non-compliance, and building consent delays caused by specification errors. MEP PI claims are generally lower value than structural claims but occur more frequently. Cover levels of $1M–$2M are typical for NZ MEP engineering practices.</p>
+
+<h3>Fire Safety Engineers</h3>
+<p>Fire safety engineering is a specialist discipline with significant professional liability. Fire safety engineers providing alternative solutions under the Building Act face PI exposure if a building fire reveals that their alternative solution was inadequate. PI cover levels of $2M–$5M are appropriate given the life safety implications of fire safety engineering advice.</p>
+
+<h2>How Much PI Insurance Do NZ Engineers Need?</h2>
+<p>The appropriate cover level for an NZ engineering firm depends on the scale and nature of projects they work on. As a guide:</p>
+<ul>
+<li><strong>Sole-trader or small practice (residential projects under $2M construction value):</strong> $1M–$2M per claim</li>
+<li><strong>Mid-sized structural or civil engineering firm (residential and light commercial):</strong> $2M–$5M per claim</li>
+<li><strong>Specialist geotechnical or fire safety practice:</strong> $2M–$5M per claim minimum</li>
+<li><strong>Large multi-discipline engineering firm (commercial and infrastructure):</strong> $5M–$10M+ per claim</li>
+</ul>
+<p>For residential sector work subject to the forthcoming mandatory regulations, minimum cover of $1M–$2M per project is the anticipated regulatory benchmark. Many engineers will need to increase their cover from current levels to meet this standard.</p>
+
+<h2>Typical PI Insurance Costs for NZ Engineers</h2>
+<p>Engineering PI premiums are among the highest in NZ because of the elevated claims risk in the sector. Approximate monthly costs in 2026:</p>
+<ul>
+<li>Sole-trader structural engineer (residential focus): $200–$350/month for $1M cover</li>
+<li>Small structural engineering firm (3–5 staff): $400–$800/month for $2M cover</li>
+<li>Civil engineering consultancy: $300–$600/month for $2M cover</li>
+<li>Geotechnical specialist: $350–$700/month for $2M cover</li>
+<li>MEP engineering practice: $200–$400/month for $1M cover</li>
+<li>Fire safety engineer: $300–$600/month for $2M cover</li>
+</ul>
+<p>These costs reflect the long-tail nature of construction engineering claims and the historical claims burden in the NZ market. Premium costs are tax deductible as a business expense.</p>
+
+<h2>Run-Off Cover for Engineering Project Completion</h2>
+<p>The 10-year limitation period for latent building defects under the Building Act 2004 means that engineering PI claims can arise a decade after the work is done. This creates a significant run-off exposure for engineers who:</p>
+<ul>
+<li>Retire from practice before the limitation period expires on their completed projects</li>
+<li>Change firms and their new firm's PI policy does not cover work done at a previous firm</li>
+<li>Wind up their practice or sell their business</li>
+</ul>
+<p>Run-off cover is essential for retiring NZ engineers, and should be maintained for at least 7–10 years after the last project completion. The cost of run-off cover for engineers is higher than for other professions, reflecting the long-tail risk — typically 150–300% of the last annual premium for 7–10 years of run-off.</p>
+
+<h2>Key Policy Terms NZ Engineers Should Check</h2>
+<p>When reviewing PI policies, engineers should specifically verify:</p>
+<ul>
+<li><strong>Scope of "professional services":</strong> Ensure design, certification, peer review, project management, and construction monitoring are all covered</li>
+<li><strong>Sub-consultant liability:</strong> Coverage for claims arising from work done by geotechnical, structural, or other sub-consultants you engaged</li>
+<li><strong>Retroactive date:</strong> Ensure all current projects and recent completions are covered from the time work commenced</li>
+<li><strong>Run-off provisions:</strong> Understand the run-off structure and cost before signing or renewing</li>
+<li><strong>Joint and several liability:</strong> How the policy responds in multi-party construction claims where you are one of several defendants</li>
+<li><strong>Regulatory compliance costs:</strong> Coverage for the cost of responding to ENZ, Building Consent Authority, or WorkSafe investigations</li>
+</ul>
+
+<h2>Getting the Right PI Cover as a NZ Engineer</h2>
+<p>Engineering PI insurance is one of the most complex professional liability products in the NZ market. Policy wordings, cover limits, retroactive dates, and run-off provisions all require careful review — and the forthcoming mandatory regulations will add further compliance requirements. Working with an NZ-licensed insurance adviser who specialises in construction and engineering professional liability is strongly recommended.</p>
+<p>A specialist adviser can ensure your policy is correctly structured for your discipline and practice scale, meets any forthcoming regulatory requirements, provides adequate run-off protection for your project portfolio, and is competitively priced across the available NZ market insurers including QBE, BHSI, Dual, and specialist Lloyd's syndicates.</p>`,
   },
 ]

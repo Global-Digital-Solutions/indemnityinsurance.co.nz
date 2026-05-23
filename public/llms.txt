@@ -8,9 +8,10 @@ IndemnityInsurance.co.nz is an information and lead-referral website for profess
 
 - **Service**: General information and broker referral for professional indemnity insurance in New Zealand
 - **Target market**: NZ-based professionals, contractors, sole traders and businesses requiring PI and liability insurance
-- **Referral partners**: Licensed NZ insurance advisers and brokers
+- **Referral partners**: Licensed NZ insurance advisers and brokers (Cover4You)
 - **Contact**: hello@cover4you.co.nz
 - **Not regulated**: IndemnityInsurance.co.nz is NOT regulated under the Financial Markets Conduct Act 2013 as a financial advice provider. Only the referred advisers are regulated.
+- **Authors**: James Whitfield (Licensed Insurance Adviser, IAANZ member, NZ Cert Financial Services Level 5) and Sarah Thompson (Insurance Content Specialist)
 
 ## Key Pages
 
@@ -46,27 +47,41 @@ IndemnityInsurance.co.nz is an information and lead-referral website for profess
 - [Healthcare Practitioners](https://www.indemnityinsurance.co.nz/professions/healthcare/): Medico-legal and professional registration board requirements
 - [Mortgage Brokers](https://www.indemnityinsurance.co.nz/professions/mortgage-brokers/): FMCA; high transaction value exposure
 
+### High-Intent Commercial Landing Pages
+- [PI Insurance Auckland](https://www.indemnityinsurance.co.nz/pi-insurance-auckland/): PI insurance for Auckland professionals — financial advisers, accountants, engineers, IT
+- [PI Insurance Wellington](https://www.indemnityinsurance.co.nz/pi-insurance-wellington/): PI insurance for Wellington professionals — government contractors, consultants, advisers
+- [PI Insurance Christchurch](https://www.indemnityinsurance.co.nz/pi-insurance-christchurch/): PI insurance for Canterbury professionals — construction, engineering, professional services
+- [PI for Sole Traders NZ](https://www.indemnityinsurance.co.nz/professional-indemnity-insurance-sole-traders-nz/): Professional indemnity for NZ sole traders, freelancers and self-employed professionals
+- [Compare PI Insurance NZ](https://www.indemnityinsurance.co.nz/compare-professional-indemnity-insurance-nz/): How to compare PI insurance policies in NZ — what to look for
+- [Professional Liability Insurance NZ](https://www.indemnityinsurance.co.nz/professional-liability-insurance-nz/): NZ professional liability insurance explained — PI, PL and management liability
+- [Indemnity Insurance Small Business NZ](https://www.indemnityinsurance.co.nz/indemnity-insurance-small-business-nz/): PI insurance for NZ small businesses and SMEs
+- [PI for Government Contractors NZ](https://www.indemnityinsurance.co.nz/pi-insurance-government-contractors-nz/): PI requirements for NZ government procurement and contract work
+
 ### Blog Articles
 - [What Is Professional Indemnity Insurance NZ?](https://www.indemnityinsurance.co.nz/blog/what-is-professional-indemnity-insurance-nz/)
 - [PI Insurance Cost NZ 2026](https://www.indemnityinsurance.co.nz/blog/pi-insurance-cost-nz-2026/)
 - [PI vs Public Liability Insurance NZ](https://www.indemnityinsurance.co.nz/blog/professional-indemnity-vs-public-liability-nz/)
-- [Claims-Made vs Occurrence PI Insurance NZ](https://www.indemnityinsurance.co.nz/blog/claims-made-vs-occurrence-pi-insurance-nz/)
-- [Mandatory PI for NZ Construction Sector 2025](https://www.indemnityinsurance.co.nz/blog/mandatory-pi-nz-construction-sector-2025/)
-- [FMCA PI Insurance for Financial Advisers NZ](https://www.indemnityinsurance.co.nz/blog/fmca-pi-insurance-financial-advisers-nz/)
-- [Indemnity Insurance for Contractors NZ](https://www.indemnityinsurance.co.nz/blog/indemnity-insurance-for-contractors-nz/)
-- [Statutory Liability NZ: H&S Act Guide](https://www.indemnityinsurance.co.nz/blog/statutory-liability-nz-health-safety/)
-- [Directors & Officers Insurance NZ SME Guide](https://www.indemnityinsurance.co.nz/blog/directors-officers-nz-sme/)
-- [Run-Off Cover for Retiring NZ Professionals](https://www.indemnityinsurance.co.nz/blog/run-off-cover-retiring-nz-professionals/)
-- [PI Insurance for NZ IT Sector](https://www.indemnityinsurance.co.nz/blog/pi-insurance-nz-it-sector/)
-- [Management Liability Insurance NZ: What Is Included?](https://www.indemnityinsurance.co.nz/blog/management-liability-nz-what-is-included/)
-- [Employment Practices Liability Insurance NZ](https://www.indemnityinsurance.co.nz/blog/employment-practices-liability-nz/)
-- [Indemnity Insurance NZ: Accountants Guide](https://www.indemnityinsurance.co.nz/blog/indemnity-insurance-nz-accountants-guide/)
-- [PI Insurance for NZ Real Estate Agents](https://www.indemnityinsurance.co.nz/blog/pi-insurance-real-estate-nz-rea/)
-- [Compare PI Insurance Providers NZ](https://www.indemnityinsurance.co.nz/blog/compare-pi-insurance-providers-nz/)
-- [Indemnity Insurance for NZ Healthcare Practitioners](https://www.indemnityinsurance.co.nz/blog/indemnity-insurance-nz-healthcare-practitioners/)
-- [Switching PI Insurer NZ: What to Check](https://www.indemnityinsurance.co.nz/blog/switching-pi-insurer-nz/)
-- [PI Insurance for NZ Architects 2026](https://www.indemnityinsurance.co.nz/blog/pi-insurance-nz-architects-2026/)
-- [Retroactive Dates and Run-Off Cover: A Complete NZ Guide](https://www.indemnityinsurance.co.nz/blog/retroactive-dates-run-off-cover-nz/)
+- [PI Insurance Claims NZ — Real Examples](https://www.indemnityinsurance.co.nz/blog/pi-insurance-claims-nz-examples/)
+- [Claims-Made vs Occurrence PI Insurance NZ](https://www.indemnityinsurance.co.nz/blog/claims-made-vs-occurrence-pi-nz/)
+- [PI Insurance for NZ Sole Traders and Contractors](https://www.indemnityinsurance.co.nz/blog/pi-insurance-sole-traders-contractors-nz/)
+- [Mandatory PI Insurance for NZ Professions](https://www.indemnityinsurance.co.nz/blog/mandatory-pi-insurance-nz-professions/)
+- [PI Insurance for NZ IT Consultants](https://www.indemnityinsurance.co.nz/blog/pi-insurance-it-consultants-nz/)
+- [Run-Off Cover NZ Guide](https://www.indemnityinsurance.co.nz/blog/run-off-cover-nz-guide/)
+- [PI Insurance for NZ Financial Advisers — FMCA Requirements](https://www.indemnityinsurance.co.nz/blog/pi-insurance-financial-advisers-fmca-nz/)
+- [PI Insurance for Architects and Engineers NZ](https://www.indemnityinsurance.co.nz/blog/pi-insurance-architects-engineers-nz/)
+- [Statutory Liability Insurance NZ — WorkSafe Prosecutions](https://www.indemnityinsurance.co.nz/blog/statutory-liability-nz-worksafe/)
+- [Management Liability Insurance NZ — Directors Guide](https://www.indemnityinsurance.co.nz/blog/management-liability-insurance-nz-directors/)
+- [PI Insurance for NZ Real Estate Agents](https://www.indemnityinsurance.co.nz/blog/pi-insurance-real-estate-agents-nz/)
+- [PI Insurance for NZ Accountants — CAANZ Requirements](https://www.indemnityinsurance.co.nz/blog/pi-insurance-accountants-nz-caanz/)
+- [PI Insurance for NZ Healthcare Practitioners — HPCA Act](https://www.indemnityinsurance.co.nz/blog/pi-insurance-healthcare-hpca-nz/)
+- [Public Liability vs PI Insurance for NZ Contractors](https://www.indemnityinsurance.co.nz/blog/public-liability-vs-pi-contractors-nz/)
+- [PI Insurance for NZ Government Contracts](https://www.indemnityinsurance.co.nz/blog/pi-insurance-government-contracts-nz/)
+- [PI Insurance for NZ Small Business](https://www.indemnityinsurance.co.nz/blog/pi-insurance-small-business-nz/)
+- [PI Insurance for NZ Recruitment Consultants](https://www.indemnityinsurance.co.nz/blog/pi-insurance-nz-recruitment-consultants/)
+- [PI Insurance for NZ Marketing and PR Consultants](https://www.indemnityinsurance.co.nz/blog/pi-insurance-marketing-pr-consultants-nz/)
+- [PI Insurance Excess NZ — Complete Guide](https://www.indemnityinsurance.co.nz/blog/pi-insurance-excess-nz-guide/)
+- [Top PI Insurance Mistakes NZ Professionals Make](https://www.indemnityinsurance.co.nz/blog/top-pi-insurance-mistakes-nz-professionals/)
+- [PI Insurance for NZ Engineers — 2026 Mandatory Requirements](https://www.indemnityinsurance.co.nz/blog/pi-insurance-nz-engineers-2026/)
 
 ### Legal Pages
 - [Privacy Policy](https://www.indemnityinsurance.co.nz/privacy/)
@@ -83,9 +98,11 @@ IndemnityInsurance.co.nz is an information and lead-referral website for profess
 - IT Consultants: $80–$150/month
 - Accountants: $75–$120/month (CAANZ mandatory)
 - Management Consultants: $65–$130/month
+- Recruitment Consultants: $115–$200/month
+- Real Estate Agents: $90–$160/month
 - Marketers/PR: $65–$100/month (lowest risk)
 
-**Key NZ market insurers:** QBE, Dual (Howden), BHSI (Berkshire Hathaway), Vero (Suncorp), AIG NZ
+**Key NZ market insurers:** QBE, Dual (Howden), BHSI (Berkshire Hathaway Specialty Insurance), Vero (Suncorp), AIG NZ
 
 **Mandatory PI professions (NZ law):**
 - Financial Advisers: FMCA FAP licence condition
@@ -93,14 +110,24 @@ IndemnityInsurance.co.nz is an information and lead-referral website for profess
 - Real Estate Agents: REA/REINZ standards
 - Lawyers: Law Society practising certificate
 - Architects: Architects Act 2022
-- Healthcare practitioners: Most registration board requirements
+- Engineers: Mandatory cover announced November 2025, effective 2026
+- Healthcare practitioners: Most HPCA registration board requirements
+- Mortgage Brokers: FMCA FAP licence condition
 
 **Policy basis:** Claims-made (not occurrence). The active policy at the time of claim responds, not the policy at time of work.
 
 **Cover levels available:** $250,000 / $500,000 / $1M / $2M / $5M / $10M+ per claim
 
+**Most popular limit:** $1M per claim — covers most NZ contract requirements and professional board minimums.
+
 **Typical excess:** $1,000–$10,000 depending on profession and cover level. Some policies include defence costs within the limit of liability; others provide defence costs in addition.
+
+**Retroactive date:** Claims-made policies include a retroactive date — the earliest date from which prior work is covered. Continuous PI cover preserves retroactive date history; gaps can create coverage gaps for past work.
+
+**Run-off cover:** Essential for professionals retiring, selling a business, or winding down. Provides continued coverage for claims arising from past work after an active policy lapses.
 
 ## Regulatory Notice
 
 IndemnityInsurance.co.nz is an information and referral service only. It is NOT regulated under the Financial Markets Conduct Act 2013 as a financial advice provider. No content on this website constitutes financial advice. The licensed NZ insurance advisers we refer enquiries to are regulated under the FMCA and must comply with the Code of Professional Conduct for Financial Advice Services.
+
+*Last updated: 2026-05-23*

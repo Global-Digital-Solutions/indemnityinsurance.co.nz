@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { blogPosts } from '../../../data/blog-posts'
+import { authors } from '../../../data/authors'
 import QuoteForm from '../../../components/QuoteForm'
 import { SITE } from '../../../data/site'
 import type { Metadata } from 'next'
@@ -39,6 +40,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const post = blogPosts.find(p => p.slug === slug)
   if (!post) notFound()
 
+  const author = post.author ? authors.find(a => a.slug === post.author) : null
   const related = blogPosts.filter(p => p.slug !== slug && p.category === post.category).slice(0, 3)
   const more = blogPosts.filter(p => p.slug !== slug && !related.find(r => r.slug === p.slug)).slice(0, 3)
 
@@ -53,6 +55,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <span className="text-slate-400 text-sm">{new Date(post.date).toLocaleDateString('en-NZ', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold leading-tight max-w-3xl">{post.title}</h1>
+          {author && (
+            <div className="mt-4 flex items-center gap-3">
+              <div className="w-8 h-8 rounded-full bg-brand-600 flex items-center justify-center text-white font-bold text-xs flex-shrink-0">{author.initials}</div>
+              <div>
+                <span className="text-brand-200 text-sm font-medium">{author.name}</span>
+                <span className="text-brand-400 text-xs ml-2">— {author.title}</span>
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
@@ -68,13 +79,33 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <div className="bg-white rounded-xl border border-slate-200 p-8 shadow-sm">
               <div className="prose-indemnity" dangerouslySetInnerHTML={{ __html: post.content }} />
             </div>
-            <div className="mt-8 flex items-center gap-4 bg-white rounded-xl border border-slate-200 p-5">
-              <div className="w-10 h-10 rounded-full bg-brand-700 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">II</div>
-              <div>
-                <div className="text-sm font-semibold text-slate-900">IndemnityInsurance.co.nz Editorial Team</div>
-                <div className="text-xs text-slate-500">Published {new Date(post.date).toLocaleDateString('en-NZ', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+
+            {/* Author card */}
+            {author ? (
+              <div className="mt-8 bg-white rounded-xl border border-slate-200 p-6 flex items-start gap-5">
+                <div className="w-14 h-14 rounded-full bg-brand-700 flex items-center justify-center text-white font-bold text-lg flex-shrink-0">{author.initials}</div>
+                <div>
+                  <div className="font-bold text-slate-900">{author.name}</div>
+                  <div className="text-brand-700 text-sm font-medium mb-1">{author.title}</div>
+                  <div className="text-xs text-slate-400 mb-3">Published {new Date(post.date).toLocaleDateString('en-NZ', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+                  <p className="text-slate-600 text-sm leading-relaxed">{author.shortBio}</p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {author.expertise.slice(0, 3).map(e => (
+                      <span key={e} className="text-xs bg-brand-50 text-brand-700 border border-brand-200 px-2 py-0.5 rounded-full">{e}</span>
+                    ))}
+                  </div>
+                </div>
               </div>
-            </div>
+            ) : (
+              <div className="mt-8 flex items-center gap-4 bg-white rounded-xl border border-slate-200 p-5">
+                <div className="w-10 h-10 rounded-full bg-brand-700 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">II</div>
+                <div>
+                  <div className="text-sm font-semibold text-slate-900">IndemnityInsurance.co.nz Editorial Team</div>
+                  <div className="text-xs text-slate-500">Published {new Date(post.date).toLocaleDateString('en-NZ', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+                </div>
+              </div>
+            )}
+
             {more.length > 0 && (
               <div className="mt-10">
                 <h3 className="text-xl font-bold text-slate-900 mb-5">More Guides</h3>
@@ -124,6 +155,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 Get My Quote →
               </Link>
             </div>
+
+            {/* Coverage links */}
+            <div className="bg-white rounded-xl border border-slate-200 p-5">
+              <h3 className="font-bold text-slate-900 mb-3 text-sm">Explore Coverage Types</h3>
+              <ul className="space-y-2">
+                {[
+                  ['/coverage/professional-indemnity/', 'Professional Indemnity'],
+                  ['/coverage/public-liability/', 'Public Liability'],
+                  ['/coverage/management-liability/', 'Management Liability'],
+                  ['/coverage/statutory-liability/', 'Statutory Liability'],
+                  ['/coverage/run-off-cover/', 'Run-off Cover'],
+                ].map(([href, label]) => (
+                  <li key={href}><Link href={href} className="text-sm text-brand-700 hover:text-brand-800 hover:underline">{label} →</Link></li>
+                ))}
+              </ul>
+            </div>
           </aside>
         </div>
       </div>
@@ -137,7 +184,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         datePublished: post.date,
         dateModified: post.date,
         url: `https://www.indemnityinsurance.co.nz/blog/${post.slug}/`,
-        author: { '@type': 'Organization', name: SITE.name, url: SITE.domain },
+        author: author
+          ? { '@type': 'Person', name: author.name, jobTitle: author.title, worksFor: { '@type': 'Organization', name: SITE.name } }
+          : { '@type': 'Organization', name: SITE.name, url: SITE.domain },
         publisher: { '@type': 'Organization', name: SITE.name, url: SITE.domain },
         mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.indemnityinsurance.co.nz/blog/${post.slug}/` },
       })}} />

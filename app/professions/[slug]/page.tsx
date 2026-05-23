@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { professionTypes } from '../../../data/profession-types'
+import { authors } from '../../../data/authors'
 import QuoteForm from '../../../components/QuoteForm'
 import PriceTag from '../../../components/PriceTag'
 import { SITE } from '../../../data/site'
@@ -39,6 +40,8 @@ export default async function ProfessionPage({ params }: { params: Promise<{ slu
   const pt = professionTypes.find(p => p.slug === slug)
   if (!pt) notFound()
 
+  const author = authors.find(a => a.slug === pt.author)
+
   return (
     <div className="bg-slate-50 min-h-screen">
       {/* Hero */}
@@ -49,8 +52,9 @@ export default async function ProfessionPage({ params }: { params: Promise<{ slu
           <div>
             <h1 className="text-4xl md:text-5xl font-extrabold mb-3">{pt.name}</h1>
             <p className="text-brand-200 text-lg max-w-2xl">{pt.shortDesc}</p>
-            <div className="mt-4">
+            <div className="mt-4 flex flex-wrap items-center gap-4">
               <PriceTag price={pt.avgCost} className="inline-block bg-gold-500/20 border border-gold-400/40 text-gold-400 text-sm font-bold px-3 py-1 rounded-full" />
+              {author && <span className="text-brand-300 text-sm">by {author.name}</span>}
             </div>
           </div>
         </div>
@@ -59,6 +63,7 @@ export default async function ProfessionPage({ params }: { params: Promise<{ slu
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">
+
             {/* Description */}
             <div className="bg-white rounded-xl p-8 border border-slate-200">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">PI Insurance for {pt.name}</h2>
@@ -91,6 +96,57 @@ export default async function ProfessionPage({ params }: { params: Promise<{ slu
               </div>
             </div>
 
+            {/* Mandatory requirements */}
+            {pt.mandatoryRequirements && pt.mandatoryRequirements.length > 0 && (
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
+                <h3 className="font-bold text-amber-900 mb-4 flex items-center gap-2">
+                  <span>⚠</span> Mandatory PI Requirements for {pt.name}
+                </h3>
+                <ul className="space-y-2">
+                  {pt.mandatoryRequirements.map(req => (
+                    <li key={req} className="flex items-start gap-3 text-amber-800 text-sm">
+                      <span className="text-amber-600 font-bold mt-0.5 flex-shrink-0">•</span>
+                      <span>{req}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Recommended cover table */}
+            {pt.recommendedCover && pt.recommendedCover.length > 0 && (
+              <div className="bg-white rounded-xl p-8 border border-slate-200">
+                <h3 className="text-xl font-bold text-slate-900 mb-4">Recommended Cover Levels</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="border-b border-slate-200">
+                        <th className="text-left py-3 text-slate-700 font-semibold">Cover Type</th>
+                        <th className="text-left py-3 text-slate-700 font-semibold">Minimum Limit</th>
+                        <th className="text-left py-3 text-slate-700 font-semibold">Notes</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {pt.recommendedCover.map((row, i) => (
+                        <tr key={i} className="border-b border-slate-100 hover:bg-slate-50">
+                          <td className="py-3 font-medium text-slate-900">{row.type}</td>
+                          <td className="py-3 text-brand-700 font-semibold">{row.minLimit}</td>
+                          <td className="py-3 text-slate-600">{row.notes}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+
+            {/* Long-form content */}
+            {pt.longFormContent && (
+              <div className="bg-white rounded-xl p-8 border border-slate-200">
+                <div className="prose-indemnity" dangerouslySetInnerHTML={{ __html: pt.longFormContent }} />
+              </div>
+            )}
+
             {/* FAQs */}
             {pt.faqs.length > 0 && (
               <div className="bg-white rounded-xl p-8 border border-slate-200">
@@ -108,19 +164,55 @@ export default async function ProfessionPage({ params }: { params: Promise<{ slu
                 </div>
               </div>
             )}
+
+            {/* Author card */}
+            {author && (
+              <div className="bg-white rounded-xl border border-slate-200 p-6 flex items-start gap-5">
+                <div className="w-14 h-14 rounded-full bg-brand-700 flex items-center justify-center text-white font-bold text-lg flex-shrink-0">{author.initials}</div>
+                <div>
+                  <div className="font-bold text-slate-900">{author.name}</div>
+                  <div className="text-brand-700 text-sm font-medium mb-2">{author.title}</div>
+                  <p className="text-slate-600 text-sm leading-relaxed">{author.shortBio}</p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {author.expertise.slice(0, 3).map(e => (
+                      <span key={e} className="text-xs bg-brand-50 text-brand-700 border border-brand-200 px-2 py-0.5 rounded-full">{e}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Sidebar */}
           <div className="space-y-6">
             <QuoteForm variant="compact" />
-            <div className="bg-brand-900 rounded-xl p-6 text-white">
-              <div className="text-3xl mb-3">📋</div>
-              <h3 className="font-bold text-lg mb-2">Cover Check</h3>
-              <p className="text-brand-300 text-sm mb-4">Not sure if your current policy covers all your activities? A licensed adviser can review your existing PI cover.</p>
+
+            {/* Key stats */}
+            {pt.keyStats && pt.keyStats.length > 0 && (
+              <div className="bg-brand-900 rounded-xl p-6 text-white">
+                <h3 className="font-bold text-lg mb-4">Key Facts</h3>
+                <div className="space-y-4">
+                  {pt.keyStats.map(stat => (
+                    <div key={stat.label} className="border-b border-brand-700 pb-3 last:border-0 last:pb-0">
+                      <div className="text-brand-300 text-xs mb-1">{stat.label}</div>
+                      <div className="text-white font-bold">{stat.value}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Cover check */}
+            <div className="bg-white rounded-xl border border-slate-200 p-5">
+              <div className="text-2xl mb-3">📋</div>
+              <h3 className="font-bold text-slate-900 mb-2">Cover Check</h3>
+              <p className="text-slate-600 text-sm mb-4">Not sure if your current policy covers all your activities? A licensed adviser can review your existing PI cover.</p>
               <Link href="/contact/" className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-bold py-2 px-5 rounded-lg text-sm transition-colors">
                 Request a Review →
               </Link>
             </div>
+
+            {/* Coverage links */}
             <div className="bg-white rounded-xl border border-slate-200 p-5">
               <h3 className="font-bold text-slate-900 mb-3 text-sm">Explore Coverage Types</h3>
               <ul className="space-y-2">
@@ -139,6 +231,7 @@ export default async function ProfessionPage({ params }: { params: Promise<{ slu
         </div>
       </div>
 
+      {/* Structured data */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Service',
@@ -157,6 +250,18 @@ export default async function ProfessionPage({ params }: { params: Promise<{ slu
             name: faq.q,
             acceptedAnswer: { '@type': 'Answer', text: faq.a },
           })),
+        })}} />
+      )}
+      {author && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: `PI Insurance for ${pt.name} — NZ Guide`,
+          description: pt.shortDesc,
+          url: `https://www.indemnityinsurance.co.nz/professions/${pt.slug}/`,
+          author: { '@type': 'Person', name: author.name, jobTitle: author.title, worksFor: { '@type': 'Organization', name: SITE.name } },
+          publisher: { '@type': 'Organization', name: SITE.name, url: SITE.domain },
+          dateModified: '2026-05-23',
         })}} />
       )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { coverageTypes } from '../../../data/coverage-types'
+import { authors } from '../../../data/authors'
 import QuoteForm from '../../../components/QuoteForm'
 import PriceTag from '../../../components/PriceTag'
 import { SITE } from '../../../data/site'
@@ -40,6 +41,7 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
   if (!ct) notFound()
 
   const related = coverageTypes.filter(c => c.slug !== slug).slice(0, 3)
+  const author = authors.find(a => a.slug === ct.author)
 
   return (
     <div className="bg-slate-50 min-h-screen">
@@ -51,8 +53,9 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
           <div>
             <h1 className="text-4xl md:text-5xl font-extrabold mb-3">{ct.name}</h1>
             <p className="text-brand-200 text-lg max-w-2xl">{ct.shortDesc}</p>
-            <div className="mt-4">
+            <div className="mt-4 flex flex-wrap items-center gap-4">
               <PriceTag price={ct.avgCost} className="inline-block bg-gold-500/20 border border-gold-400/40 text-gold-400 text-sm font-bold px-3 py-1 rounded-full" />
+              {author && <span className="text-brand-300 text-sm">by {author.name}</span>}
             </div>
           </div>
         </div>
@@ -61,6 +64,7 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">
+
             {/* Description */}
             <div className="bg-white rounded-xl p-8 border border-slate-200">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">About {ct.name}</h2>
@@ -93,7 +97,32 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
               </div>
             </div>
 
-            {/* Related */}
+            {/* Long-form content */}
+            {ct.longFormContent && (
+              <div className="bg-white rounded-xl p-8 border border-slate-200">
+                <div className="prose-indemnity" dangerouslySetInnerHTML={{ __html: ct.longFormContent }} />
+              </div>
+            )}
+
+            {/* FAQs */}
+            {ct.faqs && ct.faqs.length > 0 && (
+              <div className="bg-white rounded-xl p-8 border border-slate-200">
+                <h3 className="text-xl font-bold text-slate-900 mb-6">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                  {ct.faqs.map((faq, i) => (
+                    <details key={i} className="border border-slate-200 rounded-lg p-4 cursor-pointer hover:bg-slate-50">
+                      <summary className="font-semibold text-slate-900 flex items-center justify-between text-sm">
+                        <span>{faq.q}</span>
+                        <span className="text-brand-600 text-lg flex-shrink-0 ml-4">+</span>
+                      </summary>
+                      <div className="mt-4 text-slate-700 text-sm leading-relaxed pt-3 border-t border-slate-200">{faq.a}</div>
+                    </details>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Related coverage */}
             <div className="bg-white rounded-xl p-8 border border-slate-200">
               <h3 className="text-xl font-bold text-slate-900 mb-4">Related Coverage Types</h3>
               <div className="grid sm:grid-cols-3 gap-4">
@@ -110,7 +139,7 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
               </div>
             </div>
 
-            {/* Profession links */}
+            {/* Profession CTA */}
             <div className="bg-brand-50 rounded-xl p-8 border border-brand-200">
               <h3 className="text-xl font-bold text-brand-900 mb-2">See Coverage By Profession</h3>
               <p className="text-brand-700 text-sm mb-4">Get tailored guidance for your specific profession — including mandatory requirements and cost benchmarks.</p>
@@ -118,21 +147,67 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
                 View All Professions →
               </Link>
             </div>
+
+            {/* Author card */}
+            {author && (
+              <div className="bg-white rounded-xl border border-slate-200 p-6 flex items-start gap-5">
+                <div className="w-14 h-14 rounded-full bg-brand-700 flex items-center justify-center text-white font-bold text-lg flex-shrink-0">{author.initials}</div>
+                <div>
+                  <div className="font-bold text-slate-900">{author.name}</div>
+                  <div className="text-brand-700 text-sm font-medium mb-2">{author.title}</div>
+                  <p className="text-slate-600 text-sm leading-relaxed">{author.shortBio}</p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {author.expertise.slice(0, 3).map(e => (
+                      <span key={e} className="text-xs bg-brand-50 text-brand-700 border border-brand-200 px-2 py-0.5 rounded-full">{e}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Sidebar */}
           <div className="space-y-6">
             <QuoteForm variant="compact" />
+
+            {/* Key stats */}
+            {ct.keyStats && ct.keyStats.length > 0 && (
+              <div className="bg-brand-900 rounded-xl p-6 text-white">
+                <h3 className="font-bold text-lg mb-4">Key Facts</h3>
+                <div className="space-y-4">
+                  {ct.keyStats.map(stat => (
+                    <div key={stat.label} className="border-b border-brand-700 pb-3 last:border-0 last:pb-0">
+                      <div className="text-brand-300 text-xs mb-1">{stat.label}</div>
+                      <div className="text-white font-bold">{stat.value}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Cover review */}
             <div className="bg-white rounded-xl border border-slate-200 p-5">
-              <h3 className="font-bold text-slate-900 mb-3 text-sm">Quick Links</h3>
+              <div className="text-2xl mb-3">📋</div>
+              <h3 className="font-bold text-slate-900 mb-2">Cover Review</h3>
+              <p className="text-slate-600 text-sm mb-4">Not sure if your current policy covers all your activities? A licensed adviser can review your existing cover.</p>
+              <Link href="/contact/" className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-bold py-2 px-5 rounded-lg text-sm transition-colors">
+                Request a Review →
+              </Link>
+            </div>
+
+            {/* Coverage nav */}
+            <div className="bg-white rounded-xl border border-slate-200 p-5">
+              <h3 className="font-bold text-slate-900 mb-3 text-sm">All Coverage Types</h3>
               <ul className="space-y-2">
                 {[
-                  ['/professional-indemnity-insurance/', 'PI Insurance Guide'],
-                  ['/pi-insurance-cost/', 'PI Insurance Cost'],
-                  ['/indemnity-insurance-for-contractors/', 'Contractor Guide'],
-                  ['/compare/', 'Compare Providers'],
-                  ['/faq/', 'FAQs'],
-                ].map(([href, label]) => (
+                  ['/coverage/professional-indemnity/', 'Professional Indemnity'],
+                  ['/coverage/public-liability/', 'Public Liability'],
+                  ['/coverage/management-liability/', 'Management Liability'],
+                  ['/coverage/statutory-liability/', 'Statutory Liability'],
+                  ['/coverage/run-off-cover/', 'Run-off Cover'],
+                  ['/coverage/employers-liability/', "Employers' Liability"],
+                  ['/coverage/directors-officers/', "Directors' & Officers'"],
+                ].filter(([href]) => href !== `/coverage/${ct.slug}/`).map(([href, label]) => (
                   <li key={href}><Link href={href} className="text-sm text-brand-700 hover:text-brand-800 hover:underline">{label} →</Link></li>
                 ))}
               </ul>
@@ -141,6 +216,7 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
         </div>
       </div>
 
+      {/* Structured data */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Service',
@@ -150,6 +226,29 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
         areaServed: { '@type': 'Country', name: 'New Zealand' },
         url: `https://www.indemnityinsurance.co.nz/coverage/${ct.slug}/`,
       })}} />
+      {ct.faqs && ct.faqs.length > 0 && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: ct.faqs.map(faq => ({
+            '@type': 'Question',
+            name: faq.q,
+            acceptedAnswer: { '@type': 'Answer', text: faq.a },
+          })),
+        })}} />
+      )}
+      {author && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: `${ct.name} — NZ Guide`,
+          description: ct.shortDesc,
+          url: `https://www.indemnityinsurance.co.nz/coverage/${ct.slug}/`,
+          author: { '@type': 'Person', name: author.name, jobTitle: author.title, worksFor: { '@type': 'Organization', name: SITE.name } },
+          publisher: { '@type': 'Organization', name: SITE.name, url: SITE.domain },
+          dateModified: '2026-05-23',
+        })}} />
+      )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
