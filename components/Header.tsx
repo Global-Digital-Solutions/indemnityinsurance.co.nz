@@ -35,11 +35,11 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-            <span className="text-white font-extrabold text-lg">
+          <Link href="/" className="flex items-center gap-1.5 flex-shrink-0">
+            <span className="text-white font-extrabold text-sm sm:text-lg leading-tight">
               Indemnity<span className="text-orange-500">Insurance</span>
             </span>
-            <span className="text-gray-400 text-sm hidden sm:inline">.co.nz</span>
+            <span className="text-gray-400 text-xs sm:text-sm hidden sm:inline">.co.nz</span>
           </Link>
 
           {/* Desktop nav */}
@@ -105,19 +105,20 @@ export default function Header() {
           </nav>
 
           {/* CTA + hamburger */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             <span className="hidden sm:flex items-center gap-1.5 text-gray-400 text-xs font-medium border border-gray-700 rounded-lg px-3 py-1.5">
               <span className="text-green-400">✓</span> Licensed Advisers
             </span>
             <Link href="/contact/"
-              className="bg-orange-500 hover:bg-orange-600 text-white text-sm font-bold px-4 py-2 rounded-lg transition-colors">
-              Get a Quote
+              className="bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-lg transition-colors whitespace-nowrap px-3 py-1.5 text-xs sm:px-4 sm:py-2 sm:text-sm">
+              <span className="sm:hidden">Quote</span>
+              <span className="hidden sm:inline">Get a Quote</span>
             </Link>
             <button
-              className="lg:hidden text-gray-300 hover:text-white p-2"
+              className="lg:hidden text-gray-300 hover:text-white p-1.5"
               onClick={() => setMobileOpen(!mobileOpen)}
               aria-label="Toggle menu">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {mobileOpen
                   ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />}
