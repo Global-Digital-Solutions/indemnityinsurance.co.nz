@@ -46,14 +46,11 @@ export default async function ProfessionPage({ params }: { params: Promise<{ slu
         style={{ backgroundImage: `linear-gradient(to bottom right, rgba(17,24,39,0.88) 0%, rgba(31,41,55,0.65) 60%, rgba(17,24,39,0.92) 100%), url('${pt.image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/professions/" className="text-brand-300 hover:text-white text-sm font-semibold mb-4 inline-block">← All Professions</Link>
-          <div className="flex items-start gap-4">
-            <span className="text-5xl">{pt.icon}</span>
-            <div>
-              <h1 className="text-4xl md:text-5xl font-extrabold mb-3">{pt.name}</h1>
-              <p className="text-brand-200 text-lg max-w-2xl">{pt.shortDesc}</p>
-              <div className="mt-4">
-                <PriceTag price={pt.avgCost} className="inline-block bg-gold-500/20 border border-gold-400/40 text-gold-400 text-sm font-bold px-3 py-1 rounded-full" />
-              </div>
+          <div>
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-3">{pt.name}</h1>
+            <p className="text-brand-200 text-lg max-w-2xl">{pt.shortDesc}</p>
+            <div className="mt-4">
+              <PriceTag price={pt.avgCost} className="inline-block bg-gold-500/20 border border-gold-400/40 text-gold-400 text-sm font-bold px-3 py-1 rounded-full" />
             </div>
           </div>
         </div>
