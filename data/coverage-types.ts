@@ -82,18 +82,18 @@ export const coverageTypes: CoverageType[] = [
 <p>PI insurance is distinct from public liability insurance, which covers physical injury or property damage. PI specifically covers economic or financial loss arising from your professional services, advice or omissions — risks that general liability policies explicitly exclude.</p>
 
 <h2>How Does Professional Indemnity Work in New Zealand?</h2>
-<p>NZ professional indemnity policies operate on a <strong>claims-made basis</strong>. This is a critical distinction from occurrence-based policies. Under a claims-made policy:</p>
+<p>Professional indemnity policies operate on a <strong>claims-made basis</strong>. This is a critical distinction from occurrence-based policies. Under a claims-made policy:</p>
 <ul>
   <li>You must have an active PI policy when the claim is first made against you — not just when the work was done.</li>
   <li>Your policy must include a retroactive date that covers the period when the work was carried out.</li>
   <li>If you cease trading without arranging <a href="/coverage/run-off-cover/">run-off cover</a>, claims arising from past work leave you personally exposed.</li>
 </ul>
-<p>When a claim is lodged, your insurer appoints solicitors to defend you. Most NZ PI policies include a duty to defend clause, meaning the insurer controls the defence and pays legal costs directly. This is different from indemnity-only policies where you pay costs and seek reimbursement.</p>
-<p>Typical policy limits in New Zealand range from $250,000 to $20 million. Excess (your contribution per claim) ranges from $500 for sole traders up to $25,000 or more for large firms. The excess applies to both defence costs and compensation in most NZ policy wordings.</p>
+<p>When a claim is lodged, your insurer appoints solicitors to defend you. Most PI policies include a duty to defend clause, meaning the insurer controls the defence and pays legal costs directly. This is different from indemnity-only policies where you pay costs and seek reimbursement.</p>
+<p>Typical policy limits in New Zealand range from $250,000 to $20 million. Excess (your contribution per claim) ranges from $500 for sole traders up to $25,000 or more for large firms. The excess applies to both defence costs and compensation in most standard policy wordings.</p>
 <p>DUAL NZ — one of New Zealand's specialist professional liability underwriters — offers five PI policy wordings tailored to: Accountants, Consultants, Design &amp; Engineers, Financial Services, and Real Estate. This specialisation means policy wordings are tightly aligned with the specific risks of each profession rather than generic catch-all coverage.</p>
 
 <h2>What Does Professional Indemnity Cover?</h2>
-<p>A standard NZ professional indemnity policy covers:</p>
+<p>A standard professional indemnity policy covers:</p>
 <ul>
   <li><strong>Negligence:</strong> A structural engineer specifies the wrong load-bearing capacity and a floor fails — the client claims for repair costs and business interruption.</li>
   <li><strong>Errors and omissions:</strong> An accountant misses a tax election deadline, costing the client a significant tax refund opportunity.</li>
@@ -104,10 +104,10 @@ export const coverageTypes: CoverageType[] = [
   <li><strong>Defamation:</strong> Content you produce or advice you provide contains statements about a third party that are alleged to be defamatory.</li>
   <li><strong>Employee dishonesty:</strong> A staff member fraudulently alters advice or misrepresents professional findings to a client.</li>
 </ul>
-<p>Most NZ policies also cover the cost of investigations by professional bodies (such as NZICA, NZIA or the Financial Markets Authority) even before a formal claim is made. This is a valuable feature given increasing regulatory scrutiny across NZ professions.</p>
+<p>Most policies also cover the cost of investigations by professional bodies (such as NZICA, NZIA or the Financial Markets Authority) even before a formal claim is made. This is a valuable feature given increasing regulatory scrutiny across all professions.</p>
 
 <h2>What Is Not Covered?</h2>
-<p>Understanding exclusions is as important as knowing what is covered. Standard PI exclusions in NZ include:</p>
+<p>Understanding exclusions is as important as knowing what is covered. Standard PI exclusions include:</p>
 <ul>
   <li><strong>Intentional wrongdoing:</strong> Deliberate fraud or dishonest acts by you personally (though your insurer may still defend until proven).</li>
   <li><strong>Bodily injury and property damage:</strong> These are covered by <a href="/coverage/public-liability/">public liability insurance</a>, not PI.</li>
@@ -150,7 +150,7 @@ export const coverageTypes: CoverageType[] = [
   <li><strong>Value of projects:</strong> Your limit should reflect the maximum financial loss a client could suffer from your worst-case error. If you manage $5 million investment portfolios, a $1 million limit may be inadequate.</li>
   <li><strong>Profession body minimums:</strong> NZICA, NZIA and the REA specify minimum limits. Check your professional body's current requirements.</li>
   <li><strong>Legal costs:</strong> Remember that defence costs typically erode your limit in NZ policies. A claim that costs $200,000 to defend and $400,000 to settle consumes $600,000 of your limit.</li>
-  <li><strong>Aggregation vs per-claim limits:</strong> Understand whether your limit is aggregate (applying to all claims in the year) or per-claim. Most NZ SME policies are aggregate.</li>
+  <li><strong>Aggregation vs per-claim limits:</strong> Understand whether your limit is aggregate (applying to all claims in the year) or per-claim. Most SME policies are aggregate.</li>
 </ul>
 
 <h2>NZ Regulatory Requirements for Professional Indemnity</h2>
@@ -164,7 +164,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>Getting the Right Professional Indemnity Cover in NZ</h2>
-<p>Purchasing PI insurance through a licensed NZ insurance adviser gives you access to specialist underwriters — including DUAL NZ, QBE and BHSI — and ensures the policy is correctly structured for your profession. Key things to verify before binding cover:</p>
+<p>Purchasing PI insurance through a licensed insurance adviser gives you access to specialist underwriters — including DUAL NZ, QBE and BHSI — and ensures the policy is correctly structured for your profession. Key things to verify before binding cover:</p>
 <ul>
   <li>The retroactive date matches or predates your earliest outstanding professional work.</li>
   <li>The policy wording covers your specific services (e.g., design-and-construct, investment advice, software development).</li>
@@ -214,7 +214,7 @@ export const coverageTypes: CoverageType[] = [
     faqs: [
       {
         q: 'Is public liability insurance compulsory in New Zealand?',
-        a: 'Public liability is not universally mandated by NZ law, but it is required by many contracts, venue operators, and councils before you can work or operate. Government contracts, commercial leases, building site access, and most event permits require evidence of PL cover — typically a minimum of $2 million. In practice, operating a NZ business without PL cover is a significant financial risk that most advisers recommend against regardless of legal requirements.',
+        a: 'Public liability is not universally mandated by NZ law, but it is required by many contracts, venue operators, and councils before you can work or operate. Government contracts, commercial leases, building site access, and most event permits require evidence of PL cover — typically a minimum of $2 million. In practice, operating a business without PL cover is a significant financial risk that most advisers recommend against regardless of legal requirements.',
       },
       {
         q: 'Does ACC cover public liability claims in New Zealand?',
@@ -230,7 +230,7 @@ export const coverageTypes: CoverageType[] = [
       },
       {
         q: 'How much public liability insurance do I need for NZ contracts?',
-        a: 'Most NZ commercial contracts require a minimum of $1 million PL, with government, construction and infrastructure contracts typically requiring $5 million to $20 million. Sole traders and small consultancies typically start at $2 million — this satisfies most contract requirements at a reasonable premium. Always check the insurance schedule in your contracts before selecting a limit, and ensure your policy has an any-one-occurrence limit that matches the contract requirement.',
+        a: 'Most commercial contracts require a minimum of $1 million PL, with government, construction and infrastructure contracts typically requiring $5 million to $20 million. Sole traders and small consultancies typically start at $2 million — this satisfies most contract requirements at a reasonable premium. Always check the insurance schedule in your contracts before selecting a limit, and ensure your policy has an any-one-occurrence limit that matches the contract requirement.',
       },
     ],
     longFormContent: `
@@ -240,7 +240,7 @@ export const coverageTypes: CoverageType[] = [
 <p>In New Zealand's commercial environment, public liability is as close to a baseline business requirement as any insurance policy. Most contracts, leases, tender documents, and site access arrangements specify minimum PL limits as a condition of engagement.</p>
 
 <h2>How Does Public Liability Insurance Work in New Zealand?</h2>
-<p>Unlike professional indemnity, public liability policies in New Zealand operate on an <strong>occurrence basis</strong>. This means that what matters is when the incident occurred — not when the claim is made. If a client injures themselves at your premises in March, and they file a claim in December, your policy in place at the time of the incident in March responds.</p>
+<p>Unlike professional indemnity, public liability policies operate on an <strong>occurrence basis</strong>. This means that what matters is when the incident occurred — not when the claim is made. If a client injures themselves at your premises in March, and they file a claim in December, your policy in place at the time of the incident in March responds.</p>
 <p>When a PL claim is made, the process typically works as follows:</p>
 <ol>
   <li>You notify your insurer as soon as you become aware of the incident or claim (prompt notification is critical — late notification can jeopardise cover).</li>
@@ -248,10 +248,10 @@ export const coverageTypes: CoverageType[] = [
   <li>If liability is established or a settlement is agreed, your insurer pays compensation up to your policy limit, less your excess.</li>
   <li>Your insurer may also pay investigation costs and court costs in addition to, or within, your limit of indemnity — check your policy wording.</li>
 </ol>
-<p>Policy limits typically range from $1 million to $20 million in New Zealand, with $2 million being the most common choice for SMEs. Annual premiums for most small businesses start from around $600–$700 per year, though they vary significantly based on your industry, turnover and claims history.</p>
+<p>Policy limits typically range from $1 million to $20 million in New Zealand, with $2 million being the most common choice for small and medium businesses. Annual premiums for most small businesses start from around $600–$700 per year, though they vary significantly based on your industry, turnover and claims history.</p>
 
 <h2>What Does Public Liability Insurance Cover?</h2>
-<p>A standard NZ public liability policy covers:</p>
+<p>A standard public liability policy covers:</p>
 <ul>
   <li><strong>Third-party bodily injury:</strong> A customer slips on a wet floor in your shop and fractures a wrist. PL pays their medical costs (beyond ACC), lost income and general damages.</li>
   <li><strong>Third-party property damage:</strong> A consultant spills coffee on a client's laptop at a meeting. PL covers the replacement cost.</li>
@@ -261,10 +261,10 @@ export const coverageTypes: CoverageType[] = [
   <li><strong>Contractual liability:</strong> Liability assumed under a written contract, up to the limits specified in the policy — for example, an indemnity clause in a lease agreement.</li>
   <li><strong>Off-site incidents:</strong> If your employee or contractor causes damage at a client's premises, PL covers you.</li>
 </ul>
-<p>Many NZ PL policies can also be extended to include: tenant's liability (damage to premises you lease), care, custody and control (damage to third-party property in your care), and cross-liability between entities covered under the same policy.</p>
+<p>Many PL policies can also be extended to include: tenant's liability (damage to premises you lease), care, custody and control (damage to third-party property in your care), and cross-liability between entities covered under the same policy.</p>
 
 <h2>What Is Not Covered by Public Liability?</h2>
-<p>Key exclusions to be aware of in NZ public liability policies include:</p>
+<p>Key exclusions to be aware of in public liability policies include:</p>
 <ul>
   <li><strong>Employee injuries:</strong> Covered by ACC and, for non-ACC claims, <a href="/coverage/employers-liability/">employers' liability insurance</a>.</li>
   <li><strong>Professional advice or services:</strong> Financial loss from bad advice is a PI claim, not a PL claim.</li>
@@ -288,7 +288,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>How Much Does Public Liability Insurance Cost in NZ?</h2>
-<p>Public liability premiums in New Zealand are generally among the most affordable business insurance costs. BizCover NZ — one of the leading online platforms — quotes an average PL premium starting from around $30 per month for low-risk sole traders. However, actual costs depend heavily on:</p>
+<p>Public liability premiums in New Zealand are generally among the most affordable business insurance costs. BizCover NZ — one of the leading online platforms — quotes an average PL premium starting from around $30 per month for low-risk sole traders. Actual costs depend heavily on:</p>
 <ul>
   <li><strong>Industry and risk category:</strong> A management consultant faces very different physical risks than a roofer. Insurers classify each industry and price accordingly.</li>
   <li><strong>Annual turnover:</strong> Higher revenue typically means more client interactions and greater aggregate exposure.</li>
@@ -300,14 +300,14 @@ export const coverageTypes: CoverageType[] = [
 <p>Indicative costs: a sole trader consultant with $300,000 turnover and $2 million PL cover might pay $700–$1,200 per year. A hospitality business with $2 million turnover and high foot traffic might pay $3,000–$6,000 per year. See our <a href="/pi-insurance-cost/">cost guide</a> for profession-specific data.</p>
 
 <h2>How Much Public Liability Cover Do I Need?</h2>
-<p>The right PL limit is driven by three factors: your contract requirements, your risk exposure, and cost efficiency. Guidance for NZ businesses:</p>
+<p>The right PL limit is driven by three factors: your contract requirements, your risk exposure, and cost efficiency. Guidance for businesses:</p>
 <ul>
   <li><strong>$1 million:</strong> Minimum for most commercial contracts. Suitable for very low-risk sole traders with limited public interaction.</li>
-  <li><strong>$2 million:</strong> The most common choice for NZ SMEs. Satisfies the majority of commercial lease and contract requirements.</li>
+  <li><strong>$2 million:</strong> The most common choice for small and medium businesses. Satisfies the majority of commercial lease and contract requirements.</li>
   <li><strong>$5 million:</strong> Required by many government contracts, large construction projects, and councils. Also appropriate for higher-risk industries.</li>
   <li><strong>$10 million+:</strong> Infrastructure projects, major event management, or businesses with very large scale operations. Premiums remain relatively efficient at this level.</li>
 </ul>
-<p>Note that some NZ commercial leases specify that the tenant must maintain a minimum PL limit — check your lease before selecting cover.</p>
+<p>Note that some commercial leases specify that the tenant must maintain a minimum PL limit — check your lease before selecting cover.</p>
 
 <h2>NZ Regulatory Requirements for Public Liability</h2>
 <p>While there is no single NZ statute that universally mandates public liability insurance, multiple regulatory and contractual contexts effectively require it:</p>
@@ -319,7 +319,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>Getting the Right Public Liability Cover in NZ</h2>
-<p>When purchasing PL insurance, work with a licensed NZ insurance adviser to ensure your policy:</p>
+<p>When purchasing PL insurance, work with a licensed insurance adviser to ensure your policy:</p>
 <ul>
   <li>Includes the specific extensions you need (products liability, tenants liability, care custody and control).</li>
   <li>Has an adequate any-one-occurrence limit that matches your worst-case risk scenario.</li>
@@ -343,7 +343,7 @@ export const coverageTypes: CoverageType[] = [
       'Healthcare and aged care operators',
       'Food and hospitality businesses',
       'Environmental and land management businesses',
-      'Any NZ-registered business or employer',
+      'Any registered business or employer',
     ],
     whatCovers: [
       'Legal defence costs for regulatory investigations',
@@ -389,20 +389,20 @@ export const coverageTypes: CoverageType[] = [
     ],
     longFormContent: `
 <h2>What Is Statutory Liability Insurance?</h2>
-<p>Statutory liability insurance covers the costs — including legal defence costs and, where legally permissible, fines and pecuniary penalties — arising from unintentional breaches of New Zealand legislation. As WorkSafe NZ, the Commerce Commission, and other regulators have intensified enforcement, the financial exposure from regulatory breaches has grown dramatically, making statutory liability insurance an increasingly essential component of NZ business risk management.</p>
+<p>Statutory liability insurance covers the costs — including legal defence costs and, where legally permissible, fines and pecuniary penalties — arising from unintentional breaches of New Zealand legislation. As WorkSafe NZ, the Commerce Commission, and other regulators have intensified enforcement, the financial exposure from regulatory breaches has grown dramatically, making statutory liability insurance an increasingly essential component of business risk management.</p>
 <p>New Zealand has a complex and expanding regulatory environment. Employers, directors, and business owners face obligations under dozens of statutes — from the Health and Safety at Work Act 2015 to the Privacy Act 2020, the Fair Trading Act 1986 and the Employment Relations Act 2000. A momentary lapse in compliance, or an employee acting contrary to policy, can trigger a regulatory investigation that costs hundreds of thousands of dollars to defend, even if no wrongdoing is ultimately established.</p>
 
 <h2>How Does Statutory Liability Work in New Zealand?</h2>
-<p>Statutory liability policies in NZ cover your business when a regulatory body investigates, prosecutes, or imposes a penalty for an alleged breach of a covered statute. The policy typically responds in two stages:</p>
+<p>Statutory liability policies cover your business when a regulatory body investigates, prosecutes, or imposes a penalty for an alleged breach of a covered statute. The policy typically responds in two stages:</p>
 <ol>
   <li><strong>Investigation stage:</strong> Your insurer funds your legal defence from the moment a regulatory authority (WorkSafe, Commerce Commission, IRD, FMA, ERA) commences an investigation — before any formal charges or findings.</li>
   <li><strong>Prosecution and penalty stage:</strong> If the regulatory body proceeds to prosecution, the insurer continues to fund your defence. Where a fine or pecuniary penalty is imposed and it is legally permissible to insure it (i.e., it arose from an unintentional breach), the insurer pays the penalty up to the policy limit.</li>
 </ol>
 <p>Most NZ statutory liability policies cover multiple statutes, with common coverage including: Health and Safety at Work Act 2015, Employment Relations Act 2000, Fair Trading Act 1986, Consumer Guarantees Act 1993, Resource Management Act 1991, Food Act 2014, and Building Act 2004. The exact list varies by insurer and policy wording — check the schedule carefully.</p>
-<p>Limits of indemnity typically range from $250,000 to $5 million in the NZ market, with $1 million being the most common for SMEs. Excess levels are generally low — $1,000 to $5,000 — reflecting the regulatory investigation trigger point.</p>
+<p>Limits of indemnity typically range from $250,000 to $5 million, with $1 million being the most common for SMEs. Excess levels are generally low — $1,000 to $5,000 — reflecting the regulatory investigation trigger point.</p>
 
 <h2>What Does Statutory Liability Cover?</h2>
-<p>A comprehensive NZ statutory liability policy covers:</p>
+<p>A comprehensive statutory liability policy covers:</p>
 <ul>
   <li><strong>Legal defence costs:</strong> Solicitor, barrister and specialist regulatory counsel fees from the first notification of an investigation. This is the most consistently covered element across all policies.</li>
   <li><strong>Fines and pecuniary penalties:</strong> Regulatory fines imposed after an unintentional breach, where legally insurable. Intentional acts are excluded as a matter of public policy.</li>
@@ -426,7 +426,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>Who Needs Statutory Liability Insurance in New Zealand?</h2>
-<p>Any NZ business that employs people, operates physical premises, sells products or services, or handles environmental matters needs statutory liability protection. High-priority sectors include:</p>
+<p>Any business that employs people, operates physical premises, sells products or services, or handles environmental matters needs statutory liability protection. High-priority sectors include:</p>
 <ul>
   <li><strong>Construction and engineering:</strong> WorkSafe NZ actively monitors construction sites and prosecutes under HSWA for serious incidents. Average fines in fatal construction incidents now regularly exceed $500,000. <a href="/professions/architects-engineers/">Architects and engineers</a> face both HSWA exposure and Building Act licensing risks.</li>
   <li><strong>Healthcare and aged care:</strong> Regulated by the Health and Disability Commissioner and subject to both HSWA and Privacy Act obligations. Investigation costs in healthcare regulatory matters can be substantial.</li>
@@ -437,7 +437,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>How Much Does Statutory Liability Insurance Cost in NZ?</h2>
-<p>Statutory liability is one of the more affordable specialty covers available to NZ businesses, largely because it is almost always bundled within a <a href="/coverage/management-liability/">management liability</a> policy. When purchased standalone or as an addition to a business package, indicative costs include:</p>
+<p>Statutory liability is one of the more affordable specialty covers available, largely because it is almost always bundled within a <a href="/coverage/management-liability/">management liability</a> policy. When purchased standalone or as an addition to a business package, indicative costs include:</p>
 <ul>
   <li>Sole trader or micro-business: $40–$80 per month for $1 million cover.</li>
   <li>SME with 5–20 employees: $80–$200 per month for $2 million cover.</li>
@@ -464,14 +464,14 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>Getting the Right Statutory Liability Cover in NZ</h2>
-<p>When arranging statutory liability cover, work with a licensed NZ insurance adviser to:</p>
+<p>When arranging statutory liability cover, work with a licensed insurance adviser to:</p>
 <ul>
   <li>Confirm all relevant statutes are listed in the policy schedule — not just a generic "as required by law" clause.</li>
   <li>Ensure defence costs are covered from the investigation stage, not just after formal charges are laid.</li>
   <li>Understand whether fines are covered within or in addition to the limit of indemnity.</li>
   <li>Consider whether a standalone policy or a <a href="/coverage/management-liability/">management liability bundle</a> better suits your business structure and budget.</li>
 </ul>
-<p><a href="/compare/">Compare statutory liability options</a> or <a href="/contact/">speak to a licensed adviser</a> about the right structure for your NZ business.</p>
+<p><a href="/compare/">Compare statutory liability options</a> or <a href="/contact/">speak to a licensed adviser</a> about the right structure for your business.</p>
     `.trim(),
   },
   {
@@ -536,7 +536,7 @@ export const coverageTypes: CoverageType[] = [
 <h2>What Is Employers' Liability Insurance?</h2>
 <p>Employers' liability (EL) insurance — sometimes called employment practices liability (EPL) — covers your business against claims made by employees or former employees for workplace-related injury, illness, discrimination, harassment, unfair dismissal, or breach of employment obligations that fall outside the scope of ACC.</p>
 <p>New Zealand's ACC scheme is a no-fault accident compensation system that covers the medical costs of physical personal injury by accident. It is a significant protection for employers — and employees — but it has important gaps. ACC does not cover: psychological injury claims arising from workplace stress, bullying or harassment; unfair dismissal and wrongful termination; discrimination on prohibited grounds (race, sex, age, disability); or breach of employment agreement. These non-ACC claims are increasingly common and increasingly costly to defend and resolve.</p>
-<p>For any NZ business with employees — from a two-person consultancy to a 500-person healthcare provider — employers' liability insurance is an essential component of the business insurance portfolio alongside <a href="/coverage/statutory-liability/">statutory liability</a> and <a href="/coverage/public-liability/">public liability</a>.</p>
+<p>For any business with employees — from a two-person consultancy to a 500-person healthcare provider — employers' liability insurance is an essential component of the business insurance portfolio alongside <a href="/coverage/statutory-liability/">statutory liability</a> and <a href="/coverage/public-liability/">public liability</a>.</p>
 
 <h2>How Does Employers' Liability Work in New Zealand?</h2>
 <p>When a current or former employee makes a claim — lodging a grievance with the Employment Relations Authority, filing a Human Rights Commission complaint, or commencing proceedings in the Employment Court — your employers' liability insurer responds in two ways:</p>
@@ -544,11 +544,11 @@ export const coverageTypes: CoverageType[] = [
   <li><strong>Defence costs:</strong> The insurer funds your legal representation from the time the claim is made. Employment proceedings can involve multiple hearings over 12–18 months. Legal costs of $50,000–$100,000 are not unusual in contested ERA matters.</li>
   <li><strong>Compensation awards:</strong> If the ERA or Employment Court orders compensation — for lost wages, humiliation, injury to feelings, or reinstatement costs — the insurer pays the award up to the policy limit, less your excess.</li>
 </ol>
-<p>Most NZ employers' liability policies operate on a <strong>claims-made basis</strong>. The policy in force when the claim is made (not when the employment relationship ended) must respond. This is particularly important for claims arising from redundancies or dismissals that may surface months or years later.</p>
+<p>Most employers' liability policies operate on a <strong>claims-made basis</strong>. The policy in force when the claim is made (not when the employment relationship ended) must respond. This is particularly important for claims arising from redundancies or dismissals that may surface months or years later.</p>
 <p>Policy limits in New Zealand typically range from $250,000 to $5 million per claim or aggregate. Excesses are usually modest ($1,000–$5,000), reflecting the reality that even minor employment disputes generate significant legal costs from the outset.</p>
 
 <h2>What Does Employers' Liability Cover?</h2>
-<p>A comprehensive NZ employers' liability or employment practices liability policy covers:</p>
+<p>A comprehensive employers' liability or employment practices liability policy covers:</p>
 <ul>
   <li><strong>Unjustified dismissal claims:</strong> The ERA deals with hundreds of unjustified dismissal claims each year. Claims arising from performance management, restructuring, redundancy, or conduct dismissal where proper process was not followed are among the most common triggers.</li>
   <li><strong>Workplace discrimination:</strong> Claims under the Human Rights Act 1993 for discrimination on grounds of race, sex, age, disability, religious belief, marital status, political opinion, or sexual orientation.</li>
@@ -561,7 +561,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>What Is Not Covered?</h2>
-<p>Standard exclusions in NZ employers' liability policies include:</p>
+<p>Standard exclusions in employers' liability policies include:</p>
 <ul>
   <li><strong>Physical injury covered by ACC:</strong> Workplace accidents causing physical injury are an ACC matter. Employers' liability covers non-ACC employment claims.</li>
   <li><strong>Deliberate wrongdoing:</strong> If discrimination or harassment was deliberately perpetrated by a director or senior officer and they knew it was wrongful, the policy will not indemnify the perpetrator (though it may still cover defence costs until the conduct is proven).</li>
@@ -571,9 +571,9 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>Who Needs Employers' Liability Insurance in New Zealand?</h2>
-<p>Any NZ business with employees needs employers' liability protection. The exposure is universal — even the best-run workplaces face employment claims. Key risk profiles include:</p>
+<p>Any business with employees needs employers' liability protection. The exposure is universal — even the best-run workplaces face employment claims. Key risk profiles include:</p>
 <ul>
-  <li><strong>All employers:</strong> The Employment Relations Act applies to all NZ employers regardless of size. A sole director of a two-person company faces the same ERA jurisdiction as a 1,000-employee corporation.</li>
+  <li><strong>All employers:</strong> The Employment Relations Act applies to all employers regardless of size. A sole director of a two-person company faces the same ERA jurisdiction as a 1,000-employee corporation.</li>
   <li><strong>Businesses undergoing restructuring or redundancy:</strong> The ERA receives a significant volume of claims arising from redundancy processes where the employer failed to properly consult, consider alternatives, or apply fair selection criteria.</li>
   <li><strong>HR-intensive businesses:</strong> Retail, hospitality and healthcare businesses with large casual or shift workforces face high claims frequency — complex rostering, holiday pay calculations and performance management all create risk.</li>
   <li><strong><a href="/professions/healthcare/">Healthcare and aged care employers:</a></strong> High-stress environments, emotionally demanding work, and workforce shortages create significant psychological injury and workplace conduct risks.</li>
@@ -582,7 +582,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>How Much Does Employers' Liability Insurance Cost in NZ?</h2>
-<p>Employers' liability insurance in New Zealand is typically available as a component of a <a href="/coverage/management-liability/">management liability bundle</a> or as a standalone policy. Indicative costs:</p>
+<p>Employers' liability insurance is typically available as a component of a <a href="/coverage/management-liability/">management liability bundle</a> or as a standalone policy. Indicative costs:</p>
 <ul>
   <li>Small business (1–5 employees): $50–$100 per month standalone, often included in management liability bundles from $120/month.</li>
   <li>Medium business (10–50 employees): $120–$300 per month, depending on industry and claims history.</li>
@@ -609,14 +609,14 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>Getting the Right Employers' Liability Cover in NZ</h2>
-<p>When arranging cover, work with a licensed NZ adviser to ensure:</p>
+<p>When arranging cover, work with a licensed adviser to ensure:</p>
 <ul>
   <li>The policy covers claims-made by both current and former employees (some policies restrict to current employees).</li>
   <li>Psychological injury claims are explicitly included — not just physical injury or discrimination claims.</li>
   <li>The insurer has experience with NZ employment law and can appoint specialist employment solicitors.</li>
   <li>The policy responds from the date of the ERA investigation or grievance lodgement — not just formal ERA proceedings.</li>
 </ul>
-<p>Most NZ businesses benefit from combining employers' liability with <a href="/coverage/statutory-liability/">statutory liability</a>, <a href="/coverage/directors-officers/">D&amp;O insurance</a>, and public liability in a management liability bundle for comprehensive protection and simplified renewal. <a href="/compare/">Compare your options</a> or <a href="/contact/">get a quote</a> from a licensed adviser.</p>
+<p>Most businesses benefit from combining employers' liability with <a href="/coverage/statutory-liability/">statutory liability</a>, <a href="/coverage/directors-officers/">D&amp;O insurance</a>, and public liability in a management liability bundle for comprehensive protection and simplified renewal. <a href="/compare/">Compare your options</a> or <a href="/contact/">get a quote</a> from a licensed adviser.</p>
     `.trim(),
   },
   {
@@ -684,16 +684,16 @@ export const coverageTypes: CoverageType[] = [
 <p>The risk is real and growing. New Zealand's Financial Markets Authority (FMA) has significantly expanded enforcement activity against company directors. WorkSafe NZ actively prosecutes individual directors for HSWA breaches. And in insolvency situations, liquidators regularly investigate director conduct and pursue personal claims where they identify grounds for liability.</p>
 
 <h2>How Does D&O Insurance Work in New Zealand?</h2>
-<p>New Zealand D&O policies typically have three coverage sections (referred to as "sides"):</p>
+<p>D&O policies typically have three coverage sections (referred to as "sides"):</p>
 <ul>
   <li><strong>Side A — Individual director protection:</strong> Pays directly to the director when the company cannot or will not indemnify them. This is the most critical coverage for personal asset protection. Side A responds when the company is insolvent, when the company refuses to indemnify (due to a governance conflict), or when indemnification would be unlawful.</li>
   <li><strong>Side B — Company reimbursement:</strong> Reimburses the company when it has paid defence costs or damages on behalf of a director. Many NZ company constitutions include a board indemnification clause — Side B allows the company to extend protection without bearing the full financial burden.</li>
   <li><strong>Side C — Entity coverage:</strong> Covers the company itself for certain securities claims (e.g., securities disclosure breaches). More relevant for listed companies and those with sophisticated investors.</li>
 </ul>
-<p>D&O policies in NZ operate on a <strong>claims-made basis</strong>. The policy in force when the claim is first made must respond. This means coverage continuity is vital — gaps in D&O coverage leave directors personally exposed for the period of the gap, even years after leaving the board. Most NZ D&O policies include extended reporting period (ERP) provisions allowing notification of claims discovered shortly after the policy expires.</p>
+<p>D&O policies operate on a <strong>claims-made basis</strong>. The policy in force when the claim is first made must respond. This means coverage continuity is vital — gaps in D&O coverage leave directors personally exposed for the period of the gap, even years after leaving the board. Most D&O policies include extended reporting period (ERP) provisions allowing notification of claims discovered shortly after the policy expires.</p>
 
 <h2>What Does D&O Insurance Cover?</h2>
-<p>A comprehensive NZ D&O policy responds to claims for:</p>
+<p>A comprehensive D&O policy responds to claims for:</p>
 <ul>
   <li><strong>Breach of director duties under the Companies Act 1993:</strong> Sections 131–138 of the Companies Act impose duties of care, diligence, and good faith on directors. Breach of these duties — including insolvent trading under section 135 — can result in liquidator claims and personal liability.</li>
   <li><strong>Shareholder and investor claims:</strong> Shareholders who allege that directors misled them, breached their duty of good faith, or caused the company to act in a manner oppressive to shareholder interests can sue directors personally.</li>
@@ -705,13 +705,13 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>What Is Not Covered?</h2>
-<p>Key D&O exclusions in NZ include:</p>
+<p>Key D&O exclusions include:</p>
 <ul>
   <li><strong>Deliberate fraud or dishonesty:</strong> If a director is proven to have acted fraudulently or dishonestly, the policy will not indemnify them. However, most NZ D&O policies will still fund the defence until the conduct is proven — allowing the insurer to separate innocent and dishonest directors in the same matter.</li>
   <li><strong>Personal profit:</strong> Gains illegally obtained by a director — insider trading profits, diverted business opportunities — are excluded.</li>
   <li><strong>Bodily injury and property damage:</strong> Covered under public liability.</li>
   <li><strong>Known claims at inception:</strong> Claims you were aware of before the policy was taken out are excluded.</li>
-  <li><strong>Criminal fines and penalties:</strong> Most D&O policies exclude criminal fines, though civil regulatory penalties — where insurable — are typically covered. NZ <a href="/coverage/statutory-liability/">statutory liability insurance</a> is the appropriate vehicle for regulatory fines.</li>
+  <li><strong>Criminal fines and penalties:</strong> Most D&O policies exclude criminal fines, though civil regulatory penalties — where insurable — are typically covered. <a href="/coverage/statutory-liability/">Statutory liability insurance</a> is the appropriate vehicle for regulatory fines.</li>
 </ul>
 
 <h2>Who Needs D&O Insurance in New Zealand?</h2>
@@ -738,10 +738,10 @@ export const coverageTypes: CoverageType[] = [
 <p>Indicative costs: a private SME with 2–3 directors and $2 million turnover might pay $1,200–$2,000 per year for $1 million D&O cover. A mid-size company with $20 million turnover and a board of six might pay $8,000–$15,000 per year for $5 million in cover. See our <a href="/pi-insurance-cost/">cost guide</a> for detailed benchmarks.</p>
 
 <h2>How Much D&O Cover Do I Need?</h2>
-<p>Limit selection should reflect your worst-case claim scenario. Guidance for NZ companies:</p>
+<p>Limit selection should reflect your worst-case claim scenario. Guidance for companies:</p>
 <ul>
   <li><strong>$1 million:</strong> Minimum for small private companies with limited shareholder and creditor exposure. Covers legal costs and a modest award in a typical ERA or Companies Act matter.</li>
-  <li><strong>$2 million–$5 million:</strong> Appropriate for mid-size NZ companies, those with investor capital, or those in regulated industries. Covers complex multi-party claims or an FMA investigation plus resulting civil proceedings.</li>
+  <li><strong>$2 million–$5 million:</strong> Appropriate for mid-size companies, those with investor capital, or those in regulated industries. Covers complex multi-party claims or an FMA investigation plus resulting civil proceedings.</li>
   <li><strong>$10 million+:</strong> Required for listed companies, large private companies, or those with sophisticated investors and significant regulatory exposure.</li>
 </ul>
 
@@ -755,7 +755,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>Getting the Right D&O Cover in NZ</h2>
-<p>When arranging D&O insurance, work with a licensed NZ insurance adviser to confirm:</p>
+<p>When arranging D&O insurance, work with a licensed insurance adviser to confirm:</p>
 <ul>
   <li>Side A, Side B and Side C coverage are all present (not just Side B).</li>
   <li>The definition of "wrongful act" is broad enough to cover your governance activities.</li>
@@ -805,11 +805,11 @@ export const coverageTypes: CoverageType[] = [
     faqs: [
       {
         q: 'What is typically included in a management liability policy in NZ?',
-        a: "A standard NZ management liability policy bundles: Directors' & Officers' liability (D&O), Employment Practices Liability (EPL), Crime (employee dishonesty and theft), and Statutory Liability. Many insurers also offer optional extensions for: Cyber Liability, Fiduciary Liability, and Tax Investigation costs. The exact bundle varies by insurer — DUAL NZ, QBE and Vero each have their own management liability products with different default inclusions and optional extensions.",
+        a: "A standard management liability policy bundles: Directors' & Officers' liability (D&O), Employment Practices Liability (EPL), Crime (employee dishonesty and theft), and Statutory Liability. Many insurers also offer optional extensions for: Cyber Liability, Fiduciary Liability, and Tax Investigation costs. The exact bundle varies by insurer — DUAL NZ, QBE and Vero each have their own management liability products with different default inclusions and optional extensions.",
       },
       {
         q: 'Is management liability the same as D&O insurance?',
-        a: "No. <a href='/coverage/directors-officers/'>D&O insurance</a> is one component within a management liability policy. A standalone D&O policy covers directors and officers personally for wrongful management acts. A management liability policy bundles D&O with employment practices liability, crime, and statutory liability — providing much broader protection for both individuals and the company entity. For most NZ SMEs, a management liability bundle is more efficient and better-value than purchasing D&O alone.",
+        a: "No. <a href='/coverage/directors-officers/'>D&O insurance</a> is one component within a management liability policy. A standalone D&O policy covers directors and officers personally for wrongful management acts. A management liability policy bundles D&O with employment practices liability, crime, and statutory liability — providing much broader protection for both individuals and the company entity. For most SMEs, a management liability bundle is more efficient and better-value than purchasing D&O alone.",
       },
       {
         q: 'Does management liability cover employee theft and fraud?',
@@ -817,7 +817,7 @@ export const coverageTypes: CoverageType[] = [
       },
       {
         q: 'Can I get a single management liability policy for multiple related companies?',
-        a: 'Yes. Many NZ insurers offer management liability cover on a group basis for parent companies and their subsidiaries. This can be more efficient than separate policies for each entity, and ensures consistent coverage across the group. If your business has an evolving structure — subsidiaries being acquired, joint ventures, or new entities being established — confirm with your insurer how the policy responds to changes in the group structure during the policy period.',
+        a: 'Yes. Many insurers offer management liability cover on a group basis for parent companies and their subsidiaries. This can be more efficient than separate policies for each entity, and ensures consistent coverage across the group. If your business has an evolving structure — subsidiaries being acquired, joint ventures, or new entities being established — confirm with your insurer how the policy responds to changes in the group structure during the policy period.',
       },
       {
         q: 'How does management liability respond in an insolvency?',
@@ -827,7 +827,7 @@ export const coverageTypes: CoverageType[] = [
     longFormContent: `
 <h2>What Is Management Liability Insurance?</h2>
 <p>Management liability insurance is a bundled policy that combines several interconnected covers into a single, streamlined solution for New Zealand businesses. Rather than managing separate policies for directors' and officers' liability, employment practices, employee crime, and statutory liability, a management liability policy provides all of these covers under one roof — with one premium, one renewal date, and one insurer relationship.</p>
-<p>For NZ SMEs and growing businesses, management liability is often the most cost-effective and administratively efficient way to achieve comprehensive management protection. A management liability policy typically costs 15–30% less than purchasing the equivalent component covers separately, and eliminates the risk of gaps in coverage that can arise when multiple policies are managed independently.</p>
+<p>For SMEs and growing businesses, management liability is often the most cost-effective and administratively efficient way to achieve comprehensive management protection. A management liability policy typically costs 15–30% less than purchasing the equivalent component covers separately, and eliminates the risk of gaps in coverage that can arise when multiple policies are managed independently.</p>
 <p>The standard NZ management liability bundle includes: <a href="/coverage/directors-officers/">Directors' &amp; Officers' (D&amp;O) liability</a>, Employment Practices Liability (EPL), Crime (employee dishonesty and theft), and <a href="/coverage/statutory-liability/">Statutory Liability</a>. Optional extensions often include Cyber Liability, Fiduciary Liability, and Tax Investigation costs.</p>
 
 <h2>How Does Management Liability Work in New Zealand?</h2>
@@ -844,7 +844,7 @@ export const coverageTypes: CoverageType[] = [
 <ul>
   <li><strong>Directors' and Officers' Liability (D&amp;O):</strong> Personal protection for directors, officers and senior managers against claims for wrongful acts in their management roles — from shareholder claims to FMA investigations to Companies Act insolvent trading claims. Covers legal defence costs, settlements and court awards. See our full <a href="/coverage/directors-officers/">D&amp;O guide</a> for detail.</li>
   <li><strong>Employment Practices Liability (EPL):</strong> Covers claims by current or former employees for unfair dismissal, workplace discrimination, harassment, bullying, breach of employment agreement, and psychological injury. The ERA receives hundreds of claims annually — EPL ensures legal costs and awards are covered. Full detail at our <a href="/coverage/employers-liability/">employers' liability guide</a>.</li>
-  <li><strong>Crime and Employee Dishonesty:</strong> Covers loss of money, property or securities through theft, fraud or forgery by employees or directors. Also typically covers computer fraud (fraudulent EFT instructions), forgery of cheques or other instruments, and theft by third parties accessing your systems. This is increasingly relevant as electronic funds transfer fraud rises across NZ businesses.</li>
+  <li><strong>Crime and Employee Dishonesty:</strong> Covers loss of money, property or securities through theft, fraud or forgery by employees or directors. Also typically covers computer fraud (fraudulent EFT instructions), forgery of cheques or other instruments, and theft by third parties accessing your systems. This is increasingly relevant as electronic funds transfer fraud rises.</li>
   <li><strong>Statutory Liability:</strong> Covers legal defence costs and (where insurable) fines and penalties from unintentional breaches of NZ legislation — HSWA, Employment Relations Act, Fair Trading Act, RMA and others. Detailed coverage explained in our <a href="/coverage/statutory-liability/">statutory liability guide</a>.</li>
   <li><strong>Entity Investigation Coverage:</strong> Covers the company's legal costs when a regulatory authority investigates the company entity itself (rather than an individual director) — for example, an FMA investigation into the company's financial advice practices or a WorkSafe investigation into a workplace safety system failure.</li>
   <li><strong>Crisis Management Costs:</strong> Some management liability policies include a crisis management extension covering the costs of PR consultants, communications specialists, and crisis response planning following a covered event — a board investigation, a media-covered ERA case, or a regulatory action.</li>
@@ -864,9 +864,9 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>Who Needs Management Liability Insurance in New Zealand?</h2>
-<p>Management liability insurance suits any NZ business that has directors or officers, employs people, handles money or data, and operates in a regulated environment. Priority segments include:</p>
+<p>Management liability insurance suits any business that has directors or officers, employs people, handles money or data, and operates in a regulated environment. Priority segments include:</p>
 <ul>
-  <li><strong>SMEs with directors and employees:</strong> The combined exposure from Companies Act director liability, employment law, employee fraud, and regulatory compliance makes management liability the most efficient single solution for most NZ SMEs.</li>
+  <li><strong>SMEs with directors and employees:</strong> The combined exposure from Companies Act director liability, employment law, employee fraud, and regulatory compliance makes management liability the most efficient single solution for most SMEs.</li>
   <li><strong>Growing businesses:</strong> As businesses scale from sole traders to companies with boards and management teams, management liability becomes increasingly necessary. The window of highest risk is often during rapid growth when governance structures are still developing.</li>
   <li><strong>Professional services firms:</strong> <a href="/professions/accountants/">Accounting</a> practices, <a href="/professions/financial-advisers/">financial advice</a> firms, and <a href="/professions/consultants/">management consultancies</a> have complex liability profiles. Management liability provides a base layer of protection that works alongside PI insurance.</li>
   <li><strong>Construction and contracting:</strong> HSWA exposure, subcontractor management, and complex contractual relationships create significant statutory, D&amp;O and employment risk. Management liability is increasingly seen as standard for NZ construction firms.</li>
@@ -875,7 +875,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>How Much Does Management Liability Insurance Cost in NZ?</h2>
-<p>Management liability bundles in New Zealand start from around $120 per month for a small company with 2–5 directors and employees. Cost drivers include:</p>
+<p>Management liability bundles in New Zealand start from around $120 per month for a small company with 2–5 directors and employees. Key cost drivers include:</p>
 <ul>
   <li><strong>Company size and turnover:</strong> Revenue is the primary rating factor across most sections — it correlates with exposure across D&amp;O, EPL, and crime.</li>
   <li><strong>Number of employees:</strong> EPL exposure scales with headcount. More employees means more potential claimants.</li>
@@ -906,7 +906,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>Getting the Right Management Liability Cover in NZ</h2>
-<p>When purchasing management liability, work with a licensed NZ insurance adviser to:</p>
+<p>When purchasing management liability, work with a licensed insurance adviser to:</p>
 <ul>
   <li>Map your business's specific risk profile across D&amp;O, EPL, crime and statutory liability.</li>
   <li>Confirm sublimits are adequate for each section — not just the aggregate limit.</li>
@@ -914,7 +914,7 @@ export const coverageTypes: CoverageType[] = [
   <li>Ensure group company structures are correctly scheduled in the policy.</li>
   <li>Consider adding cyber liability if your business handles customer data or relies on electronic payments.</li>
 </ul>
-<p><a href="/compare/">Compare management liability options</a> or <a href="/contact/">request a quote</a> from a licensed NZ insurance adviser today.</p>
+<p><a href="/compare/">Compare management liability options</a> or <a href="/contact/">request a quote</a> from a licensed insurance adviser today.</p>
     `.trim(),
   },
   {
@@ -960,7 +960,7 @@ export const coverageTypes: CoverageType[] = [
       },
       {
         q: 'How long do I need run-off cover for?',
-        a: "The NZ Limitation Act 2010 provides for a 6-year general limitation period from the date of the act or omission, and a 15-year longstop period from the date of the act. In practice, professional negligence claims in NZ are most commonly made within 3–5 years of the services being provided — but the 15-year longstop means exposure persists for much longer. Most NZ advisers recommend a minimum of 6 years' run-off cover. For <a href='/professions/architects-engineers/'>architects and engineers</a>, where latent defects in buildings can surface many years after completion, the full 15 years of cover is sometimes recommended.",
+        a: "The NZ Limitation Act 2010 provides for a 6-year general limitation period from the date of the act or omission, and a 15-year longstop period from the date of the act. In practice, professional negligence claims in NZ are most commonly made within 3–5 years of the services being provided — but the 15-year longstop means exposure persists for much longer. Most advisers recommend a minimum of 6 years' run-off cover. For <a href='/professions/architects-engineers/'>architects and engineers</a>, where latent defects in buildings can surface many years after completion, the full 15 years of cover is sometimes recommended.",
       },
       {
         q: 'Is run-off cover required when I sell my business?',
@@ -972,7 +972,7 @@ export const coverageTypes: CoverageType[] = [
       },
       {
         q: 'Can I get run-off cover from a different insurer than my existing PI?',
-        a: "Yes, though it is generally simpler and cheaper to arrange run-off cover with your existing PI insurer. Your existing insurer already knows your risk profile and practice history, making underwriting faster and pricing more accurate. If your existing insurer does not offer run-off cover, or if pricing is uncompetitive, a licensed NZ insurance adviser can arrange run-off cover with a specialist insurer. The key is to ensure the run-off policy's retroactive date matches your original PI policy's inception date, covering your entire professional career.",
+        a: "Yes, though it is generally simpler and cheaper to arrange run-off cover with your existing PI insurer. Your existing insurer already knows your risk profile and practice history, making underwriting faster and pricing more accurate. If your existing insurer does not offer run-off cover, or if pricing is uncompetitive, a licensed insurance adviser can arrange run-off cover with a specialist insurer. The key is to ensure the run-off policy's retroactive date matches your original PI policy's inception date, covering your entire professional career.",
       },
     ],
     longFormContent: `
@@ -989,7 +989,7 @@ export const coverageTypes: CoverageType[] = [
   <li>Covers legal defence costs and compensation payments, just as an active PI policy would.</li>
 </ul>
 <p>Run-off cover periods vary. Policies are available for 1 year, 2 years, 3 years, 5 years, 7 years, and in some cases indefinitely (though ongoing premium is required). The appropriate period depends on the nature of your work and the statutes of limitations that apply.</p>
-<p>Under New Zealand's Limitation Act 2010, the standard limitation period for professional negligence claims is 6 years from the date of the act or omission, with a 15-year longstop period. This means that in theory, a claim could be made against you up to 15 years after you cease practice — though in practice, most claims surface within 3–5 years. Most NZ advisers recommend a minimum of 6 years' run-off cover as a baseline.</p>
+<p>Under New Zealand's Limitation Act 2010, the standard limitation period for professional negligence claims is 6 years from the date of the act or omission, with a 15-year longstop period. This means that in theory, a claim could be made against you up to 15 years after you cease practice — though in practice, most claims surface within 3–5 years. Most advisers recommend a minimum of 6 years' run-off cover as a baseline.</p>
 <p>Run-off premiums are typically calculated as a percentage of your last annual PI premium — commonly 150–300% of the annual premium for a multi-year run-off arrangement paid as a single lump sum, or a reduced annual premium for each year of run-off cover maintained.</p>
 
 <h2>What Does Run-off Cover Cover?</h2>
@@ -1014,7 +1014,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>Who Needs Run-off Cover in New Zealand?</h2>
-<p>Run-off cover is needed by any professional in New Zealand who ceases active practice while remaining exposed to claims from past work. Priority groups include:</p>
+<p>Run-off cover is needed by any professional who ceases active practice while remaining exposed to claims from past work. Priority groups include:</p>
 <ul>
   <li><strong>Retiring professionals:</strong> Accountants, lawyers, architects, engineers, financial advisers and healthcare practitioners all face extended exposure after retirement. The longer the career, the more years of past work that remain within limitation periods.</li>
   <li><strong>Business sellers:</strong> When selling a professional services business, the seller typically retains liability for work done before settlement. Run-off cover in the seller's name protects against post-sale claims from pre-sale work.</li>
@@ -1027,7 +1027,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>How Much Does Run-off Cover Cost in NZ?</h2>
-<p>Run-off cover premiums in New Zealand typically reflect a percentage of the last active PI annual premium:</p>
+<p>Run-off cover premiums typically reflect a percentage of the last active PI annual premium:</p>
 <ul>
   <li><strong>One-year run-off:</strong> Commonly 75–100% of the annual premium.</li>
   <li><strong>Two-year run-off:</strong> Commonly 125–175% of the annual premium (total for two years).</li>
@@ -1054,7 +1054,7 @@ export const coverageTypes: CoverageType[] = [
 </ul>
 
 <h2>Getting the Right Run-off Cover in NZ</h2>
-<p>When arranging run-off cover, act before your active PI policy expires — some insurers will not offer run-off cover if there has been any gap in coverage. Work with a licensed NZ insurance adviser to:</p>
+<p>When arranging run-off cover, act before your active PI policy expires — some insurers will not offer run-off cover if there has been any gap in coverage. Work with a licensed insurance adviser to:</p>
 <ul>
   <li>Obtain run-off quotes from your existing insurer and at least one specialist alternative.</li>
   <li>Confirm the retroactive date on the run-off policy matches your entire career history.</li>

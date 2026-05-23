@@ -22,7 +22,7 @@ export const landingPages: LandingPage[] = [
     metaTitle: 'PI Insurance Auckland | Professional Indemnity Quotes | indemnityinsurance.co.nz',
     metaDescription: 'Get professional indemnity insurance in Auckland. Trusted advice for accountants, engineers, IT consultants, architects and all Auckland professionals. Compare PI quotes today.',
     excerpt: 'Auckland professionals across finance, engineering, technology, construction and healthcare need PI insurance. Get expert guidance and competitive quotes tailored to the Auckland market.',
-    heroContent: 'Auckland is home to the majority of New Zealand\'s professional services sector — from CBD-based financial advisers and law firms to Manukau engineering consultancies and North Shore IT contractors. As Auckland\'s economy grows, so does professional liability exposure. Get PI insurance advice from a licensed NZ adviser who understands the Auckland market.',
+    heroContent: 'Auckland is home to the majority of New Zealand\'s professional services sector — from CBD-based financial advisers and law firms to Manukau engineering consultancies and North Shore IT contractors. As Auckland\'s economy grows, so does professional liability exposure. Get PI insurance advice from a licensed adviser who understands the Auckland market.',
     bodyContent: `<h2>Professional Indemnity Insurance for Auckland Professionals</h2>
 <p>Auckland accounts for approximately one third of New Zealand's GDP and is home to the country's largest concentration of professional services firms. From financial advisers and accountants in the CBD to architects and engineers in Newmarket, IT consultants across North Shore and South Auckland, and a growing cluster of tech and marketing businesses in Parnell, Ponsonby, and Grey Lynn — Auckland professionals face significant professional liability exposure.</p>
 <p>Professional indemnity (PI) insurance protects Auckland professionals from client claims alleging that professional advice or services caused a financial loss. Whether you are a sole-trader consultant working from home or a professional services firm with 20 staff, a single PI claim can cost tens of thousands of dollars in legal fees and compensation — often far exceeding the original fee for the work in question.</p>
@@ -60,7 +60,7 @@ export const landingPages: LandingPage[] = [
 <p>PI insurance premiums are fully tax deductible as a business expense for Auckland professionals and businesses.</p>
 
 <h2>How to Get PI Insurance in Auckland</h2>
-<p>Auckland professionals can access PI insurance through Cover4You's team of licensed NZ insurance advisers. Unlike direct comparison sites or generic brokers, a specialist PI adviser will review your specific professional activities, contract requirements, and risk profile — ensuring your policy actually covers the work you do.</p>
+<p>Auckland professionals can access PI insurance through Cover4You's team of licensed insurance advisers. Unlike direct comparison sites or generic brokers, a specialist PI adviser will review your specific professional activities, contract requirements, and risk profile — ensuring your policy actually covers the work you do.</p>
 <p>Most Auckland professionals can receive a tailored PI quote within one business day. Our advisers are familiar with the specific requirements of Auckland Council, government agencies, and corporate clients operating in the Auckland market.</p>`,
     faqs: [
       {
@@ -123,7 +123,7 @@ export const landingPages: LandingPage[] = [
 <p>These are baseline requirements — specific agencies and contract terms may specify higher levels. Having adequate PI cover in place before tendering ensures you are not excluded from opportunities on insurance grounds alone.</p>
 
 <h2>How Much Does PI Insurance Cost in Wellington?</h2>
-<p>Wellington PI insurance costs are broadly consistent with NZ market pricing. Indicative costs for Wellington professionals:</p>
+<p>Wellington PI insurance costs are broadly consistent with market pricing. Indicative costs for Wellington professionals:</p>
 <ul>
 <li>IT consultants and developers: $80–$180/month</li>
 <li>Management consultants: $90–$200/month</li>
@@ -242,8 +242,8 @@ export const landingPages: LandingPage[] = [
     metaTitle: 'PI Insurance for Sole Traders NZ | Professional Indemnity Cover | indemnityinsurance.co.nz',
     metaDescription: 'Sole traders in NZ carry unlimited personal liability without PI insurance. Get affordable professional indemnity cover for NZ freelancers, consultants and contractors from $50/month.',
     excerpt: 'As a NZ sole trader, every PI claim hits you personally. There is no company structure to limit your liability. PI insurance protects your personal assets, your bank account, and your future earnings.',
-    heroContent: 'New Zealand has over 370,000 registered sole traders. Without a company structure, every professional claim hits you personally — your savings, your property, your future income. PI insurance is the essential safety net for NZ sole traders providing professional advice or services. Cover starts from around $50/month and is fully tax deductible.',
-    bodyContent: `<h2>Why PI Insurance Is Essential for NZ Sole Traders</h2>
+    heroContent: 'New Zealand has over 370,000 registered sole traders. Without a company structure, every professional claim hits you personally — your savings, your property, your future income. PI insurance is the essential safety net for sole traders providing professional advice or services. Cover starts from around $50/month and is fully tax deductible.',
+    bodyContent: `<h2>Why PI Insurance Is Essential for Sole Traders</h2>
 <p>Operating as a sole trader is the simplest way to run a professional services business in New Zealand. There is no company registration, no complex compliance, and no split between business and personal income. But that simplicity comes with a significant risk: unlimited personal liability.</p>
 <p>As a sole trader, you are your business. There is no corporate veil between you and a client making a claim — if a court awards $80,000 in damages against "your business," that judgment is enforceable against your personal assets: your bank account, your home (if you own one), your vehicle, your savings, and your future earnings. Professional indemnity insurance is the mechanism that stands between a professional liability claim and your personal financial ruin.</p>
 
@@ -264,7 +264,7 @@ export const landingPages: LandingPage[] = [
 <h2>Common Ways Sole Traders Get Caught Without Adequate PI</h2>
 
 <h3>The "I'm Too Small to Be Sued" Misconception</h3>
-<p>Many NZ sole traders assume that because they are small, clients will not pursue PI claims against them. This is a dangerous misconception. In practice, professional liability claims against sole traders are common — particularly when:</p>
+<p>Many sole traders assume that because they are small, clients will not pursue PI claims against them. This is a dangerous misconception. In practice, professional liability claims against sole traders are common — particularly when:</p>
 <ul>
 <li>The client is a business themselves (not a consumer) and has their own legal team</li>
 <li>The alleged error has caused a measurable, documentable financial loss</li>
@@ -278,8 +278,8 @@ export const landingPages: LandingPage[] = [
 <h3>The "I'll Just Work Through a Company" Delay</h3>
 <p>Some sole traders intend to form a company "eventually" but continue to operate as sole traders for months or years. Every day of sole-trader operation is a day of unlimited personal liability. PI insurance provides immediate protection while your business structure evolves.</p>
 
-<h2>How Much PI Insurance Does a NZ Sole Trader Need?</h2>
-<p>For most NZ sole traders, $1M PI cover per claim and in aggregate is the appropriate starting point. This is sufficient for the majority of sole-trader professional engagements and meets the minimum requirements of most client contracts and government procurement panels.</p>
+<h2>How Much PI Insurance Does a Sole Trader Need?</h2>
+<p>For most sole traders, $1M PI cover per claim and in aggregate is the appropriate starting point. This is sufficient for the majority of sole-trader professional engagements and meets the minimum requirements of most client contracts and government procurement panels.</p>
 <p>However, some sole traders need higher cover:</p>
 <ul>
 <li>Engineers and architects providing residential design or certification: $1M–$2M minimum (mandatory minimums expected post-2025 regulations)</li>
@@ -288,8 +288,8 @@ export const landingPages: LandingPage[] = [
 <li>Management consultants advising on significant investment or acquisition decisions: $2M per claim</li>
 </ul>
 
-<h2>What Does PI Insurance Cost for NZ Sole Traders?</h2>
-<p>PI insurance for NZ sole traders is among the most affordable professional liability products in the market, reflecting the typically lower revenue base and risk scale of sole-trader operations. Indicative monthly costs for $1M cover:</p>
+<h2>What Does PI Insurance Cost for Sole Traders?</h2>
+<p>PI insurance for sole traders is among the most affordable professional liability products in the market, reflecting the typically lower revenue base and risk scale of sole-trader operations. Indicative monthly costs for $1M cover:</p>
 <ul>
 <li>Freelance marketing, copywriting, social media: $50–$80/month</li>
 <li>Bookkeeping and accounting (non-CAANZ): $60–$90/month</li>
@@ -298,10 +298,10 @@ export const landingPages: LandingPage[] = [
 <li>Financial adviser (FAP licensed): $90–$180/month</li>
 <li>Structural or civil engineer: $150–$300/month</li>
 </ul>
-<p>These premiums are 100% tax deductible as a business expense, reducing the after-tax cost for most NZ sole traders by approximately 28–33%.</p>
+<p>These premiums are 100% tax deductible as a business expense, reducing the after-tax cost for most sole traders by approximately 28–33%.</p>
 
 <h2>Sole Trader PI Insurance and Client Contract Requirements</h2>
-<p>NZ clients — particularly businesses and government agencies — increasingly require PI insurance as a standard contracting condition. If you do not have PI cover, you may be unable to:</p>
+<p>Clients — particularly businesses and government agencies — increasingly require PI insurance as a standard contracting condition. If you do not have PI cover, you may be unable to:</p>
 <ul>
 <li>Onboard with a new corporate client who requires a certificate of currency</li>
 <li>Tender for government contracts that specify minimum PI levels</li>
@@ -310,8 +310,8 @@ export const landingPages: LandingPage[] = [
 </ul>
 <p>Having PI insurance in place — and being able to produce a current certificate of currency within minutes — removes a common friction point in the client onboarding process.</p>
 
-<h2>Getting PI Insurance as a NZ Sole Trader</h2>
-<p>Sole traders can access PI insurance quickly through a licensed NZ insurance adviser. The process typically involves completing a brief proposal form (around 10–15 minutes) covering your profession, annual revenue, and the nature of your activities. Most sole traders receive quotes within 24 hours and can have cover in place within two business days.</p>
+<h2>Getting PI Insurance as a Sole Trader</h2>
+<p>Sole traders can access PI insurance quickly through a licensed insurance adviser. The process typically involves completing a brief proposal form (around 10–15 minutes) covering your profession, annual revenue, and the nature of your activities. Most sole traders receive quotes within 24 hours and can have cover in place within two business days.</p>
 <p>Your adviser will ensure your policy's definition of "professional services" matches the actual work you do — including any advisory, training, or coaching services — and that your cover level meets any specific contract requirements you have.</p>`,
     faqs: [
       {
@@ -344,15 +344,15 @@ export const landingPages: LandingPage[] = [
     metaDescription: 'Compare professional indemnity insurance in NZ. Policy wordings, cover limits, excess levels and premiums vary significantly. Get expert advice to find the right PI cover for your profession.',
     excerpt: 'PI insurance is not a commodity — policy wordings differ significantly between NZ insurers. Comparing PI cover means looking beyond premium to retroactive dates, coverage scope, and policy terms.',
     heroContent: 'Comparing professional indemnity insurance in New Zealand requires more than comparing prices. The cheapest policy may have a narrow definition of professional services, a recent retroactive date, or a high excess that applies to defence costs. Our licensed advisers compare the NZ PI market — including QBE, BHSI, Dual, Vero, and Lloyd\'s syndicates — to find the right cover for your specific profession and risk profile.',
-    bodyContent: `<h2>Why Comparing PI Insurance in NZ Is Complex</h2>
-<p>Professional indemnity insurance in New Zealand is a specialist product supplied by a relatively small number of insurers and Lloyd's of London syndicates. The NZ PI market is not a commodity market where identical products compete purely on price — policy wordings, coverage scope, excess structures, and claims handling quality vary significantly between insurers. Two policies at exactly the same annual premium can provide materially different levels of protection.</p>
-<p>This guide explains the key dimensions for comparing NZ PI insurance — so you understand what to look for beyond the premium figure.</p>
+    bodyContent: `<h2>Why Comparing PI Insurance Is Complex</h2>
+<p>Professional indemnity insurance in New Zealand is a specialist product supplied by a relatively small number of insurers and Lloyd's of London syndicates. The PI market here is not a commodity market where identical products compete purely on price — policy wordings, coverage scope, excess structures, and claims handling quality vary significantly between insurers. Two policies at exactly the same annual premium can provide materially different levels of protection.</p>
+<p>This guide explains the key dimensions for comparing PI insurance — so you understand what to look for beyond the premium figure.</p>
 
-<h2>The NZ PI Insurance Market — Key Participants</h2>
-<p>NZ professional indemnity insurance capacity is provided by a relatively concentrated group of specialist insurers:</p>
+<h2>The PI Insurance Market — Key Participants</h2>
+<p>Professional indemnity insurance capacity in New Zealand is provided by a relatively concentrated group of specialist insurers:</p>
 <ul>
 <li><strong>QBE Insurance:</strong> One of the largest PI writers in NZ, with strong expertise across professional services, construction, and financial lines</li>
-<li><strong>BHSI (Berkshire Hathaway Specialty Insurance):</strong> A newer but significant participant in the NZ PI market, known for competitive terms in professional liability</li>
+<li><strong>BHSI (Berkshire Hathaway Specialty Insurance):</strong> A newer but significant participant, known for competitive terms in professional liability</li>
 <li><strong>Dual:</strong> A specialist MGA (managing general agent) providing PI capacity across a wide range of professions</li>
 <li><strong>Vero:</strong> Provides PI cover through broker networks; strong in SME professional services</li>
 <li><strong>Lloyd's of London syndicates:</strong> Available through specialist brokers for higher-limit or more complex PI risks</li>
@@ -397,7 +397,7 @@ export const landingPages: LandingPage[] = [
 <p>Compare the financial strength and claims handling reputation of each insurer. In PI, claims can take years to resolve — you want an insurer with a strong balance sheet and experienced claims handlers who understand professional liability. Check insurer financial strength ratings where available.</p>
 
 <h2>How to Compare PI Insurance in Practice</h2>
-<p>Given the complexity of PI policy comparisons, the most effective approach is to work with a licensed NZ insurance adviser who specialises in professional liability. A specialist adviser:</p>
+<p>Given the complexity of PI policy comparisons, the most effective approach is to work with a licensed insurance adviser who specialises in professional liability. A specialist adviser:</p>
 <ul>
 <li>Accesses multiple PI insurers and Lloyd's markets on your behalf</li>
 <li>Compares policy wordings — not just premium figures</li>
@@ -409,7 +409,7 @@ export const landingPages: LandingPage[] = [
 <p>Using an online comparison tool or direct-to-insurer quote system does not provide the same level of policy wording analysis and professional guidance. For PI insurance, the quality of advice you receive is as important as the premium you pay.</p>
 
 <h2>Price vs Value — The Right Comparison Framework</h2>
-<p>When comparing PI quotes in NZ, the right question is not "which policy is cheapest?" but "which policy provides the best value for my specific risk profile?" A policy that costs $20/month more but includes defence costs outside the limit, a broader professional services definition, and automatic reinstatement can be worth thousands of dollars more in a claim scenario.</p>
+<p>When comparing PI quotes, the right question is not "which policy is cheapest?" but "which policy provides the best value for my specific risk profile?" A policy that costs $20/month more but includes defence costs outside the limit, a broader professional services definition, and automatic reinstatement can be worth thousands of dollars more in a claim scenario.</p>
 <p>Our licensed advisers provide written comparisons that highlight both the premium differences and the key coverage differences between competing quotes — so you can make an informed decision based on total value, not just price.</p>`,
     faqs: [
       {
@@ -447,7 +447,7 @@ export const landingPages: LandingPage[] = [
 <p>Professional liability insurance protects professionals, consultants, and advisory businesses from claims arising when a client alleges that the professional's advice, expertise, or services caused them a financial loss. It is distinct from public liability insurance (which covers physical injury or property damage to third parties) and management liability insurance (which covers the management and governance of a business).</p>
 
 <h2>What Professional Liability Insurance Covers</h2>
-<p>A comprehensive NZ professional liability insurance policy covers:</p>
+<p>A comprehensive professional liability insurance policy covers:</p>
 <ul>
 <li><strong>Professional negligence:</strong> Failing to meet the expected standard of care in your profession — the most common PI claim type in NZ</li>
 <li><strong>Errors and omissions:</strong> Mistakes, oversights, or gaps in the professional services you provided</li>
@@ -460,13 +460,13 @@ export const landingPages: LandingPage[] = [
 </ul>
 
 <h2>How Professional Liability Insurance Works in NZ</h2>
-<p>All NZ professional liability insurance policies operate on a "claims-made" basis. This has two critical implications:</p>
+<p>All professional liability insurance policies in New Zealand operate on a "claims-made" basis. This has two critical implications:</p>
 <p><strong>First:</strong> The policy that responds to a claim is the one active when the claim is made — not the one active when the work was done. You must have cover in place when a client makes a claim against you, regardless of when the underlying work occurred.</p>
 <p><strong>Second:</strong> Your policy will have a retroactive date — the earliest date from which past work is covered. Work done before the retroactive date is not covered by your current policy, even if a claim arises now.</p>
 <p>These two features of claims-made policies create the need for: (a) continuous, uninterrupted PI cover throughout your professional career; and (b) run-off cover when you retire or stop practising, to protect against future claims from historical work.</p>
 
-<h2>Who Needs Professional Liability Insurance in NZ?</h2>
-<p>Professional liability insurance is mandatory, strongly recommended, or required by clients for a wide range of NZ professions:</p>
+<h2>Who Needs Professional Liability Insurance?</h2>
+<p>Professional liability insurance is mandatory, strongly recommended, or required by clients for a wide range of professions:</p>
 
 <h3>Mandatory by Regulation or Professional Body</h3>
 <ul>
@@ -512,10 +512,10 @@ export const landingPages: LandingPage[] = [
 <li>Your annual revenue (higher revenue generally supports higher potential claim values)</li>
 <li>The sectors you work in (construction, finance, healthcare carry higher risk)</li>
 </ul>
-<p>For most NZ professionals, $1M per claim and in aggregate is the starting point. Engineers, architects, financial advisers, and those working with high-value clients typically need $2M–$5M. The additional premium cost for higher limits is modest relative to the protection provided.</p>
+<p>For most professionals, $1M per claim and in aggregate is the starting point. Engineers, architects, financial advisers, and those working with high-value clients typically need $2M–$5M. The additional premium cost for higher limits is modest relative to the protection provided.</p>
 
 <h2>Getting Professional Liability Insurance in New Zealand</h2>
-<p>NZ professional liability insurance is available through licensed insurance advisers who specialise in professional liability and financial lines. A specialist adviser can access QBE, BHSI, Dual, Vero, and Lloyd's markets, compare policy wordings, and ensure your cover is correctly scoped for your specific activities. Most NZ professionals can obtain quotes and activate cover within one to two business days.</p>`,
+<p>Professional liability insurance is available through licensed insurance advisers who specialise in professional liability and financial lines. A specialist adviser can access QBE, BHSI, Dual, Vero, and Lloyd's markets, compare policy wordings, and ensure your cover is correctly scoped for your specific activities. Most professionals can obtain quotes and activate cover within one to two business days.</p>`,
     faqs: [
       {
         q: 'Is "professional liability insurance" the same as "professional indemnity insurance" in NZ?',
@@ -527,7 +527,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         q: 'How long does it take to get professional liability insurance in NZ?',
-        a: 'Most NZ professionals can obtain PI insurance within one to two business days. You will need to complete a brief proposal form, and your adviser will present quotes from relevant insurers. Once you select a policy, cover can usually be bound the same day.',
+        a: 'Most professionals can obtain PI insurance within one to two business days. You will need to complete a brief proposal form, and your adviser will present quotes from relevant insurers. Once you select a policy, cover can usually be bound the same day.',
       },
       {
         q: 'Can I get professional liability insurance if I\'m just starting out?',
@@ -546,46 +546,46 @@ export const landingPages: LandingPage[] = [
     metaTitle: 'Indemnity Insurance NZ Small Business | SME Cover Guide | indemnityinsurance.co.nz',
     metaDescription: 'Small business indemnity insurance in NZ — professional indemnity, public liability, and management liability explained. Get the right cover for your NZ SME from $65/month.',
     excerpt: 'NZ small businesses need indemnity insurance to protect against client claims, employment disputes, and regulatory breaches. Here\'s what cover your SME needs and what it costs.',
-    heroContent: 'New Zealand\'s small businesses — sole traders, partnerships, and companies with 1–20 staff — face professional liability, public liability, and management liability risks every day. The right combination of indemnity insurance covers protects your business, your directors, and your personal assets from the most common and costly claims NZ SMEs face.',
-    bodyContent: `<h2>Indemnity Insurance for NZ Small Businesses — What It Means</h2>
-<p>When NZ small business owners talk about "indemnity insurance," they typically mean one or more of three related but distinct products:</p>
+    heroContent: 'New Zealand\'s small businesses — sole traders, partnerships, and companies with 1–20 staff — face professional liability, public liability, and management liability risks every day. The right combination of indemnity insurance covers protects your business, your directors, and your personal assets from the most common and costly claims SMEs face.',
+    bodyContent: `<h2>Indemnity Insurance for Small Businesses — What It Means</h2>
+<p>When small business owners talk about "indemnity insurance," they typically mean one or more of three related but distinct products:</p>
 <ul>
 <li><strong>Professional indemnity (PI) insurance:</strong> Covers claims from clients alleging your professional advice or services caused them a financial loss</li>
 <li><strong>Public liability insurance:</strong> Covers claims from third parties who suffer physical injury or property damage caused by your business activities</li>
 <li><strong>Management liability insurance:</strong> Covers claims against directors and officers, employment practices claims from employees, and statutory liability</li>
 </ul>
-<p>Most NZ small businesses providing professional services need at least the first two. Small businesses with employees and directors typically need all three. This guide explains each component and how to think about what your specific business needs.</p>
+<p>Most small businesses providing professional services need at least the first two. Small businesses with employees and directors typically need all three. This guide explains each component and how to think about what your specific business needs.</p>
 
-<h2>Professional Indemnity Insurance for NZ SMEs</h2>
-<p>Professional indemnity insurance is relevant for any NZ small business that provides professional advice, expertise, or specialist services. This includes professional services firms, consulting businesses, IT companies, marketing agencies, engineering practices, accounting firms, and many other advisory businesses.</p>
-<p>For NZ SMEs, PI claims are typically the most financially dangerous type of professional claim because:</p>
+<h2>Professional Indemnity Insurance for SMEs</h2>
+<p>Professional indemnity insurance is relevant for any small business that provides professional advice, expertise, or specialist services. This includes professional services firms, consulting businesses, IT companies, marketing agencies, engineering practices, accounting firms, and many other advisory businesses.</p>
+<p>For SMEs, PI claims are typically the most financially dangerous type of professional claim because:</p>
 <ul>
 <li>They arise from your core business activity — you cannot avoid them by changing your operational approach</li>
 <li>They can be made years after the work was done (claims-made basis)</li>
 <li>Legal defence costs alone can run to $30,000–$100,000+ for a contested PI claim</li>
 <li>A single large claim can exceed a small business's entire annual revenue</li>
 </ul>
-<p>For most NZ small businesses with annual revenue under $1M, PI cover of $1M per claim is the appropriate starting level. Businesses with larger clients, government contracts, or higher-risk professional activities should consider $2M–$5M cover.</p>
+<p>For most small businesses with annual revenue under $1M, PI cover of $1M per claim is the appropriate starting level. Businesses with larger clients, government contracts, or higher-risk professional activities should consider $2M–$5M cover.</p>
 
-<h2>Public Liability Insurance for NZ SMEs</h2>
-<p>Public liability insurance protects NZ small businesses from claims arising when a client, customer, or member of the public suffers physical injury or property damage because of your business activities. Common scenarios for small businesses include:</p>
+<h2>Public Liability Insurance for SMEs</h2>
+<p>Public liability insurance protects small businesses from claims arising when a client, customer, or member of the public suffers physical injury or property damage because of your business activities. Common scenarios for small businesses include:</p>
 <ul>
 <li>A client visits your office or premises and trips, falls, or is injured</li>
 <li>You or your staff visit a client's premises and accidentally cause property damage</li>
 <li>A product you supplied or installed causes property damage or injury</li>
 <li>A contractor working on your behalf causes an accident at a client's site</li>
 </ul>
-<p>For most NZ small businesses, $1M–$2M public liability cover is appropriate. Businesses operating in high-risk environments (construction sites, client premises with heavy foot traffic) or supplying products should consider $2M–$5M.</p>
+<p>For most small businesses, $1M–$2M public liability cover is appropriate. Businesses operating in high-risk environments (construction sites, client premises with heavy foot traffic) or supplying products should consider $2M–$5M.</p>
 
-<h2>Management Liability Insurance for NZ Small Businesses</h2>
-<p>Management liability insurance is relevant for any NZ small business that has directors and employees. It covers three distinct risks that are not covered by PI or public liability:</p>
+<h2>Management Liability Insurance for Small Businesses</h2>
+<p>Management liability insurance is relevant for any small business that has directors and employees. It covers three distinct risks that are not covered by PI or public liability:</p>
 <p><strong>Directors' and Officers' (D&O) Liability:</strong> Protects directors personally from claims for wrongful acts in managing the company — including shareholder claims, creditor claims in insolvency, and regulatory investigations.</p>
 <p><strong>Employment Practices Liability (EPL):</strong> Covers claims from current, former, or prospective employees for employment-related wrongful acts — unfair dismissal, discrimination, sexual harassment, constructive dismissal. NZ's ERA makes employment claims relatively easy for employees to pursue.</p>
-<p><strong>Statutory Liability:</strong> Covers the cost of defending and, where insurable, paying fines from unintentional breaches of NZ legislation — particularly the Health and Safety at Work Act, Fair Trading Act, and Employment Relations Act.</p>
-<p>For most NZ SMEs with 3–20 staff, a management liability policy bundling all three components is more cost-effective than separate policies. Management liability packages start from around $120–$200/month for small businesses.</p>
+<p><strong>Statutory Liability:</strong> Covers the cost of defending and, where insurable, paying fines from unintentional breaches of legislation — particularly the Health and Safety at Work Act, Fair Trading Act, and Employment Relations Act.</p>
+<p>For most SMEs with 3–20 staff, a management liability policy bundling all three components is more cost-effective than separate policies. Management liability packages start from around $120–$200/month for small businesses.</p>
 
-<h2>What Does Small Business Indemnity Insurance Cost in NZ?</h2>
-<p>Indicative costs for NZ SMEs with annual revenue of $200,000–$1M:</p>
+<h2>What Does Small Business Indemnity Insurance Cost?</h2>
+<p>Indicative costs for SMEs with annual revenue of $200,000–$1M:</p>
 <ul>
 <li>Professional indemnity ($1M): $65–$200/month depending on profession and risk</li>
 <li>Public liability ($1M–$2M): $50–$120/month</li>
@@ -593,10 +593,10 @@ export const landingPages: LandingPage[] = [
 <li>Combined PI + PL package: $100–$280/month</li>
 <li>Full suite (PI + PL + management liability): $200–$500/month</li>
 </ul>
-<p>All premiums are tax deductible as business expenses. Many NZ insurers offer package discounts when multiple covers are purchased together.</p>
+<p>All premiums are tax deductible as business expenses. Many insurers offer package discounts when multiple covers are purchased together.</p>
 
-<h2>When NZ Small Businesses Typically Get Their First PI Claim</h2>
-<p>Based on NZ market claims experience, PI claims against small businesses most commonly arise:</p>
+<h2>When Small Businesses Typically Get Their First PI Claim</h2>
+<p>Based on market claims experience, PI claims against small businesses most commonly arise:</p>
 <ul>
 <li>When a long-term client relationship breaks down and the client retrospectively challenges the quality of advice provided</li>
 <li>When a project goes significantly over budget or under-delivers, and the client seeks to recover their losses</li>
@@ -605,21 +605,21 @@ export const landingPages: LandingPage[] = [
 </ul>
 <p>The time between the professional service being provided and a PI claim being made can be anywhere from a few months to several years. This is why maintaining continuous, uninterrupted PI cover is essential — not just when you think you are at risk.</p>
 
-<h2>Getting Indemnity Insurance for Your NZ Small Business</h2>
-<p>Cover4You's licensed advisers work with NZ small businesses across all sectors to structure the right combination of indemnity covers. We can arrange PI, public liability, and management liability as a combined package — or advise on the individual components you need based on your specific business activities, client types, and contractual requirements.</p>
-<p>Most NZ small businesses can receive a tailored package quote within one to two business days. Contact us to discuss your requirements or to request a comparison of available options.</p>`,
+<h2>Getting Indemnity Insurance for Your Small Business</h2>
+<p>Cover4You's licensed advisers work with small businesses across all sectors to structure the right combination of indemnity covers. We can arrange PI, public liability, and management liability as a combined package — or advise on the individual components you need based on your specific business activities, client types, and contractual requirements.</p>
+<p>Most small businesses can receive a tailored package quote within one to two business days. Contact us to discuss your requirements or to request a comparison of available options.</p>`,
     faqs: [
       {
-        q: 'Does my NZ small business need both PI and public liability insurance?',
-        a: 'For most NZ small businesses providing professional services, yes. PI covers financial loss claims from professional advice errors; public liability covers physical injury or property damage claims. These are distinct risks — PI alone does not protect you if a client is injured at your office, and public liability alone does not protect you from a claim that your professional advice caused a financial loss.',
+        q: 'Does my small business need both PI and public liability insurance?',
+        a: 'For most small businesses providing professional services, yes. PI covers financial loss claims from professional advice errors; public liability covers physical injury or property damage claims. These are distinct risks — PI alone does not protect you if a client is injured at your office, and public liability alone does not protect you from a claim that your professional advice caused a financial loss.',
       },
       {
-        q: 'At what size does a NZ business need management liability insurance?',
+        q: 'At what size does a business need management liability insurance?',
         a: 'Management liability is relevant from the moment you have a company with directors and employees. Even a small company with 2–3 staff has employment practices liability exposure through the ERA\'s personal grievance process. D&O protection is relevant from the time a director makes decisions that could attract personal liability — which is true from the first day of trading.',
       },
       {
         q: 'Can I get a package combining PI, public liability, and management liability?',
-        a: 'Yes — many NZ insurers offer combined package policies for small businesses that bundle PI, public liability, and management liability into a single policy with a single premium and renewal date. Package policies typically offer a cost saving compared to purchasing each cover separately. Ask your adviser to quote both individually and as a package.',
+        a: 'Yes — many insurers offer combined package policies for small businesses that bundle PI, public liability, and management liability into a single policy with a single premium and renewal date. Package policies typically offer a cost saving compared to purchasing each cover separately. Ask your adviser to quote both individually and as a package.',
       },
       {
         q: 'My small business has no employees — do I still need management liability?',
@@ -639,9 +639,9 @@ export const landingPages: LandingPage[] = [
     metaDescription: 'Government contracts in NZ require professional indemnity insurance — typically $1M–$2M minimum. Get expert guidance on meeting NZ government PI requirements and panel conditions.',
     excerpt: 'NZ government and council contracts specify minimum PI insurance levels. Whether you\'re tendering for All-of-Government panels, agency-specific contracts, or local council work, here\'s what cover you need.',
     heroContent: 'NZ central government and local government contracts consistently require professional indemnity insurance as a standard contracting condition. From All-of-Government IT panels to Wellington council advisory contracts, understanding and meeting the PI requirements is essential before you can win or start government work. Our licensed advisers help government contractors get the right cover quickly.',
-    bodyContent: `<h2>PI Insurance Requirements for NZ Government Contractors</h2>
+    bodyContent: `<h2>PI Insurance Requirements for Government Contractors</h2>
 <p>New Zealand's central government, Crown entities, and local councils are among the largest purchasers of professional services in the country. Government procurement rules require that professional services contractors hold minimum levels of professional indemnity insurance — and these requirements are non-negotiable. If you cannot demonstrate adequate PI cover, you will be unable to join a preferred supplier panel or commence work under a government contract.</p>
-<p>This guide explains the standard PI insurance requirements for NZ government contractors, what cover you need by contract type, and how to ensure you meet the requirements quickly when a tendering opportunity arises.</p>
+<p>This guide explains the standard PI insurance requirements for government contractors, what cover you need by contract type, and how to ensure you meet the requirements quickly when a tendering opportunity arises.</p>
 
 <h2>Central Government PI Requirements</h2>
 <p>The New Zealand Government Procurement (NZGP) rules — administered by the Ministry of Business, Innovation and Employment — set the framework for government insurance requirements. The Model Contracts and standard terms for professional services specify insurance requirements that typically include:</p>
@@ -712,8 +712,8 @@ export const landingPages: LandingPage[] = [
 <p>If you need a certificate of currency urgently for a tender submission, let your adviser know at the outset — we can prioritise quotes and bind cover quickly to meet your deadline.</p>`,
     faqs: [
       {
-        q: 'What is the standard PI cover requirement for NZ government contracts?',
-        a: 'Most NZ central government contracts specify a minimum of $1M professional indemnity insurance per claim and in aggregate, plus $1M public liability. However, many contracts — particularly IT, engineering, and high-value advisory services — specify $2M PI or higher. Always check the specific insurance schedule in your contract.',
+        q: 'What is the standard PI cover requirement for government contracts?',
+        a: 'Most central government contracts specify a minimum of $1M professional indemnity insurance per claim and in aggregate, plus $1M public liability. However, many contracts — particularly IT, engineering, and high-value advisory services — specify $2M PI or higher. Always check the specific insurance schedule in your contract.',
       },
       {
         q: 'Can I use my existing PI insurance for a new government contract?',

@@ -41,7 +41,7 @@ export const professionTypes: ProfessionType[] = [
     ],
     faqs: [
       { q: 'Is PI insurance mandatory for NZ accountants?', a: "CAANZ membership requires professional indemnity insurance as a practising condition. Even non-members are strongly advised to hold PI cover, as clients increasingly request it before engagement. Most professional liability claims against accountants arise from tax errors, missed deadlines, and incorrect financial advice." },
-      { q: 'What level of PI cover do NZ accountants need?', a: "Most NZ accountants choose between $500,000 and $2 million in cover. The right level depends on your client base, the size of transactions you advise on, and any contractual requirements. CAANZ provides minimum cover guidelines for members. BizCover data shows $1M is the most popular level for NZ accountants." },
+      { q: 'What level of PI cover do NZ accountants need?', a: "Most accountants choose between $500,000 and $2 million in cover. The right level depends on your client base, the size of transactions you advise on, and any contractual requirements. CAANZ provides minimum cover guidelines for members. BizCover data shows $1M is the most popular level." },
       { q: 'Does PI insurance cover bookkeepers?', a: "Yes — bookkeepers who provide professional services, prepare financial records, or process payroll face the same exposure to claims as accountants. If an error in your books leads to a client's financial loss, you could face a claim. PI insurance is strongly recommended even for sole-trader bookkeepers." },
       { q: 'What is a retroactive date and why does it matter for accountants?', a: "Because PI insurance is claims-made, a retroactive date determines how far back in time the covered work extends. If you switch insurers, your new policy should match or pre-date the retroactive date of your old policy — otherwise gaps in cover can leave you exposed to claims from work done years earlier. Always check this when renewing or switching." },
       { q: 'Does PI cover IRD audits or investigations?', a: "PI insurance typically covers your legal costs in defending claims made by clients, including situations where IRD penalties arose from your error. It does not usually cover your own regulatory investigations or fines imposed on your firm directly — statutory liability or regulatory investigation cover may be needed for that." },
@@ -72,16 +72,16 @@ export const professionTypes: ProfessionType[] = [
 <p>Accountants and bookkeepers sit at the heart of their clients' financial lives. You calculate tax obligations, prepare financial statements, process payroll, advise on GST compliance, and help clients make decisions that can determine the success or failure of their businesses. That trusted position carries enormous professional responsibility — and genuine financial exposure if something goes wrong.</p>
 <p>A miscalculated tax return that leaves a client facing IRD penalties. A set of financial statements that contained an error a bank relied upon to approve a loan. A missed filing deadline that triggered a late payment penalty. These are not hypothetical scenarios — they are the everyday reality of professional indemnity claims against NZ accountants and bookkeepers. Even where you have done everything correctly, defending a claim costs money, time, and reputational capital that most small accounting firms cannot easily absorb.</p>
 <p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> is the financial safety net that lets you practise with confidence. It covers your legal defence costs and any compensation awarded if a client claims that your professional error, omission, or breach of duty caused them financial loss. Without it, a single significant claim could threaten everything you have built.</p>
-<p>The NZ accounting sector is also experiencing rising client expectations and increasing regulatory complexity. Changes to trust tax rules, the introduction of the Residential Property Withholding Tax, evolving GST rules for online services, and ongoing amendments to the Income Tax Act all create opportunities for error — and client expectations that you will absorb the consequences when things go wrong.</p>
+<p>The accounting sector is also experiencing rising client expectations and increasing regulatory complexity. Changes to trust tax rules, the introduction of the Residential Property Withholding Tax, evolving GST rules for online services, and ongoing amendments to the Income Tax Act all create opportunities for error — and client expectations that you will absorb the consequences when things go wrong.</p>
 
-<h2>Regulatory Requirements for NZ Accountants</h2>
-<p>The professional obligations around PI insurance for NZ accountants are clear. Membership of <strong>Chartered Accountants Australia and New Zealand (CAANZ)</strong> requires members in public practice to hold professional indemnity insurance as a condition of their practising certificate. CAANZ sets minimum cover requirements based on your fee income, and failure to maintain adequate PI cover can result in disciplinary action, including suspension of your practising certificate.</p>
-<p><strong>CPA Australia</strong> members operating in NZ face similar obligations. Both bodies treat PI insurance not as optional risk management but as a foundational professional standard — reflecting the fact that clients place significant financial trust in accountants and deserve the protection of knowing their adviser is properly insured.</p>
+<h2>Regulatory Requirements for Accountants</h2>
+<p>The professional obligations around PI insurance for accountants are clear. Membership of <strong>Chartered Accountants Australia and New Zealand (CAANZ)</strong> requires members in public practice to hold professional indemnity insurance as a condition of their practising certificate. CAANZ sets minimum cover requirements based on your fee income, and failure to maintain adequate PI cover can result in disciplinary action, including suspension of your practising certificate.</p>
+<p><strong>CPA Australia</strong> members operating in New Zealand face similar obligations. Both bodies treat PI insurance not as optional risk management but as a foundational professional standard — reflecting the fact that clients place significant financial trust in accountants and deserve the protection of knowing their adviser is properly insured.</p>
 <p>Beyond membership body requirements, <strong>IRD-registered tax agents</strong> are expected to carry PI cover, and many banks, lenders, and business owners now require a certificate of insurance before accepting financial statements or engaging a firm. Government procurement requirements increasingly mandate PI cover for accounting and advisory services, often specifying minimum limits of $1M to $2M per claim.</p>
 <p>The <strong>Privacy Act 2020</strong> also creates regulatory exposure for accounting firms — you handle highly sensitive client financial data, and a breach of that data can trigger both regulatory investigation costs and client claims that PI insurance helps to cover.</p>
 
-<h2>Common PI Claims Against NZ Accountants</h2>
-<p>Understanding the types of claims that arise helps you appreciate what PI insurance is actually protecting you from. The most common professional indemnity claims against NZ accountants include:</p>
+<h2>Common PI Claims Against Accountants</h2>
+<p>Understanding the types of claims that arise helps you appreciate what PI insurance is actually protecting you from. The most common professional indemnity claims against accountants include:</p>
 <ul>
 <li><strong>Tax return errors:</strong> Incorrect income calculations, missed deductions, errors in depreciation treatment, or failure to apply available tax credits — resulting in clients paying more tax than necessary or facing IRD penalties.</li>
 <li><strong>GST miscalculations:</strong> GST errors are among the most frequent accounting claims. A misclassification of exempt versus taxable supplies, or an error in a GST return, can result in significant underpayments or overpayments that clients hold you responsible for.</li>
@@ -92,7 +92,7 @@ export const professionTypes: ProfessionType[] = [
 </ul>
 <p>It is worth noting that PI claims can arise even where you have not actually made a mistake. If a client suffers a loss and believes you were responsible, they may make a claim that you must defend. The legal costs of defending an unfounded claim can be just as damaging as the cost of settling a legitimate one.</p>
 
-<h2>What Cover Do NZ Accountants Need?</h2>
+<h2>What Cover Do Accountants Need?</h2>
 <p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> is the core cover for any accountant or bookkeeper. It covers claims arising from professional errors, omissions, and breaches of professional duty in the services you provide. This is the cover required by CAANZ and expected by most professional clients.</p>
 <p>Beyond PI, most accounting firms should also consider:</p>
 <ul>
@@ -102,8 +102,8 @@ export const professionTypes: ProfessionType[] = [
 <li><strong><a href="/coverage/run-off-cover/">Run-off cover:</a></strong> Critically important when you retire, close your practice, or sell your firm. Because PI is claims-made, once your policy lapses, you are unprotected against claims from past work. Run-off cover extends protection for the tail period after you cease practice.</li>
 </ul>
 
-<h2>How Much Does PI Insurance Cost for NZ Accountants?</h2>
-<p>NZ accountants typically pay between <strong>$75 and $120 per month</strong> for professional indemnity insurance, based on BizCover NZ data and market benchmarks. The actual premium you pay will depend on several factors:</p>
+<h2>How Much Does PI Insurance Cost for Accountants?</h2>
+<p>Accountants typically pay between <strong>$75 and $120 per month</strong> for professional indemnity insurance, based on BizCover NZ data and market benchmarks. The actual premium you pay will depend on several factors:</p>
 <ul>
 <li><strong>Annual fee income:</strong> Insurers use your fee income as the primary measure of your exposure. Higher fees generally mean higher premiums.</li>
 <li><strong>Services provided:</strong> Tax compliance work is viewed differently from investment or business structure advice. The more complex and high-stakes the advisory services you provide, the higher the premium.</li>
@@ -114,10 +114,10 @@ export const professionTypes: ProfessionType[] = [
 <p>For a sole-trader accountant or bookkeeper with modest fee income, PI insurance can start from around $60/month. A mid-size firm advising on trusts, business sales, and complex tax matters might pay $200–$400/month or more. See our <a href="/pi-insurance-cost/">full cost guide</a> for a detailed breakdown.</p>
 
 <h2>How Much PI Cover Do You Need?</h2>
-<p>The most popular PI limit for NZ accountants is <strong>$1,000,000 per claim</strong>, which satisfies CAANZ minimum requirements for most members. However, the right level of cover depends on your specific practice:</p>
+<p>The most popular PI limit is <strong>$1,000,000 per claim</strong>, which satisfies CAANZ minimum requirements for most members. However, the right level of cover depends on your specific practice:</p>
 <ul>
 <li><strong>$500,000:</strong> Suitable for bookkeepers and sole-trader accountants with straightforward compliance work and low-value client transactions.</li>
-<li><strong>$1,000,000:</strong> The standard for most NZ accountants in public practice. Meets CAANZ requirements and most contract requirements.</li>
+<li><strong>$1,000,000:</strong> The standard for most accountants in public practice. Meets CAANZ requirements and most contract requirements.</li>
 <li><strong>$2,000,000+:</strong> Recommended for firms advising on business sales, significant property transactions, complex trust structures, or clients with large balance sheets. The potential losses in these engagements can quickly exceed $1M.</li>
 <li><strong>$5,000,000+:</strong> Required by some government agencies, banks, and large corporate clients. If you serve institutional clients, check their contracts carefully.</li>
 </ul>
@@ -130,7 +130,7 @@ export const professionTypes: ProfessionType[] = [
 <li><strong>Definition of professional services:</strong> Ensure the policy covers all the services you actually provide — tax, advisory, business valuation, trustee services. Gaps in the defined services can leave you unprotected.</li>
 <li><strong>Run-off provisions:</strong> What happens to your cover if you retire or close the firm? Check whether your policy includes automatic run-off or whether you need to purchase separate <a href="/coverage/run-off-cover/">run-off cover</a>.</li>
 <li><strong>Excess/deductible:</strong> Most PI policies for accountants carry an excess. Make sure you understand the amount and can absorb it if a claim arises.</li>
-<li><strong>Insurer strength:</strong> Key NZ PI insurers include QBE, DUAL NZ, BHSI, and Vero. Consider the financial strength and claims-handling reputation of your insurer.</li>
+<li><strong>Insurer strength:</strong> Key PI insurers include QBE, DUAL NZ, BHSI, and Vero. Consider the financial strength and claims-handling reputation of your insurer.</li>
 </ul>
 
 <h2>Getting Quoted — What Information You Need</h2>
@@ -144,7 +144,7 @@ export const professionTypes: ProfessionType[] = [
 <li>The cover limit you require</li>
 <li>Your current insurer and policy expiry date (if renewing)</li>
 </ul>
-<p>Ready to get a quote? <a href="/contact/">Contact our team</a> and we will connect you with a licensed NZ insurance adviser who can <a href="/compare/">compare PI options</a> from QBE, DUAL, BHSI, and other leading NZ insurers. Most accountants can get a binding quote within 24 hours.</p>
+<p>Ready to get a quote? <a href="/contact/">Contact our team</a> and we will connect you with a licensed insurance adviser who can <a href="/compare/">compare PI options</a> from QBE, DUAL, BHSI, and other leading insurers. Most accountants can get a binding quote within 24 hours.</p>
 `,
   },
   {
@@ -173,7 +173,7 @@ export const professionTypes: ProfessionType[] = [
       { q: 'What happens if an architectural error causes a structural defect?', a: "If your design error results in a structural defect, the building owner can make a claim against you personally and your business. PI insurance covers your legal defence costs and any compensation awarded, protecting your personal assets and continuing business viability. Claims in this sector can reach millions of dollars." },
       { q: 'Do subcontractors and specialist engineers need PI?', a: "Yes. Structural engineers, geotechnical engineers, MEP (mechanical, electrical, plumbing) consultants, and other specialist advisers all carry professional liability. Even if you are a subcontractor, a client or head contractor can sue you directly for your portion of any professional error." },
       { q: 'What is the difference between PI and construction liability insurance?', a: "PI covers professional errors in your design, advice, or specifications. Construction liability (public liability) covers physical damage or injury arising from your business activities on or near a site. Architects and engineers need both — PI for the professional work, public liability for the physical exposure. Neither covers contractual penalties or project delays on their own." },
-      { q: 'How long do I need to keep PI insurance after completing a project?', a: "Because PI is claims-made, you need a policy in force at the time a claim is made — which may be years or even decades after the work was done. NZ building defect claims can arise long after construction is complete. Run-off cover is essential when you retire or wind up your practice, and retroactive dates must be protected when switching insurers." },
+      { q: 'How long do I need to keep PI insurance after completing a project?', a: "Because PI is claims-made, you need a policy in force at the time a claim is made — which may be years or even decades after the work was done. Building defect claims can arise long after construction is complete. Run-off cover is essential when you retire or wind up your practice, and retroactive dates must be protected when switching insurers." },
       { q: 'Does PI cover BIM modelling errors or specification software failures?', a: "Modern PI policies for architects and engineers typically cover errors in professional work delivered using BIM software, CAD, or specification tools, since the professional negligence lies in the decision-making, not the software itself. Always check that your policy covers the specific services you provide, including digital design and project management services." },
     ],
     image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&auto=format&fit=crop&q=80',
@@ -205,15 +205,15 @@ export const professionTypes: ProfessionType[] = [
 <p>The government's <strong>November 2025 announcement of mandatory PI requirements for the construction sector</strong> — including home warranty insurance and mandatory PI for licensed practitioners — formalised what the market had long expected. If you are a registered architect, licensed building practitioner, or professional engineer, PI insurance is no longer optional.</p>
 <p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> for architects and engineers covers the professional work you perform: designs, specifications, calculations, inspections, project management advice, and certification. If your professional error results in a construction defect, client loss, or third-party claim, PI insurance covers your legal defence costs and any compensation awarded.</p>
 
-<h2>Regulatory Requirements for NZ Architects &amp; Engineers</h2>
-<p>The regulatory framework around professional practice for NZ architects and engineers is multi-layered and demanding:</p>
+<h2>Regulatory Requirements for Architects &amp; Engineers</h2>
+<p>The regulatory framework around professional practice for architects and engineers in New Zealand is multi-layered and demanding:</p>
 <p><strong>Architects Act 2022:</strong> Only persons registered under the Architects Act can use the title "architect" in New Zealand. The Act imposes professional conduct obligations and establishes the Architects Licensing Board. While the Act itself does not mandate PI insurance by explicit provision, registration standards and professional conduct requirements effectively require it.</p>
 <p><strong>Licensed Building Practitioners (LBP) Scheme:</strong> Under the Building Act 2004, certain design work on residential buildings must be carried out by or supervised by an LBP. Design-licensed LBPs face clear professional obligations, and the government's November 2025 mandatory PI announcement specifically targets this cohort.</p>
 <p><strong>Engineering New Zealand (EngNZ):</strong> Chartered Professional Engineers (CPEng) are expected to maintain PI insurance appropriate to their practice. CPEng certification is increasingly required by clients and councils for signing off engineering design.</p>
 <p><strong>Health and Safety at Work Act 2015:</strong> As designers, architects and engineers owe specific duties as Person Conducting a Business or Undertaking (PCBU) to ensure their design does not create health and safety risks during construction, use, or demolition. HSWA breaches can result in significant fines and prosecutions — statutory liability cover is essential alongside PI.</p>
-<p><strong>NZS 3910 / NZS 3916 contract standards:</strong> Standard NZ construction contracts typically require consultants to hold minimum PI limits. These contractual requirements often set the practical floor for your cover level, independent of any regulatory mandate.</p>
+<p><strong>NZS 3910 / NZS 3916 contract standards:</strong> Standard construction contracts typically require consultants to hold minimum PI limits. These contractual requirements often set the practical floor for your cover level, independent of any regulatory mandate.</p>
 
-<h2>Common PI Claims Against NZ Architects &amp; Engineers</h2>
+<h2>Common PI Claims Against Architects &amp; Engineers</h2>
 <p>The claims landscape for architects and engineers reflects the high-value, long-tail nature of construction projects:</p>
 <ul>
 <li><strong>Structural design errors:</strong> Calculation errors in beam sizing, foundation design, or load distribution can result in structural failures that cost millions to remediate. These claims may not emerge until years after practical completion.</li>
@@ -224,17 +224,17 @@ export const professionTypes: ProfessionType[] = [
 <li><strong>Geotechnical and site assessment failures:</strong> Engineers who assess ground conditions and make recommendations on foundations face serious exposure if soil investigations prove insufficient or foundation design fails to account for actual site conditions.</li>
 </ul>
 
-<h2>What Cover Do NZ Architects &amp; Engineers Need?</h2>
+<h2>What Cover Do Architects &amp; Engineers Need?</h2>
 <p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> is the primary cover for design professionals. Beyond PI, the following covers should be considered:</p>
 <ul>
-<li><strong><a href="/coverage/public-liability/">Public liability insurance:</a></strong> Covers bodily injury or property damage arising from your business activities. Essential for any site attendance, and often specified in construction contracts. Limits of $2M or more are standard in NZ construction contracts.</li>
+<li><strong><a href="/coverage/public-liability/">Public liability insurance:</a></strong> Covers bodily injury or property damage arising from your business activities. Essential for any site attendance, and often specified in construction contracts. Limits of $2M or more are standard in construction contracts.</li>
 <li><strong><a href="/coverage/statutory-liability/">Statutory liability insurance:</a></strong> Covers legal costs and fines (where insurable) from unintentional breaches of legislation, including the Health and Safety at Work Act 2015, the Building Act 2004, and resource consent conditions. Particularly important given HSWA's significant penalty regime.</li>
 <li><strong><a href="/coverage/employers-liability/">Employers' liability insurance:</a></strong> Required if you employ professional staff, graduates, or site observers. Complements ACC cover for workplace injury claims.</li>
 <li><strong><a href="/coverage/run-off-cover/">Run-off cover:</a></strong> Essential when retiring or winding up your practice. Building defect claims can arise ten or more years after construction, so a long run-off period is advisable for design professionals.</li>
 </ul>
 
-<h2>How Much Does PI Insurance Cost for NZ Architects &amp; Engineers?</h2>
-<p>NZ architects and engineers pay between <strong>$160 and $300 per month</strong> for PI insurance, reflecting the high-value and long-tail claims exposure in this sector. Key factors affecting premium include:</p>
+<h2>How Much Does PI Insurance Cost for Architects &amp; Engineers?</h2>
+<p>Architects and engineers typically pay between <strong>$160 and $300 per month</strong> for PI insurance, reflecting the high-value and long-tail claims exposure in this sector. Key factors affecting premium include:</p>
 <ul>
 <li><strong>Annual fee income:</strong> The primary rating factor for all design professional PI policies.</li>
 <li><strong>Type of projects:</strong> Residential, commercial, industrial, infrastructure — each carries different risk profiles. High-rise, complex structural, or geotechnical work attracts higher premiums.</li>
@@ -253,7 +253,7 @@ export const professionTypes: ProfessionType[] = [
 <li><strong>$5,000,000:</strong> Required for many government, infrastructure, and large commercial projects. Engineers advising on bridges, water infrastructure, or large-scale residential development typically need this level.</li>
 <li><strong>$10,000,000+:</strong> Required for major infrastructure, high-rise, or complex engineering projects where the financial consequences of failure are measured in hundreds of millions of dollars.</li>
 </ul>
-<p>Always check specific project contract requirements — many NZ construction contracts, particularly under NZS 3910, specify minimum PI limits as a contract condition. Failure to carry the specified minimum can constitute a contract breach.</p>
+<p>Always check specific project contract requirements — many construction contracts, particularly under NZS 3910, specify minimum PI limits as a contract condition. Failure to carry the specified minimum can constitute a contract breach.</p>
 
 <h2>Key Considerations When Choosing a PI Policy</h2>
 <ul>
@@ -261,7 +261,7 @@ export const professionTypes: ProfessionType[] = [
 <li><strong>Run-off provisions:</strong> The long-tail nature of construction defect claims makes <a href="/coverage/run-off-cover/">run-off cover</a> particularly important for design professionals. Consider a minimum 10-year run-off period on retirement.</li>
 <li><strong>Scope of covered services:</strong> Ensure the policy covers all your professional activities: design, specification, contract administration, project management, and any specialist services such as building consent preparation or energy assessments.</li>
 <li><strong>Proportionate liability:</strong> NZ law includes proportionate liability provisions that allocate responsibility among multiple defendants. Understand how your policy interacts with proportionate liability in multi-party construction disputes.</li>
-<li><strong>Insurer expertise:</strong> PI for design professionals is a specialist area. Insurers with dedicated construction professional teams — including QBE, DUAL NZ, and BHSI — understand the nuances of NZ construction claims.</li>
+<li><strong>Insurer expertise:</strong> PI for design professionals is a specialist area. Insurers with dedicated construction professional teams — including QBE, DUAL NZ, and BHSI — understand the nuances of construction professional claims.</li>
 </ul>
 
 <h2>Getting Quoted — What Information You Need</h2>
@@ -276,7 +276,7 @@ export const professionTypes: ProfessionType[] = [
 <li>Any prior claims or circumstances in the last five years</li>
 <li>Required cover limit (check your contracts)</li>
 </ul>
-<p><a href="/contact/">Contact us</a> to be connected with a licensed NZ insurance adviser who can <a href="/compare/">compare PI options</a> across QBE, DUAL, BHSI, and other specialist construction professional PI insurers. Most practices can receive a quote within 24–48 hours.</p>
+<p><a href="/contact/">Contact us</a> to be connected with a licensed insurance adviser who can <a href="/compare/">compare PI options</a> across QBE, DUAL, BHSI, and other specialist construction professional PI insurers. Most practices can receive a quote within 24–48 hours.</p>
 `,
   },
   {
@@ -332,23 +332,23 @@ export const professionTypes: ProfessionType[] = [
     longFormContent: `
 <h2>Why IT Consultants &amp; Developers Need Professional Indemnity Insurance</h2>
 <p>Technology underpins virtually every modern business. When technology fails, businesses lose revenue, customer trust, and sometimes irreplaceable data. As the IT professional who designed, built, or maintained the system that failed, you can be held professionally responsible for those losses — even when the failure arose from factors partly outside your control.</p>
-<p>Consider a few realistic scenarios facing NZ IT professionals:</p>
+<p>Consider a few realistic scenarios facing IT professionals:</p>
 <ul>
-<li>A custom software application you built for a NZ retailer crashes during a peak sales period, resulting in $200,000 in lost sales. The client claims the bug was introduced in your last update.</li>
+<li>A custom software application you built for a local retailer crashes during a peak sales period, resulting in $200,000 in lost sales. The client claims the bug was introduced in your last update.</li>
 <li>You implemented a cloud migration for a professional services firm. A misconfigured access policy exposes client data. The firm faces Privacy Act obligations, client claims, and significant remediation costs — and holds you responsible.</li>
 <li>A cybersecurity consultancy engagement you conducted failed to identify a critical vulnerability. Three months later, the client is breached. They claim your assessment was negligent.</li>
 </ul>
 <p>In each case, <a href="/coverage/professional-indemnity/">professional indemnity insurance</a> steps in to cover your legal defence costs and any compensation awarded — protecting you from claims that could otherwise be financially devastating. For IT professionals, the scale of potential claims frequently dwarfs the value of the original contract.</p>
 
-<h2>Regulatory Requirements for NZ IT Consultants</h2>
-<p>Unlike architects or financial advisers, there is no single NZ statute that mandates PI insurance for IT consultants. However, regulatory and contractual requirements effectively make it essential for most IT professionals working in New Zealand:</p>
+<h2>Regulatory Requirements for IT Consultants</h2>
+<p>Unlike architects or financial advisers, there is no single statute that mandates PI insurance for IT consultants. However, regulatory and contractual requirements effectively make it essential for most IT professionals working in New Zealand:</p>
 <p><strong>Privacy Act 2020:</strong> If you handle, store, or process personal information on behalf of clients, the Privacy Act creates obligations for both you and your clients. A data breach can trigger notification obligations, regulatory investigation by the Privacy Commissioner, and client claims for losses arising from the breach. Cyber liability and PI insurance together provide the critical protection layer.</p>
 <p><strong>NZ Government procurement:</strong> All-of-Government (AoG) contracts and agency-specific procurement arrangements routinely require IT contractors and consultants to hold PI cover — typically $1M to $2M per claim minimum. Without it, you cannot engage on most significant government projects.</p>
-<p><strong>Enterprise client contracts:</strong> Most NZ enterprises and multinationals operating in New Zealand require PI insurance as a standard contract condition. IT services agreements routinely include PI requirements, and some specify combined PI and cyber liability limits.</p>
+<p><strong>Enterprise client contracts:</strong> Most enterprises and multinationals operating in New Zealand require PI insurance as a standard contract condition. IT services agreements routinely include PI requirements, and some specify combined PI and cyber liability limits.</p>
 <p><strong>Professional bodies:</strong> While membership bodies like IITP (Institute of IT Professionals NZ) do not mandate PI insurance, they strongly recommend it. As the profession matures, standards around PI coverage are expected to tighten.</p>
 
-<h2>Common PI Claims Against NZ IT Consultants</h2>
-<p>The claims that arise against NZ IT professionals are increasingly sophisticated and expensive:</p>
+<h2>Common PI Claims Against IT Consultants</h2>
+<p>The claims that arise against IT professionals are increasingly sophisticated and expensive:</p>
 <ul>
 <li><strong>Software defects and system failures:</strong> Bugs in custom software, integration errors, or platform failures that cause system downtime are the most frequent source of PI claims against developers. Clients claim lost revenue, additional costs, and reputational damage.</li>
 <li><strong>Data loss and corruption:</strong> Errors in database management, backup systems, or data migration can result in the permanent loss of critical business data. These claims can be extremely expensive to quantify and settle.</li>
@@ -358,8 +358,8 @@ export const professionTypes: ProfessionType[] = [
 <li><strong>Privacy and data breach claims:</strong> Consultants who implement systems that subsequently cause privacy breaches can face both regulatory and civil claims. Privacy Act 2020 has strengthened the framework for these claims.</li>
 </ul>
 
-<h2>What Cover Do NZ IT Consultants Need?</h2>
-<p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> and cyber liability insurance work as a complementary pair for IT professionals — and most advisers recommend holding both:</p>
+<h2>What Cover Do IT Consultants Need?</h2>
+<p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> and cyber liability insurance work as a complementary pair for IT professionals — and advisers strongly recommend holding both:</p>
 <ul>
 <li><strong>PI insurance:</strong> Covers claims from clients arising from professional errors, omissions, or negligence in your services. This is your primary protection against the scenarios described above.</li>
 <li><strong>Cyber liability insurance:</strong> Covers your own costs if your business suffers a cyberattack or data breach — including forensic investigation, notification costs, ransom payments (if covered), business interruption, and third-party claims from those affected by your breach. As an IT professional, your own systems and data may be high-value targets.</li>
@@ -367,8 +367,8 @@ export const professionTypes: ProfessionType[] = [
 <li><strong><a href="/coverage/employers-liability/">Employers' liability insurance:</a></strong> Essential if you employ developers, QA testers, or project managers.</li>
 </ul>
 
-<h2>How Much Does PI Insurance Cost for NZ IT Consultants?</h2>
-<p>NZ IT consultants pay between <strong>$80 and $150 per month</strong> for combined PI and basic cyber liability cover. Key rating factors include:</p>
+<h2>How Much Does PI Insurance Cost for IT Consultants?</h2>
+<p>IT consultants typically pay between <strong>$80 and $150 per month</strong> for combined PI and basic cyber liability cover. Key rating factors include:</p>
 <ul>
 <li><strong>Annual revenue:</strong> The primary rating factor for PI policies.</li>
 <li><strong>Types of services:</strong> Custom software development, cybersecurity, cloud migration, IT project management, and managed services each carry different risk profiles. Security consulting and custom development attract higher premiums.</li>
@@ -408,7 +408,7 @@ export const professionTypes: ProfessionType[] = [
 <li>Prior claims history</li>
 <li>Specific contract PI requirements if known</li>
 </ul>
-<p><a href="/contact/">Contact our team</a> to be connected with a licensed NZ insurance adviser who can <a href="/compare/">compare PI and cyber options</a> from leading NZ and international technology insurers. Most IT professionals can get a binding quote within 24 hours.</p>
+<p><a href="/contact/">Contact our team</a> to be connected with a licensed insurance adviser who can <a href="/compare/">compare PI and cyber options</a> from leading technology insurers. Most IT professionals can get a binding quote within 24 hours.</p>
 `,
   },
   {
@@ -434,7 +434,7 @@ export const professionTypes: ProfessionType[] = [
     ],
     faqs: [
       { q: 'Is PI insurance mandatory for NZ financial advisers?', a: "Yes. FAP licence conditions under the Financial Markets Conduct Act 2013 require financial advice providers to hold professional indemnity insurance. The FMA assesses your PI arrangements as part of the licensing and monitoring process. Failure to maintain adequate PI cover can result in licence conditions being imposed or revoked." },
-      { q: 'What level of PI cover does a financial adviser need?', a: "The FMA does not prescribe a fixed minimum, but expects PI insurance to be appropriate for the nature and scale of your advice. Most NZ financial advisers carry between $1M and $5M in PI cover. Your insurer and compliance adviser can help you determine the right level for your practice." },
+      { q: 'What level of PI cover does a financial adviser need?', a: "The FMA does not prescribe a fixed minimum, but expects PI insurance to be appropriate for the nature and scale of your advice. Most financial advisers carry between $1M and $5M in PI cover. Your insurer and compliance adviser can help you determine the right level for your practice." },
       { q: 'Does PI insurance cover FMA investigations?', a: "Most PI policies cover investigation costs and legal representation in regulatory proceedings, including FMA investigations. However, policies vary — some cover only the investigation stage, while others also cover resulting fines (where legally insurable). Always check your policy schedule carefully." },
       { q: 'What happens if a client loses money following my advice?', a: "A client loss alone does not create PI liability — markets go up and down, and investment losses are a normal market outcome. A PI claim requires a client to allege that your advice was negligent or that you breached your professional duty. PI insurance covers your legal defence costs and any compensation awarded if such a claim proceeds." },
       { q: 'Do financial advisers need cyber insurance as well as PI?', a: "Yes. Financial advisers handle highly sensitive client financial data and are attractive targets for cybercriminals. A data breach can trigger Privacy Act obligations, client notification costs, and client claims. Cyber liability insurance complements your PI cover and is strongly recommended for any practice that manages client records digitally." },
@@ -467,15 +467,15 @@ export const professionTypes: ProfessionType[] = [
 <p>NZ financial advisers face a demanding regulatory environment under the Financial Markets Conduct Act 2013. The FAP licensing regime, the Code of Professional Conduct for Financial Advice Services, and ongoing FMA monitoring create a framework where professional standards are clearly defined and expected to be met. This same framework sets the context for PI claims — when a client or regulator alleges that standards were not met, you need PI insurance to fund your defence and cover any compensation.</p>
 <p>The financial advice sector has also seen a significant increase in client expectations in recent years. Clients who experience investment losses during market downturns, or who feel they received advice that did not account for their full circumstances, are increasingly willing to make formal complaints and PI claims. For NZ financial advisers, <a href="/coverage/professional-indemnity/">professional indemnity insurance</a> is not just a regulatory requirement — it is a fundamental business protection.</p>
 
-<h2>Regulatory Requirements for NZ Financial Advisers</h2>
-<p>The regulatory framework for financial advice PI is among the most explicit of any profession in New Zealand:</p>
+<h2>Regulatory Requirements for Financial Advisers</h2>
+<p>The regulatory framework for financial advice PI is among the most explicit of any profession:</p>
 <p><strong>Financial Markets Conduct Act 2013 (FMCA):</strong> All persons providing regulated financial advice to retail clients must operate under a Financial Advice Provider (FAP) licence. FAP licence conditions — set by the FMA — require the licence holder to maintain professional indemnity insurance at an adequate level relative to the nature and scale of the financial advice business.</p>
 <p><strong>FMA monitoring:</strong> The FMA actively monitors PI arrangements as part of its ongoing supervision of FAP licence holders. Demonstrating adequate PI cover is part of the compliance obligations that FAP holders must meet on an ongoing basis. A lapse in cover, or cover that the FMA considers inadequate, can result in licence conditions or enforcement action.</p>
 <p><strong>Code of Professional Conduct for Financial Advice Services:</strong> The Code requires financial advisers to maintain competence and professional standing, which in practice includes maintaining PI insurance. The standards set by the Code provide the benchmark against which claims of negligence are assessed.</p>
 <p><strong>Dealer group and FAP group requirements:</strong> Many financial advisers operate under a dealer group or larger FAP. These groups typically maintain minimum PI requirements for all advisers operating under their licence, and may hold a group PI policy. Individual advisers should confirm their coverage arrangements with their dealer group and understand any gaps in the group policy.</p>
 
-<h2>Common PI Claims Against NZ Financial Advisers</h2>
-<p>Understanding what triggers PI claims helps advisers manage their professional risk:</p>
+<h2>Common PI Claims Against Financial Advisers</h2>
+<p>Understanding what triggers PI claims helps financial advisers manage their professional risk:</p>
 <ul>
 <li><strong>Unsuitable investment recommendations:</strong> The most common category of PI claim. If a client alleges that an investment recommendation was unsuitable for their risk profile, time horizon, or financial circumstances, and they suffered a loss, you may face a claim — regardless of market conditions.</li>
 <li><strong>Portfolio management errors:</strong> Discretionary investment managers face claims for failure to rebalance, failure to manage risk, or trading errors. Non-discretionary advisers can face claims for failing to recommend timely adjustments.</li>
@@ -485,8 +485,8 @@ export const professionTypes: ProfessionType[] = [
 <li><strong>FMA investigation costs:</strong> Even where no PI compensation is ultimately paid, the cost of responding to an FMA investigation — including legal representation and document production — can be significant. PI policies typically cover these investigation costs.</li>
 </ul>
 
-<h2>What Cover Do NZ Financial Advisers Need?</h2>
-<p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> is the mandated core cover. Beyond PI:</p>
+<h2>What Cover Do Financial Advisers Need?</h2>
+<p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> is the mandated core cover for financial advisers. Beyond PI:</p>
 <ul>
 <li><strong><a href="/coverage/public-liability/">Public liability insurance:</a></strong> Required if clients visit your office for advice meetings or you conduct seminars and events. Covers bodily injury and property damage claims.</li>
 <li><strong>Cyber liability insurance:</strong> Financial advisers hold extremely sensitive client data — investment records, bank account details, identification documents. A data breach can trigger Privacy Act obligations and client claims. Cyber cover is strongly recommended.</li>
@@ -495,8 +495,8 @@ export const professionTypes: ProfessionType[] = [
 <li><strong><a href="/coverage/run-off-cover/">Run-off cover:</a></strong> Critical on retirement or licence surrender. Financial advice claims can arise years after the advice was given — particularly for investment and insurance advice given at life stage transitions.</li>
 </ul>
 
-<h2>How Much Does PI Insurance Cost for NZ Financial Advisers?</h2>
-<p>NZ financial advisers typically pay between <strong>$100 and $200 per month</strong> for PI insurance. Key factors:</p>
+<h2>How Much Does PI Insurance Cost for Financial Advisers?</h2>
+<p>Financial advisers typically pay between <strong>$100 and $200 per month</strong> for PI insurance. Key factors:</p>
 <ul>
 <li><strong>Revenue and FUM:</strong> Funds under management (FUM) and annual revenue are primary rating factors for investment advisers specifically.</li>
 <li><strong>Advice categories:</strong> Investment advice, KiwiSaver advice, and insurance advice each carry different risk profiles. Combined advisers are rated on the highest-risk activity.</li>
@@ -535,7 +535,7 @@ export const professionTypes: ProfessionType[] = [
 <li>Prior PI claims or FMA regulatory actions in the last five years</li>
 <li>Required cover limit and any dealer group minimum requirements</li>
 </ul>
-<p><a href="/contact/">Contact our team</a> to be connected with a licensed NZ insurance adviser who can <a href="/compare/">compare PI options</a> and help you meet your FMCA obligations.</p>
+<p><a href="/contact/">Contact our team</a> to be connected with a licensed insurance adviser who can <a href="/compare/">compare PI options</a> and help you meet your FMCA obligations.</p>
 `,
   },
   {
@@ -591,19 +591,19 @@ export const professionTypes: ProfessionType[] = [
     longFormContent: `
 <h2>Why Real Estate Agents Need Professional Indemnity Insurance</h2>
 <p>Real estate transactions are among the largest financial decisions most New Zealanders make. When a buyer pays $800,000 for a house with undisclosed defects, or a vendor is told their property is worth $200,000 less than it would have achieved with proper marketing, the financial and emotional consequences are significant — and they often look for someone to blame.</p>
-<p>As a licensed real estate agent or property manager, you sit in the middle of high-value transactions where expectations are high, information asymmetries are real, and the consequences of professional error can be enormous. NZ property has seen values fluctuate significantly in recent years, creating particular tension when vendors feel their property was undersold, or buyers feel they were misled about market conditions.</p>
+<p>As a licensed real estate agent or property manager, you sit in the middle of high-value transactions where expectations are high, information asymmetries are real, and the consequences of professional error can be enormous. Property values have fluctuated significantly in recent years, creating particular tension when vendors feel their property was undersold, or buyers feel they were misled about market conditions.</p>
 <p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> protects you from the financial consequences of claims arising from professional errors, omissions, misrepresentation, and breach of professional duty in your real estate services. It covers your legal defence costs and any compensation awarded — protecting your licence, your business, and your personal financial position.</p>
 <p>PI insurance is not just about the large, dramatic cases. It is about the day-to-day professional risks that every agent carries: the marketing brochure that overstated a bedroom count, the LIM report you failed to draw to a buyer's attention, the agency agreement dispute where the vendor claims you did not meet your obligations. These are the claims that drive the real estate PI market in New Zealand.</p>
 
-<h2>Regulatory Requirements for NZ Real Estate Agents</h2>
-<p>The regulatory framework for NZ real estate agents is well-established and increasingly stringent:</p>
-<p><strong>Real Estate Agents Act 2008:</strong> All persons carrying on real estate agency work in NZ must hold a current licence issued by the Real Estate Authority (REA). The Act creates three licence categories: agent (principal), branch manager, and salesperson. All licensees are subject to the REA's Code of Professional Conduct.</p>
+<h2>Regulatory Requirements for Real Estate Agents</h2>
+<p>The regulatory framework for real estate agents in New Zealand is well-established and increasingly stringent:</p>
+<p><strong>Real Estate Agents Act 2008:</strong> All persons carrying on real estate agency work must hold a current licence issued by the Real Estate Authority (REA). The Act creates three licence categories: agent (principal), branch manager, and salesperson. All licensees are subject to the REA's Code of Professional Conduct.</p>
 <p><strong>Real Estate Authority (REA):</strong> The REA investigates complaints from vendors, buyers, landlords, and tenants about licensed agents. The REA Complaints Assessment Committee (CAC) and Tribunal can impose fines, censure, and licence suspension or cancellation. Defending these proceedings requires legal representation — which PI insurance typically covers.</p>
-<p><strong>REINZ membership:</strong> The Real Estate Institute of New Zealand (REINZ) requires members to hold PI insurance as a membership condition. Given that REINZ membership is the primary professional body for NZ agents, this effectively creates an industry-wide PI expectation.</p>
+<p><strong>REINZ membership:</strong> The Real Estate Institute of New Zealand (REINZ) requires members to hold PI insurance as a membership condition. Given that REINZ membership is the primary professional body for agents, this effectively creates an industry-wide PI expectation.</p>
 <p><strong>Property management — upcoming regulation:</strong> The NZ government has been reviewing regulation of the property management sector. While dedicated property management licences are not yet in force, the direction of travel is toward mandatory licensing — and with it, mandatory PI requirements for property managers.</p>
 
-<h2>Common PI Claims Against NZ Real Estate Agents</h2>
-<p>The claims landscape for NZ real estate agents reflects the high-stakes nature of property transactions:</p>
+<h2>Common PI Claims Against Real Estate Agents</h2>
+<p>The claims landscape for real estate agents reflects the high-stakes nature of property transactions:</p>
 <ul>
 <li><strong>Misrepresentation in property marketing:</strong> Overstating features, misrepresenting consented floor area, incorrect CV information, or marketing a property as having features it does not — all common claim triggers. Even innocent misrepresentation can result in significant PI claims.</li>
 <li><strong>Failure to disclose defects:</strong> Agents who were aware (or should have been aware) of significant property defects — weathertightness issues, piling problems, building consent issues — and failed to disclose them to buyers face serious exposure. The post-sale discovery of undisclosed defects is one of the most common real estate claim scenarios in NZ.</li>
@@ -613,7 +613,7 @@ export const professionTypes: ProfessionType[] = [
 <li><strong>Breach of agency agreement:</strong> Disputes about exclusive listing conditions, commission entitlements, and the scope of marketing obligations can result in PI claims even where property management is not involved.</li>
 </ul>
 
-<h2>What Cover Do NZ Real Estate Agents Need?</h2>
+<h2>What Cover Do Real Estate Agents Need?</h2>
 <p>Real estate agents should consider the following cover package:</p>
 <ul>
 <li><strong><a href="/coverage/professional-indemnity/">Professional indemnity insurance:</a></strong> The core cover. Protects against claims arising from professional errors, misrepresentation, disclosure failures, and breach of professional duty.</li>
@@ -622,8 +622,8 @@ export const professionTypes: ProfessionType[] = [
 <li><strong><a href="/coverage/employers-liability/">Employers' liability insurance:</a></strong> Required for agencies with employed salespeople, property managers, and administrative staff.</li>
 </ul>
 
-<h2>How Much Does PI Insurance Cost for NZ Real Estate Agents?</h2>
-<p>NZ real estate agents typically pay between <strong>$90 and $160 per month</strong> for PI insurance. Premium factors include:</p>
+<h2>How Much Does PI Insurance Cost for Real Estate Agents?</h2>
+<p>Real estate agents typically pay between <strong>$90 and $160 per month</strong> for PI insurance. Premium factors include:</p>
 <ul>
 <li><strong>Annual commission income:</strong> The primary PI rating factor. Higher-turnover agents and larger agencies pay more.</li>
 <li><strong>Types of services:</strong> Sales-only agents are rated differently from agents who also provide property management services. Property management adds additional exposure.</li>
@@ -634,10 +634,10 @@ export const professionTypes: ProfessionType[] = [
 <p>A sole agent with moderate commission income might pay $90–$110/month. A mid-size agency with several salespeople and a property management division might pay $300–$600/month or more. See our <a href="/pi-insurance-cost/">cost guide</a> for full benchmarks.</p>
 
 <h2>How Much PI Cover Do You Need?</h2>
-<p>Given the scale of NZ property transactions, PI limits for real estate agents should be set with care:</p>
+<p>Given the scale of property transactions, PI limits for real estate agents should be set with care:</p>
 <ul>
 <li><strong>$500,000:</strong> Minimum for low-turnover individual agents in lower-value markets. May not be adequate for claims arising from high-value transactions.</li>
-<li><strong>$1,000,000:</strong> The standard for most NZ agents. Satisfies REINZ requirements and covers most typical claims.</li>
+<li><strong>$1,000,000:</strong> The standard for most agents. Satisfies REINZ requirements and covers most typical claims.</li>
 <li><strong>$2,000,000+:</strong> Recommended for agencies working in high-value markets, or those with significant property management portfolios where cumulative claims exposure is higher.</li>
 </ul>
 <p>Remember that a single undisclosed defect claim on a high-value property could easily approach or exceed $1M. Consider your typical transaction values when setting your cover limit.</p>
@@ -663,7 +663,7 @@ export const professionTypes: ProfessionType[] = [
 <li>Prior REA proceedings or PI claims in the last five years</li>
 <li>Required cover limit</li>
 </ul>
-<p><a href="/contact/">Contact our team</a> to be connected with a licensed NZ adviser who can <a href="/compare/">compare PI options</a> for real estate professionals from QBE, DUAL, and other specialist insurers.</p>
+<p><a href="/contact/">Contact our team</a> to be connected with a licensed adviser who can <a href="/compare/">compare PI options</a> for real estate professionals from QBE, DUAL, and other specialist insurers.</p>
 `,
   },
   {
@@ -690,7 +690,7 @@ export const professionTypes: ProfessionType[] = [
     faqs: [
       { q: 'Do management consultants need PI insurance?', a: "Yes — any consultant providing professional advice, analysis or project management services faces professional liability. Clients who suffer financial loss because of your recommendations can make a claim. Many enterprise and government clients require minimum PI cover ($1M or more) in their contracts." },
       { q: 'What does PI insurance cover for consultants?', a: "PI insurance covers your legal defence costs and any compensation awarded if a client claims your advice, analysis or project management caused them a financial loss. It also covers claims of breach of confidentiality, intellectual property infringement, and errors in deliverables." },
-      { q: 'How much PI cover does a management consultant need?', a: "Most NZ management consultants carry between $500,000 and $2M in PI cover. If you advise on large capital projects, M&A, or government contracts, you may need $5M or more. The right level depends on the scale of your clients and the financial exposure your recommendations create." },
+      { q: 'How much PI cover does a management consultant need?', a: "Most management consultants carry between $500,000 and $2M in PI cover. If you advise on large capital projects, M&A, or government contracts, you may need $5M or more. The right level depends on the scale of your clients and the financial exposure your recommendations create." },
       { q: 'Is PI insurance required for government consulting contracts?', a: "Yes. NZ Government procurement rules commonly require consultants to hold PI insurance as a contract condition. All-of-Government panel agreements and many agency-specific contracts specify minimum PI limits — often $1M to $2M per claim. Always review contract requirements before tendering." },
       { q: 'Are freelance consultants and sole traders covered?', a: "Yes — PI insurance is available for sole-trader consultants and freelancers. Even individual advisers can face significant claims. Cover can start from around $60/month for modest fee income and $500,000 in cover. As you grow and take on larger clients, review and increase your limits accordingly." },
       { q: 'Does PI cover confidentiality breaches?', a: "Yes. Most PI policies for management consultants include cover for claims arising from unintentional breach of confidentiality — for example, if client information was shared inappropriately or if a deliverable contained confidential information belonging to another client. Deliberate breaches are not covered." },
@@ -723,14 +723,14 @@ export const professionTypes: ProfessionType[] = [
 <p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> covers the legal and financial consequences of these claims. It funds your defence when a client alleges your professional advice caused them a financial loss, and covers any compensation awarded. For management consultants in New Zealand — where business advisory work is increasingly professionalised and client expectations are high — PI insurance is an essential business protection.</p>
 <p>Beyond the risk management rationale, PI insurance is increasingly a commercial necessity. Enterprise and government clients commonly require minimum PI limits as a contract condition. Without it, you cannot tender for the most significant consulting engagements in New Zealand.</p>
 
-<h2>Regulatory Requirements for NZ Management Consultants</h2>
+<h2>Regulatory Requirements for Management Consultants</h2>
 <p>Management consulting is not subject to a specific licensing regime in New Zealand in the way that financial advice or real estate is. However, regulatory and contractual requirements effectively make PI insurance essential for most consultants:</p>
 <p><strong>NZ Government procurement:</strong> The New Zealand Government Procurement framework — which governs how government agencies engage consultants — requires PI insurance as a standard contract condition. All-of-Government (AoG) panel agreements and agency-specific panels specify minimum limits, typically $1M to $2M. This covers management consulting, strategy, organisational development, and a wide range of business advisory services provided to the public sector.</p>
 <p><strong>Health sector consulting:</strong> Te Whatu Ora (Health New Zealand) and District Health Board panel arrangements require consulting firms to hold PI cover. Health sector consulting work on transformation programmes, clinical redesign, and digital health projects is subject to these requirements.</p>
 <p><strong>Privacy Act 2020:</strong> Management consultants routinely handle commercially sensitive and personal data as part of their work. The Privacy Act creates obligations around how that data is handled and protected. A data breach can trigger Privacy Commissioner investigation and client claims — making cyber liability cover alongside PI important.</p>
 <p><strong>Membership bodies:</strong> The NZ Institute of Management (NZIM), the Institute of Management Consultants (IMC), and ICMCI (International Council of Management Consulting Institutes) all encourage members to maintain PI cover. As the profession matures, professional body PI requirements are expected to strengthen.</p>
 
-<h2>Common PI Claims Against NZ Management Consultants</h2>
+<h2>Common PI Claims Against Management Consultants</h2>
 <p>The claims landscape for management consultants reflects the broad range of work they do:</p>
 <ul>
 <li><strong>Strategic advice failures:</strong> A market entry strategy, business model recommendation, or strategic plan that proves fundamentally flawed can result in significant client losses. Clients who acted on your recommendation and suffered the consequences may claim that your advice was negligent.</li>
@@ -741,7 +741,7 @@ export const professionTypes: ProfessionType[] = [
 <li><strong>Confidentiality breaches:</strong> Using one client's commercially sensitive information — even inadvertently — in work for another client is a serious PI risk for consultants who work across competing businesses.</li>
 </ul>
 
-<h2>What Cover Do NZ Management Consultants Need?</h2>
+<h2>What Cover Do Management Consultants Need?</h2>
 <p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> is the core cover for any management consultant. Beyond PI:</p>
 <ul>
 <li><strong><a href="/coverage/public-liability/">Public liability insurance:</a></strong> Required if you attend client premises, conduct workshops, facilitate off-site events, or use client facilities. Covers bodily injury and property damage claims arising from your business activities.</li>
@@ -751,8 +751,8 @@ export const professionTypes: ProfessionType[] = [
 <li><strong><a href="/coverage/run-off-cover/">Run-off cover:</a></strong> Important when concluding a major engagement or winding down a practice — claims can arise months or years after a project is complete.</li>
 </ul>
 
-<h2>How Much Does PI Insurance Cost for NZ Management Consultants?</h2>
-<p>Management consultants in NZ typically pay between <strong>$65 and $130 per month</strong> for PI insurance — making this one of the more affordable professions for PI cover. Key factors:</p>
+<h2>How Much Does PI Insurance Cost for Management Consultants?</h2>
+<p>Management consultants typically pay between <strong>$65 and $130 per month</strong> for PI insurance — making this one of the more affordable professions for PI cover. Key factors:</p>
 <ul>
 <li><strong>Annual fee income:</strong> The primary rating factor. Higher-revenue consultancies pay more, but the relationship is not linear — there are significant economies of scale.</li>
 <li><strong>Type of work:</strong> Strategy and organisational advice is viewed differently from M&A advisory, financial modelling, or technology implementation. Higher-stakes advice attracts higher premiums.</li>
@@ -765,7 +765,7 @@ export const professionTypes: ProfessionType[] = [
 <h2>How Much PI Cover Do You Need?</h2>
 <ul>
 <li><strong>$500,000:</strong> May be adequate for sole-trader consultants with SME clients and lower-stakes advisory work.</li>
-<li><strong>$1,000,000:</strong> The standard for most NZ management consultants. Satisfies government contract requirements and most enterprise client requirements.</li>
+<li><strong>$1,000,000:</strong> The standard for most management consultants. Satisfies government contract requirements and most enterprise client requirements.</li>
 <li><strong>$2,000,000:</strong> Recommended for consultants advising on significant capital decisions, organisational transformations, or public sector programmes with large budgets.</li>
 <li><strong>$5,000,000+:</strong> Required for major government programmes, infrastructure advisory, or M&A work where the financial consequences of a professional error could be very large.</li>
 </ul>
@@ -790,7 +790,7 @@ export const professionTypes: ProfessionType[] = [
 <li>Prior PI claims in the last five years</li>
 <li>Required cover limit (check government and enterprise contract requirements)</li>
 </ul>
-<p><a href="/contact/">Contact our team</a> to be connected with a licensed NZ insurance adviser who can <a href="/compare/">compare PI options</a> from leading NZ insurers.</p>
+<p><a href="/contact/">Contact our team</a> to be connected with a licensed insurance adviser who can <a href="/compare/">compare PI options</a> from leading insurers.</p>
 `,
   },
   {
@@ -819,7 +819,7 @@ export const professionTypes: ProfessionType[] = [
       { q: 'Is PI insurance mandatory for NZ healthcare practitioners?', a: "Most healthcare professional registration bodies in NZ — including the Medical Council, Nursing Council, Physiotherapy Board, and Psychologists Board — require practitioners to hold appropriate PI insurance. Some indemnity cover is arranged through professional bodies, but individual practitioners should verify their coverage." },
       { q: 'What does a Health and Disability Commissioner investigation cover?', a: "If a complaint is made to the HDC about your practice, you will need legal representation throughout the investigation process. PI insurance typically covers your legal defence costs during HDC investigations, reducing the personal financial burden of navigating the process." },
       { q: 'Do private practice healthcare providers need more PI cover than hospital employees?', a: "Yes, in general. Hospital-employed practitioners are typically indemnified by their DHB/Te Whatu Ora employer for work performed in that employment. Private practice practitioners carry their own professional liability for private consultations, procedures, and advice. Private practitioners should carefully assess their own PI requirements." },
-      { q: 'What is the difference between medical defence membership and PI insurance?', a: "Medical defence organisations (MDOs) provide a discretionary indemnity — they decide whether to assist in each case. PI insurance is a contractual obligation — the insurer must respond if your claim falls within the policy terms. Many NZ practitioners prefer the certainty of PI insurance over discretionary MDO membership, though both options exist in the NZ market." },
+      { q: 'What is the difference between medical defence membership and PI insurance?', a: "Medical defence organisations (MDOs) provide a discretionary indemnity — they decide whether to assist in each case. PI insurance is a contractual obligation — the insurer must respond if your claim falls within the policy terms. Many practitioners prefer the certainty of PI insurance over discretionary MDO membership, though both options exist." },
       { q: 'Do telehealth and online consultations change my PI requirements?', a: "Yes. Telehealth consultations create additional professional liability considerations — particularly around jurisdictional issues if treating patients outside NZ, technology failures affecting the consultation, and documentation standards. Ensure your PI policy explicitly covers telehealth services and does not exclude them." },
     ],
     image: 'https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=1200&auto=format&fit=crop&q=80',
@@ -859,17 +859,17 @@ export const professionTypes: ProfessionType[] = [
 <p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> fills the gap. It covers the legal defence costs and compensation awards that arise from claims in the territory outside ACC. For private practice practitioners, independent allied health professionals, and clinic operators, this gap is real and significant.</p>
 <p>Beyond civil claims, healthcare practitioners face investigation by the Health and Disability Commissioner (HDC), professional disciplinary proceedings before registration bodies, and increasing patient expectations fuelled by access to online health information. PI insurance covers your legal representation costs across all of these proceedings.</p>
 
-<h2>Regulatory Requirements for NZ Healthcare Practitioners</h2>
+<h2>Regulatory Requirements for Healthcare Practitioners</h2>
 <p>The regulatory framework for healthcare PI insurance operates at multiple levels:</p>
 <p><strong>Health Practitioners Competence Assurance Act 2003 (HPCA Act):</strong> The HPCA Act establishes the registration bodies for 22 regulated health professions in New Zealand. Most of these bodies — including the Medical Council, Nursing Council, Physiotherapy Board, Psychologists Board, and Dental Council — require practitioners to hold PI or indemnity cover as a condition of registration or certification.</p>
 <p><strong>Health and Disability Commissioner Act 1994:</strong> The HDC Act establishes the right of health consumers to complain about health and disability services. The HDC investigates complaints and can refer cases to the Director of Proceedings, who can bring disciplinary proceedings before the Health Practitioners Disciplinary Tribunal. The cost of defending these proceedings — including legal representation across multiple stages — makes PI insurance invaluable.</p>
 <p><strong>Privacy Act 2020 / Health Information Privacy Code:</strong> Healthcare providers hold some of the most sensitive personal information of any profession. The Health Information Privacy Code creates specific obligations around how health records are managed, stored, and shared. A breach can trigger Privacy Commissioner investigation and patient claims — cyber and PI cover together protect against these risks.</p>
 <p><strong>Health and Safety at Work Act 2015:</strong> Clinic and practice operators are PCBUs with duties to protect the health and safety of workers and others in their workplace. HSWA breaches can result in significant fines — statutory liability cover addresses this exposure.</p>
 
-<h2>Common PI Claims Against NZ Healthcare Practitioners</h2>
-<p>The claims landscape for NZ healthcare practitioners is shaped by the ACC system and the HDC complaints framework:</p>
+<h2>Common PI Claims Against Healthcare Practitioners</h2>
+<p>The claims landscape for healthcare practitioners is shaped by the ACC system and the HDC complaints framework:</p>
 <ul>
-<li><strong>Informed consent failures:</strong> The leading source of non-ACC professional liability claims against NZ medical practitioners. If a patient alleges they were not properly informed about treatment risks and would not have proceeded had they been, a claim can follow — even if the treatment outcome itself was within normal parameters.</li>
+<li><strong>Informed consent failures:</strong> The leading source of non-ACC professional liability claims against medical practitioners. If a patient alleges they were not properly informed about treatment risks and would not have proceeded had they been, a claim can follow — even if the treatment outcome itself was within normal parameters.</li>
 <li><strong>Misdiagnosis and delayed diagnosis:</strong> ACC covers some treatment injury scenarios, but misdiagnosis claims — particularly where ACC declines or where the claim involves non-physical harm — create PI exposure. Delayed cancer diagnoses, missed mental health diagnoses, and incorrect referral decisions are common scenarios.</li>
 <li><strong>Treatment beyond scope:</strong> Allied health practitioners who provide services outside their scope of registration or training face heightened PI claims exposure. Physiotherapists who provide manual therapy for conditions outside their competence, or psychologists who practise outside their area of training, are examples.</li>
 <li><strong>Prescription and medication errors:</strong> GPs, nurse practitioners, and pharmacists face PI exposure for prescription errors — incorrect doses, drug interactions not identified, or prescribing for contraindicated conditions.</li>
@@ -877,7 +877,7 @@ export const professionTypes: ProfessionType[] = [
 <li><strong>HDC investigations — cost of defence:</strong> Even where an HDC investigation ultimately finds no breach of the Code of Rights, the legal costs of responding to a complaint — including record production, expert reports, and legal representation — can be significant. PI insurance covers these costs.</li>
 </ul>
 
-<h2>What Cover Do NZ Healthcare Practitioners Need?</h2>
+<h2>What Cover Do Healthcare Practitioners Need?</h2>
 <p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> is the core requirement. The right cover package for a healthcare practitioner includes:</p>
 <ul>
 <li><strong>PI insurance:</strong> Covers claims arising from professional errors, omissions, informed consent failures, and scope of practice issues. Essential for all registered practitioners in private practice.</li>
@@ -888,8 +888,8 @@ export const professionTypes: ProfessionType[] = [
 <li><strong><a href="/coverage/run-off-cover/">Run-off cover:</a></strong> Critical on retirement. Healthcare PI claims — particularly informed consent and treatment outcome claims — can arise years after treatment. A suitable run-off period protects you after you cease practising.</li>
 </ul>
 
-<h2>How Much Does PI Insurance Cost for NZ Healthcare Practitioners?</h2>
-<p>NZ healthcare practitioners pay between <strong>$100 and $250 per month</strong> for PI insurance, with significant variation by specialty and practice type:</p>
+<h2>How Much Does PI Insurance Cost for Healthcare Practitioners?</h2>
+<p>Healthcare practitioners typically pay between <strong>$100 and $250 per month</strong> for PI insurance, with significant variation by specialty and practice type:</p>
 <ul>
 <li><strong>General practitioners and family doctors:</strong> Typically $150–$250/month for comprehensive PI cover in private practice.</li>
 <li><strong>Allied health practitioners</strong> (physiotherapists, occupational therapists, speech language therapists, dietitians): $100–$150/month for $1M cover.</li>
@@ -929,7 +929,7 @@ export const professionTypes: ProfessionType[] = [
 <li>Prior HDC complaints or PI claims in the last five years</li>
 <li>Required cover limit and any registration body minimum requirements</li>
 </ul>
-<p><a href="/contact/">Contact our team</a> to be connected with a licensed NZ insurance adviser who can <a href="/compare/">compare healthcare PI options</a> from QBE, DUAL, and specialist healthcare professional insurers.</p>
+<p><a href="/contact/">Contact our team</a> to be connected with a licensed insurance adviser who can <a href="/compare/">compare healthcare PI options</a> from QBE, DUAL, and specialist healthcare professional insurers.</p>
 `,
   },
   {
@@ -956,9 +956,9 @@ export const professionTypes: ProfessionType[] = [
     faqs: [
       { q: 'Is PI insurance required for mortgage brokers in NZ?', a: "Yes. FAP licence conditions under the FMCA require mortgage advisers to hold professional indemnity insurance. The FMA assesses PI arrangements as part of its licensing and ongoing monitoring of financial advice providers. Inadequate PI cover can jeopardise your FAP licence." },
       { q: 'What claims do mortgage brokers face?', a: "Common claims include placing clients in unsuitable loan products, failing to disclose broker commission conflicts, errors in affordability assessments, and advice that results in clients entering loan arrangements they cannot service. CCCFA responsible lending obligations also create regulatory risk." },
-      { q: 'How much PI cover does a mortgage broker need?', a: "Most NZ mortgage brokers carry between $1M and $3M in PI cover. The right amount depends on the volume and value of loans you advise on, your client base, and any FAP licence conditions. Your compliance adviser or FAP licence supervisor can help determine appropriate cover levels." },
+      { q: 'How much PI cover does a mortgage broker need?', a: "Most mortgage brokers carry between $1M and $3M in PI cover. The right amount depends on the volume and value of loans you advise on, your client base, and any FAP licence conditions. Your compliance adviser or FAP licence supervisor can help determine appropriate cover levels." },
       { q: 'Does PI insurance cover CCCFA responsible lending breaches?', a: "PI insurance typically covers legal defence costs and compensation awards arising from claims of professional negligence, including failures to comply with responsible lending obligations under the CCCFA. Regulatory fines imposed on you directly are typically covered by statutory liability insurance rather than PI. Both covers are worth considering." },
-      { q: 'Are first home buyer claims a particular risk for mortgage brokers?', a: "Yes. First home buyers are retail clients with significant financial stakes in the advice they receive. Claims about unsuitable first home loan structures, incorrect KiwiSaver withdrawal advice for first home use, or failure to identify better-suited first home products are a growing area of mortgage broker PI claims in NZ." },
+      { q: 'Are first home buyer claims a particular risk for mortgage brokers?', a: "Yes. First home buyers are retail clients with significant financial stakes in the advice they receive. Claims about unsuitable first home loan structures, incorrect KiwiSaver withdrawal advice for first home use, or failure to identify better-suited first home products are a growing area of mortgage broker PI claims." },
       { q: 'What is run-off cover and when do mortgage brokers need it?', a: "Run-off cover maintains PI protection after you let your FAP licence lapse, retire, or close your brokerage. Because PI is claims-made, once your policy lapses, you lose protection against claims from past advice. Mortgage advice claims can arise years after a loan was placed — particularly where clients later experience financial hardship. Run-off cover is essential when exiting the industry." },
     ],
     image: 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&auto=format&fit=crop&q=80',
@@ -989,7 +989,7 @@ export const professionTypes: ProfessionType[] = [
 <p>NZ mortgage advisers are regulated under the Financial Markets Conduct Act 2013. Holding a Financial Advice Provider (FAP) licence — or operating under one — is a legal requirement for anyone providing regulated mortgage advice. PI insurance is a FAP licence condition: without it, you cannot operate legally as a mortgage adviser in New Zealand.</p>
 <p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> covers your legal defence costs and any compensation awarded if a client alleges your professional advice caused them financial loss. In the context of NZ's $350B+ home loan market, where individual loan values frequently exceed $800,000 in major centres, the potential scale of claims is significant.</p>
 
-<h2>Regulatory Requirements for NZ Mortgage Brokers</h2>
+<h2>Regulatory Requirements for Mortgage Brokers</h2>
 <p>The regulatory framework for mortgage advice PI is among the clearest of any profession:</p>
 <p><strong>Financial Markets Conduct Act 2013 (FMCA):</strong> Providing regulated financial advice — including mortgage advice to retail clients — requires a FAP licence or operating under a FAP's licence. The FMCA regulates the conduct, disclosure, and competency standards required of all mortgage advisers.</p>
 <p><strong>FAP licence conditions:</strong> The FMA sets licence conditions for FAP holders. PI insurance at an adequate level relative to the nature and scale of the financial advice business is a standard condition. FAP holders must be able to demonstrate that their PI arrangements remain adequate on an ongoing basis.</p>
@@ -997,8 +997,8 @@ export const professionTypes: ProfessionType[] = [
 <p><strong>Credit Contracts and Consumer Finance Act 2003 (CCCFA):</strong> The CCCFA imposes responsible lending obligations on all lenders and, by extension, creates regulatory risk for advisers who assist clients in obtaining credit. Affordability assessments, disclosure requirements, and responsible lending standards must all be met. Breaches can result in regulatory action and client claims.</p>
 <p><strong>Anti-Money Laundering and Countering Financing of Terrorism Act 2009 (AML/CFT):</strong> Mortgage brokers are reporting entities under the AML/CFT Act. Compliance failures can result in significant regulatory penalties and reputational damage.</p>
 
-<h2>Common PI Claims Against NZ Mortgage Brokers</h2>
-<p>The claims that arise against NZ mortgage advisers are directly linked to the lending decisions they facilitate:</p>
+<h2>Common PI Claims Against Mortgage Brokers</h2>
+<p>The claims that arise against mortgage advisers are directly linked to the lending decisions they facilitate:</p>
 <ul>
 <li><strong>Unsuitable loan product recommendations:</strong> Placing a client in a floating rate mortgage when a fixed rate would have been more appropriate for their circumstances, or vice versa. Recommending an interest-only structure to a client without adequately explaining the consequences. These are among the most common mortgage adviser claim scenarios.</li>
 <li><strong>Affordability assessment failures:</strong> Advising a client that a loan is affordable when it is not — or failing to identify that the client cannot service the loan under stress scenarios — can result in clients experiencing financial hardship and making claims against the adviser who placed them.</li>
@@ -1008,7 +1008,7 @@ export const professionTypes: ProfessionType[] = [
 <li><strong>FMA investigation costs:</strong> Even where no compensation is ultimately paid, the cost of responding to an FMA investigation or complaint — including legal representation and documentation — can be substantial. PI insurance covers these costs.</li>
 </ul>
 
-<h2>What Cover Do NZ Mortgage Brokers Need?</h2>
+<h2>What Cover Do Mortgage Brokers Need?</h2>
 <p><a href="/coverage/professional-indemnity/">Professional indemnity insurance</a> is the mandated core cover for mortgage advisers. Beyond PI:</p>
 <ul>
 <li><strong><a href="/coverage/public-liability/">Public liability insurance:</a></strong> Required for office-based client meetings and any situation where clients visit your premises. Covers bodily injury and property damage claims.</li>
@@ -1019,8 +1019,8 @@ export const professionTypes: ProfessionType[] = [
 <li><strong><a href="/coverage/run-off-cover/">Run-off cover:</a></strong> Critical on retirement or licence surrender. Mortgage advice claims — particularly those relating to long-term loan decisions — can arise years after the advice was given.</li>
 </ul>
 
-<h2>How Much Does PI Insurance Cost for NZ Mortgage Brokers?</h2>
-<p>NZ mortgage advisers typically pay between <strong>$115 and $200 per month</strong> for PI insurance. This is at the higher end of the financial advice market, reflecting the volume of high-value transactions and the regulatory framework. Key rating factors:</p>
+<h2>How Much Does PI Insurance Cost for Mortgage Brokers?</h2>
+<p>Mortgage advisers typically pay between <strong>$115 and $200 per month</strong> for PI insurance. This is at the higher end of the financial advice market, reflecting the volume of high-value transactions and the regulatory framework. Key rating factors:</p>
 <ul>
 <li><strong>Annual commission income:</strong> The primary PI rating factor for mortgage advisers.</li>
 <li><strong>Loan volumes and values:</strong> High-volume advisers and those placing large residential or commercial mortgages pay more.</li>
@@ -1059,7 +1059,7 @@ export const professionTypes: ProfessionType[] = [
 <li>Prior PI claims or FMA regulatory actions in the last five years</li>
 <li>Required cover limit and any FAP compliance requirements</li>
 </ul>
-<p><a href="/contact/">Contact our team</a> to be connected with a licensed NZ insurance adviser who can <a href="/compare/">compare PI options</a> and help you meet your FMCA and FAP licence obligations.</p>
+<p><a href="/contact/">Contact our team</a> to be connected with a licensed insurance adviser who can <a href="/compare/">compare PI options</a> and help you meet your FMCA and FAP licence obligations.</p>
 `,
   },
 ]
