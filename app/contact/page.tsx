@@ -10,6 +10,10 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <div className="bg-slate-50 min-h-screen">
+      <div className="bg-brand-900 py-10 px-4 text-center">
+        <h1 className="text-3xl sm:text-4xl font-extrabold text-white mb-2">Get a Professional Indemnity Insurance Quote</h1>
+        <p className="text-brand-200 text-base sm:text-lg max-w-2xl mx-auto">Fill in the form below and a licensed NZ insurance adviser will compare the market and deliver a personalised quote within one business day.</p>
+      </div>
       <QuoteForm variant="full" />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <h2 className="text-2xl font-extrabold text-slate-900 text-center mb-8">What Happens Next?</h2>

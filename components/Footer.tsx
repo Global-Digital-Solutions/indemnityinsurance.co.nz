@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 mt-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-10">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-6 gap-8 mb-10">
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-3">
@@ -58,6 +58,25 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Locations */}
+          <div>
+            <h4 className="text-white font-bold text-xs uppercase tracking-widest mb-3">Locations</h4>
+            <ul className="space-y-2">
+              {[
+                ['PI Insurance Auckland', '/pi-insurance-auckland/'],
+                ['PI Insurance Wellington', '/pi-insurance-wellington/'],
+                ['PI Insurance Christchurch', '/pi-insurance-christchurch/'],
+                ['Sole Traders', '/professional-indemnity-insurance-sole-traders-nz/'],
+                ['Small Business', '/indemnity-insurance-small-business-nz/'],
+                ['Government Contractors', '/pi-insurance-government-contractors-nz/'],
+                ['Compare PI Insurance', '/compare-professional-indemnity-insurance-nz/'],
+                ['Professional Liability', '/professional-liability-insurance-nz/'],
+              ].map(([label, href]) => (
+                <li key={href}><Link href={href} className="text-sm hover:text-white transition-colors">{label}</Link></li>
+              ))}
+            </ul>
+          </div>
+
           {/* Resources */}
           <div>
             <h4 className="text-white font-bold text-xs uppercase tracking-widest mb-3">Resources</h4>
@@ -68,6 +87,8 @@ export default function Footer() {
                 ['PI Insurance Guide', '/professional-indemnity-insurance/'],
                 ['PI Insurance Cost', '/pi-insurance-cost/'],
                 ['Contractor Guide', '/indemnity-insurance-for-contractors/'],
+                ["Employers' Liability Guide", '/employers-liability-insurance/'],
+                ['Run-off Cover Guide', '/run-off-cover-insurance/'],
                 ['Resources', '/blog/'],
                 ['FAQs', '/faq/'],
                 ['About Us', '/about/'],

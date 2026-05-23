@@ -83,7 +83,7 @@ export const landingPages: LandingPage[] = [
     image: 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&auto=format&fit=crop&q=80',
     targetKeyword: 'PI insurance Auckland',
     relatedCoverage: ['professional-indemnity', 'public-liability', 'management-liability'],
-    relatedProfessions: ['accountants', 'architects', 'it-consultants', 'financial-advisers', 'engineers'],
+    relatedProfessions: ['accountants', 'architects-engineers', 'it-consultants', 'financial-advisers'],
   },
   {
     slug: 'pi-insurance-wellington',
@@ -156,7 +156,7 @@ export const landingPages: LandingPage[] = [
     image: 'https://images.unsplash.com/photo-1572375992501-4b0892d50c69?w=1200&auto=format&fit=crop&q=80',
     targetKeyword: 'professional indemnity insurance Wellington',
     relatedCoverage: ['professional-indemnity', 'public-liability', 'statutory-liability'],
-    relatedProfessions: ['it-consultants', 'engineers', 'management-consultants', 'financial-advisers'],
+    relatedProfessions: ['it-consultants', 'architects-engineers', 'consultants', 'financial-advisers'],
   },
   {
     slug: 'pi-insurance-christchurch',
@@ -233,7 +233,7 @@ export const landingPages: LandingPage[] = [
     image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&auto=format&fit=crop&q=80',
     targetKeyword: 'professional indemnity insurance Christchurch',
     relatedCoverage: ['professional-indemnity', 'run-off-cover', 'public-liability'],
-    relatedProfessions: ['engineers', 'architects', 'geotechnical-engineers', 'accountants'],
+    relatedProfessions: ['architects-engineers', 'accountants', 'consultants', 'it-consultants'],
   },
   {
     slug: 'professional-indemnity-insurance-sole-traders-nz',
@@ -334,7 +334,7 @@ export const landingPages: LandingPage[] = [
     image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&auto=format&fit=crop&q=80',
     targetKeyword: 'professional indemnity insurance sole trader NZ',
     relatedCoverage: ['professional-indemnity', 'public-liability'],
-    relatedProfessions: ['it-consultants', 'accountants', 'marketing-consultants', 'management-consultants'],
+    relatedProfessions: ['it-consultants', 'accountants', 'consultants', 'financial-advisers'],
   },
   {
     slug: 'compare-professional-indemnity-insurance-nz',
@@ -432,7 +432,7 @@ export const landingPages: LandingPage[] = [
     image: 'https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=1200&auto=format&fit=crop&q=80',
     targetKeyword: 'compare professional indemnity insurance NZ',
     relatedCoverage: ['professional-indemnity', 'public-liability', 'run-off-cover'],
-    relatedProfessions: ['accountants', 'engineers', 'it-consultants', 'financial-advisers', 'architects'],
+    relatedProfessions: ['accountants', 'architects-engineers', 'it-consultants', 'financial-advisers'],
   },
   {
     slug: 'professional-liability-insurance-nz',
@@ -537,7 +537,7 @@ export const landingPages: LandingPage[] = [
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop&q=80',
     targetKeyword: 'professional liability insurance NZ',
     relatedCoverage: ['professional-indemnity', 'public-liability', 'management-liability', 'run-off-cover'],
-    relatedProfessions: ['accountants', 'engineers', 'financial-advisers', 'it-consultants', 'architects'],
+    relatedProfessions: ['accountants', 'architects-engineers', 'financial-advisers', 'it-consultants'],
   },
   {
     slug: 'indemnity-insurance-small-business-nz',
@@ -628,8 +628,8 @@ export const landingPages: LandingPage[] = [
     ],
     image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1200&auto=format&fit=crop&q=80',
     targetKeyword: 'small business indemnity insurance NZ',
-    relatedCoverage: ['professional-indemnity', 'public-liability', 'management-liability', 'employment-practices-liability'],
-    relatedProfessions: ['accountants', 'it-consultants', 'marketing-consultants', 'management-consultants'],
+    relatedCoverage: ['professional-indemnity', 'public-liability', 'management-liability'],
+    relatedProfessions: ['accountants', 'it-consultants', 'consultants', 'financial-advisers'],
   },
   {
     slug: 'pi-insurance-government-contractors-nz',
@@ -731,6 +731,6 @@ export const landingPages: LandingPage[] = [
     image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&auto=format&fit=crop&q=80',
     targetKeyword: 'PI insurance government contracts NZ',
     relatedCoverage: ['professional-indemnity', 'public-liability'],
-    relatedProfessions: ['it-consultants', 'management-consultants', 'engineers', 'accountants'],
+    relatedProfessions: ['it-consultants', 'consultants', 'architects-engineers', 'accountants'],
   },
 ]
