@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import PriceTag from '../../components/PriceTag'
 import { coverageTypes } from '../../data/coverage-types'
 import type { Metadata } from 'next'
 
@@ -44,7 +45,7 @@ export default function CoveragePage() {
               </div>
               <div className="p-6">
                 <h2 className="font-bold text-slate-900 group-hover:text-orange-600 transition mb-1">{ct.name}</h2>
-                <div className="text-xs font-bold text-orange-600 mb-3">{ct.avgCost}</div>
+                <PriceTag price={ct.avgCost} className="text-xs font-bold text-orange-600 mb-3 block" />
                 <p className="text-sm text-slate-600 leading-relaxed">{ct.shortDesc}</p>
                 <div className="mt-4 text-sm font-bold text-orange-600">Learn More →</div>
               </div>

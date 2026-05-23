@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import QuoteForm from '../components/QuoteForm'
+import PriceTag from '../components/PriceTag'
 import { coverageTypes } from '../data/coverage-types'
 import { professionTypes } from '../data/profession-types'
 import { blogPosts } from '../data/blog-posts'
@@ -104,7 +105,7 @@ export default function HomePage() {
                 <h3 className="font-bold text-white text-sm mb-2 leading-snug group-hover:text-orange-400 transition-colors">{ct.name}</h3>
                 <p className="text-xs text-gray-400 leading-relaxed line-clamp-3 mb-4">{ct.shortDesc}</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-orange-400">{ct.avgCost}</span>
+                  <PriceTag price={ct.avgCost} className="text-xs font-bold text-orange-400" />
                   <span className="text-gray-600 group-hover:text-orange-400 transition-colors text-sm">→</span>
                 </div>
               </Link>
@@ -130,7 +131,7 @@ export default function HomePage() {
                 </div>
                 <div className="min-w-0">
                   <h3 className="font-bold text-white text-sm mb-1 group-hover:text-orange-400 transition-colors leading-snug">{pt.name}</h3>
-                  <p className="text-xs text-orange-400 font-semibold mb-1">{pt.avgCost}</p>
+                  <PriceTag price={pt.avgCost} className="text-xs text-orange-400 font-semibold mb-1 block" />
                   <p className="text-xs text-gray-500 group-hover:text-gray-400 transition-colors">View cover options →</p>
                 </div>
               </Link>

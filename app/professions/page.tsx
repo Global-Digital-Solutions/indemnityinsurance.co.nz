@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import PriceTag from '../../components/PriceTag'
 import { professionTypes } from '../../data/profession-types'
 import type { Metadata } from 'next'
 
@@ -44,7 +45,7 @@ export default function ProfessionsPage() {
               </div>
               <div className="p-5">
                 <h2 className="font-bold text-slate-900 text-sm mb-1 group-hover:text-orange-600 transition">{pt.name}</h2>
-                <p className="text-xs text-orange-600 font-semibold mb-2">{pt.avgCost}</p>
+                <PriceTag price={pt.avgCost} className="text-xs text-orange-600 font-semibold mb-2 block" />
                 <p className="text-xs text-slate-600 line-clamp-2">{pt.shortDesc}</p>
               </div>
             </Link>

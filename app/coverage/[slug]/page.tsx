@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { coverageTypes } from '../../../data/coverage-types'
 import QuoteForm from '../../../components/QuoteForm'
+import PriceTag from '../../../components/PriceTag'
 import { SITE } from '../../../data/site'
 import type { Metadata } from 'next'
 
@@ -53,7 +54,7 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
               <h1 className="text-4xl md:text-5xl font-extrabold mb-3">{ct.name}</h1>
               <p className="text-brand-200 text-lg max-w-2xl">{ct.shortDesc}</p>
               <div className="mt-4">
-                <span className="inline-block bg-gold-500/20 border border-gold-400/40 text-gold-400 text-sm font-bold px-3 py-1 rounded-full">{ct.avgCost}</span>
+                <PriceTag price={ct.avgCost} className="inline-block bg-gold-500/20 border border-gold-400/40 text-gold-400 text-sm font-bold px-3 py-1 rounded-full" />
               </div>
             </div>
           </div>
