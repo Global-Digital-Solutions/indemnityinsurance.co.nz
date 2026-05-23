@@ -68,7 +68,7 @@ export default function Footer() {
                 ['PI Insurance Guide', '/professional-indemnity-insurance/'],
                 ['PI Insurance Cost', '/pi-insurance-cost/'],
                 ['Contractor Guide', '/indemnity-insurance-for-contractors/'],
-                ['Blog & Guides', '/blog/'],
+                ['Resources', '/blog/'],
                 ['FAQs', '/faq/'],
                 ['About Us', '/about/'],
               ].map(([label, href]) => (

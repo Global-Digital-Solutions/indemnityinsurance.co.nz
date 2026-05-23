@@ -16,7 +16,7 @@ const stats = [
   { value: '$85/mo', label: 'Average PI premium (BizCover FY24)' },
   { value: '$1M', label: 'Most popular cover level in NZ' },
   { value: '11', label: 'Cover levels — $250K to $10M+' },
-  { value: '1 day', label: 'Typical quote turnaround' },
+  { value: 'Fast', label: 'Quick adviser response' },
 ]
 
 export default function HomePage() {
@@ -86,20 +86,27 @@ export default function HomePage() {
       </div>
 
       {/* Coverage types */}
-      <div className="py-16 bg-slate-50">
+      <div className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Coverage Types We Advise On</h2>
-            <p className="text-slate-600 max-w-2xl mx-auto">From professional indemnity to management liability — find the right cover for your profession and risk profile.</p>
+            <span className="inline-block bg-orange-500/20 border border-orange-400/30 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">What We Cover</span>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">Coverage Types We Advise On</h2>
+            <p className="text-gray-400 max-w-2xl mx-auto">From professional indemnity to management liability — find the right cover for your profession and risk profile.</p>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {coverageTypes.map(ct => (
               <Link key={ct.slug} href={`/coverage/${ct.slug}/`}
-                className="group bg-white rounded-xl border border-slate-200 p-6 hover:border-brand-300 hover:shadow-lg transition-all">
-                <span className="text-3xl mb-3 block">{ct.icon}</span>
-                <h3 className="font-bold text-slate-900 text-sm mb-2 group-hover:text-brand-700 transition">{ct.name}</h3>
-                <p className="text-xs text-slate-600 leading-relaxed line-clamp-3">{ct.shortDesc}</p>
-                <div className="mt-4 text-xs font-bold text-brand-600">{ct.avgCost} →</div>
+                className="group relative bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:border-orange-500/60 hover:bg-gray-750 transition-all duration-200 overflow-hidden">
+                <div className="absolute top-0 right-0 w-20 h-20 bg-orange-500/5 rounded-bl-full group-hover:bg-orange-500/10 transition-colors" />
+                <div className="w-12 h-12 bg-orange-500/15 border border-orange-500/20 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-orange-500/25 transition-colors">
+                  {ct.icon}
+                </div>
+                <h3 className="font-bold text-white text-sm mb-2 leading-snug group-hover:text-orange-400 transition-colors">{ct.name}</h3>
+                <p className="text-xs text-gray-400 leading-relaxed line-clamp-3 mb-4">{ct.shortDesc}</p>
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-bold text-orange-400">{ct.avgCost}</span>
+                  <span className="text-gray-600 group-hover:text-orange-400 transition-colors text-sm">→</span>
+                </div>
               </Link>
             ))}
           </div>
@@ -107,19 +114,25 @@ export default function HomePage() {
       </div>
 
       {/* Professions */}
-      <div className="py-16 bg-white">
+      <div className="py-20 bg-gray-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Coverage By Profession</h2>
-            <p className="text-slate-600 max-w-2xl mx-auto">Tailored guidance for your specific profession — including mandatory requirements, typical costs and key risks.</p>
+            <span className="inline-block bg-orange-500/20 border border-orange-400/30 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Your Profession</span>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">Find Cover for Your Profession</h2>
+            <p className="text-gray-400 max-w-2xl mx-auto">Every profession has different exposure. Find guidance tailored to your specific role — including mandatory requirements, typical costs and the risks that matter most.</p>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {professionTypes.map(pt => (
               <Link key={pt.slug} href={`/professions/${pt.slug}/`}
-                className="group bg-slate-50 border border-slate-200 rounded-xl p-5 hover:bg-brand-50 hover:border-brand-300 transition-all">
-                <span className="text-3xl mb-3 block">{pt.icon}</span>
-                <h3 className="font-bold text-slate-900 text-sm mb-1 group-hover:text-brand-700">{pt.name}</h3>
-                <p className="text-xs text-slate-600">{pt.avgCost}</p>
+                className="group flex items-start gap-4 bg-gray-800 border border-gray-700 rounded-2xl p-5 hover:border-orange-500/60 hover:bg-gray-800 transition-all duration-200">
+                <div className="w-11 h-11 bg-orange-500/15 border border-orange-500/20 rounded-xl flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-orange-500/25 transition-colors">
+                  {pt.icon}
+                </div>
+                <div className="min-w-0">
+                  <h3 className="font-bold text-white text-sm mb-1 group-hover:text-orange-400 transition-colors leading-snug">{pt.name}</h3>
+                  <p className="text-xs text-orange-400 font-semibold mb-1">{pt.avgCost}</p>
+                  <p className="text-xs text-gray-500 group-hover:text-gray-400 transition-colors">View cover options →</p>
+                </div>
               </Link>
             ))}
           </div>
@@ -136,7 +149,7 @@ export default function HomePage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { n: '01', title: 'Tell Us About Your Work', desc: 'Complete the quick quote form — profession, cover type and level needed. Takes 2 minutes.' },
-              { n: '02', title: 'Adviser Reviews Your Needs', desc: 'A licensed NZ insurance adviser assesses your risk profile and coverage requirements.' },
+              { n: '02', title: 'Adviser Reviews Your Needs', desc: 'A licensed insurance adviser assesses your risk profile and coverage requirements.' },
               { n: '03', title: 'Market Comparison', desc: 'Multiple insurers are approached — QBE, Dual, BHSI, Vero, AIG — to find the best fit.' },
               { n: '04', title: 'Get Your Quote', desc: 'Receive a personalised quote quickly. No obligation, no pressure.' },
             ].map(step => (
@@ -213,7 +226,7 @@ export default function HomePage() {
       <div className="py-16 bg-gradient-to-br from-brand-900 to-brand-800">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">Ready to Get Covered?</h2>
-          <p className="text-brand-300 text-lg mb-8">Licensed NZ advisers compare the market and get back to you quickly — at no cost to you.</p>
+          <p className="text-brand-300 text-lg mb-8">Licensed advisers compare the market and get back to you quickly — at no cost to you.</p>
           <Link href="/contact/"
             className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-extrabold px-10 py-4 rounded-2xl transition-colors shadow-xl text-lg">
             Get a Quote →
