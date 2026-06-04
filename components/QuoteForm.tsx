@@ -1,7 +1,8 @@
 'use client'
 
-import { useState, FormEvent } from 'react'
+import { useState, useRef, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
+import TurnstileWidget, { TurnstileHandle } from './TurnstileWidget'
 
 const professionOptions = [
   'Accountant / Bookkeeper',
@@ -45,6 +46,7 @@ interface QuoteFormProps {
 
 export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
   const router = useRouter()
+  const turnstileRef = useRef<TurnstileHandle>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [form, setForm] = useState({
@@ -65,12 +67,19 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
     setError('')
     setLoading(true)
     try {
+      const cfToken = await turnstileRef.current?.execute()
+      if (!cfToken) {
+        setError('Security check could not complete. Please try again.')
+        setLoading(false)
+        return
+      }
       const res = await fetch('/api/submit-form', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...form,
           _subject: 'Professional Indemnity Insurance Quote — IndemnityInsurance.co.nz',
+          cfTurnstileToken: cfToken,
         }),
       })
       if (!res.ok) throw new Error('Submission failed')
@@ -174,6 +183,8 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
 
                   {error && <p className="text-red-400 text-sm bg-red-900/20 border border-red-500/30 rounded-lg px-3 py-2">{error}</p>}
 
+                  <TurnstileWidget ref={turnstileRef} />
+
                   <button type="submit" disabled={loading}
                     className="w-full bg-orange-500 hover:bg-orange-600 disabled:bg-orange-800 text-white font-bold py-3 rounded-lg transition-colors text-sm shadow-lg">
                     {loading ? 'Submitting...' : 'Get a Quote →'}
@@ -240,6 +251,8 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
         </div>
 
         {error && <p className="text-red-400 text-xs bg-red-900/20 border border-red-500/30 rounded px-3 py-2">{error}</p>}
+
+        <TurnstileWidget ref={turnstileRef} />
 
         <button type="submit" disabled={loading}
           className="w-full bg-orange-500 hover:bg-orange-600 disabled:bg-orange-800 text-white font-bold py-2.5 rounded-lg transition-colors text-sm">
