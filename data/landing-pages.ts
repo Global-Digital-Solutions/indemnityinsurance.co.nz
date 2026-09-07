@@ -30,8 +30,8 @@ export const landingPages: LandingPage[] = [
 <h2>Which Auckland Professionals Need PI Insurance?</h2>
 <p>PI insurance is essential or mandatory for a wide range of Auckland-based professionals:</p>
 <ul>
-<li><strong>Financial advisers and mortgage brokers:</strong> Required under FMCA FAP licence conditions — Auckland has the highest concentration of FAP-licensed advisers in NZ</li>
-<li><strong>Accountants:</strong> CAANZ membership requires PI cover; Auckland's large accounting sector includes both Big 4 firms and hundreds of boutique practices</li>
+<li><strong>Financial advisers and mortgage brokers:</strong> Required under FAP licensing — Auckland has the highest concentration of FAP-licensed advisers in NZ</li>
+<li><strong>Accountants:</strong> CA ANZ requires PI cover from Certificate of Public Practice holders, not from members generally; Auckland's accounting sector spans Big 4 firms and hundreds of boutique practices</li>
 <li><strong>Architects and engineers:</strong> Mandatory requirements strengthen in 2026 following the November 2025 announcement; Auckland's construction boom increases exposure</li>
 <li><strong>IT consultants and developers:</strong> Auckland's growing tech sector — from Parnell startups to enterprise IT firms — requires PI for government and corporate contracts</li>
 <li><strong>Real estate agents:</strong> Auckland's high-value property market means PI claims in the city involve some of NZ's largest compensation amounts</li>
@@ -77,7 +77,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         q: 'What is the minimum PI cover for Auckland architecture and engineering firms?',
-        a: 'Current market practice for Auckland architecture and engineering firms is $1M–$2M per claim minimum. Following the November 2025 mandatory PI announcement, regulatory minimums for residential construction professionals are expected to be set at $1M–$2M per project. Larger firms and those working on high-value commercial projects should consider $5M or more.',
+        a: 'Current market practice for Auckland architecture and engineering firms is $1M–$2M per claim minimum. The Building Amendment Bill, introduced on 2 July 2026 and currently at select committee, would make PI mandatory for design professionals — architects and engineers — and expressly not for builders or Licensed Building Practitioners. No minimum sum insured has been published, and the Bill is not yet law. Larger firms and those working on high-value commercial projects should consider $5M or more.',
       },
     ],
     image: 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&auto=format&fit=crop&q=80',
@@ -109,7 +109,7 @@ export const landingPages: LandingPage[] = [
 <p>Wellington's seismic environment creates unique PI exposure for structural and geotechnical engineers. Post-Kaikōura earthquake, Wellington building owners and Wellington City Council have undertaken significant seismic assessment programmes. Engineers providing Initial Evaluation Procedure (IEP) and Detailed Seismic Assessment (DSA) reports face PI exposure if their assessments are later found to be incorrect or inadequate. PI cover levels of $2M–$5M are appropriate for Wellington structural and geotechnical engineers.</p>
 
 <h3>Financial Advisers and Accountants</h3>
-<p>Wellington's financial and professional services sector includes a significant number of FAP-licensed advisers, chartered accountants, and specialist professional services firms serving both government and private sector clients. FMCA requirements mandate PI cover for all financial advisers — Wellington advisers with government or large institutional clients should carry $2M–$5M cover.</p>
+<p>Wellington's financial and professional services sector includes a significant number of FAP-licensed advisers, chartered accountants, and specialist professional services firms serving both government and private sector clients. PI is not a standard FAP licence condition — the FMA considered it and decided against it — but many advisers hold it anyway, and institutional or government clients often require it by contract.</p>
 
 <h2>Government Contract PI Requirements in Wellington</h2>
 <p>Professionals tendering for Wellington government contracts should be familiar with the standard insurance requirements in the Government Model Contracts:</p>
@@ -165,7 +165,7 @@ export const landingPages: LandingPage[] = [
     metaTitle: 'Professional Indemnity Insurance Christchurch',
     metaDescription: 'PI insurance for Christchurch engineers, construction consultants and advisers, with cover suited to the rebuild market. Advice from licensed NZ advisers.',
     excerpt: 'Christchurch\'s post-earthquake rebuild has created unique PI risks for local engineers, architects, and construction professionals. Get expert PI insurance advice tailored to the Canterbury market.',
-    heroContent: 'Christchurch\'s recovery from the 2010–2011 Canterbury earthquakes has shaped one of the most complex professional liability environments in New Zealand. Engineers, architects, project managers, geotechnical consultants, and advisory professionals working in the rebuild face elevated PI exposure — and the forthcoming mandatory PI requirements make getting the right cover more urgent than ever.',
+    heroContent: 'Christchurch\'s recovery from the 2010–2011 Canterbury earthquakes has shaped one of the most complex professional liability environments in New Zealand. Engineers, architects, project managers, geotechnical consultants, and advisory professionals working in the rebuild face elevated PI exposure, and the mandatory PI proposed for design professionals in the Building Amendment Bill would add a compliance reason to an existing commercial one.',
     bodyContent: `<h2>Professional Indemnity Insurance in Christchurch — A Unique Risk Environment</h2>
 <p>Canterbury's rebuild following the 2010 Darfield and 2011 Christchurch earthquakes created one of the most complex professional services environments in New Zealand's history. The Christchurch central city rebuild — managed through the Christchurch Central Development Unit (CCDU) and its successor entities — and the massive residential repair and rebuild programme generated unprecedented demand for engineering, geotechnical, architectural, and project management services.</p>
 <p>That concentration of professional services activity has also created a concentrated professional liability risk. Geotechnical assessments, foundation designs, seismic strengthening specifications, and residential repair project management all carry significant potential for PI claims — and the long-tail nature of building defect liability means claims from earthquake-related work may continue to emerge for years to come.</p>
@@ -253,7 +253,7 @@ export const landingPages: LandingPage[] = [
 <li><strong>Freelance consultants:</strong> Management consultants, business analysts, strategy advisers</li>
 <li><strong>IT contractors:</strong> Software developers, web developers, cybersecurity consultants, data analysts</li>
 <li><strong>Marketing and creative freelancers:</strong> Copywriters, graphic designers, digital marketers, social media managers, brand strategists</li>
-<li><strong>Financial and accounting professionals:</strong> Bookkeepers, tax agents, financial advisers (FMCA requires PI as a FAP condition)</li>
+<li><strong>Financial and accounting professionals:</strong> Bookkeepers, tax agents, financial advisers (PI is not an FMA standard licence condition, though clients often require it)</li>
 <li><strong>Engineering consultants:</strong> Structural, civil, geotechnical, and MEP engineers operating as sole traders</li>
 <li><strong>Healthcare practitioners:</strong> Physiotherapists, psychologists, dietitians, and other registered health professionals in private practice</li>
 <li><strong>Real estate agents and property managers:</strong> Independent agents and sole-trader property managers</li>
@@ -732,5 +732,478 @@ export const landingPages: LandingPage[] = [
     targetKeyword: 'PI insurance government contracts NZ',
     relatedCoverage: ['professional-indemnity', 'public-liability'],
     relatedProfessions: ['it-consultants', 'consultants', 'architects-engineers', 'accountants'],
+  },
+  {
+    slug: 'indemnity-value-vs-replacement-value-nz',
+    title: 'Indemnity Value vs Replacement Value in NZ',
+    h1: 'Indemnity Value vs Replacement Value in New Zealand',
+    metaTitle: 'Indemnity Value vs Replacement Value NZ',
+    metaDescription: 'Indemnity value pays what an item was worth just before the loss; replacement value pays to replace it. What that means at claim time in New Zealand.',
+    excerpt: 'If you have found this page after reading the word “indemnity” on a house, contents, car or jewellery policy, you are in the right place — and this is not insurance we arrange. Here is what indemnity value actually means, how it differs from replacement value, and who to ask next.',
+    heroContent: 'Indemnity value and replacement value are two different ways an insurer can settle a claim on your house, contents, car or jewellery. One pays what the item was worth immediately before the loss. The other pays what it costs to replace it. The difference does not show up when you buy the policy — it shows up on the day you claim.',
+    bodyContent: `<h2>Two different things share the word “indemnity”</h2>
+<p>In New Zealand, “indemnity insurance” is searched for by people who want three unrelated things. Some are business owners and professionals looking for <em>professional indemnity</em> — cover for a claim that their advice or services caused someone a financial loss. Some are doctors and health practitioners looking for <em>medical indemnity</em>. And some are homeowners, drivers and jewellery owners who have read the words <em>indemnity value</em> on a policy schedule and want to know what they mean.</p>
+<p>This page is for the third group. It has nothing to do with professional indemnity. It is also not a product we arrange — we do not place house, contents, motor or jewellery insurance, and we do not earn anything from you reading this. It is here because a person who arrives looking for one thing and finds only another has been badly served.</p>
+
+<h2>What indemnity value means</h2>
+<p>Indemnity value is a settlement basis. It pays what the damaged or lost thing was worth at the moment before the loss happened — not what a new one costs today.</p>
+<p>The Insurance Council of New Zealand describes indemnity value for a house as “what the house was worth just before it was damaged”, and notes that this is “roughly equivalent to the depreciated replacement cost”. In other words: work out what it would cost to rebuild, then subtract for the age, wear and remaining useful life of what was actually there.</p>
+<p>The Insurance &amp; Financial Services Ombudsman scheme puts the same idea in general terms in its glossary: indemnity value is “the value of the item at the time of the loss”, and the settlement is “designed to put you in the same financial position” you were in before the loss — not a better one.</p>
+<p>That last phrase is the whole principle. Indemnity is about restoring your position, not improving it. A twenty-year-old roof settled on an indemnity basis is paid out as a twenty-year-old roof.</p>
+
+<h2>What replacement value means</h2>
+<p>Replacement value — you may also see it written as replacement cost, reinstatement, or “new for old” — pays what it costs to replace the damaged item with a new equivalent, without a deduction for age or wear. If your ten-year-old dishwasher is destroyed, a replacement-value settlement buys a new dishwasher of a similar standard rather than paying you what a ten-year-old dishwasher was worth.</p>
+<p>Replacement cover generally costs more, because the insurer is promising more. It also usually comes with more conditions attached — most obviously, that you actually replace or rebuild the thing, and often that you do so within a stated period. If you take the cash and do not rebuild, many policies revert to paying the indemnity amount instead. That condition is the one people are most often surprised by.</p>
+
+<h2>Where each one turns up</h2>
+
+<h3>House insurance</h3>
+<p>Your house policy schedule will say which basis applies, and it may apply differently to different parts of the claim. Read the schedule and the “how we settle your claim” section of the wording together — the schedule tells you the sum insured, and the wording tells you what the insurer will do with it. Some policies pay replacement cost if you rebuild and indemnity value if you do not. Some elements of a property, such as retaining walls, driveways, fences and paths, are commonly treated differently from the house itself, so check those separately rather than assuming.</p>
+
+<h3>Contents insurance</h3>
+<p>Contents policies frequently blend the two. Household goods may be settled on a replacement basis while certain categories — clothing and footwear are the usual examples — are settled on an indemnity basis. Again, this is stated in the wording, not in the marketing.</p>
+
+<h3>Car insurance</h3>
+<p>Motor policies are usually written on one of two bases, and your schedule will say which. An <strong>agreed value</strong> policy sets the payout figure in advance, at the time you take the cover out. A <strong>market value</strong> policy pays what the vehicle was worth immediately before the loss — which is an indemnity settlement by another name, and which falls each year as the car ages. If you have a loan secured against the vehicle, the difference between the two bases is the difference between clearing the loan and not.</p>
+
+<h3>Jewellery and specified items</h3>
+<p>Jewellery, watches, art and similar items are frequently listed separately on a schedule with their own value. Whether that figure is an agreed amount or a ceiling on an indemnity settlement is the question to ask, because valuations move. A ring valued eight years ago may cost considerably more to remake now, and a stale valuation on the schedule can leave a gap that only appears at claim time.</p>
+
+<h2>Why it matters, and when</h2>
+<p>The practical consequences of the difference are all deferred. Nothing goes wrong when you buy the policy. It goes wrong later:</p>
+<ul>
+<li><strong>At claim time.</strong> An indemnity settlement on an older item may not be enough to buy a comparable replacement, because you are being paid the depreciated value, not the shelf price.</li>
+<li><strong>When a lender is involved.</strong> Mortgage and finance agreements often specify a level or basis of cover. An indemnity-basis policy may not meet a condition your lender assumed was met.</li>
+<li><strong>When you do not rebuild.</strong> Replacement cover that is conditional on reinstatement can drop back to indemnity value if you decide to sell the site or take cash instead.</li>
+<li><strong>After a valuation goes stale.</strong> Sums insured and specified item values do not update themselves.</li>
+</ul>
+
+<h2>How to find out which basis your policy uses</h2>
+<p>You do not need an adviser to answer this. You need two documents:</p>
+<ul>
+<li><strong>Your policy schedule</strong> — the personalised page listing what is insured, the sums insured, the excesses, and often the settlement basis for each item.</li>
+<li><strong>Your policy wording</strong> — the booklet or PDF that defines the terms used on the schedule. Search it for “indemnity value”, “replacement”, “reinstatement”, “market value” and “agreed value”.</li>
+</ul>
+<p>If the two do not obviously agree, or the wording is ambiguous, ask the insurer or broker who arranged the policy to confirm in writing which basis applies to which item. A written answer is worth having, and it costs nothing to ask.</p>
+
+<h2>Who to ask — and it is not us</h2>
+<p>We arrange professional indemnity and related business liability cover. We do not arrange house, contents, motor or jewellery insurance, so we are not the right people to answer a question about your own policy schedule, and we would rather say so than take your enquiry and pass it somewhere unhelpful. Three genuinely useful places to go instead:</p>
+<ul>
+<li><strong>Your own insurer or broker.</strong> They hold your wording and your schedule. They are obliged to explain what your policy actually says, and they are the only people who can confirm it for your specific cover.</li>
+<li><strong>The Insurance Council of New Zealand (ICNZ).</strong> The industry body publishes plain-language consumer explanations of settlement bases, sums insured and how house cover works in New Zealand, independent of any one insurer.</li>
+<li><strong>The Insurance &amp; Financial Services Ombudsman (IFSO) scheme.</strong> An independent dispute resolution scheme, with a public glossary of insurance terms and case notes on how disputes about settlement have been decided. If you are already in disagreement with an insurer about how a claim has been settled, this is the route.</li>
+</ul>
+
+<h2>If you actually came looking for professional indemnity</h2>
+<p>If the word “indemnity” brought you here from a contract, a tender document or a professional body’s membership requirements, you are almost certainly after professional indemnity insurance instead — a completely separate class of cover that responds when a client alleges your professional advice or services caused them a financial loss. The two share a word and nothing else. Professional indemnity is written on a claims-made basis, is bought by businesses and practitioners rather than households, and is where we can help.</p>
+<p>There is a third sense again: medical indemnity for doctors and health practitioners, which in New Zealand is bought directly or through a mutual rather than through a broker. If that is what you need, we explain how it works and point you to the right place, but we cannot arrange it.</p>`,
+    faqs: [
+      {
+        q: 'Is indemnity value the same as market value?',
+        a: 'They are close relatives rather than identical twins. Both look at what something was worth immediately before the loss rather than what a new one costs. “Market value” is the term you will usually see on a motor policy; “indemnity value” is the term you will usually see on house and contents policies, where the Insurance Council of New Zealand describes it as roughly equivalent to the depreciated replacement cost. Which term applies to you is written on your schedule.',
+      },
+      {
+        q: 'Is replacement value always better than indemnity value?',
+        a: 'It pays more, but it is not automatically the right choice. Replacement cover costs more and usually carries conditions — most importantly that you actually rebuild or replace, sometimes within a set period. For an older item you intend to dispose of anyway, or a building you would not reinstate on the same site, the extra premium may buy you very little. The question to ask is what you would genuinely do after a loss, then match the settlement basis to that.',
+      },
+      {
+        q: 'How do I tell which one my house policy uses?',
+        a: 'Read the policy schedule first — it lists the sums insured and often names the settlement basis for each section. Then read the claims settlement part of the policy wording, which defines what those words mean. If the two are not clearly consistent, ask your insurer or broker to confirm in writing which basis applies to the house, and separately to items like fences, driveways, retaining walls and paths, which are often treated differently.',
+      },
+      {
+        q: 'Does indemnity value mean I get less than my sum insured?',
+        a: 'Usually, yes — for an item that has aged. A sum insured is a ceiling on what the insurer will pay, not a promise to pay that amount. On an indemnity basis the insurer works out what the damaged item was worth just before the loss and pays that, up to the sum insured. On a replacement basis it works out what it costs to replace, again up to the sum insured. Either way the sum insured is the cap, not the payout.',
+      },
+      {
+        q: 'Can I switch my policy from indemnity value to replacement value?',
+        a: 'That is a question for the insurer or broker who arranged the policy, not for us. Insurers commonly offer both bases on the same product, and moving between them is usually a matter of a premium change and possibly a fresh assessment of the property or item. Older buildings and older vehicles are the cases where an insurer is most likely to want to keep the cover on an indemnity basis.',
+      },
+      {
+        q: 'Where can I get independent information about this in New Zealand?',
+        a: 'The Insurance Council of New Zealand publishes consumer explanations of how house and contents settlement works, independently of any single insurer. The Insurance & Financial Services Ombudsman scheme maintains a glossary of insurance terms and handles disputes between consumers and insurers, including disputes about how a claim has been settled. Both are better sources for a personal-lines question than any broker page, including this one.',
+      },
+      {
+        q: 'Does this page mean you can review my house insurance?',
+        a: 'No. We arrange professional indemnity and related business liability insurance. We do not arrange house, contents, motor or jewellery cover, and we cannot review or quote on a personal policy. If you have arrived here with a personal insurance question, your own insurer or broker, ICNZ and the IFSO scheme are the right places to take it.',
+      },
+      {
+        q: 'Is professional indemnity insurance settled on an indemnity value basis?',
+        a: 'No — the words look similar but describe different mechanisms. Professional indemnity is liability insurance: it responds to a claim made against you by a third party, up to a limit of indemnity, and it is written on a claims-made basis. Indemnity value is a property settlement basis governing how much an insurer pays for your own damaged or lost property. Sharing the word “indemnity” is a coincidence of legal vocabulary, not a shared product design.',
+      },
+    ],
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80',
+    targetKeyword: 'indemnity value vs replacement value NZ',
+    relatedCoverage: ['professional-indemnity'],
+    relatedProfessions: [],
+  },
+  {
+    slug: 'medical-indemnity-insurance-nz',
+    title: 'Medical Indemnity Insurance in New Zealand',
+    h1: 'Medical Indemnity Insurance in New Zealand',
+    metaTitle: 'Medical Indemnity Insurance NZ',
+    metaDescription: 'What medical indemnity covers for NZ doctors, how ACC changes the picture, and why it is bought direct or through a mutual rather than through a broker.',
+    excerpt: 'Medical indemnity is the cover doctors and health practitioners hold for complaints, investigations and disciplinary proceedings arising from clinical practice. In New Zealand it is bought directly from a provider or through a mutual — it is not broker-placed, and we cannot arrange it. Here is how it works and what to look for.',
+    heroContent: 'Medical indemnity is not professional indemnity with a stethoscope. It is a different market, sold through different channels, shaped by a New Zealand accident compensation system that has no equivalent in most of the countries whose medico-legal advice you will find online. This page explains the difference honestly, including the part where we tell you we cannot sell it to you.',
+    bodyContent: `<h2>What medical indemnity insurance is</h2>
+<p>Medical indemnity is the cover doctors and other health practitioners hold in connection with their clinical practice. Its central purpose is not usually to pay compensation to a patient. It is to pay for representation, advice and defence costs when a practitioner’s clinical care is examined by somebody with the power to affect their career.</p>
+<p>That framing surprises people who have read overseas material. In the United States, the United Kingdom or Australia, medical indemnity is dominated by claims for damages arising from patient injury. In New Zealand, damages claims of that kind are largely displaced, and the exposure that remains is investigative and disciplinary. The cover follows the exposure.</p>
+
+<h2>How it differs from professional indemnity</h2>
+<p>Professional indemnity insurance responds when a client alleges that your professional advice or services caused them a <em>financial</em> loss. It is bought by accountants, engineers, consultants, IT contractors, architects and similar professionals, it is written on a claims-made basis, and it is placed through insurance brokers in a competitive open market.</p>
+<p>Medical indemnity overlaps in principle and differs in almost every practical respect:</p>
+<ul>
+<li><strong>The trigger is different.</strong> The event that brings the cover into play is typically a complaint, a notification, an investigation or a summons — not a letter of demand for money.</li>
+<li><strong>The remedy is different.</strong> Much of the value is legal representation and medico-legal advice, often available from the first phone call, before anything has formally been alleged.</li>
+<li><strong>The structure can be different.</strong> Some medical indemnity is a contract of insurance with defined entitlements. Some is provided on a discretionary basis by a mutual, where the benefit is decided by the organisation rather than owed as of right. These are genuinely different legal products and the difference is worth understanding before you join one.</li>
+<li><strong>The distribution is different.</strong> It is bought direct from the provider or through membership of a mutual. There is no broker in the middle.</li>
+</ul>
+
+<h2>What ACC changes</h2>
+<p>New Zealand’s accident compensation scheme is the single biggest reason overseas medico-legal writing does not transfer here. Patients who suffer a treatment injury are directed into ACC for cover rather than into court to sue a practitioner for damages. The result is that the large personal-injury damages awards that drive medical indemnity pricing in other countries are, for the most part, simply absent from the New Zealand picture.</p>
+<p>What that does <em>not</em> mean is that a New Zealand doctor has no exposure. It shifts the exposure rather than removing it. An ACC treatment injury claim can itself prompt scrutiny of the care given. Complaints, investigations and disciplinary processes continue to run alongside the compensation scheme, and those are the proceedings that consume a practitioner’s time, money and reputation. This is general context rather than legal advice about your situation — ACC and your indemnity provider are the right sources for the current position.</p>
+
+<h2>What the cover typically responds to</h2>
+<p>Read any New Zealand medical indemnity product against this list, because these are the proceedings a New Zealand practitioner is realistically going to face:</p>
+<ul>
+<li><strong>Health and Disability Commissioner (HDC) investigations.</strong> A patient complaint to the HDC can lead to an investigation, a formal opinion, and findings about whether the Code of Health and Disability Services Consumers’ Rights was breached. Responding properly takes legal and medico-legal help.</li>
+<li><strong>Coronial inquiries.</strong> Where a death is referred to the coroner, a practitioner involved in the care may be asked for evidence, may be a witness, and may be criticised in findings.</li>
+<li><strong>Disciplinary proceedings.</strong> Registered health practitioners are regulated under the Health Practitioners Competence Assurance Act 2003 through their responsible authority. Competence reviews and disciplinary processes can put registration and the right to practise at stake.</li>
+<li><strong>Employment and credentialling consequences</strong> that follow from any of the above.</li>
+<li><strong>Medico-legal advice</strong> at the point where something has gone wrong but nothing formal has started — often the most valuable part of the arrangement, and the part that is hardest to compare on a schedule.</li>
+</ul>
+
+<h2>How it is bought in New Zealand — and why not through us</h2>
+<p>This is the commercially inconvenient part of the page, and it is the reason the page exists.</p>
+<p><strong>We cannot arrange medical indemnity.</strong> It is not broker-placed cover in New Zealand. It is bought directly from a provider or through membership of a mutual, and no amount of enquiry through this site will get you a better outcome than going to the provider yourself. If a broker tells you otherwise about this class, ask them to name the insurer and the placement route before you go further.</p>
+<p>Two anchors for the shape of the market, from the organisations themselves rather than from insurance marketing:</p>
+<ul>
+<li>The New Zealand Resident Doctors’ Association states that there are <strong>two providers</strong> of indemnity cover for resident medical officers. If you are an RMO, that is a small and well-defined field to compare — not an open market with dozens of quotes in it.</li>
+<li><strong>New Zealand Medical Indemnity Insurance (NZMII)</strong> is a New Zealand-owned insurer that insures doctors directly. Direct means direct: the relationship is between the doctor and the insurer.</li>
+</ul>
+<p>Beyond that, the honest advice is the boring advice. Ask your college, your union or your employer who their members actually use, and go to those organisations directly. A registrar, a GP in private practice and a locum surgeon do not necessarily belong in the same arrangement.</p>
+
+<h2>What to look for when you compare</h2>
+<p>Even in a small field there are real differences. Questions worth putting in writing to any provider:</p>
+<ul>
+<li><strong>Is this insurance or discretionary cover?</strong> If it is discretionary, who decides, on what criteria, and is there any appeal?</li>
+<li><strong>What exactly triggers assistance?</strong> A written claim only, or a notification, an HDC complaint, a coronial referral, or a request to attend an interview?</li>
+<li><strong>Are defence and representation costs inside the limit or in addition to it?</strong> Costs eroding the limit is a materially worse deal in a class where costs are the main event.</li>
+<li><strong>What is the retroactive date, and what happens to past work?</strong> If cover is claims-made, an incident from three years ago is only relevant if the cover reaches back that far.</li>
+<li><strong>What happens when you stop practising, go overseas, or retire?</strong> Complaints and coronial matters can surface long after the consultation. Ask specifically what continuing protection exists.</li>
+<li><strong>What scope of practice is covered?</strong> Cover written around your employed hospital role may say nothing useful about private rooms, telehealth, cosmetic work, expert witness work, or work performed in another country.</li>
+<li><strong>Is your employer’s indemnity a substitute?</strong> Usually not, and it is worth getting the answer in writing rather than assuming. The New Zealand Nurses Organisation puts the same warning to its own members in blunt terms: an institution may tell you that it indemnifies you, “but that is not quite the case”.</li>
+</ul>
+
+<h2>Where a broker legitimately does help: the non-clinical side</h2>
+<p>A clinician’s working life is not all clinical. The moment you run a practice, employ people, occupy premises, sit on a board, give advice outside the consulting room or sell something, you have generated exposures that a medical indemnity arrangement was never designed to answer. These are conventional commercial covers, they are broker-placed, and this is where an adviser adds something rather than getting in the way:</p>
+<ul>
+<li><strong>Professional indemnity</strong> for consultancy, advisory, training, medico-legal report writing or research work that sits outside patient care.</li>
+<li><strong>Public liability</strong> for injury or property damage to third parties at your premises.</li>
+<li><strong>Statutory liability</strong> for defence costs and, where insurable, fines arising from breaches of New Zealand statutes in the running of the business.</li>
+<li><strong>Management liability and directors’ and officers’ cover</strong> if you are a director or trustee of a practice company, a PHO entity or a charitable board.</li>
+<li><strong>Employers’ liability</strong> for employee injury claims outside the ACC bar.</li>
+</ul>
+<p>The clean division to hold in your head: clinical care sits with your medical indemnity provider; the business around it sits with a broker.</p>
+
+<h2>Other health practitioners are not in the same position</h2>
+<p>“Medical indemnity” is often used loosely to mean indemnity for anybody in health. The arrangements differ sharply by profession, and two published examples show how much:</p>
+<ul>
+<li><strong>Nurses.</strong> The New Zealand Nurses Organisation includes indemnity insurance in membership — $500,000 per claim, a maximum of $1,000,000 per year and up to $200,000 for criminal defence costs, on NZNO’s own figures in its membership FAQs, last updated March 2026. It applies where you are, or were, a financial or student member working in a health care occupation covered by NZNO. It is included in membership and is not separately purchasable, so nobody can sell it to you or replace it.</li>
+<li><strong>Psychologists.</strong> The New Zealand Psychologists Board does not require indemnity insurance for registration or for an annual practising certificate. The New Zealand Psychological Society instead offers members a scheme placed through Aon New Zealand, purchased separately from membership.</li>
+</ul>
+<p>If your profession gets its indemnity through a body rather than the open market, our page on <strong>professional indemnity through your professional body</strong> sets out who does what, what those arrangements include, and the specific gaps — private practice, non-clinical work, higher limits and run-off — where separate cover is worth looking at.</p>`,
+    faqs: [
+      {
+        q: 'Can you arrange medical indemnity insurance for me?',
+        a: 'No. Medical indemnity in New Zealand is bought directly from a provider or through membership of a mutual, not through an insurance broker. We say so plainly rather than taking the enquiry. What we can help with is the non-clinical side of a practice — professional indemnity for advisory or consultancy work, public liability, statutory liability, management liability and employers’ liability — which is conventional broker-placed business insurance.',
+      },
+      {
+        q: 'How many providers of medical indemnity are there in New Zealand?',
+        a: 'It depends who you are. For resident medical officers, the New Zealand Resident Doctors’ Association states that there are two providers of indemnity cover. New Zealand Medical Indemnity Insurance (NZMII) is a New Zealand-owned insurer that insures doctors directly. The best way to establish your own options is to ask your college, your union or your employer who their members use, and approach those organisations yourself.',
+      },
+      {
+        q: 'Does ACC mean New Zealand doctors do not need indemnity cover?',
+        a: 'No. ACC substantially displaces personal-injury damages claims, which is why New Zealand looks different from the United States, the United Kingdom or Australia. But it does nothing about complaints to the Health and Disability Commissioner, coronial inquiries, competence reviews or disciplinary proceedings under the Health Practitioners Competence Assurance Act 2003. Those are the exposures New Zealand medical indemnity is largely built around, and they are expensive to face without representation.',
+      },
+      {
+        q: 'What is the difference between insurance and discretionary mutual cover?',
+        a: 'With a contract of insurance, your entitlement to be indemnified is defined by the policy and enforceable under it. With discretionary cover from a mutual, assistance is decided by the organisation according to its own rules rather than owed to you as of right. Both models exist in medical indemnity. Neither is automatically better, but you should know which one you are joining and ask how discretion is exercised in practice.',
+      },
+      {
+        q: 'Does my employer’s indemnity cover me?',
+        a: 'Do not assume so. Employer indemnity is generally framed around your work for that employer, in that role, during that employment — and it is the employer’s arrangement, not yours, so its scope and its continuation are outside your control. The New Zealand Nurses Organisation warns its own members that an institution may tell you it indemnifies you, “but that is not quite the case”. Ask for the position in writing, and ask specifically what happens if your interests and your employer’s diverge.',
+      },
+      {
+        q: 'What happens to my cover when I stop practising or move overseas?',
+        a: 'This is the question people ask too late. A complaint, a coronial referral or a disciplinary matter can surface years after the care was given. Ask any provider directly what continuing protection applies after you cease membership or a policy ends — how far back cover reaches, and how far forward it runs once you stop paying. Do not rely on a general assumption; get the answer specific to the arrangement you are in.',
+      },
+      {
+        q: 'I do medico-legal reports and expert witness work. Is that covered?',
+        a: 'Ask your provider, because it may sit outside the definition of clinical practice their arrangement is built around. Where it does, this is one of the genuine cases for a separate professional indemnity policy covering advisory work — which is broker-placed, open-market cover and something an adviser can arrange. The same applies to training, consultancy, research and product or device advice.',
+      },
+      {
+        q: 'I am setting up private rooms. What do I need beyond medical indemnity?',
+        a: 'The business itself generates exposures the clinical arrangement was never meant to answer. Public liability for injury or damage to third parties on your premises, statutory liability for defence costs arising from breaches of New Zealand statutes, employers’ liability, management liability if there is a company or trust with directors, and professional indemnity for any non-clinical advisory work. Confirm the clinical side with your medical indemnity provider first, then get the business side arranged separately.',
+      },
+      {
+        q: 'Is medical indemnity the same as professional indemnity?',
+        a: 'No, although the names invite the confusion. Professional indemnity responds to a third-party allegation that your professional advice or services caused a financial loss, and it is placed by brokers in an open market. Medical indemnity is built around complaints, investigations and disciplinary proceedings connected with clinical care, and in New Zealand it is bought direct or through a mutual. A practitioner with both clinical and commercial activities may well need both, from two different places.',
+      },
+    ],
+    image: 'https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=1200&auto=format&fit=crop&q=80',
+    targetKeyword: 'medical indemnity insurance NZ',
+    relatedCoverage: ['professional-indemnity', 'public-liability', 'statutory-liability'],
+    relatedProfessions: ['healthcare'],
+  },
+  {
+    slug: 'professional-indemnity-through-your-professional-body-nz',
+    title: 'PI Insurance Through Your Professional Body',
+    h1: 'Professional Indemnity Through Your Professional Body',
+    metaTitle: 'PI Through Your Professional Body NZ',
+    metaDescription: 'Nurses, physios, psychologists, lawyers, engineers and accountants can get PI through their professional body. What it includes, and what it may not.',
+    excerpt: 'For a lot of New Zealand professionals, the honest answer to “where do I buy professional indemnity” is: you may already have it, or your body may place it more cheaply than the open market will. Here is who does what, when the scheme is the better answer, and the specific gaps worth checking.',
+    heroContent: 'Many New Zealand professions do not buy professional indemnity on the open market at all. Some get it included in membership. Others buy it through a scheme their body has negotiated with a named provider. None of those schemes is compulsory, and none of them covers everything. This page sets out what each arrangement is, so you can work out whether you need anything else.',
+    bodyContent: `<h2>Two arrangements that get confused with each other</h2>
+<p>When a professional body is involved in indemnity, it is doing one of two quite different things.</p>
+<p><strong>Included in membership.</strong> The body carries cover that extends to members. You do not buy it, you cannot shop for it, and nobody can replace it while you remain a member.</p>
+<p><strong>Placed through a scheme.</strong> The body has appointed a broker or provider and negotiated terms, but you buy the policy yourself. It is a member benefit, not an entitlement — and these schemes are non-exclusive, so members may buy elsewhere. Where cover is included, there is nothing for a broker to do except discuss what sits <em>on top</em>.</p>
+
+<h2>Who arranges what</h2>
+
+<h3>New Zealand Nurses Organisation (NZNO) — included in membership</h3>
+<p>NZNO’s indemnity insurance is part of membership. On NZNO’s own published figures it provides <strong>$500,000 per claim</strong>, a maximum of <strong>$1,000,000 per year</strong>, and a maximum of <strong>$200,000 for criminal defence costs</strong>. The stated conditions are that you are, or were, a financial or student member working in a health care occupation covered by NZNO. Source: NZNO membership FAQs, last updated March 2026 — check the current figures with NZNO, because a body’s cover can change without any law changing.</p>
+<p>This cover is <strong>included and is not separately purchasable</strong>: no broker can arrange, quote on or replace it. NZNO also warns members against relying on employer indemnity instead — “Your institution may tell you that they indemnify you but that is not quite the case.”</p>
+
+<h3>ANZASW, College of Nurses Aotearoa and the New Zealand College of Midwives</h3>
+<p>Each of these three bodies makes indemnity arrangements available to its members. We have deliberately not published limits or terms for them, because we have not verified those against the body’s own current material — a figure we cannot source is worse than no figure. Ask the body what is included, what must be bought separately, and what the limit is. If you belong to more than one body, establish which arrangement responds first.</p>
+
+<h3>Physiotherapy New Zealand — scheme placed through BMS Group</h3>
+<p>Physiotherapy New Zealand offers members an indemnity scheme placed through <strong>BMS Group</strong>. It is a member benefit, not a regulatory requirement, and not exclusive — a physiotherapist can insure elsewhere.</p>
+
+<h3>New Zealand Psychological Society — scheme placed through Aon New Zealand</h3>
+<p>The <strong>New Zealand Psychologists Board does not require indemnity insurance</strong> for registration or for an annual practising certificate; registration turns on accredited qualifications, references, a Police criminal records check and the “fit and proper person” standard under the Health Practitioners Competence Assurance Act 2003. The Society has instead partnered with Aon New Zealand to offer members an indemnity package, <strong>purchased separately, not included in membership</strong>.</p>
+<p>Published features include retroactive cover “to the date on which you became a member of the Society”, legal expenses payable in addition to the policy limit of indemnity, and up to $500 of Employee Assistance Programme support after a covered claim. No indemnity limit is published — members are referred to the current Aon application form, so do not accept one quoted second-hand. The Board is the regulator and the Society is voluntary, so a psychologist outside it buys on the open market.</p>
+
+<h3>New Zealand Law Society — LawSure, placed by Gallagher</h3>
+<p>PI is <strong>not compulsory</strong> for New Zealand lawyers as at the date of this page — the Law Society calls New Zealand an outlier among comparable legal jurisdictions for that reason. What <em>is</em> compulsory is disclosure: rules 3.4 and 3.4A of the Lawyers and Conveyancers Act (Lawyers: Conduct and Client Care) Rules 2008 require a practice, and a barrister sole, to tell clients in writing about their professional indemnity arrangements, and the rule says in terms that “if a lawyer or a practice is not indemnified, this must be disclosed in writing to the client”.</p>
+<p>The rule sets no figure. It defers to minimum standards specified by the Law Society from time to time: effective <strong>6 April 2021</strong>, the indemnity limit is the greater of <strong>$1.2 million per practice</strong> or <strong>$900,000 per partner, shareholder or director lawyer</strong>, with the excess not exceeding the greater of 1% of the limit or <strong>$20,000</strong>. That is the threshold determining what you must <em>say</em> to clients — whether your cover meets it, falls below it, or does not exist — not a level you must hold.</p>
+<p><strong>LawSure</strong> is the Law Society’s non-exclusive scheme, announced 4 September 2025, placed by Gallagher Insurance (AJG) and underwritten by Agile Insurance Group, restricted to members meeting the membership thresholds. Lawyers remain free to buy elsewhere.</p>
+<p>One live caveat: on 26 March 2026 the Law Society opened a consultation on making PI compulsory for lawyers practising independently — approximately <strong>35% of the profession</strong> on its own estimate — and on raising the minimum standards. It closed <strong>5 May 2026</strong>, no minimum figure was proposed, and as at 7 September 2026 no outcome had been published. Check the Law Society’s consultation page for the current position.</p>
+
+<h3>Engineering New Zealand — CEAS scheme</h3>
+<p>Neither Engineering New Zealand membership nor Chartered Professional Engineer registration requires professional indemnity insurance. CPEng turns on an accredited qualification or equivalent knowledge, a competence assessment, the Code of Ethical Conduct, and reassessment at least every six years. Engineering New Zealand presents insurance as a benefit: members “enjoy special offers for Professional Indemnity Insurance, Statutory and Public Liability cover”, offered through the <strong>Consulting Engineering Advancement Society (CEAS)</strong>, non-exclusively.</p>
+<p>The <strong>$200,000</strong> figure attached to engineers is widely misreported. It relates to <strong>producer statements</strong>, not membership or registration: Engineering New Zealand recommends “retaining a statement of $200,000 PI insurance minimum on our producer statements”, says this value “is standard and unrelated to construction costs”, and warns that “the consultant’s liability to its client is not limited by the amount stated on the producer statement”. It is a disclosure figure on a form — not a cap on liability, and not a required level of cover.</p>
+
+<h3>Chartered Accountants Australia and New Zealand — Pulse Insure in New Zealand</h3>
+<p>CA ANZ does require complying professional indemnity insurance from Certificate of Public Practice holders. The New Zealand obligation is qualitative — to “have current and appropriate professional indemnity insurance in place”, with the level depending on the size of the business and the nature of services — and New Zealand members are directed to <strong>Part IV of the NZICA Rules</strong>. No published New Zealand dollar minimum was found.</p>
+<p>Two things are frequently got wrong. The tiered minimum limits and the “CR 2A” citation you may have seen are <strong>Australian</strong>, sitting inside the Professional Standards Scheme, which CA ANZ states covers <strong>Australian resident members</strong>; New Zealand has no equivalent liability-capping statute, so a New Zealand chartered accountant gets no cap and the PI limit is the practical ceiling. And the member-benefits partner in New Zealand is <strong>Pulse Insure</strong> — Aon is the <em>Australian</em> partner, and the two are routinely confused online. Members are obliged to use neither.</p>
+
+<h2>When the scheme is the better answer</h2>
+<p>None of the schemes above locks a member in — a physiotherapist, psychologist, lawyer, engineer or chartered accountant can buy in the open market instead. But the scheme is often the better answer. It usually wins when:</p>
+<ul>
+<li><strong>The cover is included in membership.</strong> An NZNO member in an employed nursing role has nothing to buy and no decision to make.</li>
+<li><strong>The wording is built for your profession</strong>, argued over by people who understand its actual claims. A generic market policy may be cheaper and narrower.</li>
+<li><strong>Your practice is small and standard.</strong> Scheme pricing is pooled, which often beats being individually rated.</li>
+<li><strong>The scheme carries features the market prices separately</strong> — retroactive cover to the date of membership, or legal expenses payable in addition to the limit.</li>
+</ul>
+
+<h2>Where a scheme policy may not reach</h2>
+<p>The gaps are consistent across professions, and each is a reason to look further rather than to leave the scheme:</p>
+<ul>
+<li><strong>Private practice and self-employment.</strong> Cover framed around employed practice may not follow you into your own rooms, company or contracting work.</li>
+<li><strong>Non-clinical and non-core activities.</strong> Training, consultancy, expert witness work, research, product advice and governance roles sit outside the activity the scheme was designed around.</li>
+<li><strong>The limit.</strong> A per-claim limit that suits employed practice may fall short of what a contract or corporate client requires. Where a body publishes one — NZNO’s $500,000 per claim — test it against your actual contracts.</li>
+<li><strong>Run-off.</strong> Professional indemnity is claims-made: it answers claims made while the policy is live. When you retire, sell the practice or let membership lapse, cover generally stops with it, and claims about past work can arrive years later.</li>
+<li><strong>Everything that is not PI.</strong> Public liability, statutory liability, employers’ liability and directors’ and officers’ cover are separate classes a PI scheme does not supply.</li>
+</ul>
+
+<h2>What to check before you decide</h2>
+<ul>
+<li>Is the cover included in membership, or purchased separately?</li>
+<li>What is the limit — per claim, or in the aggregate for the year?</li>
+<li>Are defence costs inside the limit or in addition to it?</li>
+<li>Does the retroactive date reach back over all your past work?</li>
+<li>Does the scope of practice match what you actually do, occasional work included?</li>
+<li>Who is the named insured — you, or your company?</li>
+<li>Is run-off available when you stop, at what cost and for how many years?</li>
+</ul>
+<p>Where the answer is “the scheme covers it”, stay in the scheme. Where it is “not quite”, that gap is the piece worth taking to a licensed adviser.</p>`,
+    faqs: [
+      {
+        q: 'If my professional body includes indemnity in membership, can you sell me anything?',
+        a: 'Not a replacement, no. Where cover is included in membership — as it is with the New Zealand Nurses Organisation — it is not separately purchasable and no broker can arrange or replace it. The only honest commercial conversation is about cover in addition to it: private practice, non-clinical activities, a higher limit than the scheme provides, or other classes such as public and statutory liability. If someone offers to replace your included membership cover, ask them to explain how.',
+      },
+      {
+        q: 'Am I allowed to buy professional indemnity outside my body’s scheme?',
+        a: 'Yes. The schemes described on this page are non-exclusive member benefits, not conditions of membership or registration. A physiotherapist, psychologist, lawyer, engineer or chartered accountant is free to insure in the open market. What you should not do is cancel a scheme policy before you have confirmed that the replacement matches it on retroactive date, scope of practice, defence costs treatment and named insured — price is the least important of those.',
+      },
+      {
+        q: 'Do New Zealand lawyers have to hold professional indemnity insurance?',
+        a: 'Not as at the date of this page. What is compulsory is disclosure: rules 3.4 and 3.4A of the Lawyers and Conveyancers Act (Lawyers: Conduct and Client Care) Rules 2008 require a practice or barrister sole to tell clients in writing about their PI arrangements, and to disclose in writing if they are not indemnified. The Law Society consulted on making PI compulsory for independently practising lawyers between 26 March and 5 May 2026, and no outcome had been published as at 7 September 2026. Check the Law Society’s consultation page for the current position.',
+      },
+      {
+        q: 'Where does the $1.2 million / $900,000 figure for lawyers come from?',
+        a: 'It is the Law Society’s minimum standard, effective 6 April 2021: the greater of $1.2 million per practice or $900,000 per partner, shareholder or director lawyer, with the excess not exceeding the greater of 1% of the indemnity limit or $20,000. It is not a level you must hold. It is the benchmark that determines what you must disclose to clients — whether your cover meets it, falls below it, or does not exist. The rule itself sets no figure, which is why the standard can change without the rule changing.',
+      },
+      {
+        q: 'Does Engineering New Zealand or CPEng require professional indemnity?',
+        a: 'No. Neither membership nor Chartered Professional Engineer registration requires it. Engineering New Zealand offers insurance as a member benefit through the Consulting Engineering Advancement Society (CEAS), on a non-exclusive basis. Separately, the Building Amendment Bill would make PI mandatory for design professionals, but that Bill was introduced on 2 July 2026, is at select committee, is not law, and expressly does not extend to builders or Licensed Building Practitioners.',
+      },
+      {
+        q: 'Is the $200,000 figure the minimum PI an engineer needs?',
+        a: 'No, and this is one of the most commonly misreported figures in New Zealand professional indemnity. Engineering New Zealand recommends retaining a statement of $200,000 PI insurance minimum on its producer statements, and says that value is standard and unrelated to construction costs. It also warns that the consultant’s liability to its client is not limited by the amount stated on the producer statement. It is a disclosure figure on a form, not a cap on liability and not a required level of cover.',
+      },
+      {
+        q: 'What is CA ANZ’s minimum PI limit for a New Zealand chartered accountant?',
+        a: 'No published New Zealand dollar minimum was found. The New Zealand obligation for Certificate of Public Practice holders is qualitative — current and appropriate cover, with the level depending on the size of the business and the nature of the services — and New Zealand members are directed to Part IV of the NZICA Rules. The tiered figures and the CR 2A citation that circulate online are Australian, and sit inside the Professional Standards Scheme, which CA ANZ states covers Australian resident members. Confirm your requirement with CA ANZ directly.',
+      },
+      {
+        q: 'Does the Australian liability cap protect a New Zealand accountant?',
+        a: 'No. The CA ANZ Professional Standards Scheme operates under Australian state and territory Professional Standards Legislation, and CA ANZ states that it covers Australian resident members. New Zealand has no equivalent liability-capping statute. The practical consequence is that a New Zealand chartered accountant’s PI limit is the effective ceiling on their exposure, rather than a layer sitting behind a statutory cap — which is an argument for choosing the limit deliberately rather than by default.',
+      },
+      {
+        q: 'My body’s scheme has a per-claim limit. Is that enough?',
+        a: 'It depends entirely on what you have contractually promised. A limit that is comfortable for employed practice can be well short of what a corporate client, a government contract or a tender requires. Read your contracts for the insurance clause, compare it against the scheme limit, and if there is a gap, that gap — not the whole policy — is the thing to fix. A licensed adviser can look at whether a higher limit is best obtained inside the scheme, as an excess layer, or on a separate policy.',
+      },
+      {
+        q: 'What happens to my scheme cover if I let my membership lapse?',
+        a: 'Generally the cover stops with the membership, and because professional indemnity is claims-made, a claim made after that date about work you did while covered may fall into the gap. This is what run-off cover exists for. Ask your body, before you resign or retire, whether run-off is available, for how many years, and at what cost. It is much harder to arrange after the fact than before.',
+      },
+    ],
+    image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&auto=format&fit=crop&q=80',
+    targetKeyword: 'professional indemnity through professional body NZ',
+    relatedCoverage: ['professional-indemnity', 'run-off-cover', 'management-liability'],
+    relatedProfessions: ['healthcare', 'architects-engineers', 'accountants', 'consultants'],
+  },
+  {
+    slug: 'pi-insurance-school-property-projects-nz',
+    title: 'PI Insurance for School Property Projects NZ',
+    h1: 'Professional Indemnity for School Property Projects',
+    metaTitle: 'PI Insurance for School Property Projects',
+    metaDescription: 'Asked for professional indemnity for a school property project? What to have ready, what a certificate of currency shows, and how claims-made cover works.',
+    excerpt: 'The Ministry of Education requires evidence of professional indemnity from contractors and consultants working on school property projects. If a procurement email has just asked you for it, this page explains what is being asked, what a certificate of currency needs to show, and why claims-made cover means the job is not finished when the project is.',
+    heroContent: 'School property work is procurement-driven. Somebody in a Ministry of Education process, a school board office or a project manager’s office has asked you to evidence professional indemnity insurance, and there is a deadline attached. This page is written for that moment: what the requirement is, where to confirm the current version of it, and the mechanics of claims-made cover that catch people out after the project ends.',
+    bodyContent: `<h2>Why you have been asked for professional indemnity</h2>
+<p>School property is public infrastructure, and like most public procurement it runs on documented risk transfer: the agency specifies what insurance a supplier must hold, and the supplier evidences it before the contract starts and while it runs.</p>
+<p>The Ministry of Education requires professional indemnity insurance from contractors and consultants working on school property projects. If you are designing, specifying, certifying, advising or project managing, the requirement will find you — usually as a line in a contract schedule, or a request for a certificate before engagement.</p>
+<p>Professional indemnity responds when a client alleges your advice, design or services caused a financial loss. In a school property context that means the classic consultant exposures: a design that does not perform, a wrong specification, a certification issued on inadequate information, advice that leads to abortive work, a cost or programme error the client has to pay for.</p>
+
+<h2>Confirm the current requirement from the Ministry, not from a broker page</h2>
+<p>We will not quote you a limit: the requirement is the Ministry’s to state, it can change without announcement, and it varies by contract type and project scale.</p>
+<p>Go to the Ministry of Education’s own contractor and consultant insurance guidance on education.govt.nz and read the current version alongside the contract you have been sent. Where the two differ, the contract wins — your obligation is whatever your signed schedule says. Save what you relied on, with the date, because these documents are updated.</p>
+<p>Two things to extract before you do anything else: <strong>the required limit of indemnity</strong>, and whether it is per claim or in the aggregate; and <strong>how long you must maintain it</strong> — in particular whether the obligation continues for a stated number of years after practical completion. That second clause is the one that determines whether you can cancel your policy when the job is done.</p>
+
+<h2>What a certificate of currency has to show</h2>
+<p>A certificate of currency is a short document from your insurer or broker confirming a policy exists. It is evidence, not cover, and one that does not match the contract is a common reason a tender gets bounced. Check all of these before sending it:</p>
+<ul>
+<li><strong>The named insured is the entity signing the contract.</strong> If you tender as a limited company and the policy names you personally, or a trading name that is not the legal entity, that is a fail. Trading names should appear as well, not instead.</li>
+<li><strong>The class of cover is professional indemnity</strong>, described as such. Public liability does not satisfy a PI clause, however large the limit.</li>
+<li><strong>The limit meets or exceeds the requirement</strong>, and the certificate says whether it is any one claim or in the aggregate.</li>
+<li><strong>The period of insurance covers the project</strong> and has not expired or been superseded by a renewal you have not evidenced.</li>
+<li><strong>The professional activities described match the work you are engaged to do.</strong> A narrow or outdated description invites a question you do not want at claim time.</li>
+<li><strong>The insurer is named</strong> — if your cover is issued by an underwriting agency, the agency’s brand and the insurer carrying the risk are not the same thing.</li>
+<li><strong>The date of issue is recent.</strong> Certificates more than a few months old are routinely rejected.</li>
+</ul>
+<p>Ask your broker for the certificate the moment you know a submission is coming, and ask at the same time whether a principal or interested party endorsement is needed — adding one afterwards is slower.</p>
+
+<h2>Claims-made: the mechanic that catches consultants out</h2>
+<p>Professional indemnity is written on a <strong>claims-made</strong> basis. It responds to claims <em>first made against you and notified during the period of insurance</em> — not to work done during the period. Those are different tests, and the difference is the single most important thing on this page.</p>
+<ul>
+<li><strong>The retroactive date governs your past.</strong> Most policies exclude claims arising from work performed before a stated retroactive date. If yours is the day you first took cover out, earlier work is uninsured however long you have since been covered. On changing insurer, the new policy must pick up the old retroactive date, or you have quietly deleted your own history.</li>
+<li><strong>Today’s policy answers for yesterday’s work.</strong> A claim arriving next year about a project you finished this year is dealt with by next year’s policy. No policy next year, nothing to deal with it.</li>
+</ul>
+<p>Two related duties. <strong>Notify circumstances, not just claims:</strong> if something happens that could reasonably give rise to one — a defect emerges, a design is questioned, a letter arrives that reads like the start of something — notify while the policy is live. A properly notified circumstance generally attaches to that policy period even if the claim arrives years later. And <strong>disclose accurately at renewal</strong>: undisclosed known circumstances are a reliable way to have a later claim declined.</p>
+
+<h2>What happens when the project finishes — run-off cover</h2>
+<p>Because cover is claims-made, the risk does not end when the work does. A school building stands for decades and problems surface late. If you retire, wind up the company or change entities and cancel the policy, a claim made afterwards about work you did while insured has nothing to respond to it.</p>
+<p><strong>Run-off cover</strong> continues a claims-made policy after the business stops, for work already performed, usually for a fixed number of years. Before you need it:</p>
+<ul>
+<li>It is easier and cheaper to arrange while your policy is still live than after it lapses.</li>
+<li>Contracts frequently <em>require</em> it: a clause obliging you to maintain PI for a stated period after completion is in substance a run-off obligation, and it survives the project.</li>
+<li>The retroactive date carries through, so a broken retroactive history is still a problem at the end.</li>
+<li>If you are restructuring — sole trader to company, a merger, a change of contracting entity — deal with the old entity’s run-off deliberately rather than letting cover stop.</li>
+</ul>
+
+<h2>Consultants and contractors are not asked for the same thing</h2>
+<p>The words get used interchangeably in procurement emails, but the requirements diverge:</p>
+<ul>
+<li><strong>Consultants</strong> — architects, engineers, designers, surveyors, planners, project and cost managers — supply professional services, and PI is the core requirement, usually alongside public liability.</li>
+<li><strong>Contractors</strong> performing physical work are assessed primarily on public liability and contract works cover. Where a contractor also carries out design — design-and-build, or a proprietary element — PI is required for that element, and a standard construction liability programme does not include it.</li>
+</ul>
+<p>If you are a contractor asked for PI, the reason is almost certainly a design or certification component in your scope. Identify it, and check the policy you evidence covers it.</p>
+
+<h2>Engineers, producer statements and the $200,000 figure</h2>
+<p>Producer statements are part of the fabric of school property work, and one number attached to them is widely misunderstood. Engineering New Zealand recommends “retaining a statement of $200,000 PI insurance minimum on our producer statements”, states that this value “is standard and unrelated to construction costs”, and warns that “the consultant’s liability to its client is not limited by the amount stated on the producer statement”.</p>
+<p>So: $200,000 is a recommended disclosure figure on a form. It is not a cap on your liability, not a required level of cover, and not the limit to buy for a school project — your contract and exposure set that. Anyone citing it as the amount of PI an engineer needs has misread it.</p>
+
+<h2>What is proposed, and what is not yet law</h2>
+<p>You may have seen that PI is becoming mandatory in the building sector. Most summaries get the detail wrong:</p>
+<ul>
+<li>The instrument is the <strong>Building Amendment Bill</strong>, <strong>introduced to Parliament on 2 July 2026</strong> and now at <strong>select committee</strong>. It is <strong>not law</strong>, and select committee can change it.</li>
+<li>MBIE states the mandatory PI requirement applies to <strong>design professionals — architects and engineers</strong> — and <strong>expressly not to builders or Licensed Building Practitioners</strong>. Anything saying mandatory PI is coming for LBPs is wrong.</li>
+<li>It also moves the sector from joint and several liability to <strong>proportionate liability</strong>, and introduces mandatory home warranties for new residential buildings of three storeys and under and renovations of $100,000 or more — a residential measure, not a school property one.</li>
+<li>MBIE indicates a <strong>one-year implementation period after the legislation passes</strong>, so even on passage it would not bite immediately.</li>
+<li>No minimum sum insured has been published for the proposed requirement. Do not accept a figure from anyone who offers one.</li>
+</ul>
+<p>Separately, increases to Licensed Building Practitioner disciplinary penalties — maximum fines from $10,000 to $20,000, maximum suspension from 12 to 24 months — are progressing through a <strong>different bill</strong>. The two are frequently conflated, which misdates both.</p>
+
+<h2>Before you submit</h2>
+<ul>
+<li>Read the insurance schedule in the contract, not the summary in the covering email.</li>
+<li>Confirm the current Ministry requirement on education.govt.nz and save it with its date.</li>
+<li>Check the named insured against the entity signing the contract.</li>
+<li>Check the limit, and whether it is per claim or aggregate.</li>
+<li>Check the retroactive date reaches back over all the work the engagement might touch.</li>
+<li>Ask your broker for a fresh certificate and any endorsement the contract requires.</li>
+<li>Find the clause setting how long cover must run after completion, and plan run-off now.</li>
+<li>Diary your renewal against project milestones so cover never lapses.</li>
+</ul>
+<p>If the requirement does not match the cover you hold, a licensed adviser can read the contract and say what needs to change — often a limit, an entity name or an endorsement rather than a new policy.</p>`,
+    faqs: [
+      {
+        q: 'What limit of professional indemnity does the Ministry of Education require?',
+        a: 'We are not going to quote a figure, because the requirement is the Ministry’s to state and it varies by contract type and project. Read the Ministry of Education’s own contractor and consultant insurance guidance on education.govt.nz alongside the contract you have been sent, and take the limit from the contract schedule — that is the obligation you are actually signing up to. Save a dated copy of what you relied on, because these documents are updated.',
+      },
+      {
+        q: 'What is a certificate of currency and who issues it?',
+        a: 'It is a one-page confirmation from your insurer or broker that a policy exists, naming the insured, the class of cover, the limit of indemnity, the period of insurance and usually the business activities covered. Your broker issues it on request, generally the same day. It is evidence of cover, not cover in itself — if the certificate does not match the contract requirement, the certificate is not the problem, the cover is.',
+      },
+      {
+        q: 'My certificate names my trading name, not my company. Does that matter?',
+        a: 'Yes, and it is one of the most common reasons a submission is rejected. The named insured should be the legal entity that signs the contract, with trading names shown in addition rather than instead. If your policy names you personally and you contract through a company — or the other way round — a claim against the contracting entity may not be covered at all. Get it corrected before you submit, not after.',
+      },
+      {
+        q: 'What does claims-made actually mean for a school project I finished last year?',
+        a: 'It means the policy that responds is the one in force when the claim is first made against you and notified, not the one that was in force when you did the work. A claim arriving now about last year’s project is dealt with by your current policy — provided your retroactive date reaches back to when the work was done, and provided you still have a policy. If you have let cover lapse, there is nothing for the claim to attach to.',
+      },
+      {
+        q: 'What is a retroactive date and why does it matter here?',
+        a: 'It is the date before which work is excluded from your policy. School property work has a long tail, so it matters more than usual. If your retroactive date is the day you first bought cover, everything you did before that is uninsured no matter how many years you have since been continuously insured. When you change insurer, the new policy must carry the original retroactive date forward — losing it silently deletes your history, and you will only find out at claim time.',
+      },
+      {
+        q: 'Can I cancel my PI policy once the project is complete?',
+        a: 'Not safely, and often not lawfully under your contract. Because cover is claims-made, cancelling ends your protection for past work as well as future work. Many contracts also require you to maintain professional indemnity for a stated period after completion, which is a run-off obligation that survives the project. Check that clause before you make any decision about cancelling, and arrange run-off cover while the policy is still live.',
+      },
+      {
+        q: 'I am a contractor, not a consultant. Why am I being asked for PI?',
+        a: 'Almost certainly because your scope contains a professional services element — design, design-and-build, specification of a proprietary system, or certification. Professional indemnity is not included in a standard construction liability programme, so public liability and contract works cover will not satisfy the clause. Identify the design or advisory component of your scope and make sure the PI policy you evidence explicitly covers that activity.',
+      },
+      {
+        q: 'Does the $200,000 on an engineer’s producer statement tell me how much PI to buy?',
+        a: 'No. Engineering New Zealand recommends retaining a statement of $200,000 PI insurance minimum on its producer statements, and says the value is standard and unrelated to construction costs. It also warns that the consultant’s liability to its client is not limited by the amount stated on the producer statement. It is a disclosure convention on a form. The limit you need comes from your contract and your actual exposure, and is commonly higher.',
+      },
+      {
+        q: 'Is professional indemnity now mandatory for everyone in construction?',
+        a: 'No. The Building Amendment Bill, introduced to Parliament on 2 July 2026 and currently at select committee, would make PI mandatory for design professionals — architects and engineers. MBIE states it expressly does not apply to builders or Licensed Building Practitioners. It is not law, select committee can change it, and MBIE indicates a one-year implementation period after passage. No minimum sum insured has been published for the proposed requirement.',
+      },
+      {
+        q: 'Something has gone wrong on site but no one has claimed. Should I tell my insurer?',
+        a: 'Yes. Claims-made policies let you notify circumstances that could reasonably give rise to a claim, and a circumstance properly notified while the policy is live is generally attached to that policy period even if the claim itself arrives years later. Waiting until a formal claim arrives can push it into a period where you have no cover, or create a disclosure problem at your next renewal. Notify early, in writing, through your broker.',
+      },
+    ],
+    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&auto=format&fit=crop&q=80',
+    targetKeyword: 'PI insurance school property projects NZ',
+    relatedCoverage: ['professional-indemnity', 'public-liability', 'run-off-cover'],
+    relatedProfessions: ['architects-engineers', 'consultants', 'it-consultants'],
   },
 ]

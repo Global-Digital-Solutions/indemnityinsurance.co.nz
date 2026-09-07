@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { landingPages } from '../../data/landing-pages'
+import ContentNotice from '@/components/ContentNotice'
 import QuoteForm from '../../components/QuoteForm'
 import { SITE } from '../../data/site'
 import type { Metadata } from 'next'
@@ -227,6 +228,14 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
           { '@type': 'ListItem', position: 2, name: lp.h1, item: `https://www.indemnityinsurance.co.nz/${lp.slug}/` },
         ],
       })}} />
+
+      {/* The standing notice about what this content is. It sits on the pages
+          that make claims rather than only on /disclaimer/, because a
+          disclaimer nobody reaches does no work — and several of these pages
+          describe cover we deliberately cannot arrange. */}
+      <div className="mx-auto max-w-4xl px-4 pb-14">
+        <ContentNotice />
+      </div>
     </div>
   )
 }
