@@ -3,7 +3,7 @@ import { faqs } from '../../data/faqs'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'PI Insurance FAQs | IndemnityInsurance.co.nz',
+  title: 'PI Insurance FAQs',
   description: 'Frequently asked questions about professional indemnity insurance in New Zealand — costs, cover types, regulatory requirements and how to get covered.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/faq/' },
 }

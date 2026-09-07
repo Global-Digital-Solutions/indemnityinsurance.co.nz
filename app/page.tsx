@@ -8,8 +8,8 @@ import { faqs } from '../data/faqs'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Indemnity Insurance NZ | Professional & Liability Insurance Specialists',
-  description: 'Compare professional indemnity and liability insurance in New Zealand. Expert guidance for consultants, accountants, engineers, IT professionals and more from NZ-licensed advisers.',
+  title: { absolute: 'Indemnity Insurance NZ | Professional & Liability Cover' },
+  description: 'Compare professional indemnity and liability insurance in New Zealand. Licensed-adviser guidance for consultants, accountants, engineers and IT firms.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/' },
 }
 
@@ -52,7 +52,7 @@ export default function HomePage() {
                   className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors shadow-lg">
                   Get a Quote →
                 </Link>
-                <Link href="/professional-indemnity-insurance/"
+                <Link href="/coverage/professional-indemnity/"
                   className="inline-block bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-6 py-3 rounded-xl transition-colors">
                   What Does PI Cover?
                 </Link>

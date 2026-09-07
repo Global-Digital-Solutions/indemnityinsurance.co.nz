@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const pt = professionTypes.find(p => p.slug === slug)
   if (!pt) return {}
   return {
-    title: `${pt.name} Insurance NZ | IndemnityInsurance.co.nz`,
+    title: `PI Insurance for ${pt.name}`,
     description: pt.shortDesc,
     alternates: { canonical: `https://www.indemnityinsurance.co.nz/professions/${slug}/` },
     openGraph: {

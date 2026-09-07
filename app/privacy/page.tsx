@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | IndemnityInsurance.co.nz',
+  title: 'Privacy Policy',
   description: 'Privacy policy for IndemnityInsurance.co.nz — how we collect, use, and protect your personal information under the Privacy Act 2020.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/privacy/' },
   robots: { index: true, follow: true },

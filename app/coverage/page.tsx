@@ -4,7 +4,7 @@ import { coverageTypes } from '../../data/coverage-types'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Coverage Types | Professional & Liability Insurance NZ',
+  title: 'Professional & Liability Insurance Cover Types',
   description: 'Explore professional indemnity, public liability, management liability, statutory liability, D&O and run-off cover options for NZ businesses.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/coverage/' },
 }

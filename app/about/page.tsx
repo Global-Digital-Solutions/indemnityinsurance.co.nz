@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About Us | IndemnityInsurance.co.nz',
+  title: 'About Us',
   description: 'IndemnityInsurance.co.nz is a professional indemnity and liability insurance information and referral service for NZ professionals.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/about/' },
 }

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms of Use | IndemnityInsurance.co.nz',
+  title: 'Terms of Use',
   description: 'Terms of use for IndemnityInsurance.co.nz — conditions governing use of our professional indemnity insurance information and referral service.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/terms/' },
   robots: { index: true, follow: true },

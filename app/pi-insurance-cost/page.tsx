@@ -3,8 +3,8 @@ import QuoteForm from '../../components/QuoteForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'PI Insurance Cost NZ 2026 — How Much Does It Cost?',
-  description: 'Professional indemnity insurance costs in NZ range from $65–$300/month depending on profession, cover level and business size. Full breakdown and cost calculator guide.',
+  title: 'How Much Does PI Insurance Cost in NZ? 2026',
+  description: 'Professional indemnity insurance in NZ runs about $65–$300 a month. See how your profession, cover level and business size change the premium you pay.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/pi-insurance-cost/' },
 }
 
@@ -90,7 +90,7 @@ export default function PiInsuranceCostPage() {
               <h3 className="font-bold text-slate-900 mb-3 text-sm">Related Guides</h3>
               <ul className="space-y-2">
                 {[
-                  ['/professional-indemnity-insurance/', 'What Is PI Insurance?'],
+                  ['/coverage/professional-indemnity/', 'What Is PI Insurance?'],
                   ['/indemnity-insurance-for-contractors/', 'Contractor Guide'],
                   ['/coverage/run-off-cover/', 'Run-off Cover'],
                   ['/compare/', 'Compare Providers'],

@@ -6,17 +6,17 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Indemnity Insurance NZ | Professional & Liability Insurance Specialists',
-    template: '%s | IndemnityInsurance.co.nz',
+    default: 'Indemnity Insurance NZ | Professional & Liability Cover',
+    template: '%s | Indemnity NZ',
   },
-  description: 'Professional indemnity and liability insurance for NZ professionals. Compare PI, public liability, management liability and statutory liability. Expert guidance from NZ-licensed advisers.',
+  description: 'Compare professional indemnity, public liability, management liability and statutory liability cover for NZ professionals with a licensed adviser.',
   metadataBase: new URL('https://www.indemnityinsurance.co.nz'),
   openGraph: {
     type: 'website',
     locale: 'en_NZ',
     url: 'https://www.indemnityinsurance.co.nz',
     siteName: 'IndemnityInsurance.co.nz',
-    title: 'Indemnity Insurance NZ | Professional & Liability Insurance Specialists',
+    title: 'Indemnity Insurance NZ | Professional & Liability Cover',
     description: 'Compare professional indemnity and liability insurance in New Zealand. Expert guidance for consultants, accountants, engineers, IT professionals and more.',
     images: [{
       url: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=630&auto=format&fit=crop&q=80',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Indemnity Insurance NZ | Professional & Liability Insurance Specialists',
+    title: 'Indemnity Insurance NZ | Professional & Liability Cover',
     description: 'Compare professional indemnity and liability insurance in NZ. Licensed advisers. Quote within one business day.',
     images: ['https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=630&auto=format&fit=crop&q=80'],
   },

@@ -3,8 +3,8 @@ import QuoteForm from '../../components/QuoteForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Indemnity Insurance for Contractors NZ 2026 — Sole Traders & Freelancers',
-  description: 'Professional indemnity insurance for NZ contractors, sole traders and freelancers. From $65/month. Covers IT contractors, consultants, engineers and all professional contractors.',
+  title: 'Indemnity Insurance for NZ Contractors',
+  description: 'Professional indemnity insurance for NZ contractors, sole traders and freelancers: what it covers, when clients require it and what it typically costs.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/indemnity-insurance-for-contractors/' },
 }
 
@@ -148,7 +148,7 @@ export default function ContractorsPage() {
               <ul className="space-y-2">
                 {[
                   ['/pi-insurance-cost/', 'PI Insurance Cost NZ'],
-                  ['/professional-indemnity-insurance/', 'What Is PI Insurance?'],
+                  ['/coverage/professional-indemnity/', 'What Is PI Insurance?'],
                   ['/coverage/run-off-cover/', 'Run-off Cover Guide'],
                   ['/professions/it-consultants/', 'IT Contractor Guide'],
                   ['/compare/', 'Compare Providers'],

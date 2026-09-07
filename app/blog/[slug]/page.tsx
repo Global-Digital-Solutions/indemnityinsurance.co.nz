@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = blogPosts.find(p => p.slug === slug)
   if (!post) return {}
   return {
-    title: `${post.title} | IndemnityInsurance.co.nz`,
-    description: post.excerpt,
+    title: post.metaTitle ?? post.title,
+    description: post.metaDescription ?? post.excerpt,
     alternates: { canonical: `https://www.indemnityinsurance.co.nz/blog/${slug}/` },
     openGraph: {
       title: post.title,
@@ -42,7 +42,21 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   const author = post.author ? authors.find(a => a.slug === post.author) : null
   const related = blogPosts.filter(p => p.slug !== slug && p.category === post.category).slice(0, 3)
-  const more = blogPosts.filter(p => p.slug !== slug && !related.find(r => r.slug === p.slug)).slice(0, 3)
+
+  // `more` used to be the first three posts in the array, which meant every
+  // post on the site linked to the same three and eight posts ended up with a
+  // single inbound internal link — reachable only from the blog listing. The
+  // SE Ranking audit flagged those eight, and Search Console had never
+  // discovered most of them.
+  //
+  // Walking forward from this post's own index and wrapping around gives every
+  // post exactly three inbound links from the ring, on top of whatever the
+  // category match provides. Deterministic, so it stays true as posts are added.
+  const idx = blogPosts.findIndex(p => p.slug === slug)
+  const ring = [1, 2, 3]
+    .map(step => blogPosts[(idx + step) % blogPosts.length])
+    .filter(p => p.slug !== slug && !related.find(r => r.slug === p.slug))
+  const more = ring.slice(0, 3)
 
   return (
     <div className="bg-slate-50 min-h-screen">

@@ -16,11 +16,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const ct = coverageTypes.find(c => c.slug === slug)
   if (!ct) return {}
   return {
-    title: `${ct.name} NZ | IndemnityInsurance.co.nz`,
+    title: `${ct.name} NZ`,
     description: ct.shortDesc,
     alternates: { canonical: `https://www.indemnityinsurance.co.nz/coverage/${slug}/` },
     openGraph: {
-      title: `${ct.name} NZ | IndemnityInsurance.co.nz`,
+      title: `${ct.name} NZ`,
       description: ct.shortDesc,
       url: `https://www.indemnityinsurance.co.nz/coverage/${slug}/`,
       images: [{ url: ct.image, width: 1200, height: 630 }],

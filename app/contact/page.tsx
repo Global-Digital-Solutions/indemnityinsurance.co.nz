@@ -2,7 +2,7 @@ import QuoteForm from '../../components/QuoteForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Get a PI Insurance Quote | IndemnityInsurance.co.nz',
+  title: 'Get a PI Insurance Quote',
   description: 'Request a professional indemnity insurance quote from NZ-licensed advisers. We compare QBE, Dual, BHSI, Vero and AIG for you. Quote within one business day.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/contact/' },
 }

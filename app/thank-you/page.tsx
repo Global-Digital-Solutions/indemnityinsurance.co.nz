@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Quote Request Received | IndemnityInsurance.co.nz',
+  title: 'Quote Request Received',
   description: 'Your PI insurance quote request has been received. A licensed NZ adviser will be in touch within one business day.',
   robots: { index: false },
 }

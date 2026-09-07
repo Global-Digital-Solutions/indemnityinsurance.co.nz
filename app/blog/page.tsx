@@ -3,7 +3,7 @@ import { blogPosts } from '../../data/blog-posts'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'PI Insurance Blog & Guides | IndemnityInsurance.co.nz',
+  title: 'PI Insurance Blog & Guides',
   description: 'Expert guides on professional indemnity insurance in New Zealand — costs, cover types, regulatory requirements and profession-specific advice.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/blog/' },
 }

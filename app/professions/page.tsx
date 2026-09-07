@@ -4,8 +4,8 @@ import { professionTypes } from '../../data/profession-types'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'PI Insurance By Profession | IndemnityInsurance.co.nz',
-  description: 'Professional indemnity insurance guidance by profession — accountants, architects, engineers, IT consultants, financial advisers, real estate agents and more in NZ.',
+  title: 'PI Insurance by Profession',
+  description: 'Professional indemnity guidance by profession: accountants, architects, engineers, IT consultants, financial advisers and real estate agents in NZ.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/professions/' },
 }
 

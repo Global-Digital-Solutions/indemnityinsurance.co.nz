@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Disclaimer | IndemnityInsurance.co.nz',
+  title: 'Disclaimer',
   description: 'Important disclaimer for IndemnityInsurance.co.nz — general information notice, referral service disclosure, regulatory status and accuracy of information.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/disclaimer/' },
   robots: { index: true, follow: true },

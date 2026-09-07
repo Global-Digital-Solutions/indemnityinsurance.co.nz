@@ -4,7 +4,7 @@ import QuoteForm from '../../components/QuoteForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Compare PI Insurance Providers NZ | IndemnityInsurance.co.nz',
+  title: 'Compare PI Insurance Providers NZ',
   description: 'Compare professional indemnity insurance providers in New Zealand — QBE, Dual, BHSI, Vero, AIG. Find the right insurer for your profession and risk profile.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/compare/' },
 }
