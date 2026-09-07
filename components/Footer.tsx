@@ -111,7 +111,7 @@ export default function Footer() {
             <Link href="/how-we-source-this-site/" className="hover:text-gray-300">How We Source This Site</Link>
           </div>
           <p className="text-xs text-gray-500 leading-relaxed max-w-4xl">
-            <strong className="text-gray-400">Disclaimer:</strong> IndemnityInsurance.co.nz matches your needs to a local broker partner. Our broker partners are direct partners — registered, qualified and local. We are not a licensed insurer or financial adviser. The insurance advisers we refer you to are independently licensed under the Financial Markets Conduct Act 2013. Insurance products are subject to policy terms, conditions and exclusions. Coverage information on this site is general in nature and does not constitute financial advice. Please read your policy document carefully.
+            <strong className="text-gray-400">Disclaimer:</strong> IndemnityInsurance.co.nz connects you with a local broker who understands indemnity insurance — brokers we know and have personally vetted. We are not a licensed insurer or financial adviser. The insurance advisers we refer you to are independently licensed under the Financial Markets Conduct Act 2013. Insurance products are subject to policy terms, conditions and exclusions. Coverage information on this site is general in nature and does not constitute financial advice. Please read your policy document carefully.
           </p>
           <p className="text-xs text-gray-600 mt-3">
             © {new Date().getFullYear()} IndemnityInsurance.co.nz. All rights reserved.

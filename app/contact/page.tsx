@@ -38,7 +38,7 @@ export default function ContactPage() {
           </div>
           <div className="bg-blue-50 rounded-xl border border-blue-200 p-6">
             <h3 className="font-bold text-blue-900 mb-2">Financial Advice Disclosure</h3>
-            <p className="text-blue-800 text-xs leading-relaxed">IndemnityInsurance.co.nz matches your needs to a local broker partner, and our broker partners are registered, qualified and local. The insurance advisers we refer you to are independently licensed under the Financial Markets Conduct Act 2013. They will provide you with a disclosure statement before providing personalised advice.</p>
+            <p className="text-blue-800 text-xs leading-relaxed">IndemnityInsurance.co.nz connects you with a local broker we know and have personally vetted. The insurance advisers we refer you to are independently licensed under the Financial Markets Conduct Act 2013. They will provide you with a disclosure statement before providing personalised advice.</p>
           </div>
         </div>
       </div>

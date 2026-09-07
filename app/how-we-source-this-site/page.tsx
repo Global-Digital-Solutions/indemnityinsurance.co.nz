@@ -70,14 +70,14 @@ export default function HowWeSourceThisSitePage() {
 
         <section>
           <h2 className="text-2xl font-bold text-slate-900 mb-4">The standard</h2>
-          <p className="leading-relaxed mb-4">Every requirement stated on this site cites a primary source — the statute, the regulator, or the professional body&rsquo;s own published rules. Where we cannot find a primary source, we say so on the page rather than filling the gap with something plausible.</p>
+          <p className="leading-relaxed mb-4">We are on the reader&rsquo;s side of this, not the industry&rsquo;s. Indemnity insurance is made more confusing than it needs to be, and a good deal of what is published about it is simply wrong. So we hold ourselves to one rule. Every requirement stated on this site cites a primary source — the statute, the regulator, or the professional body&rsquo;s own published rules. Where we cannot find a primary source, we say so on the page rather than filling the gap with something plausible.</p>
           <p className="leading-relaxed mb-4">Three rules follow from that, and they are the reason this site reads differently from others:</p>
           <ul className="list-disc list-inside space-y-2 mb-4">
             <li><strong className="text-slate-900">We name the source of every obligation.</strong> A requirement imposed by a regulator, by a membership body you joined voluntarily, and by a client contract are three different things with three different consequences. Almost every error we found came from blurring them.</li>
             <li><strong className="text-slate-900">We do not publish premium figures we cannot source.</strong> Professional indemnity in New Zealand is broker-distributed and individually underwritten. No insurer publishes rate tables, and there is no public premium dataset. Any per-month figure on any website is invented, including the ones this site used to carry.</li>
             <li><strong className="text-slate-900">We date anything that can change.</strong> A Bill before select committee, a consultation, a rule under review — each is stamped with when we last checked it.</li>
           </ul>
-          <p className="leading-relaxed">We match your needs to a local broker partner. We are not a law firm or a compliance adviser. Everything here is general information, not legal or financial advice. Your policy schedule and wording govern, not any web page.</p>
+          <p className="leading-relaxed">We connect you with a local broker we know and have personally vetted. We are not a law firm or a compliance adviser. Everything here is general information, not legal or financial advice. Your policy schedule and wording govern, not any web page.</p>
         </section>
 
         <section>

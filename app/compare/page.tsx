@@ -144,7 +144,7 @@ export default function ComparePage() {
 
             <div className="bg-amber-50 rounded-xl border border-amber-200 p-6">
               <h3 className="font-bold text-amber-900 mb-2">Before you rely on any of this</h3>
-              <p className="text-amber-900 text-sm leading-relaxed">We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. This is general information, not legal or financial advice. Policy wordings differ between underwriters and between brands from the same underwriter, and your schedule and wording govern — not this page. Some cover cannot be arranged through us, medical indemnity and professional body member schemes in particular. Last reviewed 7 September 2026.</p>
+              <p className="text-amber-900 text-sm leading-relaxed">We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer and not a law firm. This is general information, not legal or financial advice. Policy wordings differ between underwriters and between brands from the same underwriter, and your schedule and wording govern — not this page. Some cover cannot be arranged through us, medical indemnity and professional body member schemes in particular. Last reviewed 7 September 2026.</p>
             </div>
           </div>
 

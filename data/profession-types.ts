@@ -153,7 +153,7 @@ export const professionTypes: ProfessionType[] = [
 <li>The cover limit you require</li>
 <li>Your current insurer and policy expiry date (if renewing)</li>
 </ul>
-<p>Ready to get a quote? <a href="/contact/">Contact our team</a> and we will connect you with a licensed insurance adviser who can <a href="/compare/">compare PI options</a> for your practice.</p>
+<p>Want to talk it through? <a href="/contact/">Get in touch</a> and we will put you in front of a local broker who knows your field. If they think you do not need cover, they will say so — see <a href="/compare/">what actually differs between policies</a> first if you would rather read up.</p>
 
 <div class="sources">
 <h2>Sources</h2>
@@ -163,7 +163,7 @@ export const professionTypes: ProfessionType[] = [
 <li><a href="https://www.lawsociety.org.nz/professional-practice/practising-well/benchmarking-costs-of-law-practice-in-new-zealand/" rel="nofollow noopener" target="_blank">NZ Law Society and KPMG — Benchmarking costs of law practice in New Zealand</a>, March 2024. Cited only as the one published New Zealand PI cost dataset. It covers law firms, not accountants.</li>
 <li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer. Confirm your own obligations with CA ANZ or CPA Australia and with your client contracts. Policy wordings differ between underwriters — your schedule and wording govern, not this page.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer. Confirm your own obligations with CA ANZ or CPA Australia and with your client contracts. Policy wordings differ between underwriters — your schedule and wording govern, not this page.</p>
 </div>
 `,
   },
@@ -327,7 +327,7 @@ export const professionTypes: ProfessionType[] = [
 <li><a href="https://www.legislation.govt.nz/act/public/2004/0072/latest/DLM309340.html" rel="nofollow noopener" target="_blank">Building Act 2004, section 393</a></li>
 <li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer. Confirm your own obligations with NZRAB, Engineering New Zealand, your membership body and your client contracts.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer. Confirm your own obligations with NZRAB, Engineering New Zealand, your membership body and your client contracts.</p>
 </div>
 `,
   },
@@ -474,7 +474,7 @@ export const professionTypes: ProfessionType[] = [
 <li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14 — the six-year period and the three-year late knowledge extension that set how long your exposure runs</li>
 <li><a href="https://www.lawsociety.org.nz/professional-practice/practising-well/benchmarking-costs-of-law-practice-in-new-zealand/" rel="nofollow noopener" target="_blank">NZ Law Society and KPMG — Benchmarking costs of law practice in New Zealand</a>, March 2024. The only published New Zealand PI cost dataset we are aware of, and it covers law firms.</li>
 </ul>
-<p>There is no New Zealand regulator or membership body PI requirement for IT consultants for us to cite, because as far as we can establish none exists. If you know of one, tell us and we will publish it with the source. Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer.</p>
+<p>There is no New Zealand regulator or membership body PI requirement for IT consultants for us to cite, because as far as we can establish none exists. If you know of one, tell us and we will publish it with the source. Last reviewed 7 September 2026. General information only, not legal or financial advice. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer.</p>
 </div>
 `,
   },
@@ -626,7 +626,7 @@ export const professionTypes: ProfessionType[] = [
 <li><a href="https://www.mbie.govt.nz/business-and-employment/business/financial-markets-regulation/regulation-of-financial-advice/regulations-to-support-the-financial-services-legislation-amendment-act/disclosure-requirements/" rel="nofollow noopener" target="_blank">MBIE — Financial advice disclosure requirements</a></li>
 <li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer. Confirm your own obligations with the FMA and with your dealer group or licensing FAP.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer. Confirm your own obligations with the FMA and with your dealer group or licensing FAP.</p>
 </div>
 `,
   },
@@ -777,7 +777,7 @@ export const professionTypes: ProfessionType[] = [
 <li><a href="https://www.rea.govt.nz/real-estate-professionals/obligations/trust-account/" rel="nofollow noopener" target="_blank">REA — Trust account obligations</a></li>
 <li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer. Confirm your own obligations with REINZ and with the agency whose licence you work under.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer. Confirm your own obligations with REINZ and with the agency whose licence you work under.</p>
 </div>
 `,
   },
@@ -922,7 +922,7 @@ export const professionTypes: ProfessionType[] = [
 <li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14 — the six-year period and the three-year late knowledge extension that set how long your exposure runs</li>
 <li><a href="https://www.lawsociety.org.nz/professional-practice/practising-well/benchmarking-costs-of-law-practice-in-new-zealand/" rel="nofollow noopener" target="_blank">NZ Law Society and KPMG — Benchmarking costs of law practice in New Zealand</a>, March 2024. The only published New Zealand PI cost dataset we are aware of, and it covers law firms rather than consultants.</li>
 </ul>
-<p>There is no New Zealand regulator or membership body PI requirement for management consultants for us to cite, because as far as we can establish none exists. If you know of one, tell us and we will publish it with the source. Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer.</p>
+<p>There is no New Zealand regulator or membership body PI requirement for management consultants for us to cite, because as far as we can establish none exists. If you know of one, tell us and we will publish it with the source. Last reviewed 7 September 2026. General information only, not legal or financial advice. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer.</p>
 </div>
 `,
   },
@@ -1085,7 +1085,7 @@ export const professionTypes: ProfessionType[] = [
 <li>NZMII — published medical indemnity scheme prices (fact sheet, undated, referencing the 2025 HDC report)</li>
 <li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14</li>
 </ul>
-<p>We could not verify the position of several health registration authorities on professional indemnity, including under the Health Practitioners Competence Assurance Act 2003, and we have said so on the page rather than filling the gap. Last reviewed 7 September 2026. General information only, not legal, financial or clinical advice. We match your needs to a local broker partner and we are not an insurer. We cannot arrange medical indemnity or professional body member schemes.</p>
+<p>We could not verify the position of several health registration authorities on professional indemnity, including under the Health Practitioners Competence Assurance Act 2003, and we have said so on the page rather than filling the gap. Last reviewed 7 September 2026. General information only, not legal, financial or clinical advice. We connect you with a local broker we know and have personally vetted. We are not an insurer. We cannot arrange medical indemnity or professional body member schemes.</p>
 </div>
 `,
   },
@@ -1238,7 +1238,7 @@ export const professionTypes: ProfessionType[] = [
 <li><a href="https://www.fma.govt.nz/assets/Information-sheets/Classes-of-financial-advice-service-for-full-FAP-licences.pdf" rel="nofollow noopener" target="_blank">FMA — Classes of financial advice service for full FAP licences (PDF)</a></li>
 <li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer. Confirm your own obligations with the FMA and with the group or FAP whose licence you work under.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer. Confirm your own obligations with the FMA and with the group or FAP whose licence you work under.</p>
 </div>
 `,
   },

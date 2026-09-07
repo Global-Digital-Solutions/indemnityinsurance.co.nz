@@ -157,23 +157,23 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
 
             {/* Why use an adviser */}
             <div className="bg-brand-900 rounded-xl p-6 text-white">
-              <h3 className="font-bold text-lg mb-4">Why Use a Local Broker Partner?</h3>
+              <h3 className="font-bold text-lg mb-4">Why We Send You to a Local Broker</h3>
               <div className="space-y-3 text-brand-200 text-sm">
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>
-                  <span>A direct partner who is registered, qualified and local — not a lead pool</span>
+                  <span>Someone local we know and have personally vetted, not a call centre</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>
-                  <span>Policies reviewed against your actual contract obligations</span>
+                  <span>They read the insurance clause in your actual contract, not a generic one</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>
-                  <span>Who actually requires cover of you for your profession</span>
+                  <span>A straight answer on what your profession really requires — even if it is nothing</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>
-                  <span>No extra cost — adviser fees are paid by the insurer</span>
+                  <span>No cost to you for the conversation, and no pressure at the end of it</span>
                 </div>
               </div>
             </div>

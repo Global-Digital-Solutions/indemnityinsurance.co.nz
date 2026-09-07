@@ -185,7 +185,7 @@ export const coverageTypes: CoverageType[] = [
   <li>The policy covers full-time and part-time employees and the subcontractors you engage.</li>
   <li>Run-off provisions are available if you retire or change entities, and you know their cost before you need them.</li>
 </ul>
-<p>Ready to get covered? <a href="/compare/">Compare professional indemnity options</a> or <a href="/contact/">speak to a licensed adviser</a> who can match you with the right policy for your profession and practice size.</p>
+<p>Want to talk it through? <a href="/compare/">See what actually differs between policies</a> or <a href="/contact/">speak to a local broker</a> who can match you with the right policy for your profession and practice size.</p>
 
 <div class="sources">
 <h2>Sources</h2>
@@ -203,7 +203,7 @@ export const coverageTypes: CoverageType[] = [
 <li>CPA Australia — practising in New Zealand: members offering public accounting services must hold professional indemnity insurance.</li>
 <li>New Zealand Law Society and KPMG, Benchmarking costs of law practice in New Zealand, published March 2024 (124 firms surveyed October to November 2023).</li>
 </ul>
-<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page. Confirm your own obligations with your professional body and your client contracts.</p>
+<p>Last reviewed 7 September 2026. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page. Confirm your own obligations with your professional body and your client contracts.</p>
 </div>
     `.trim(),
   },
@@ -376,7 +376,7 @@ export const coverageTypes: CoverageType[] = [
 <li><a href="https://www.legislation.govt.nz/act/public/1993/0091/latest/whole.html" rel="nofollow noopener" target="_blank">Consumer Guarantees Act 1993</a>.</li>
 <li><a href="https://www.legislation.govt.nz/act/public/1986/0121/latest/whole.html" rel="nofollow noopener" target="_blank">Fair Trading Act 1986</a>.</li>
 </ul>
-<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page. No New Zealand insurer publishes public liability rate tables; any premium figure you see online is an estimate, not data.</p>
+<p>Last reviewed 7 September 2026. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page. No New Zealand insurer publishes public liability rate tables; any premium figure you see online is an estimate, not data.</p>
 </div>
     `.trim(),
   },
@@ -544,7 +544,7 @@ export const coverageTypes: CoverageType[] = [
 <li><a href="https://www.legislation.govt.nz/act/public/1991/0069/latest/whole.html" rel="nofollow noopener" target="_blank">Resource Management Act 1991</a>.</li>
 <li><a href="https://www.legislation.govt.nz/act/public/2020/0031/latest/whole.html" rel="nofollow noopener" target="_blank">Privacy Act 2020</a>.</li>
 </ul>
-<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page. If any adviser tells you a New Zealand policy will pay a Health and Safety at Work Act fine, ask them to show you how that sits with sections 29 and 30.</p>
+<p>Last reviewed 7 September 2026. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page. If any adviser tells you a New Zealand policy will pay a Health and Safety at Work Act fine, ask them to show you how that sits with sections 29 and 30.</p>
 </div>
     `.trim(),
   },
@@ -708,7 +708,7 @@ export const coverageTypes: CoverageType[] = [
 <li><a href="https://www.legislation.govt.nz/act/public/2015/0070/latest/whole.html" rel="nofollow noopener" target="_blank">Health and Safety at Work Act 2015</a> — sections 29 and 30 on the insurance of fines.</li>
 <li><a href="https://www.legislation.govt.nz/act/public/2020/0031/latest/whole.html" rel="nofollow noopener" target="_blank">Privacy Act 2020</a>.</li>
 </ul>
-<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page.</p>
+<p>Last reviewed 7 September 2026. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page.</p>
 </div>
     `.trim(),
   },
@@ -871,7 +871,7 @@ export const coverageTypes: CoverageType[] = [
 <li><a href="https://www.legislation.govt.nz/act/public/2022/0012/latest/whole.html" rel="nofollow noopener" target="_blank">Incorporated Societies Act 2022</a>.</li>
 <li><a href="https://www.legislation.govt.nz/act/public/2005/0039/latest/whole.html" rel="nofollow noopener" target="_blank">Charities Act 2005</a>.</li>
 </ul>
-<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page.</p>
+<p>Last reviewed 7 September 2026. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page.</p>
 </div>
     `.trim(),
   },
@@ -1036,7 +1036,7 @@ export const coverageTypes: CoverageType[] = [
 <li><a href="https://www.legislation.govt.nz/act/public/2013/0069/latest/whole.html" rel="nofollow noopener" target="_blank">Financial Markets Conduct Act 2013</a>.</li>
 <li><a href="https://www.legislation.govt.nz/act/public/2020/0031/latest/whole.html" rel="nofollow noopener" target="_blank">Privacy Act 2020</a>.</li>
 </ul>
-<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters and brands — the schedule and wording govern, not this page.</p>
+<p>Last reviewed 7 September 2026. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters and brands — the schedule and wording govern, not this page.</p>
 </div>
     `.trim(),
   },
@@ -1209,7 +1209,7 @@ export const coverageTypes: CoverageType[] = [
 <li>Real Estate Agents Act (Professional Conduct and Client Care) Rules 2012 — no occurrence of insurance or indemnity.</li>
 <li>Chartered Accountants Australia and New Zealand — Certificate of Public Practice requirements.</li>
 </ul>
-<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page.</p>
+<p>Last reviewed 7 September 2026. We exist to make this simpler. We connect you with a local broker who understands what indemnity insurance actually asks of you — brokers we know and have personally vetted. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters — the schedule and wording govern, not this page.</p>
 </div>
     `.trim(),
   },
