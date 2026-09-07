@@ -21,7 +21,7 @@ export default function AboutPage() {
         <div className="prose max-w-none space-y-8">
           <div className="bg-white rounded-xl border border-slate-200 p-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">What We Do</h2>
-            <p className="text-slate-700 leading-relaxed mb-4">IndemnityInsurance.co.nz is an information and referral service for New Zealand professionals seeking professional indemnity, public liability, management liability and statutory liability insurance. We provide educational content about coverage types, profession-specific requirements, regulatory obligations and the published minimum limits that actually apply — then connect you with NZ-licensed insurance advisers who can provide personalised advice and market comparisons.</p>
+            <p className="text-slate-700 leading-relaxed mb-4">IndemnityInsurance.co.nz matches your needs to a local broker partner. Every broker we work with is a direct partner — registered, qualified and local — so an enquiry goes to someone who can actually place the cover, not into a lead pool. We cover professional indemnity, public liability, management liability and statutory liability. We provide educational content about coverage types, profession-specific requirements, regulatory obligations and the published minimum limits that actually apply — then connect you with NZ-licensed insurance advisers who can provide personalised advice and market comparisons.</p>
             <p className="text-slate-700 leading-relaxed">We are not a licensed insurer or financial adviser. The advisers we connect you with are independently licensed under the Financial Markets Conduct Act 2013 and regulated by the Financial Markets Authority (FMA).</p>
           </div>
 

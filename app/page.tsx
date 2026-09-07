@@ -42,10 +42,10 @@ export default function HomePage() {
                 <span className="text-orange-400">Your Work & Your Reputation</span>
               </h1>
               <p className="text-gray-300 text-xl leading-relaxed mb-4 max-w-xl font-medium">
-                Sourced, checked, and honest about what nobody can tell you.
+                Matched to a local broker who can actually place it.
               </p>
               <p className="text-gray-400 text-base leading-relaxed mb-8 max-w-xl">
-One claim from a client — a missed deadline, a disputed report, a costly piece of advice — can threaten everything you have built. Most of what is written about indemnity insurance in New Zealand is wrong about who actually has to hold it. We cite a source for every requirement on this site, and say so plainly where no source exists. Then licensed NZ advisers find the cover that fits your profession.
+One claim from a client — a missed deadline, a disputed report, a costly piece of advice — can threaten everything you have built. We match what you need to one of our broker partners: direct partners, registered, qualified and local, so your enquiry reaches someone who can place the cover rather than a lead pool. And because most of what is written about indemnity insurance here is wrong about who actually has to hold it, we cite a source for every requirement on this site and say so plainly where no source exists.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact/"
@@ -58,7 +58,7 @@ One claim from a client — a missed deadline, a disputed report, a costly piece
                 </Link>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                {['Every requirement sourced', 'No Obligation', 'Quick Response', 'Multiple Insurers Compared'].map(pill => (
+                {['Registered, qualified, local brokers', 'Every requirement sourced', 'No Obligation', 'Quick Response'].map(pill => (
                   <span key={pill} className="text-xs text-gray-300 bg-gray-800/70 px-3 py-1 rounded-full border border-gray-700">✓ {pill}</span>
                 ))}
               </div>

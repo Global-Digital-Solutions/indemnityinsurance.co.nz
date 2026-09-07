@@ -157,11 +157,11 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
 
             {/* Why use an adviser */}
             <div className="bg-brand-900 rounded-xl p-6 text-white">
-              <h3 className="font-bold text-lg mb-4">Why Use a Licensed Adviser?</h3>
+              <h3 className="font-bold text-lg mb-4">Why Use a Local Broker Partner?</h3>
               <div className="space-y-3 text-brand-200 text-sm">
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>
-                  <span>Access to multiple NZ professional lines insurers and specialist markets</span>
+                  <span>A direct partner who is registered, qualified and local — not a lead pool</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>

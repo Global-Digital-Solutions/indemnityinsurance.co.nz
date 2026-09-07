@@ -89,7 +89,7 @@ export const landingPages: LandingPage[] = [
 <li><a href="https://www.lawsociety.org.nz/" rel="nofollow noopener" target="_blank">New Zealand Law Society</a> — excess standard: not more than the greater of 1% of the indemnity limit or $20,000</li>
 <li>New Zealand Government Model Contract for services — standard terms and conditions, clause 8.1, and Schedule 1 of the individual contract. Cited as text: we hold no verified URL for the current version, and your own signed schedule governs in any case.</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. Confirm your own obligations with your professional body and against the insurance schedule in your own client contracts. Some cover cannot be arranged through us, medical indemnity in particular.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. Confirm your own obligations with your professional body and against the insurance schedule in your own client contracts. Some cover cannot be arranged through us, medical indemnity in particular.</p>
 </div>`,
     faqs: [
       {
@@ -180,7 +180,7 @@ export const landingPages: LandingPage[] = [
 <li><a href="https://www.lawsociety.org.nz/professional-practice/practising-well/benchmarking-costs-of-law-practice-in-new-zealand/" rel="nofollow noopener" target="_blank">New Zealand Law Society and KPMG — Benchmarking costs of law practice in New Zealand</a>, March 2024. Law firms only, per firm rather than per person, 2023 data.</li>
 <li>New Zealand Law Society consultation on compulsory professional indemnity insurance for lawyers, opened 26 March 2026 and closed 5 May 2026. Cited as text: we hold no verified URL, and it gives no dollar premium figures.</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. The insurance schedule in your own contract governs, not this page — read Schedule 1 before you tender.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. The insurance schedule in your own contract governs, not this page — read Schedule 1 before you tender.</p>
 </div>`,
     faqs: [
       {
@@ -280,7 +280,7 @@ export const landingPages: LandingPage[] = [
 <li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025, for the $1,500 to $3,000 per person estimate for architects</li>
 <li>New Zealand Government Model Contract for services — standard terms and conditions, clause 8.1, and Schedule 1 of the individual contract. Cited as text: we hold no verified URL for the current version, and your own signed schedule governs in any case.</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. Limitation questions on specific rebuild files are worth taking to a lawyer rather than a broker page — take advice before you cancel or shorten any cover.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. Limitation questions on specific rebuild files are worth taking to a lawyer rather than a broker page — take advice before you cancel or shorten any cover.</p>
 </div>`,
     faqs: [
       {
@@ -407,7 +407,7 @@ export const landingPages: LandingPage[] = [
 <li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025, for the $1,500 to $3,000 per person estimate for architects</li>
 <li>New Zealand Society of Conveyancers — minimum indemnity limit $1.2m. Cited as text; we hold no verified URL.</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal, financial or tax advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. Confirm your own obligations with your professional body and with the insurance clause in your client contracts — policy wordings differ between underwriters, and your schedule and wording govern, not this page.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal, financial or tax advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. Confirm your own obligations with your professional body and with the insurance clause in your client contracts — policy wordings differ between underwriters, and your schedule and wording govern, not this page.</p>
 </div>`,
     faqs: [
       {
@@ -512,7 +512,7 @@ export const landingPages: LandingPage[] = [
 <li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025 — the $1,500 to $3,000 per person per year estimate for architects, published to support a policy decision and carrying no methodology</li>
 <li>New Zealand Law Society consultation on compulsory professional indemnity insurance for lawyers, opened 26 March 2026 and closed 5 May 2026. Cited as text: we hold no verified URL, and the document gives no dollar premium figures.</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. Policy wordings differ between underwriters and brands — the schedule and wording you are quoted govern, not any comparison published here.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. Policy wordings differ between underwriters and brands — the schedule and wording you are quoted govern, not any comparison published here.</p>
 </div>`,
     faqs: [
       {
@@ -672,7 +672,7 @@ export const landingPages: LandingPage[] = [
 <li><a href="https://www.lawsociety.org.nz/professional-practice/practising-well/benchmarking-costs-of-law-practice-in-new-zealand/" rel="nofollow noopener" target="_blank">New Zealand Law Society and KPMG — Benchmarking costs of law practice in New Zealand</a>, March 2024. Law firms only, per firm rather than per person, 2023 data.</li>
 <li>New Zealand Society of Conveyancers — minimum indemnity limit $1.2m. Cited as text; we hold no verified URL.</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. We could not verify the position on professional indemnity across the authorities responsible under the Health Practitioners Competence Assurance Act 2003, and we have said so on the page rather than filling the gap. Some cover cannot be arranged through us — medical indemnity and professional body member schemes in particular.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. We could not verify the position on professional indemnity across the authorities responsible under the Health Practitioners Competence Assurance Act 2003, and we have said so on the page rather than filling the gap. Some cover cannot be arranged through us — medical indemnity and professional body member schemes in particular.</p>
 </div>`,
     faqs: [
       {
@@ -787,7 +787,7 @@ export const landingPages: LandingPage[] = [
 <li><a href="https://www.lawsociety.org.nz/" rel="nofollow noopener" target="_blank">New Zealand Law Society</a> — cover standard: the greater of $1.2m per practice or $900k per partner</li>
 <li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025, for the $1,500 to $3,000 per person estimate for architects</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. Policy wordings differ between underwriters and brands — your schedule and wording govern what is covered, not this page.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. Policy wordings differ between underwriters and brands — your schedule and wording govern what is covered, not this page.</p>
 </div>`,
     faqs: [
       {
@@ -890,7 +890,7 @@ export const landingPages: LandingPage[] = [
 <li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14</li>
 <li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025 — the only official New Zealand PI cost estimate, and it covers architects and design professionals only</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. The insurance schedule attached to your own contract or panel agreement governs — read Schedule 1 and check your policy against it before you tender.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. The insurance schedule attached to your own contract or panel agreement governs — read Schedule 1 and check your policy against it before you tender.</p>
 </div>`,
     faqs: [
       {
@@ -972,7 +972,7 @@ export const landingPages: LandingPage[] = [
 <p>If the two do not obviously agree, or the wording is ambiguous, ask the insurer or broker who arranged the policy to confirm in writing which basis applies to which item. A written answer is worth having, and it costs nothing to ask.</p>
 
 <h2>Who to ask — and it is not us</h2>
-<p>We refer enquiries about professional indemnity and related business liability cover to licensed advisers. We do not arrange house, contents, motor or jewellery insurance, so we are not the right people to answer a question about your own policy schedule, and we would rather say so than take your enquiry and pass it somewhere unhelpful. Two genuinely useful places to go instead:</p>
+<p>We match businesses and practitioners needing professional indemnity and related business liability cover to a local broker partner. We do not arrange house, contents, motor or jewellery insurance, so we are not the right people to answer a question about your own policy schedule, and we would rather say so than take your enquiry and pass it somewhere unhelpful. Two genuinely useful places to go instead:</p>
 <ul>
 <li><strong>Your own insurer or broker.</strong> They hold your wording and your schedule. They are obliged to explain what your policy actually says, and they are the only people who can confirm it for your specific cover.</li>
 <li><strong>The Insurance &amp; Financial Services Ombudsman (IFSO) scheme.</strong> An independent dispute resolution scheme, free to consumers, with a public glossary of insurance terms and case notes showing how disputes about settlement have been decided. If you are already in disagreement with an insurer about how a claim has been settled, this is the route.</li>
@@ -988,7 +988,7 @@ export const landingPages: LandingPage[] = [
 <li>Insurance &amp; Financial Services Ombudsman scheme — glossary of insurance terms and published case notes on claim settlement. Cited as text: we hold no verified URL for the current page, and the scheme is free to consumers and independent of any insurer.</li>
 <li>Your own policy schedule and policy wording. These are the only documents that determine which settlement basis applies to your cover, and they govern in place of any web page, including this one.</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm. We do not arrange house, contents, motor or jewellery insurance and cannot review or quote on a personal policy — your own insurer or broker, or the IFSO scheme, is the right place for that.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. We do not arrange house, contents, motor or jewellery insurance and cannot review or quote on a personal policy — your own insurer or broker, or the IFSO scheme, is the right place for that.</p>
 </div>`,
     faqs: [
       {
@@ -1120,7 +1120,7 @@ export const landingPages: LandingPage[] = [
 <li>New Zealand Nurses Organisation — membership FAQs, last updated March 2026, for the included indemnity limits and the warning about relying on employer indemnity. Cited as text; we hold no verified URL.</li>
 <li>New Zealand Psychologists Board and New Zealand Psychological Society. Cited as text; we hold no verified URLs. The Board requires no indemnity insurance for registration or an annual practising certificate; the Society offers members a scheme placed through Aon New Zealand, purchased separately.</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal, financial or clinical advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. We cannot arrange medical indemnity or professional body member schemes, and we say so rather than taking the enquiry — confirm the clinical side with your provider, your college or your union, and any figures with the body that published them.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal, financial or clinical advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. We cannot arrange medical indemnity or professional body member schemes, and we say so rather than taking the enquiry — confirm the clinical side with your provider, your college or your union, and any figures with the body that published them.</p>
 </div>`,
     faqs: [
       {
@@ -1258,7 +1258,7 @@ export const landingPages: LandingPage[] = [
 <li>Physiotherapy New Zealand — member indemnity scheme placed through BMS Group. Cited as text; we hold no verified URL.</li>
 <li>New Zealand Psychological Society — member indemnity package placed through Aon New Zealand, and New Zealand Psychologists Board registration requirements. Cited as text; we hold no verified URLs.</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. We cannot arrange or replace cover that is included in your membership, and medical indemnity is likewise not broker-placed in New Zealand — check the current terms and limits with the body itself, because a body can change its cover without any law changing.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. We cannot arrange or replace cover that is included in your membership, and medical indemnity is likewise not broker-placed in New Zealand — check the current terms and limits with the body itself, because a body can change its cover without any law changing.</p>
 </div>`,
     faqs: [
       {
@@ -1405,7 +1405,7 @@ export const landingPages: LandingPage[] = [
 <li><a href="https://www.engineeringnz.org/engineer-tools/engineering-documents/producer-statements/professional-indemnity-insurance-why-200000/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Professional indemnity insurance: why $200,000?</a></li>
 <li>Ministry of Education — contractor and consultant insurance guidance on education.govt.nz. Cited as text: we hold no verified URL for the current version, it is updated without announcement, and your signed contract schedule governs in any case. Read it alongside your contract and save a dated copy of what you relied on.</li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. The requirement that binds you is the one in your own contract schedule, not this page, and anything describing the Building Amendment Bill is accurate only as at the review date above.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. The requirement that binds you is the one in your own contract schedule, not this page, and anything describing the Building Amendment Bill is accurate only as at the review date above.</p>
 </div>`,
     faqs: [
       {

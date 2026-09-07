@@ -77,7 +77,7 @@ export default function HowWeSourceThisSitePage() {
             <li><strong className="text-slate-900">We do not publish premium figures we cannot source.</strong> Professional indemnity in New Zealand is broker-distributed and individually underwritten. No insurer publishes rate tables, and there is no public premium dataset. Any per-month figure on any website is invented, including the ones this site used to carry.</li>
             <li><strong className="text-slate-900">We date anything that can change.</strong> A Bill before select committee, a consultation, a rule under review — each is stamped with when we last checked it.</li>
           </ul>
-          <p className="leading-relaxed">We are an information and referral service, not a law firm or a compliance adviser. Everything here is general information, not legal or financial advice. Your policy schedule and wording govern, not any web page.</p>
+          <p className="leading-relaxed">We match your needs to a local broker partner. We are not a law firm or a compliance adviser. Everything here is general information, not legal or financial advice. Your policy schedule and wording govern, not any web page.</p>
         </section>
 
         <section>

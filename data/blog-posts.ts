@@ -111,7 +111,7 @@ export const blogPosts: BlogPost[] = [
 <li><a href="https://www.charteredaccountantsanz.com/member-services/certificate-of-public-practice" rel="nofollow noopener" target="_blank">CA ANZ — Certificate of Public Practice</a></li>
 <li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, November 2025</li>
 </ul>
-<p>Last reviewed 7 September 2026. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. General information only, not legal or financial advice. Policy wordings differ between underwriters, and your schedule and wording govern, not this page.</p>
+<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer and not a law firm. General information only, not legal or financial advice. Policy wordings differ between underwriters, and your schedule and wording govern, not this page.</p>
 </div>`,
   },
   {
@@ -200,7 +200,7 @@ export const blogPosts: BlogPost[] = [
 <li><a href="https://adnz.org.nz/professional" rel="nofollow noopener" target="_blank">ADNZ — Professional membership</a></li>
 <li><a href="https://www.reinz.co.nz/common/Uploaded%20files/REINZ/Website/2024/Codes%20of%20Practice/REINZ%20Code%20of%20Agency%20Practice%20Nov%202024.pdf" rel="nofollow noopener" target="_blank">REINZ Code of Agency Practice (PDF)</a>, November 2024</li>
 </ul>
-<p>Last reviewed 7 September 2026. We are an information and referral service, not an insurer; the advisers we refer you to are licensed. General information only, not legal, tax or financial advice. Any premium you are quoted depends on your own circumstances and on the underwriter's assessment of them.</p>
+<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. Our broker partners are registered, qualified and local. We are not an insurer. General information only, not legal, tax or financial advice. Any premium you are quoted depends on your own circumstances and on the underwriter's assessment of them.</p>
 </div>`,
   },
   {
@@ -470,7 +470,7 @@ export const blogPosts: BlogPost[] = [
 <li><a href="https://www.mbie.govt.nz/business-and-employment/business/financial-markets-regulation/regulation-of-financial-advice/regulations-to-support-the-financial-services-legislation-amendment-act/disclosure-requirements/" rel="nofollow noopener" target="_blank">MBIE — Disclosure requirements</a></li>
 <li><a href="https://www.mbie.govt.nz/assets/68c4548de4/cabinet-paper-financial-markets-conduct-regulations-paper4-licensing.pdf" rel="nofollow noopener" target="_blank">MBIE — Cabinet paper: Financial Markets Conduct Regulations, licensing (PDF)</a></li>
 </ul>
-<p>Last reviewed 7 September 2026. General information only, not legal, regulatory or financial advice. We are an information and referral service, not a compliance adviser — check your own licence conditions with the FMA or your compliance provider.</p>
+<p>Last reviewed 7 September 2026. General information only, not legal, regulatory or financial advice. We match your needs to a local broker partner. We are not a compliance adviser — check your own licence conditions with the FMA or your compliance provider.</p>
 </div>`,
   },
   {
@@ -597,7 +597,7 @@ export const blogPosts: BlogPost[] = [
 <li><a href="https://www.legislation.govt.nz/act/public/2015/0070/latest/DLM5976660.html" rel="nofollow noopener" target="_blank">Health and Safety at Work Act 2015</a> — sections 29 and 30 (insurance against fines unlawful), section 47 (reckless conduct)</li>
 <li><a href="https://www.worksafe.govt.nz/laws-and-regulations/operational-policy-framework/prosecutions/" rel="nofollow noopener" target="_blank">WorkSafe New Zealand — Prosecutions</a></li>
 </ul>
-<p>Last reviewed 7 September 2026. We are an information and referral service, not a law firm. General information only, not legal advice. Whether a particular penalty is insurable depends on the statute and on your policy wording.</p>
+<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. We are not a law firm. General information only, not legal advice. Whether a particular penalty is insurable depends on the statute and on your policy wording.</p>
 </div>`,
   },
   {
@@ -694,7 +694,7 @@ export const blogPosts: BlogPost[] = [
 <li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a> — sections 11 and 14</li>
 <li><a href="https://www.legislation.govt.nz/act/public/2004/0072/latest/DLM309340.html" rel="nofollow noopener" target="_blank">Building Act 2004, section 393</a> — ten-year longstop</li>
 </ul>
-<p>Last reviewed 7 September 2026. We are an information and referral service, not a law firm. General information only, not legal advice. Limitation questions on a specific matter need a lawyer.</p>
+<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. We are not a law firm. General information only, not legal advice. Limitation questions on a specific matter need a lawyer.</p>
 </div>`,
   },
   {
@@ -920,7 +920,7 @@ export const blogPosts: BlogPost[] = [
 <li><a href="https://www.charteredaccountantsanz.com/member-services/certificate-of-public-practice" rel="nofollow noopener" target="_blank">CA ANZ — Certificate of Public Practice</a></li>
 <li><a href="https://www.cpaaustralia.com.au/become-a-cpa/public-practice/practising-in-new-zealand" rel="nofollow noopener" target="_blank">CPA Australia — Practising in New Zealand</a></li>
 </ul>
-<p>Last reviewed 7 September 2026. We are an information and referral service, not an accounting body and not a law firm. General information only. Confirm your own obligations with CA ANZ, CPA Australia or your own body — the New Zealand rules are not fully published and we will not guess at them.</p>
+<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. We are not an accounting body and not a law firm. General information only. Confirm your own obligations with CA ANZ, CPA Australia or your own body — the New Zealand rules are not fully published and we will not guess at them.</p>
 </div>`,
   },
   {
@@ -1103,7 +1103,7 @@ export const blogPosts: BlogPost[] = [
 <li><a href="https://www.midwife.org.nz/midwives/membership/" rel="nofollow noopener" target="_blank">New Zealand College of Midwives — Membership benefits</a></li>
 <li><a href="https://www.hdc.org.nz/making-a-complaint/what-happens-to-my-complaint/" rel="nofollow noopener" target="_blank">Health and Disability Commissioner — What happens to a complaint</a></li>
 </ul>
-<p>Last reviewed 7 September 2026. We are an information and referral service, not a health regulator and not a law firm. General information only, not legal or clinical advice. Confirm your own obligations with your responsible authority — for several professions we could not verify the position and have said so above rather than filling the gap.</p>
+<p>Last reviewed 7 September 2026. We match your needs to a local broker partner. We are not a health regulator and not a law firm. General information only, not legal or clinical advice. Confirm your own obligations with your responsible authority — for several professions we could not verify the position and have said so above rather than filling the gap.</p>
 </div>`,
   },
   {
