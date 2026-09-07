@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Get a PI Insurance Quote',
-  description: 'Request a professional indemnity insurance quote from NZ-licensed advisers. We compare QBE, Dual, BHSI, Vero and AIG for you. Quote within one business day.',
+  description: 'Request a professional indemnity insurance quote from NZ-licensed advisers. We compare multiple NZ professional lines insurers for you. Quote within one business day.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/contact/' },
 }
 
@@ -20,7 +20,7 @@ export default function ContactPage() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {[
             { n: '1', title: 'Adviser Reviews Your Needs', desc: 'A licensed NZ insurance adviser reviews your profession, cover type and level needed.' },
-            { n: '2', title: 'Market Comparison', desc: 'Multiple insurers are approached — QBE, Dual, BHSI, Vero, AIG — to find the best fit.' },
+            { n: '2', title: 'Market Comparison', desc: 'Multiple insurers are approached — multiple NZ professional lines insurers — to find the best fit.' },
             { n: '3', title: 'Quote Delivered', desc: 'You receive a personalised quote within one business day with clear pricing and cover details.' },
             { n: '4', title: 'Placement & Ongoing Support', desc: 'Your adviser handles placement and remains your contact for renewals, claims and mid-term changes.' },
           ].map(step => (

@@ -108,7 +108,7 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
               </p>
               <div className="space-y-4 mb-8">
                 {[
-                  { icon: '🛡️', text: 'Multiple insurers compared — QBE, Dual, BHSI, Vero, AIG' },
+                  { icon: '🛡️', text: 'Multiple NZ professional lines insurers and specialist markets approached' },
                   { icon: '✅', text: 'Licensed NZ insurance advisers — FMCA regulated' },
                   { icon: '⚡', text: 'Quote within one business day' },
                   { icon: '💰', text: 'No fee, no obligation' },

@@ -14,10 +14,10 @@ export const metadata: Metadata = {
 }
 
 const stats = [
-  { value: '$85/mo', label: 'Average PI premium (BizCover FY24)' },
-  { value: '$1M', label: 'Most popular cover level in NZ' },
-  { value: '11', label: 'Cover levels — $250K to $10M+' },
-  { value: 'Fast', label: 'Quick adviser response' },
+  { value: '$1M', label: 'REINZ minimum for member agencies' },
+  { value: '$250K', label: 'ADNZ minimum, self-employed members' },
+  { value: '2028', label: 'When mandatory PI for design is expected' },
+  { value: '10 yr', label: 'Building Act longstop on building work' },
 ]
 
 export default function HomePage() {
@@ -42,10 +42,10 @@ export default function HomePage() {
                 <span className="text-orange-400">Your Work & Your Reputation</span>
               </h1>
               <p className="text-gray-300 text-xl leading-relaxed mb-4 max-w-xl font-medium">
-                For less than you think.
+                Sourced, checked, and honest about what nobody can tell you.
               </p>
               <p className="text-gray-400 text-base leading-relaxed mb-8 max-w-xl">
-                One claim from a client — a missed deadline, a disputed report, a costly piece of advice — can threaten everything you've built. Licensed NZ advisers compare the market and find the right cover for your profession, your budget, and your peace of mind.
+One claim from a client — a missed deadline, a disputed report, a costly piece of advice — can threaten everything you have built. Most of what is written about indemnity insurance in New Zealand is wrong about who actually has to hold it. We cite a source for every requirement on this site, and say so plainly where no source exists. Then licensed NZ advisers find the cover that fits your profession.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact/"
@@ -58,7 +58,7 @@ export default function HomePage() {
                 </Link>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                {['Cover from $85/month', 'No Obligation', 'Quick Response', 'Multiple Insurers Compared'].map(pill => (
+                {['Every requirement sourced', 'No Obligation', 'Quick Response', 'Multiple Insurers Compared'].map(pill => (
                   <span key={pill} className="text-xs text-gray-300 bg-gray-800/70 px-3 py-1 rounded-full border border-gray-700">✓ {pill}</span>
                 ))}
               </div>
@@ -120,7 +120,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <span className="inline-block bg-orange-500/20 border border-orange-400/30 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Your Profession</span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">Find Cover for Your Profession</h2>
-            <p className="text-gray-400 max-w-2xl mx-auto">Every profession has different exposure. Find guidance tailored to your specific role — including mandatory requirements, typical costs and the risks that matter most.</p>
+            <p className="text-gray-400 max-w-2xl mx-auto">Every profession has different exposure. Find guidance tailored to your specific role — including who actually requires cover of you, what limit applies and the risks that matter most.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {professionTypes.map(pt => (
@@ -151,7 +151,7 @@ export default function HomePage() {
             {[
               { n: '01', title: 'Tell Us About Your Work', desc: 'Complete the quick quote form — profession, cover type and level needed. Takes 2 minutes.' },
               { n: '02', title: 'Adviser Reviews Your Needs', desc: 'A licensed insurance adviser assesses your risk profile and coverage requirements.' },
-              { n: '03', title: 'Market Comparison', desc: 'Multiple insurers are approached — QBE, Dual, BHSI, Vero, AIG — to find the best fit.' },
+              { n: '03', title: 'Market Comparison', desc: 'Multiple NZ professional lines insurers and specialist markets are approached — to find the best fit.' },
               { n: '04', title: 'Get Your Quote', desc: 'Receive a personalised quote quickly. No obligation, no pressure.' },
             ].map(step => (
               <div key={step.n} className="text-center">

@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/privacy/`, lastModified: built, changeFrequency: 'yearly', priority: 0.2 },
     { url: `${SITE}/terms/`, lastModified: built, changeFrequency: 'yearly', priority: 0.2 },
     { url: `${SITE}/disclaimer/`, lastModified: built, changeFrequency: 'yearly', priority: 0.2 },
+    { url: `${SITE}/how-we-source-this-site/`, lastModified: built, changeFrequency: 'monthly', priority: 0.5 },
   ]
 
   const coverage: MetadataRoute.Sitemap = coverageTypes.map(c => ({

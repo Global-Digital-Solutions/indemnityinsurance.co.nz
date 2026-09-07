@@ -1,5 +1,6 @@
-// Renders a price string with a visually smaller "from" prefix.
-// Strips any existing "From " / "from " from the data string before rendering.
+// Renders a value string, prefixing a visually smaller "from" only when the
+// value is an actual amount. Non-numeric values (e.g. "individual underwriting")
+// are rendered as-is, so a descriptive field is never dressed up as a price.
 interface PriceTagProps {
   price: string
   className?: string
@@ -8,9 +9,12 @@ interface PriceTagProps {
 
 export default function PriceTag({ price, className = '', fromClassName = '' }: PriceTagProps) {
   const stripped = price.replace(/^from\s+/i, '')
+  const isAmount = /^[$\d]/.test(stripped)
   return (
     <span className={className}>
-      <span className={`text-[0.7em] font-medium tracking-wide opacity-70 mr-0.5 ${fromClassName}`}>from </span>
+      {isAmount && (
+        <span className={`text-[0.7em] font-medium tracking-wide opacity-70 mr-0.5 ${fromClassName}`}>from </span>
+      )}
       {stripped}
     </span>
   )

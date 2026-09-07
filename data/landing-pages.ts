@@ -23,49 +23,78 @@ export const landingPages: LandingPage[] = [
     metaDescription: 'Professional indemnity insurance for Auckland accountants, engineers, IT consultants and architects. Compare PI cover with a licensed NZ adviser.',
     excerpt: 'Auckland professionals across finance, engineering, technology, construction and healthcare need PI insurance. Get expert guidance and competitive quotes tailored to the Auckland market.',
     heroContent: 'Auckland is home to the majority of New Zealand\'s professional services sector — from CBD-based financial advisers and law firms to Manukau engineering consultancies and North Shore IT contractors. As Auckland\'s economy grows, so does professional liability exposure. Get PI insurance advice from a licensed adviser who understands the Auckland market.',
-    bodyContent: `<h2>Professional Indemnity Insurance for Auckland Professionals</h2>
-<p>Auckland accounts for approximately one third of New Zealand's GDP and is home to the country's largest concentration of professional services firms. From financial advisers and accountants in the CBD to architects and engineers in Newmarket, IT consultants across North Shore and South Auckland, and a growing cluster of tech and marketing businesses in Parnell, Ponsonby, and Grey Lynn — Auckland professionals face significant professional liability exposure.</p>
+    bodyContent: `<div class="keyfact">
+<p><strong>Auckland has no professional indemnity rules of its own, and no Auckland price list.</strong> Nothing about working here creates a PI obligation. For almost every Auckland professional the requirement comes from a client contract, and where a body does impose one it is a membership rule rather than a law: REINZ member agencies must hold at least $1M under Principle 19 of the Code of Agency Practice, while the Real Estate Authority requires no insurance at all and the word does not appear in its conduct rules. The FMA consulted on making PI a licence condition in June 2020 and decided against it in November 2020. Auckland Council and Crown contracts do require cover, but the amount lives in Schedule 1 of your own contract, not in any published table. And no New Zealand insurer publishes rate tables, so an Auckland price list by occupation is invented rather than reported.</p>
+</div>
+<h2>Professional Indemnity Insurance for Auckland Professionals</h2>
+<p>Auckland is home to New Zealand's largest concentration of professional services firms. From financial advisers and accountants in the CBD to architects and engineers in Newmarket, IT consultants across North Shore and South Auckland, and a growing cluster of tech and marketing businesses in Parnell, Ponsonby, and Grey Lynn — Auckland professionals face significant professional liability exposure.</p>
 <p>Professional indemnity (PI) insurance protects Auckland professionals from client claims alleging that professional advice or services caused a financial loss. Whether you are a sole-trader consultant working from home or a professional services firm with 20 staff, a single PI claim can cost tens of thousands of dollars in legal fees and compensation — often far exceeding the original fee for the work in question.</p>
 
-<h2>Which Auckland Professionals Need PI Insurance?</h2>
-<p>PI insurance is essential or mandatory for a wide range of Auckland-based professionals:</p>
+<h2>Who Actually Has to Hold PI in Auckland — and Who Does Not</h2>
+<p>A great deal of what is written about compulsory PI in New Zealand is wrong. The distinction that matters is whether the obligation comes from a regulator, from a membership body, or from a client contract. For most Auckland professionals it is the third.</p>
 <ul>
-<li><strong>Financial advisers and mortgage brokers:</strong> Required under FAP licensing — Auckland has the highest concentration of FAP-licensed advisers in NZ</li>
-<li><strong>Accountants:</strong> CA ANZ requires PI cover from Certificate of Public Practice holders, not from members generally; Auckland's accounting sector spans Big 4 firms and hundreds of boutique practices</li>
-<li><strong>Architects and engineers:</strong> Mandatory requirements strengthen in 2026 following the November 2025 announcement; Auckland's construction boom increases exposure</li>
-<li><strong>IT consultants and developers:</strong> Auckland's growing tech sector — from Parnell startups to enterprise IT firms — requires PI for government and corporate contracts</li>
-<li><strong>Real estate agents:</strong> Auckland's high-value property market means PI claims in the city involve some of NZ's largest compensation amounts</li>
-<li><strong>Marketing and PR consultants:</strong> Auckland's vibrant creative and communications sector needs PI protection for campaign and IP-related risks</li>
-<li><strong>Healthcare practitioners:</strong> Auckland's DHB-adjacent private practice sector requires PI cover beyond ACC</li>
-<li><strong>Recruitment consultants:</strong> Auckland's large corporate and government recruitment market creates significant wrong-hire exposure</li>
+<li><strong>Financial advisers and mortgage brokers:</strong> PI is not a condition of an FMA financial advice provider licence. The FMA consulted on adding one on 17 June 2020 and decided against it on 6 November 2020, and it does not appear in the Code of Professional Conduct. Auckland advisers who carry PI generally do so because an aggregator, lender or institutional client asks for it.</li>
+<li><strong>Accountants:</strong> CA ANZ requires members holding a Certificate of Public Practice to carry current and appropriate PI — not members generally. CPA Australia requires PI from members offering public accounting services in New Zealand, including honorary and pro bono work. Neither body publishes a New Zealand minimum limit, so anyone quoting one to you is guessing.</li>
+<li><strong>Architects and engineers:</strong> Registration itself does not require PI. The Registered Architects Act 2005 contains no insurance provisions, and Engineering NZ does not require PI for membership or for CPEng. What does set limits is contracts and conventions — an engineering firm issuing a producer statement states that it holds PI of at least $200,000, and Architectural Designers NZ requires self-employed Professional members to hold at least $250,000.</li>
+<li><strong>Real estate agents:</strong> The Real Estate Authority does not require PI, and the word insurance does not appear in the Professional Conduct and Client Care Rules 2012. REINZ does: under Principle 19 of its Code of Agency Practice (November 2024), member agencies must hold PI covering the business and everyone engaged in it, with a minimum of $1M.</li>
+<li><strong>IT consultants and developers:</strong> No regulator is involved. Auckland enterprise and public sector contracts are what drive the requirement, and the limit is whatever the contract names.</li>
+<li><strong>Marketing, PR and recruitment consultants:</strong> Contract-driven in the same way. Larger Auckland corporates commonly set a limit in their supplier agreements.</li>
+<li><strong>Healthcare practitioners:</strong> Position varies by profession and is often misstated. The Nursing Council does not require PI for an annual practising certificate, and several bodies provide indemnity as a membership benefit rather than as a condition. Medical indemnity is normally arranged through a scheme provider and cannot be placed through a general broker.</li>
 </ul>
 
-<h2>Auckland-Specific PI Insurance Considerations</h2>
-<p>Auckland professionals face some city-specific factors that affect their PI insurance needs:</p>
-<p><strong>High property values and construction costs:</strong> Auckland's construction and property sector involves some of the highest transaction values in NZ. A design error on an Auckland residential project — where median house prices exceed $1M — creates correspondingly high claim potential. Architects and engineers working in Auckland should consider PI cover limits of at least $2M.</p>
-<p><strong>Government and council contracts:</strong> Auckland Council and central government agencies — including the Ministry of Health's Auckland operations, Auckland Transport, and Watercare — require significant minimum PI cover levels for professional services contracts. IT, engineering, advisory, and communications firms tendering for Auckland Council contracts typically need $1M–$2M PI.</p>
-<p><strong>Large corporate client base:</strong> Auckland hosts many of NZ's largest private sector companies, and these clients often specify minimum PI cover levels in their supplier agreements. Marketing, IT, recruitment, and consulting firms with corporate Auckland clients should carry $1M–$2M minimum cover.</p>
+<h2>What Sets Your Limit in Auckland</h2>
+<p>Auckland does not have its own PI rules. What it has is a client base whose contracts set higher limits than smaller markets, so the practical question is not what Auckland requires but what your contracts require.</p>
+<p><strong>Council and Crown work:</strong> Auckland Council and its subsidiaries, and central government agencies with Auckland operations, all buy professional services on written terms with an insurance schedule. The Government Model Contract does not name a limit at all — clause 8.1 of the standard terms simply requires the supplier to hold the insurance specified in Schedule 1 of that particular contract, and to maintain it for the term and for three years after the end date. The number is set contract by contract. Read your Schedule 1 rather than relying on a figure from a website.</p>
+<p><strong>Corporate supplier agreements:</strong> Large Auckland private sector clients frequently specify a limit in their standard supplier terms. If you are onboarding with a new corporate client, the insurance clause is usually the item that stalls the process, and it is worth reading before you sign rather than after.</p>
+<p><strong>Construction and property work:</strong> Auckland project values are high, and the limit that follows a design professional around is generally the one written into the consultancy agreement or required by the principal. The producer statement convention sits underneath that at $200,000, which Engineering NZ notes is standard and unrelated to construction costs.</p>
+<p><strong>Long-tail exposure:</strong> PI is claims-made. What matters as much as the limit is the retroactive date and whether cover continues after the work stops. For building work, section 393 of the Building Act 2004 imposes an absolute 10-year longstop on civil proceedings, running from the act or omission — not from completion.</p>
 
-<h2>How Much Does PI Insurance Cost in Auckland?</h2>
-<p>PI insurance premiums for Auckland professionals are broadly consistent with NZ-wide pricing, though high-revenue Auckland firms may pay more due to their larger income base. Indicative monthly costs:</p>
+<h2>What PI Insurance Costs in Auckland</h2>
+<p>No New Zealand insurer publishes premium tables for professional indemnity. Cover is broker-distributed and individually underwritten, and the two main New Zealand PI underwriters publish no pricing at all. Any per-month figure you see quoted by profession has been made up. We are not going to add to that.</p>
+<p>The only official cost guidance published in New Zealand is the Government's estimate for design professionals: in the Beehive factsheet of 24 November 2025 accompanying the building reform announcement, professional indemnity insurance for architects is said to typically cost between $1,500 and $3,000 per person each year, often covered by the firm. That is a government estimate published to support a policy decision, with no methodology attached, and it covers architects and design professionals only.</p>
+<p>What an underwriter actually prices on:</p>
 <ul>
-<li>Accountants: $75–$150/month</li>
-<li>Financial advisers: $100–$250/month</li>
-<li>IT consultants: $80–$180/month</li>
-<li>Engineers and architects: $160–$400/month</li>
-<li>Marketing and PR consultants: $65–$120/month</li>
-<li>Real estate agents: $90–$180/month</li>
-<li>Recruitment consultants: $115–$200/month</li>
+<li><strong>Limit of indemnity.</strong> The single biggest lever, and usually set by someone else — a council, a client or a professional body.</li>
+<li><strong>Fee income.</strong> Revenue is the primary rating base for most PI.</li>
+<li><strong>Work type and discipline.</strong> Residential construction, structural and geotechnical work rate materially harder than advisory work.</li>
+<li><strong>Claims and notification history,</strong> including circumstances notified but not yet claimed.</li>
+<li><strong>Excess.</strong> The New Zealand Law Society standard for its own profession is that the excess should not exceed the greater of 1% of the indemnity limit or $20,000 — a useful sanity check even outside law.</li>
+<li><strong>Retroactive date and run-off.</strong> Prior-acts cover is a genuine price lever, not a formality.</li>
+<li><strong>Whether defence costs sit inside or outside the limit.</strong></li>
 </ul>
-<p>PI insurance premiums are fully tax deductible as a business expense for Auckland professionals and businesses.</p>
+<p>PI premiums are deductible as a business expense.</p>
 
 <h2>How to Get PI Insurance in Auckland</h2>
 <p>Auckland professionals can access PI insurance through Cover4You's team of licensed insurance advisers. Unlike direct comparison sites or generic brokers, a specialist PI adviser will review your specific professional activities, contract requirements, and risk profile — ensuring your policy actually covers the work you do.</p>
-<p>Most Auckland professionals can receive a tailored PI quote within one business day. Our advisers are familiar with the specific requirements of Auckland Council, government agencies, and corporate clients operating in the Auckland market.</p>`,
+<p>Most Auckland professionals can receive a tailored PI quote within one business day. Our advisers are familiar with the specific requirements of Auckland Council, government agencies, and corporate clients operating in the Auckland market.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.fma.govt.nz/assets/Consultations/Consultation-standard-conditions-FAP-full-licensing.pdf" rel="nofollow noopener" target="_blank">FMA — Consultation: standard conditions for full FAP licensing (PDF)</a>, 17 June 2020</li>
+<li><a href="https://www.fma.govt.nz/news/all-releases/media-releases/fma-releases-standard-conditions-for-licensing-of-financial-advice/" rel="nofollow noopener" target="_blank">FMA — Standard conditions released for licensing of financial advice</a>, 6 November 2020</li>
+<li><a href="https://financialadvicecode.govt.nz/wp-content/uploads/2025/10/financial-advice-code-of-conduct-2025.pdf" rel="nofollow noopener" target="_blank">Code of Professional Conduct for Financial Advice Services (PDF)</a>, in force 1 November 2025</li>
+<li><a href="https://www.charteredaccountantsanz.com/member-services/certificate-of-public-practice" rel="nofollow noopener" target="_blank">CA ANZ — Certificate of Public Practice</a></li>
+<li><a href="https://www.cpaaustralia.com.au/become-a-cpa/public-practice/practising-in-new-zealand" rel="nofollow noopener" target="_blank">CPA Australia — Practising in New Zealand</a></li>
+<li><a href="https://www.rea.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf" rel="nofollow noopener" target="_blank">REA — Professional Conduct and Client Care Rules 2012 (PDF)</a> — contains no reference to insurance or indemnity</li>
+<li><a href="https://www.reinz.co.nz/common/Uploaded%20files/REINZ/Website/2024/Codes%20of%20Practice/REINZ%20Code%20of%20Agency%20Practice%20Nov%202024.pdf" rel="nofollow noopener" target="_blank">REINZ — Code of Agency Practice (PDF)</a>, November 2024, Principle 19</li>
+<li><a href="https://www.legislation.govt.nz/act/public/2005/0038/latest/whole.html" rel="nofollow noopener" target="_blank">Registered Architects Act 2005</a> — contains no insurance provisions</li>
+<li><a href="https://www.engineeringnz.org/join-us/cpeng/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Chartered Professional Engineer</a></li>
+<li><a href="https://www.engineeringnz.org/engineer-tools/engineering-documents/producer-statements/professional-indemnity-insurance-why-200000/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Professional indemnity insurance: why $200,000?</a></li>
+<li><a href="https://adnz.org.nz/professional" rel="nofollow noopener" target="_blank">ADNZ — Professional membership</a></li>
+<li><a href="https://www.nursingcouncil.org.nz/Public/Nursing/Annual_practising_certificate/NCNZ/nursing-section/Annual_practising_certificate.aspx" rel="nofollow noopener" target="_blank">Nursing Council of New Zealand — Annual practising certificate</a></li>
+<li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025, for the $1,500 to $3,000 per person estimate for architects</li>
+<li><a href="https://www.building.govt.nz/about-building-performance/all-news-and-updates/building-amendment-bill-introduced-to-parliament" rel="nofollow noopener" target="_blank">Building Performance — Building Amendment Bill introduced to Parliament</a>, 2 July 2026</li>
+<li><a href="https://www.legislation.govt.nz/act/public/2004/0072/latest/DLM309340.html" rel="nofollow noopener" target="_blank">Building Act 2004, section 393</a> — ten-year longstop</li>
+<li><a href="https://www.lawsociety.org.nz/" rel="nofollow noopener" target="_blank">New Zealand Law Society</a> — excess standard: not more than the greater of 1% of the indemnity limit or $20,000</li>
+<li>New Zealand Government Model Contract for services — standard terms and conditions, clause 8.1, and Schedule 1 of the individual contract. Cited as text: we hold no verified URL for the current version, and your own signed schedule governs in any case.</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. Confirm your own obligations with your professional body and against the insurance schedule in your own client contracts. Some cover cannot be arranged through us, medical indemnity in particular.</p>
+</div>`,
     faqs: [
       {
         q: 'Do I need PI insurance to work with Auckland Council?',
-        a: 'Yes — most Auckland Council and Auckland Transport professional services contracts require minimum PI cover, typically $1M–$2M per claim. You will need to provide a certificate of currency confirming your cover level before work can commence. A licensed adviser can confirm the exact requirements for your specific contract.',
+        a: 'Usually, but the limit is set by the individual contract rather than by any published council-wide rule, and we are not going to quote you a figure we cannot source. Government and council professional services contracts carry an insurance schedule — under the Government Model Contract, clause 8.1 of the standard terms requires the supplier to hold whatever insurance Schedule 1 of that contract specifies, and to maintain it for the term plus three years after the end date. Read the schedule attached to your own contract, then ask your adviser to confirm your policy meets it.',
       },
       {
         q: 'How quickly can I get PI insurance cover in Auckland?',
@@ -73,11 +102,11 @@ export const landingPages: LandingPage[] = [
       },
       {
         q: 'Is PI insurance more expensive in Auckland than the rest of NZ?',
-        a: 'PI insurance premiums are primarily driven by your profession, revenue, and cover level — not your location. However, Auckland professionals working on higher-value projects (particularly in construction and real estate) may need higher cover limits, which increases premium. The base premium rates are broadly consistent across NZ.',
+        a: 'There is no published data either way, so nobody can honestly answer this with numbers. What can be said is that PI is rated on profession, fee income, work type, claims history and limit — not on a postcode. Auckland professionals often need higher limits because their contracts demand them, and a higher limit costs more, but that is a difference in what is being bought rather than a location loading.',
       },
       {
         q: 'What is the minimum PI cover for Auckland architecture and engineering firms?',
-        a: 'Current market practice for Auckland architecture and engineering firms is $1M–$2M per claim minimum. The Building Amendment Bill, introduced on 2 July 2026 and currently at select committee, would make PI mandatory for design professionals — architects and engineers — and expressly not for builders or Licensed Building Practitioners. No minimum sum insured has been published, and the Bill is not yet law. Larger firms and those working on high-value commercial projects should consider $5M or more.',
+        a: 'There is no minimum set by law or by registration. The published anchors are narrow: an engineering firm issuing a producer statement states that it holds PI of at least $200,000, and Architectural Designers NZ requires self-employed Professional members to hold at least $250,000. Beyond that, the limit comes from your consultancy agreement or the principal on the project. The Building Amendment Bill, introduced on 2 July 2026 and currently at select committee with submissions closing 15 November 2026, would require PI of professionals contributing to building design — architects and engineers — and expressly not builders. It proposes no minimum sum insured, it is not yet law, and it is expected to take effect in 2028 after a one-year lead-in.',
       },
     ],
     image: 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&auto=format&fit=crop&q=80',
@@ -93,60 +122,78 @@ export const landingPages: LandingPage[] = [
     metaDescription: 'PI insurance for Wellington consultants, government contractors, engineers and advisers. Compare cover and get quotes from a licensed NZ adviser.',
     excerpt: 'Wellington\'s government and professional services sector generates significant PI exposure. Get tailored PI insurance advice for Wellington professionals, government contractors, and consulting firms.',
     heroContent: 'Wellington is New Zealand\'s capital city and the centre of government — home to thousands of professional services firms, consultants, and contractors who work with central government agencies. From Lambton Quay financial advisers and Thorndon policy consultants to Porirua engineering firms, Wellington professionals face some of the most specific PI insurance requirements in NZ.',
-    bodyContent: `<h2>Professional Indemnity Insurance in Wellington — The Government Sector Context</h2>
+    bodyContent: `<div class="keyfact">
+<p><strong>There is no standard government PI limit.</strong> The claim most often made about Wellington government work — that agencies require a set amount of professional indemnity — has no source behind it. The Government Model Contract names no figure. Clause 8.1 of the standard terms and conditions for services requires the supplier to hold the insurance specified in Schedule 1 of that particular contract, taken out with a reputable insurer and maintained for the term and for three years after the end date. The amount is filled in agency by agency, contract by contract. Nor does any regulator impose PI on the professions doing this work: it is not an FMA licence condition, and Engineering New Zealand requires none for membership or for CPEng. The $200,000 attached to engineers is a producer statement representation, not a registration standard.</p>
+</div>
+<h2>Professional Indemnity Insurance in Wellington — The Government Sector Context</h2>
 <p>Wellington's professional services market is strongly shaped by its role as the centre of New Zealand's central government. Government agencies — including the Treasury, MBIE, Ministry of Health, Department of Internal Affairs, and dozens of others — are among the largest purchasers of professional services in the region. IT, management consulting, legal, engineering, communications, and advisory firms all compete for government contracts in Wellington — and government contracts consistently specify minimum PI insurance levels.</p>
-<p>For Wellington professionals, understanding the PI insurance requirements for government procurement is essential. The New Zealand Government Procurement rules specify minimum insurance requirements for All-of-Government contracts and most agency-specific contracts, typically requiring $1M–$2M PI per claim as a baseline.</p>
+<p>For Wellington professionals, understanding how government procurement handles insurance is essential — and the first thing to understand is that there is no single government-wide PI figure. The Government Model Contract does not name one. Clause 8.1 of the standard terms for services requires the supplier to hold the insurance specified in Schedule 1 of that particular contract, taken out with a reputable insurer and maintained for the term of the contract and for three years after the end date. The limit is filled in agency by agency, contract by contract. Anyone quoting you a standard government PI limit is inventing it.</p>
 
 <h2>Wellington's Key Professional Sectors and Their PI Needs</h2>
 
 <h3>IT and Digital Consultants</h3>
-<p>Wellington has New Zealand's largest concentration of government IT contractors and digital transformation consultants. Government digital services projects — managed by DIA's Government Chief Digital Officer (GCDO) function, the All-of-Government technology services contracts, and individual agency modernisation programmes — consistently require minimum PI cover. IT contractors working on sensitive government systems should carry $1M–$2M PI as a minimum, with larger project roles requiring $2M–$5M.</p>
+<p>Wellington has New Zealand's largest concentration of government IT contractors and digital transformation consultants. Government digital services projects — managed by DIA's Government Chief Digital Officer function, the All-of-Government technology services contracts, and individual agency modernisation programmes — consistently require PI cover. The limit is not standardised: it is whatever the insurance schedule of your particular contract or panel agreement names. What is worth checking before you sign is whether the policy's definition of professional services actually covers systems integration, data migration and advisory work, and whether the three-year post-contract maintenance obligation in the model terms is something your policy can satisfy.</p>
 
 <h3>Management and Policy Consultants</h3>
-<p>Management consultants and policy advisers working with Wellington government agencies face professional liability for the quality and accuracy of advice that may inform significant government spending decisions or policy changes. A flawed cost-benefit analysis, an inaccurate market assessment, or incorrect policy modelling that results in poor government decisions can give rise to PI claims. Cover levels of $1M–$2M are standard for most Wellington management consulting firms.</p>
+<p>Management consultants and policy advisers working with Wellington government agencies face professional liability for the quality and accuracy of advice that may inform significant government spending decisions or policy changes. A flawed cost-benefit analysis, an inaccurate market assessment, or incorrect policy modelling that results in poor government decisions can give rise to PI claims. There is no published standard limit for this work — the number in your engagement letter or panel agreement is the number that matters, and it is usually the agency, not the consultant, that chooses it.</p>
 
 <h3>Engineers and Architects</h3>
-<p>Wellington's seismic environment creates unique PI exposure for structural and geotechnical engineers. Post-Kaikōura earthquake, Wellington building owners and Wellington City Council have undertaken significant seismic assessment programmes. Engineers providing Initial Evaluation Procedure (IEP) and Detailed Seismic Assessment (DSA) reports face PI exposure if their assessments are later found to be incorrect or inadequate. PI cover levels of $2M–$5M are appropriate for Wellington structural and geotechnical engineers.</p>
+<p>Wellington's seismic environment shapes the engineering work done here more than it shapes the insurance market. Building owners and the city council have run substantial seismic assessment programmes, and engineers producing Initial Evaluation Procedure and Detailed Seismic Assessment reports carry exposure if an assessment is later said to have been wrong or inadequate. That exposure is long-tailed: section 11 of the Limitation Act 2010 gives a primary period of six years running from the act or omission, section 14 allows a further three years from late knowledge, and section 393 of the Building Act 2004 imposes an absolute 10-year longstop, also running from the act or omission rather than from completion.</p>
+<p>Engineering NZ does not require PI for membership or for CPEng, and the Chartered Professional Engineers Rules contain no insurance provisions. The published anchor is the producer statement convention: a firm issuing one states that it holds PI of at least $200,000, which Engineering NZ notes is standard and unrelated to construction costs. Everything above that comes from the consultancy agreement. For seismic assessment work commissioned by a council or a large owner, the limit is normally set in the brief.</p>
 
 <h3>Financial Advisers and Accountants</h3>
 <p>Wellington's financial and professional services sector includes a significant number of FAP-licensed advisers, chartered accountants, and specialist professional services firms serving both government and private sector clients. PI is not a standard FAP licence condition — the FMA considered it and decided against it — but many advisers hold it anyway, and institutional or government clients often require it by contract.</p>
 
-<h2>Government Contract PI Requirements in Wellington</h2>
-<p>Professionals tendering for Wellington government contracts should be familiar with the standard insurance requirements in the Government Model Contracts:</p>
+<h2>Reading a Wellington Government Insurance Schedule</h2>
+<p>We are not going to publish a table of government PI limits by service category, because no such table exists. The Government Model Contract deliberately leaves the amount blank for each agency to fill in. What you can do instead is read your own schedule properly. The points that catch professionals out:</p>
 <ul>
-<li>IT professional services: $1M–$2M PI + $1M–$2M public liability (standard)</li>
-<li>Advisory and consulting services: $1M PI minimum; $2M for larger engagements</li>
-<li>Engineering and technical services: $2M–$5M PI</li>
-<li>Communications and marketing services: $1M PI minimum</li>
-<li>Specialist professional services (legal, financial, health): $1M–$5M depending on scope</li>
+<li><strong>The limit is in Schedule 1, not in the standard terms.</strong> Two contracts with the same agency in the same year can carry different limits.</li>
+<li><strong>Cover must survive the contract.</strong> The model terms require insurance to be maintained for the term and for three years after the end date. PI is claims-made, so a policy that lapses when the engagement ends leaves you exposed and in breach.</li>
+<li><strong>Per claim versus in the aggregate.</strong> A schedule that names a limit without saying which can be satisfied by very different policies.</li>
+<li><strong>The named insured must match the contracting entity.</strong> If you tender as a company and your policy names you personally, the certificate will be rejected.</li>
+<li><strong>Professional services definition.</strong> The limit is the easy part. Whether the policy wording covers the actual scope in the statement of work is the part that decides claims.</li>
+<li><strong>Subcontracting.</strong> If you sit under a prime contractor, do not assume their policy responds to your work. Get it in writing or hold your own.</li>
 </ul>
-<p>These are baseline requirements — specific agencies and contract terms may specify higher levels. Having adequate PI cover in place before tendering ensures you are not excluded from opportunities on insurance grounds alone.</p>
+<p>Having cover in place before you tender means you are not excluded on insurance grounds alone, and it means the certificate of currency is a same-day request rather than a scramble.</p>
 
-<h2>How Much Does PI Insurance Cost in Wellington?</h2>
-<p>Wellington PI insurance costs are broadly consistent with market pricing. Indicative costs for Wellington professionals:</p>
-<ul>
-<li>IT consultants and developers: $80–$180/month</li>
-<li>Management consultants: $90–$200/month</li>
-<li>Structural and geotechnical engineers: $200–$500/month (higher due to seismic risk context)</li>
-<li>Financial advisers: $100–$250/month</li>
-<li>Policy and research consultants: $80–$150/month</li>
-<li>Marketing and communications agencies: $70–$150/month</li>
-</ul>
+<h2>What PI Insurance Costs in Wellington</h2>
+<p>No New Zealand insurer publishes PI premium tables, and there is no public dataset of New Zealand PI premiums by profession. Cover is broker-distributed and individually underwritten. The New Zealand Law Society's own March 2026 consultation on compulsory PI for lawyers discusses rising costs and gives no dollar premium figures at all. If a site shows you a Wellington price list by occupation, it was invented.</p>
+<p>Two published figures exist and both are narrow. The Government estimated in its Beehive factsheet of 24 November 2025 that professional indemnity insurance for architects typically costs between $1,500 and $3,000 per person each year, often covered by the firm — a policy estimate with no methodology attached, covering design professionals only. Separately, the New Zealand Law Society and KPMG benchmarking study of 124 firms, surveyed October to November 2023 and published in March 2024, put average PI cost per firm in 2023 at $2,850 for a barrister and $7,227 for a sole practitioner, and found PI growing faster than any other overhead category. That is law firms, per firm rather than per person, and three years old.</p>
+<p>For everyone else, the honest answer is that price follows the rating factors: limit of indemnity, fee income, discipline and work type, claims and notification history, excess, retroactive date, and whether defence costs sit inside or outside the limit. For Wellington government contractors the limit is usually chosen by the agency, which means the largest single driver of your premium is a number you did not pick.</p>
 
 <h2>Getting PI Insurance for Wellington Government Work</h2>
-<p>Cover4You's licensed advisers understand the specific requirements of Wellington government contracts and can tailor your PI cover to meet the requirements of All-of-Government and agency-specific procurement panels. We can provide certificates of currency in the format required by government procurement teams and advise on any project-specific cover requirements.</p>`,
+<p>Cover4You's licensed advisers understand the specific requirements of Wellington government contracts and can tailor your PI cover to meet the requirements of All-of-Government and agency-specific procurement panels. We can provide certificates of currency in the format required by government procurement teams and advise on any project-specific cover requirements.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li>New Zealand Government Model Contract for services — standard terms and conditions, clause 8.1, and Schedule 1 of the individual contract. Cited as text: we hold no verified URL for the current version, and your own signed schedule governs in any case.</li>
+<li><a href="https://www.fma.govt.nz/assets/Consultations/Consultation-standard-conditions-FAP-full-licensing.pdf" rel="nofollow noopener" target="_blank">FMA — Consultation: standard conditions for full FAP licensing (PDF)</a>, 17 June 2020</li>
+<li><a href="https://www.fma.govt.nz/news/all-releases/media-releases/fma-releases-standard-conditions-for-licensing-of-financial-advice/" rel="nofollow noopener" target="_blank">FMA — Standard conditions released for licensing of financial advice</a>, 6 November 2020</li>
+<li><a href="https://financialadvicecode.govt.nz/wp-content/uploads/2025/10/financial-advice-code-of-conduct-2025.pdf" rel="nofollow noopener" target="_blank">Code of Professional Conduct for Financial Advice Services (PDF)</a>, in force 1 November 2025</li>
+<li><a href="https://www.engineeringnz.org/join-us/cpeng/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Chartered Professional Engineer</a></li>
+<li><a href="https://www.engineeringnz.org/engineer-tools/engineering-documents/producer-statements/professional-indemnity-insurance-why-200000/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Professional indemnity insurance: why $200,000?</a></li>
+<li><a href="https://www.legislation.govt.nz/regulation/public/2002/0389/latest/whole.html" rel="nofollow noopener" target="_blank">Chartered Professional Engineers of New Zealand Rules (No 2) 2002</a></li>
+<li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14</li>
+<li><a href="https://www.legislation.govt.nz/act/public/2004/0072/latest/DLM309340.html" rel="nofollow noopener" target="_blank">Building Act 2004, section 393</a> — ten-year longstop</li>
+<li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025</li>
+<li><a href="https://www.lawsociety.org.nz/professional-practice/practising-well/benchmarking-costs-of-law-practice-in-new-zealand/" rel="nofollow noopener" target="_blank">New Zealand Law Society and KPMG — Benchmarking costs of law practice in New Zealand</a>, March 2024. Law firms only, per firm rather than per person, 2023 data.</li>
+<li>New Zealand Law Society consultation on compulsory professional indemnity insurance for lawyers, opened 26 March 2026 and closed 5 May 2026. Cited as text: we hold no verified URL, and it gives no dollar premium figures.</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. The insurance schedule in your own contract governs, not this page — read Schedule 1 before you tender.</p>
+</div>`,
     faqs: [
       {
         q: 'What PI cover do I need to work on Wellington government contracts?',
-        a: 'Most Wellington government contracts require a minimum of $1M professional indemnity insurance per claim, plus $1M public liability. For IT, engineering, or advisory services on larger projects, requirements are typically $2M PI or higher. Your specific contract will detail the required cover levels, and a licensed adviser can confirm these before you submit a tender.',
+        a: 'Whatever your contract says. The Government Model Contract does not set a figure — clause 8.1 of the standard terms for services requires you to hold the insurance specified in Schedule 1 of that contract, and to maintain it for the term and for three years after the end date. The limit is chosen by the agency for that engagement. Read Schedule 1, then have your adviser check your policy against it before you tender.',
       },
       {
         q: 'Do I need PI insurance for Wellington City Council contracts?',
-        a: 'Yes — Wellington City Council professional services contracts typically require PI insurance as a standard condition. Minimum levels vary by contract type but are commonly $1M–$2M per claim. Engineering and technical services contracts typically require higher limits.',
+        a: 'Council professional services contracts generally carry an insurance schedule, and PI is normally in it. The level is set in the individual contract rather than by a published council-wide minimum, and we will not quote a figure we cannot source. Ask the council for the insurance schedule with the tender documents and check your policy against it.',
       },
       {
         q: 'Do Wellington structural engineers need more PI cover because of seismic risk?',
-        a: 'Seismic risk in Wellington creates a specific PI exposure for structural and geotechnical engineers — particularly those providing seismic assessments under the Building Act. Most Wellington structural engineers carry $2M–$5M PI cover, reflecting the higher potential claim values in a seismically active environment. Your adviser can help you assess the appropriate level for your specific practice.',
+        a: 'Seismic assessment work carries a specific and long-tailed exposure, but there is no published survey of what Wellington engineers actually carry, so we cannot tell you what is typical. What we can tell you is where the anchors are: a firm issuing a producer statement states that it holds PI of at least $200,000, Engineering NZ imposes no PI requirement for membership or CPEng, and any figure above the producer statement level comes from the consultancy agreement. The claim period is long — six years from the act or omission under section 11 of the Limitation Act 2010, a further three years on late knowledge under section 14, and an absolute 10-year longstop under section 393 of the Building Act 2004 — so continuity of cover matters at least as much as the limit.',
       },
       {
         q: 'Can I get PI cover quickly if I am tendering for a government contract with a deadline?',
@@ -166,20 +213,23 @@ export const landingPages: LandingPage[] = [
     metaDescription: 'PI insurance for Christchurch engineers, construction consultants and advisers, with cover suited to the rebuild market. Advice from licensed NZ advisers.',
     excerpt: 'Christchurch\'s post-earthquake rebuild has created unique PI risks for local engineers, architects, and construction professionals. Get expert PI insurance advice tailored to the Canterbury market.',
     heroContent: 'Christchurch\'s recovery from the 2010–2011 Canterbury earthquakes has shaped one of the most complex professional liability environments in New Zealand. Engineers, architects, project managers, geotechnical consultants, and advisory professionals working in the rebuild face elevated PI exposure, and the mandatory PI proposed for design professionals in the Building Amendment Bill would add a compliance reason to an existing commercial one.',
-    bodyContent: `<h2>Professional Indemnity Insurance in Christchurch — A Unique Risk Environment</h2>
+    bodyContent: `<div class="keyfact">
+<p><strong>The ten-year period is not what most insurance sites say it is.</strong> Canterbury rebuild work is now a decade old, which makes the limitation position the thing most worth getting right — and it is the thing most often stated wrongly. The primary period is six years under section 11 of the Limitation Act 2010, running from the act or omission and not from practical or substantial completion. Section 14 can add three years from late knowledge. Section 393 of the Building Act 2004 imposes an absolute ten-year longstop on civil proceedings about building work, also running from the act or omission — a hard stop, not a ten-year latent defects window. Because PI is claims-made, that framework rather than a rule of thumb is what decides how long you hold run-off. Two related corrections: Engineering New Zealand requires no PI for membership or CPEng, and no published data exists on what Canterbury practices carry or pay.</p>
+</div>
+<h2>Professional Indemnity Insurance in Christchurch — A Unique Risk Environment</h2>
 <p>Canterbury's rebuild following the 2010 Darfield and 2011 Christchurch earthquakes created one of the most complex professional services environments in New Zealand's history. The Christchurch central city rebuild — managed through the Christchurch Central Development Unit (CCDU) and its successor entities — and the massive residential repair and rebuild programme generated unprecedented demand for engineering, geotechnical, architectural, and project management services.</p>
 <p>That concentration of professional services activity has also created a concentrated professional liability risk. Geotechnical assessments, foundation designs, seismic strengthening specifications, and residential repair project management all carry significant potential for PI claims — and the long-tail nature of building defect liability means claims from earthquake-related work may continue to emerge for years to come.</p>
 
 <h2>Canterbury-Specific PI Risks for Engineers and Architects</h2>
 
 <h3>Geotechnical Engineers</h3>
-<p>Christchurch's liquefaction-prone soils created extraordinary demand for geotechnical engineering during and after the earthquakes. Geotechnical engineers who provided land assessments, foundation designs for repaired homes, and site investigation reports for the rebuild carry significant PI exposure. If a property that was assessed as suitable for rebuilding subsequently experiences liquefaction-related settlement or damage, the geotechnical engineer's advice may be scrutinised. Geotechnical PI cover of $2M–$5M is appropriate for most Canterbury practices.</p>
+<p>Christchurch's liquefaction-prone soils created extraordinary demand for geotechnical engineering during and after the earthquakes. Geotechnical engineers who provided land assessments, foundation designs for repaired homes, and site investigation reports for the rebuild carry significant PI exposure. If a property that was assessed as suitable for rebuilding subsequently experiences liquefaction-related settlement or damage, the geotechnical engineer's advice may be scrutinised. There is no published figure for what Canterbury geotechnical practices carry, and we are not going to invent one. The published floor is the producer statement convention — a firm issuing one states that it holds PI of at least $200,000, which Engineering NZ notes is standard and unrelated to construction costs. Above that, the limit comes from the consultancy agreement or the principal on the project.</p>
 
 <h3>Structural Engineers</h3>
-<p>Structural engineers who designed or certified repairs to earthquake-damaged buildings, or who provided seismic strengthening designs for existing buildings, face PI exposure for the long-tail period under the Building Act. A structural engineer who certified a repair that later proves inadequate — or who provided a seismic assessment that underestimated the building's vulnerability — faces claims that can exceed $1M. Cover levels of $2M–$5M are standard for Canterbury structural engineering firms.</p>
+<p>Structural engineers who designed or certified repairs to earthquake-damaged buildings, or who provided seismic strengthening designs for existing buildings, face PI exposure for the long-tail period under the Building Act. A structural engineer who certified a repair that later proves inadequate — or who provided a seismic assessment that underestimated the building's vulnerability — is exposed for as long as the limitation clock runs. Engineering NZ does not require PI for membership or for CPEng, and the Chartered Professional Engineers Rules contain no insurance provisions, so the limit a Canterbury structural firm carries is a commercial and contractual decision rather than a regulatory one.</p>
 
 <h3>Architects</h3>
-<p>Canterbury architects who worked on the rebuild — particularly those providing residential design, commercial rebuild design, or heritage building restoration — carry PI exposure for the quality and compliance of their designs. The complexity of rebuilding in Christchurch's liquefaction zones and heritage areas created design challenges that have generated PI claims. Architects in Christchurch should carry $1M–$3M PI cover depending on their practice scale.</p>
+<p>Canterbury architects who worked on the rebuild — particularly those providing residential design, commercial rebuild design, or heritage building restoration — carry PI exposure for the quality and compliance of their designs. The complexity of rebuilding in Christchurch's liquefaction zones and heritage areas created design challenges that have generated PI claims. Registration does not set a level: the Registered Architects Act 2005 contains no insurance provisions, and the Registered Architects Rules 2006 mention professional indemnity only at rule 50, as a permissive item in agreed terms of appointment. Architectural Designers NZ does set one for its self-employed Professional members, at a minimum of $250,000. Anything beyond that is driven by the client agreement.</p>
 
 <h2>Non-Construction Christchurch Professionals</h2>
 <p>Beyond the construction and engineering sectors, Christchurch has a significant and growing professional services economy:</p>
@@ -194,36 +244,56 @@ export const landingPages: LandingPage[] = [
 <h2>Christchurch Rebuild and Ongoing PI Considerations</h2>
 <p>For Christchurch professionals who worked on the earthquake rebuild, several PI considerations remain relevant:</p>
 <ul>
-<li><strong>Run-off cover:</strong> If you worked on the rebuild and are considering retiring or changing careers, do not let your PI cover lapse. Rebuild-related claims can emerge years after the work was completed. Maintain run-off cover for at least 7–10 years after your last rebuild project</li>
+<li><strong>Run-off cover:</strong> If you worked on the rebuild and are considering retiring or changing careers, do not let your PI cover lapse. PI is claims-made, so the policy that responds is the one in force when the claim is made, not the one in force when the work was done. Work out how long you need run-off from the limitation position rather than from a rule of thumb — see below</li>
 <li><strong>Retroactive date continuity:</strong> If you are switching PI insurers, ensure your new policy's retroactive date covers your earthquake rebuild work</li>
 <li><strong>Scope of "professional services":</strong> Ensure your PI policy covers the full range of services you provided during the rebuild — including any advisory, project management, or inspection roles that may differ from your normal professional activities</li>
 </ul>
 
-<h2>How Much Does PI Insurance Cost in Christchurch?</h2>
-<p>Christchurch PI insurance costs reflect the elevated risk environment for construction-related professionals. Indicative monthly costs:</p>
+<h2>How Long the Exposure Actually Runs</h2>
+<p>This is stated incorrectly on most insurance websites, and it matters more in Canterbury than anywhere else in the country because so much of the work is now a decade old.</p>
 <ul>
-<li>Geotechnical engineers: $250–$600/month for $2M cover</li>
-<li>Structural engineers: $200–$500/month for $2M cover</li>
-<li>Architects: $150–$350/month for $1M–$2M cover</li>
-<li>Project managers: $100–$200/month for $1M cover</li>
-<li>Accountants: $70–$130/month for $1M cover</li>
-<li>IT consultants: $75–$160/month for $1M cover</li>
+<li><strong>Six years, section 11 of the Limitation Act 2010.</strong> The primary limitation period. It runs from the act or omission — not from practical or substantial completion, and not from the Building Act.</li>
+<li><strong>A further three years, section 14 of the Limitation Act 2010.</strong> The late knowledge extension, running from when the claimant knew or ought reasonably to have known.</li>
+<li><strong>Ten years, section 393 of the Building Act 2004.</strong> An absolute longstop on civil proceedings relating to building work, also running from the act or omission. It is a hard stop, not a latent defects period.</li>
 </ul>
+<p>Read together, that is the framework for deciding how long to hold run-off after your last rebuild project. It is a judgement about your own file history, not a standard number, and it is worth taking legal advice on rather than a website's word.</p>
+
+<h2>What PI Insurance Costs in Christchurch</h2>
+<p>There is no published New Zealand PI premium data — not by profession, not by city, and not for the rebuild market specifically. Cover is broker-distributed and individually underwritten, and no New Zealand insurer publishes rate tables. Any Christchurch price list by discipline that you find online was made up.</p>
+<p>The only official cost guidance in New Zealand is the Government's estimate for design professionals, published in the Beehive factsheet of 24 November 2025: professional indemnity insurance for architects typically costs between $1,500 and $3,000 per person each year, often covered by the firm. It is a policy estimate with no methodology attached and it does not extend to engineers, project managers or anyone else.</p>
+<p>What does move the price for Canterbury construction professionals is qualitative and specific to this market: the limit required by your contracts, your fee income, the proportion of your work that is residential construction, structural or geotechnical — all of which rate materially harder than advisory work — your claims and circumstance notifications, your retroactive date, your excess, and whether defence costs sit inside or outside the limit. A practice with a clean file, a long unbroken retroactive date and a well-defined scope of services will be priced very differently from one with rebuild-era notifications, and no published table could tell you which you are.</p>
 
 <h2>Getting PI Insurance in Christchurch</h2>
-<p>Cover4You's licensed advisers work with Christchurch professionals across all sectors. We understand the Canterbury rebuild context and its implications for PI coverage — including the specific run-off requirements for professionals who worked on the rebuild programme, and the cover requirements for ongoing CERA and rebuild-related government contracts.</p>`,
+<p>Cover4You's licensed advisers work with Christchurch professionals across all sectors. We understand the Canterbury rebuild context and its implications for PI coverage — including run-off for professionals who worked on the rebuild programme, and the cover specified in ongoing council and Crown rebuild-related contracts.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14</li>
+<li><a href="https://www.legislation.govt.nz/act/public/2004/0072/latest/DLM309340.html" rel="nofollow noopener" target="_blank">Building Act 2004, section 393</a> — ten-year longstop on civil proceedings relating to building work</li>
+<li><a href="https://www.engineeringnz.org/join-us/cpeng/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Chartered Professional Engineer</a></li>
+<li><a href="https://www.legislation.govt.nz/regulation/public/2002/0389/latest/whole.html" rel="nofollow noopener" target="_blank">Chartered Professional Engineers of New Zealand Rules (No 2) 2002</a> — no occurrence of indemnity or insurance</li>
+<li><a href="https://www.engineeringnz.org/engineer-tools/engineering-documents/producer-statements/professional-indemnity-insurance-why-200000/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Professional indemnity insurance: why $200,000?</a></li>
+<li><a href="https://www.legislation.govt.nz/act/public/2005/0038/latest/whole.html" rel="nofollow noopener" target="_blank">Registered Architects Act 2005</a> — contains no insurance provisions</li>
+<li><a href="https://www.legislation.govt.nz/regulation/public/2006/0161/latest/whole.html" rel="nofollow noopener" target="_blank">Registered Architects Rules 2006</a>, rule 50</li>
+<li><a href="https://adnz.org.nz/professional" rel="nofollow noopener" target="_blank">ADNZ — Professional membership</a> — minimum $250,000 for self-employed Professional members</li>
+<li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025, for the $1,500 to $3,000 per person estimate for architects</li>
+<li>New Zealand Government Model Contract for services — standard terms and conditions, clause 8.1, and Schedule 1 of the individual contract. Cited as text: we hold no verified URL for the current version, and your own signed schedule governs in any case.</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. Limitation questions on specific rebuild files are worth taking to a lawyer rather than a broker page — take advice before you cancel or shorten any cover.</p>
+</div>`,
     faqs: [
       {
         q: 'I worked on the Christchurch rebuild and am now retiring. Do I need run-off cover?',
-        a: 'Yes — absolutely. Building Act claims for latent defects can be brought up to 10 years after substantial completion. If you let your PI cover lapse after retiring, any claim relating to your rebuild work would be uninsured. We strongly recommend purchasing run-off cover for at least 7–10 years from your last project completion. Speak to a licensed adviser before cancelling your current policy.',
+        a: 'Almost certainly, yes. PI is claims-made, so if you let cover lapse when you retire, a claim brought afterwards about your rebuild work is uninsured no matter how long ago the work was done. How long you need run-off for is a limitation question, and the periods are routinely misstated: the primary period is six years under section 11 of the Limitation Act 2010, running from the act or omission rather than from completion; section 14 can add three years from late knowledge; and section 393 of the Building Act 2004 imposes an absolute 10-year longstop on civil proceedings about building work, also running from the act or omission. Work out your own dates from that, take legal advice if the exposure is significant, and speak to an adviser before cancelling anything.',
       },
       {
         q: 'Do Christchurch engineers need more PI cover than engineers in other NZ cities?',
-        a: 'Not necessarily more cover by default, but the Christchurch market context — rebuild complexity, liquefaction risk, and the long tail of earthquake-related liability — means that geotechnical and structural engineers in Canterbury typically hold $2M–$5M PI cover as a matter of good practice. Your adviser can help you assess the right level for your specific practice.',
+        a: 'Nobody publishes what engineers in any New Zealand city actually hold, so a comparison of that kind cannot honestly be made. What is different in Canterbury is the risk itself — rebuild complexity, liquefaction, and a long tail of earthquake-related liability — rather than any local rule. Engineering NZ does not require PI at all, for membership or for CPEng. The one published anchor is the producer statement convention at a minimum of $200,000, and beyond that the level is set by your contracts and your own assessment of what a worst-case file could cost to defend and settle.',
       },
       {
         q: 'What PI cover is required for Canterbury-based government contracts?',
-        a: 'Christchurch City Council and Canterbury government agency contracts typically require $1M–$2M PI as a minimum for professional services. Engineering and technical services contracts may require higher limits. Your adviser can confirm the specific requirements for any contract you are tendering for.',
+        a: 'The limit is set in the individual contract, not by a published council or agency minimum, so we cannot give you a figure. Where the Government Model Contract is used, clause 8.1 of the standard terms requires you to hold the insurance specified in Schedule 1 of that contract and to maintain it for the term plus three years after the end date — the amount itself is filled in per contract. Get the insurance schedule with the tender documents and have your adviser check your policy against it.',
       },
       {
         q: 'Can I get PI cover if I have a claim history from the earthquake rebuild?',
@@ -240,10 +310,13 @@ export const landingPages: LandingPage[] = [
     title: 'PI Insurance for Sole Traders NZ | Professional Indemnity Cover',
     h1: 'Professional Indemnity Insurance for NZ Sole Traders',
     metaTitle: 'PI Insurance for NZ Sole Traders & Freelancers',
-    metaDescription: 'Sole traders carry unlimited personal liability without PI cover. See what professional indemnity protects, what it costs and how NZ freelancers arrange it.',
+    metaDescription: 'Sole traders carry unlimited personal liability without PI cover. See what professional indemnity protects, how limits are set and how NZ freelancers arrange it.',
     excerpt: 'As a NZ sole trader, every PI claim hits you personally. There is no company structure to limit your liability. PI insurance protects your personal assets, your bank account, and your future earnings.',
-    heroContent: 'New Zealand has over 370,000 registered sole traders. Without a company structure, every professional claim hits you personally — your savings, your property, your future income. PI insurance is the essential safety net for sole traders providing professional advice or services. Cover starts from around $50/month and is fully tax deductible.',
-    bodyContent: `<h2>Why PI Insurance Is Essential for Sole Traders</h2>
+    heroContent: 'Sole traders are not registered anywhere in New Zealand, so nobody can tell you how many there are. What can be said is what the structure does: without a company, every professional claim hits you personally — your savings, your property, your future income. PI insurance is the safety net for sole traders providing professional advice or services, and the premium is deductible as a business expense.',
+    bodyContent: `<div class="keyfact">
+<p><strong>No New Zealand regulator requires a sole trader to hold professional indemnity insurance.</strong> Every published minimum in this country is set by a membership body or by a client contract, and there are only a handful of them: $200,000 stated by an engineering firm issuing a producer statement, $250,000 for self-employed Professional members of Architectural Designers NZ, $1M for REINZ member agencies, and the New Zealand Law Society standard of the greater of $1.2m per practice or $900k per partner. None of those is a benchmark for a freelance consultant, and nothing on that list applies to you unless you belong to the body concerned. Financial advice providers have no FMA PI licence condition — the FMA consulted on one on 17 June 2020 and decided against it on 6 November 2020. There is also no published New Zealand premium data, which is why the price list that used to sit on this page has been removed rather than updated.</p>
+</div>
+<h2>Why PI Insurance Is Essential for Sole Traders</h2>
 <p>Operating as a sole trader is the simplest way to run a professional services business in New Zealand. There is no company registration, no complex compliance, and no split between business and personal income. But that simplicity comes with a significant risk: unlimited personal liability.</p>
 <p>As a sole trader, you are your business. There is no corporate veil between you and a client making a claim — if a court awards $80,000 in damages against "your business," that judgment is enforceable against your personal assets: your bank account, your home (if you own one), your vehicle, your savings, and your future earnings. Professional indemnity insurance is the mechanism that stands between a professional liability claim and your personal financial ruin.</p>
 
@@ -279,26 +352,30 @@ export const landingPages: LandingPage[] = [
 <p>Some sole traders intend to form a company "eventually" but continue to operate as sole traders for months or years. Every day of sole-trader operation is a day of unlimited personal liability. PI insurance provides immediate protection while your business structure evolves.</p>
 
 <h2>How Much PI Insurance Does a Sole Trader Need?</h2>
-<p>For most sole traders, $1M PI cover per claim and in aggregate is the appropriate starting point. This is sufficient for the majority of sole-trader professional engagements and meets the minimum requirements of most client contracts and government procurement panels.</p>
-<p>However, some sole traders need higher cover:</p>
+<p>There is no general answer, and no published New Zealand benchmark for what sole traders carry. What exists is a short list of real, published minimums — every one of which comes from a membership body or a contract, not from a regulator:</p>
 <ul>
-<li>Engineers and architects providing residential design or certification: $1M–$2M minimum (mandatory minimums expected post-2025 regulations)</li>
-<li>Financial advisers: $1M–$2M per claim as a FAP licence requirement</li>
-<li>IT contractors working on large enterprise or government projects: $1M–$2M per claim</li>
-<li>Management consultants advising on significant investment or acquisition decisions: $2M per claim</li>
+<li><strong>$200,000</strong> — the PI level an engineering firm states it holds when it issues a producer statement. Engineering NZ notes this is standard and unrelated to construction costs.</li>
+<li><strong>$250,000</strong> — Architectural Designers NZ, for self-employed Professional members.</li>
+<li><strong>$1M</strong> — REINZ member agencies, under Principle 19 of the Code of Agency Practice (November 2024), covering the business and all individuals engaged in it.</li>
+<li><strong>The greater of $1.2m per practice or $900k per partner</strong> — the New Zealand Law Society standard, and $1.2m for the New Zealand Society of Conveyancers.</li>
 </ul>
+<p>Note what is not on that list. Financial advice providers have no PI licence condition — the FMA consulted on one in June 2020 and decided against it in November 2020. Engineering NZ requires no PI for membership or CPEng. Registered architects have no statutory insurance obligation. CA ANZ requires PI of Certificate of Public Practice holders but publishes no New Zealand minimum limit, so any figure you see attributed to it is either the Australian scheme number or an invention.</p>
+<p>In practice, the limit most sole traders end up with is the one their largest client's contract specifies. Work backwards from your contracts, and from the largest single financial loss your advice could realistically cause one client, rather than from a round number on a website.</p>
 
 <h2>What Does PI Insurance Cost for Sole Traders?</h2>
-<p>PI insurance for sole traders is among the most affordable professional liability products in the market, reflecting the typically lower revenue base and risk scale of sole-trader operations. Indicative monthly costs for $1M cover:</p>
+<p>New Zealand has no public PI premium dataset. Cover is broker-distributed and individually underwritten, no New Zealand insurer publishes rate tables, and the professional bodies publish none either. We removed the price list that used to sit here because we could not source a single figure in it.</p>
+<p>The one official cost estimate published in New Zealand is narrow: the Government's Beehive factsheet of 24 November 2025 states that professional indemnity insurance for architects typically costs between $1,500 and $3,000 per person each year, often covered by the firm. It is a government estimate produced to support a policy decision, with no methodology attached, and it applies to design professionals only.</p>
+<p>For a sole trader, the factors that actually decide the number are:</p>
 <ul>
-<li>Freelance marketing, copywriting, social media: $50–$80/month</li>
-<li>Bookkeeping and accounting (non-CAANZ): $60–$90/month</li>
-<li>IT contractor (developer, analyst): $70–$130/month</li>
-<li>Management consultant: $80–$150/month</li>
-<li>Financial adviser (FAP licensed): $90–$180/month</li>
-<li>Structural or civil engineer: $150–$300/month</li>
+<li><strong>Fee income.</strong> The primary rating base. A sole trader billing $90,000 and one billing $400,000 are not the same risk.</li>
+<li><strong>Limit of indemnity.</strong> Usually chosen by your client rather than by you.</li>
+<li><strong>Discipline and work type.</strong> Residential construction, structural and geotechnical work rate materially harder than marketing or coaching.</li>
+<li><strong>Claims and notification history,</strong> including matters you notified as circumstances but which never became claims.</li>
+<li><strong>Excess.</strong> Raising it lowers the premium, and the Law Society's own standard for its profession is that the excess should not exceed the greater of 1% of the limit or $20,000 — a reasonable ceiling to think about even outside law.</li>
+<li><strong>Retroactive date.</strong> Buying prior-acts cover back to the start of your practice costs more than covering only work from today, and is usually worth it.</li>
+<li><strong>Defence costs inside or outside the limit.</strong></li>
 </ul>
-<p>These premiums are 100% tax deductible as a business expense, reducing the after-tax cost for most sole traders by approximately 28–33%.</p>
+<p>Premiums are deductible as a business expense.</p>
 
 <h2>Sole Trader PI Insurance and Client Contract Requirements</h2>
 <p>Clients — particularly businesses and government agencies — increasingly require PI insurance as a standard contracting condition. If you do not have PI cover, you may be unable to:</p>
@@ -312,7 +389,26 @@ export const landingPages: LandingPage[] = [
 
 <h2>Getting PI Insurance as a Sole Trader</h2>
 <p>Sole traders can access PI insurance quickly through a licensed insurance adviser. The process typically involves completing a brief proposal form (around 10–15 minutes) covering your profession, annual revenue, and the nature of your activities. Most sole traders receive quotes within 24 hours and can have cover in place within two business days.</p>
-<p>Your adviser will ensure your policy's definition of "professional services" matches the actual work you do — including any advisory, training, or coaching services — and that your cover level meets any specific contract requirements you have.</p>`,
+<p>Your adviser will ensure your policy's definition of "professional services" matches the actual work you do — including any advisory, training, or coaching services — and that your cover level meets any specific contract requirements you have.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.fma.govt.nz/assets/Consultations/Consultation-standard-conditions-FAP-full-licensing.pdf" rel="nofollow noopener" target="_blank">FMA — Consultation: standard conditions for full FAP licensing (PDF)</a>, 17 June 2020</li>
+<li><a href="https://www.fma.govt.nz/news/all-releases/media-releases/fma-releases-standard-conditions-for-licensing-of-financial-advice/" rel="nofollow noopener" target="_blank">FMA — Standard conditions released for licensing of financial advice</a>, 6 November 2020</li>
+<li><a href="https://financialadvicecode.govt.nz/wp-content/uploads/2025/10/financial-advice-code-of-conduct-2025.pdf" rel="nofollow noopener" target="_blank">Code of Professional Conduct for Financial Advice Services (PDF)</a>, in force 1 November 2025</li>
+<li><a href="https://www.charteredaccountantsanz.com/member-services/certificate-of-public-practice" rel="nofollow noopener" target="_blank">CA ANZ — Certificate of Public Practice</a> — no New Zealand minimum limit is published</li>
+<li><a href="https://www.engineeringnz.org/engineer-tools/engineering-documents/producer-statements/professional-indemnity-insurance-why-200000/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Professional indemnity insurance: why $200,000?</a></li>
+<li><a href="https://www.engineeringnz.org/join-us/cpeng/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Chartered Professional Engineer</a></li>
+<li><a href="https://adnz.org.nz/professional" rel="nofollow noopener" target="_blank">ADNZ — Professional membership</a></li>
+<li><a href="https://www.reinz.co.nz/common/Uploaded%20files/REINZ/Website/2024/Codes%20of%20Practice/REINZ%20Code%20of%20Agency%20Practice%20Nov%202024.pdf" rel="nofollow noopener" target="_blank">REINZ — Code of Agency Practice (PDF)</a>, November 2024, Principle 19</li>
+<li><a href="https://www.legislation.govt.nz/act/public/2005/0038/latest/whole.html" rel="nofollow noopener" target="_blank">Registered Architects Act 2005</a> — contains no insurance provisions</li>
+<li><a href="https://www.lawsociety.org.nz/" rel="nofollow noopener" target="_blank">New Zealand Law Society</a> — cover standard: the greater of $1.2m per practice or $900k per partner, with the excess not exceeding the greater of 1% of the limit or $20,000</li>
+<li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025, for the $1,500 to $3,000 per person estimate for architects</li>
+<li>New Zealand Society of Conveyancers — minimum indemnity limit $1.2m. Cited as text; we hold no verified URL.</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal, financial or tax advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. Confirm your own obligations with your professional body and with the insurance clause in your client contracts — policy wordings differ between underwriters, and your schedule and wording govern, not this page.</p>
+</div>`,
     faqs: [
       {
         q: 'Do I need PI insurance as a sole trader even if I work through a company\'s systems?',
@@ -343,21 +439,19 @@ export const landingPages: LandingPage[] = [
     metaTitle: 'Compare Professional Indemnity Insurance NZ',
     metaDescription: 'Compare professional indemnity insurance in NZ: policy wordings, cover limits, excess levels and premiums differ. What to weigh up before you buy.',
     excerpt: 'PI insurance is not a commodity — policy wordings differ significantly between NZ insurers. Comparing PI cover means looking beyond premium to retroactive dates, coverage scope, and policy terms.',
-    heroContent: 'Comparing professional indemnity insurance in New Zealand requires more than comparing prices. The cheapest policy may have a narrow definition of professional services, a recent retroactive date, or a high excess that applies to defence costs. Our licensed advisers compare the NZ PI market — including QBE, BHSI, Dual, Vero, and Lloyd\'s syndicates — to find the right cover for your specific profession and risk profile.',
-    bodyContent: `<h2>Why Comparing PI Insurance Is Complex</h2>
-<p>Professional indemnity insurance in New Zealand is a specialist product supplied by a relatively small number of insurers and Lloyd's of London syndicates. The PI market here is not a commodity market where identical products compete purely on price — policy wordings, coverage scope, excess structures, and claims handling quality vary significantly between insurers. Two policies at exactly the same annual premium can provide materially different levels of protection.</p>
+    heroContent: 'Comparing professional indemnity insurance in New Zealand requires more than comparing prices. The cheapest policy may have a narrow definition of professional services, a recent retroactive date, or a high excess that applies to defence costs. Our licensed advisers compare the New Zealand PI market on wording as well as price, to find the right cover for your profession and risk profile.',
+    bodyContent: `<div class="keyfact">
+<p><strong>There is no New Zealand professional indemnity price list, because there is no New Zealand professional indemnity price data.</strong> No insurer here publishes rate tables — PI is broker-distributed and individually underwritten off a proposal form — and there is no public dataset of New Zealand PI premiums by profession, revenue band or region. Even the New Zealand Law Society consultation of March 2026 on compulsory PI for its own profession discusses rising costs without giving a single dollar premium figure. The one official cost estimate published in New Zealand is the Government estimate of $1,500 to $3,000 per person a year for architects, and that is a policy estimate with no methodology attached, limited to design professionals. So comparing PI here means comparing the terms of the quotes you actually receive, not advertised prices — and a site that shows you a price before an underwriter has seen your proposal form is showing you a guess.</p>
+</div>
+<h2>Why Comparing PI Insurance Is Complex</h2>
+<p>Professional indemnity insurance in New Zealand is a specialist product supplied by a relatively small number of insurers and overseas markets. The PI market here is not a commodity market where identical products compete purely on price — policy wordings, coverage scope, excess structures, and claims handling quality vary significantly between insurers. Two policies at exactly the same annual premium can provide materially different levels of protection.</p>
 <p>This guide explains the key dimensions for comparing PI insurance — so you understand what to look for beyond the premium figure.</p>
 
-<h2>The PI Insurance Market — Key Participants</h2>
-<p>Professional indemnity insurance capacity in New Zealand is provided by a relatively concentrated group of specialist insurers:</p>
-<ul>
-<li><strong>QBE Insurance:</strong> One of the largest PI writers in NZ, with strong expertise across professional services, construction, and financial lines</li>
-<li><strong>BHSI (Berkshire Hathaway Specialty Insurance):</strong> A newer but significant participant, known for competitive terms in professional liability</li>
-<li><strong>Dual:</strong> A specialist MGA (managing general agent) providing PI capacity across a wide range of professions</li>
-<li><strong>Vero:</strong> Provides PI cover through broker networks; strong in SME professional services</li>
-<li><strong>Lloyd's of London syndicates:</strong> Available through specialist brokers for higher-limit or more complex PI risks</li>
-</ul>
-<p>Premiums can vary 30–50% for the same cover level between these participants. More importantly, policy wordings vary in ways that can make a significant difference to whether a specific claim is covered.</p>
+<h2>Why You Cannot Compare PI Prices Online</h2>
+<p>Professional indemnity capacity in New Zealand comes from a small group of specialist insurers, managing general agents and overseas markets reached through brokers. None of them publishes rate tables, because none of them rates PI from a table. Every risk is individually underwritten off a proposal form.</p>
+<p>That has a consequence worth being blunt about: there is no public New Zealand PI premium dataset. Not by profession, not by revenue band, not by region. Sites that show you a price list by occupation are not reporting market data, because there is none to report. Even the New Zealand Law Society's March 2026 consultation on compulsory PI for its own profession — a document written by people with full access to the market — discusses rising costs without giving a single dollar premium figure.</p>
+<p>The one official cost estimate published in New Zealand is the Government's, in the Beehive factsheet of 24 November 2025: professional indemnity insurance for architects typically costs between $1,500 and $3,000 per person each year, often covered by the firm. It is a policy estimate with no methodology attached, and it covers design professionals only. Beyond that, the only way to know what your cover costs is to have it quoted.</p>
+<p>So the useful comparison is not between advertised prices. It is between the terms of the quotes you actually receive.</p>
 
 <h2>Comparing PI Policies — What to Look For</h2>
 
@@ -399,7 +493,7 @@ export const landingPages: LandingPage[] = [
 <h2>How to Compare PI Insurance in Practice</h2>
 <p>Given the complexity of PI policy comparisons, the most effective approach is to work with a licensed insurance adviser who specialises in professional liability. A specialist adviser:</p>
 <ul>
-<li>Accesses multiple PI insurers and Lloyd's markets on your behalf</li>
+<li>Approaches multiple insurers and specialist markets on your behalf</li>
 <li>Compares policy wordings — not just premium figures</li>
 <li>Identifies which insurer's definition of "professional services" best fits your actual activities</li>
 <li>Negotiates retroactive date continuity when you are switching</li>
@@ -409,16 +503,25 @@ export const landingPages: LandingPage[] = [
 <p>Using an online comparison tool or direct-to-insurer quote system does not provide the same level of policy wording analysis and professional guidance. For PI insurance, the quality of advice you receive is as important as the premium you pay.</p>
 
 <h2>Price vs Value — The Right Comparison Framework</h2>
-<p>When comparing PI quotes, the right question is not "which policy is cheapest?" but "which policy provides the best value for my specific risk profile?" A policy that costs $20/month more but includes defence costs outside the limit, a broader professional services definition, and automatic reinstatement can be worth thousands of dollars more in a claim scenario.</p>
-<p>Our licensed advisers provide written comparisons that highlight both the premium differences and the key coverage differences between competing quotes — so you can make an informed decision based on total value, not just price.</p>`,
+<p>When comparing PI quotes, the right question is not "which policy is cheapest?" but "which policy provides the best value for my specific risk profile?" A slightly dearer policy that puts defence costs outside the limit, defines professional services broadly enough to cover what you actually do, and reinstates the limit automatically can be worth far more than the premium difference in a single claim.</p>
+<p>Our licensed advisers provide written comparisons that highlight both the premium differences and the key coverage differences between competing quotes — so you can make an informed decision based on total value, not just price.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025 — the $1,500 to $3,000 per person per year estimate for architects, published to support a policy decision and carrying no methodology</li>
+<li>New Zealand Law Society consultation on compulsory professional indemnity insurance for lawyers, opened 26 March 2026 and closed 5 May 2026. Cited as text: we hold no verified URL, and the document gives no dollar premium figures.</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. Policy wordings differ between underwriters and brands — the schedule and wording you are quoted govern, not any comparison published here.</p>
+</div>`,
     faqs: [
       {
         q: 'How many PI insurance options are available in NZ?',
-        a: 'The NZ PI market has a limited number of specialist insurers — primarily QBE, BHSI, Dual, Vero, and Lloyd\'s syndicates. While this is a smaller number than in the general insurance market, policy terms and premiums vary significantly between these participants. A specialist adviser can access all relevant options and compare them for your specific profession.',
+        a: 'Fewer than in most general insurance classes. New Zealand PI capacity comes from a small group of specialist insurers, managing general agents and overseas markets accessed through brokers. We do not publish a panel list, because naming insurers implies a recommendation we are not in a position to make for every profession. What matters more than the number of markets is that whoever approaches them on your behalf compares the wordings, not just the prices.',
       },
       {
         q: 'Is online PI insurance comparison reliable?',
-        a: 'Online comparison tools can provide indicative pricing, but they rarely provide meaningful comparison of policy wordings — which is where the real differences between PI policies lie. For a product as complex as PI insurance, a specialist adviser who can compare actual policy terms is more valuable than a price-only comparison tool.',
+        a: 'Treat any indicative price you are shown online with caution — New Zealand PI is individually underwritten and no insurer publishes rates, so a figure produced before an underwriter has seen your proposal form is a guess. Comparison tools also rarely compare policy wordings, which is where the real differences between PI policies lie. For a product this specific, comparing actual quoted terms is worth more than comparing advertised prices.',
       },
       {
         q: 'How often should I review and compare my PI insurance?',
@@ -442,7 +545,10 @@ export const landingPages: LandingPage[] = [
     metaDescription: 'Professional liability insurance protects NZ advisers and consultants from client claims. What it covers, who needs it and how to arrange the right cover.',
     excerpt: '"Professional liability insurance" and "professional indemnity insurance" are two names for the same essential coverage. Here\'s everything NZ professionals need to know.',
     heroContent: 'Professional liability insurance — also known as professional indemnity insurance in New Zealand — is the core protection for any professional providing advice, expertise, or specialist services. If a client claims your professional work caused them a financial loss, professional liability insurance covers your legal defence costs and any compensation awarded. Find out what you need and how to get it.',
-    bodyContent: `<h2>Professional Liability Insurance in New Zealand — A Complete Overview</h2>
+    bodyContent: `<div class="keyfact">
+<p><strong>Professional indemnity is not compulsory for any New Zealand profession by law.</strong> Almost every published list of professions where PI is mandatory here blurs three different things. Required by a regulator: nobody on this page. Required by a membership body: REINZ member agencies at a minimum of $1M, CA ANZ members holding a Certificate of Public Practice, CPA Australia members offering public accounting services in New Zealand, and self-employed Professional members of Architectural Designers NZ at $250,000. Required by a client contract: nearly everyone else. The Real Estate Authority requires no PI and its conduct rules do not mention insurance, the FMA decided on 6 November 2020 not to make PI a licence condition, the Registered Architects Act 2005 contains no insurance provisions, and Engineering New Zealand requires none for membership or CPEng. The Building Amendment Bill would change the position for design professionals, but it is not law, it expressly does not apply to builders, and it is expected to take effect in 2028.</p>
+</div>
+<h2>Professional Liability Insurance in New Zealand — A Complete Overview</h2>
 <p>In New Zealand, the terms "professional liability insurance" and "professional indemnity insurance" are used interchangeably — they refer to the same product. The term "professional liability" is more commonly used in the United States, while "professional indemnity" is the standard NZ and Australian market term. If you are searching for professional liability insurance in NZ, you are looking for PI insurance.</p>
 <p>Professional liability insurance protects professionals, consultants, and advisory businesses from claims arising when a client alleges that the professional's advice, expertise, or services caused them a financial loss. It is distinct from public liability insurance (which covers physical injury or property damage to third parties) and management liability insurance (which covers the management and governance of a business).</p>
 
@@ -466,28 +572,38 @@ export const landingPages: LandingPage[] = [
 <p>These two features of claims-made policies create the need for: (a) continuous, uninterrupted PI cover throughout your professional career; and (b) run-off cover when you retire or stop practising, to protect against future claims from historical work.</p>
 
 <h2>Who Needs Professional Liability Insurance?</h2>
-<p>Professional liability insurance is mandatory, strongly recommended, or required by clients for a wide range of professions:</p>
+<p>Almost every published list of "professions where PI is compulsory in New Zealand" is wrong, usually because it treats a membership body's rule as though it were a law, or a client's contract as though it were a regulator's. Three different things get blurred: required by law or a regulator, required by a membership body, and required by a client contract. Here is the accurate position.</p>
 
-<h3>Mandatory by Regulation or Professional Body</h3>
+<h3>Required by a membership body</h3>
 <ul>
-<li>Financial advisers (FMCA FAP licence condition)</li>
-<li>Lawyers (Law Society practising certificate condition)</li>
-<li>Registered architects (Architects Act 2022)</li>
-<li>CAANZ-member accountants</li>
-<li>REINZ-member real estate agents</li>
-<li>Most healthcare practitioner registration bodies (Medical Council, Nursing Council, Physiotherapy Board, etc.)</li>
+<li><strong>REINZ member agencies</strong> — PI covering the business and all individuals engaged in it, minimum $1M, under Principle 19 of the Code of Agency Practice (November 2024). Individual members must ensure they or their employer carry it to that level under Principle 12 of the Code of Individual Membership.</li>
+<li><strong>CA ANZ members holding a Certificate of Public Practice</strong> — must hold current and appropriate professional indemnity insurance. The certificate is needed unless fees are under $13,000 a year and services are offered in the member's own name. CA ANZ publishes no New Zealand minimum limit; the $2m figure circulating online is Australian.</li>
+<li><strong>CPA Australia members providing public accounting services in New Zealand</strong> — must hold PI, including for honorary, pro bono and voluntary services. No New Zealand minimum amount is published.</li>
+<li><strong>Architectural Designers NZ self-employed Professional members</strong> — minimum $250,000.</li>
 </ul>
 
-<h3>Required by Client Contracts</h3>
+<h3>Not required, despite what you may have read</h3>
+<ul>
+<li><strong>Financial advice providers.</strong> PI is not an FMA licence condition. The seven standard conditions cover record keeping, complaints, regulatory returns, outsourcing, business continuity and technology, ongoing requirements and notification of material changes. The FMA consulted on adding PI on 17 June 2020 and decided against it on 6 November 2020. It is not in the Code of Professional Conduct, and there is no PI disclosure obligation.</li>
+<li><strong>Real estate agents.</strong> The Real Estate Authority does not require PI. The Professional Conduct and Client Care Rules 2012 contain no reference to insurance or indemnity, and trust account obligations are audit obligations only. The REINZ requirement above is a membership rule, not a licensing one.</li>
+<li><strong>Registered architects.</strong> The Registered Architects Act 2005 contains no insurance provisions, and the Registered Architects Rules 2006 mention PI only at rule 50, as a permissive item in agreed terms of appointment. There is no Architects Act 2022 — if you have seen one cited, it does not exist.</li>
+<li><strong>Engineers.</strong> Engineering NZ does not require PI for membership or for CPEng, and the Chartered Professional Engineers Rules contain no occurrence of indemnity or insurance. The producer statement convention is separate: a firm issuing one states that it holds PI of at least $200,000.</li>
+<li><strong>Nurses and social workers.</strong> Neither the Nursing Council nor the Social Workers Registration Board requires PI for a practising certificate. Where a professional body provides indemnity, it is generally a membership benefit rather than a condition.</li>
+</ul>
+<p>We do not make a general claim either way about health practitioners registered under the Health Practitioners Competence Assurance Act 2003, because we have not been able to verify the position across the responsible authorities. Check with your own authority rather than relying on a summary.</p>
+
+<h3>Required by client contracts</h3>
+<p>For most professionals, this is where the obligation actually comes from:</p>
 <ul>
 <li>IT consultants and software developers (most enterprise and government contracts)</li>
 <li>Management consultants (most corporate advisory contracts)</li>
-<li>Engineers (engineering services contracts; becoming mandatory for construction sector)</li>
+<li>Engineers and design professionals (consultancy agreements, and the producer statement convention)</li>
 <li>Marketing and communications agencies (most corporate retainers)</li>
 <li>Research and data consultants (most enterprise contracts)</li>
 </ul>
+<p>A change is coming for design professionals, but it is not here yet. The Building Amendment Bill, introduced on 2 July 2026 and before select committee with submissions closing at 11.59pm on 15 November 2026, would require professionals contributing to building design — architects and engineers — to hold PI. The factsheet scope is architecture, design, engineering and certain building surveying services, and it expressly will not apply to builders. No minimum limit is proposed, the details are still to be developed, and the requirement is expected to take effect in 2028 after a one-year lead-in.</p>
 
-<h3>Strongly Recommended</h3>
+<h3>Not required by anyone, but worth having</h3>
 <ul>
 <li>Business coaches and training providers</li>
 <li>Property managers</li>
@@ -508,14 +624,56 @@ export const landingPages: LandingPage[] = [
 <p>The right cover limit depends on:</p>
 <ul>
 <li>The maximum financial loss your professional advice could cause a single client</li>
-<li>Minimum requirements specified by your professional body, regulator, or clients</li>
+<li>Minimum requirements specified by your professional body or, more often, your clients</li>
 <li>Your annual revenue (higher revenue generally supports higher potential claim values)</li>
-<li>The sectors you work in (construction, finance, healthcare carry higher risk)</li>
+<li>The sectors you work in (construction, finance and health carry higher exposure)</li>
 </ul>
-<p>For most professionals, $1M per claim and in aggregate is the starting point. Engineers, architects, financial advisers, and those working with high-value clients typically need $2M–$5M. The additional premium cost for higher limits is modest relative to the protection provided.</p>
+<p>There is no published New Zealand benchmark for what professionals typically hold, so instead of a made-up default, here are the real published levels and who sets each of them:</p>
+<ul>
+<li><strong>$200,000</strong> — stated by an engineering firm issuing a producer statement (Engineering NZ notes this is standard and unrelated to construction costs)</li>
+<li><strong>$250,000</strong> — Architectural Designers NZ, self-employed Professional members</li>
+<li><strong>$1M</strong> — REINZ member agencies, Code of Agency Practice Principle 19</li>
+<li><strong>The greater of $1.2m per practice or $900k per partner</strong> — New Zealand Law Society standard; $1.2m for the New Zealand Society of Conveyancers</li>
+</ul>
+<p>Everything else is a contract negotiation. If your clients set a limit, that is your limit. If they do not, work from the size of the worst realistic file rather than from a round number.</p>
+
+<h2>What It Costs</h2>
+<p>No New Zealand insurer publishes PI rate tables, and there is no public dataset of New Zealand PI premiums. The only official cost guidance is the Government's: its Beehive factsheet of 24 November 2025 states that professional indemnity insurance for architects typically costs between $1,500 and $3,000 per person each year, often covered by the firm — a policy estimate with no methodology attached, limited to design professionals. The only substantial survey data is the New Zealand Law Society and KPMG benchmarking study of 124 firms, surveyed October to November 2023 and published March 2024, which reported average PI cost per firm in 2023 of $2,850 for a barrister and $7,227 for a sole practitioner, and PI rising faster than any other overhead. That is law firms only, per firm rather than per person, and now several years old.</p>
+<p>For any other profession, the price comes out of the underwriting: limit, fee income, discipline and work type, claims and notification history, excess, retroactive date, and whether defence costs sit inside or outside the limit.</p>
 
 <h2>Getting Professional Liability Insurance in New Zealand</h2>
-<p>Professional liability insurance is available through licensed insurance advisers who specialise in professional liability and financial lines. A specialist adviser can access QBE, BHSI, Dual, Vero, and Lloyd's markets, compare policy wordings, and ensure your cover is correctly scoped for your specific activities. Most professionals can obtain quotes and activate cover within one to two business days.</p>`,
+<p>Professional liability insurance is arranged through licensed insurance advisers who specialise in professional liability and financial lines. A specialist adviser approaches the relevant markets, compares policy wordings, and makes sure your cover is scoped to the work you actually do. Most professionals can obtain quotes and activate cover within one to two business days. Note that some cover cannot be arranged through a general broker at all — medical indemnity and professional body member schemes in particular.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.fma.govt.nz/assets/Licensing-guides/Standard-Conditions-for-full-FAP-licences.pdf" rel="nofollow noopener" target="_blank">FMA — Standard conditions for full FAP licences (PDF)</a></li>
+<li><a href="https://www.fma.govt.nz/assets/Consultations/Consultation-standard-conditions-FAP-full-licensing.pdf" rel="nofollow noopener" target="_blank">FMA — Consultation: standard conditions for full FAP licensing (PDF)</a>, 17 June 2020</li>
+<li><a href="https://www.fma.govt.nz/news/all-releases/media-releases/fma-releases-standard-conditions-for-licensing-of-financial-advice/" rel="nofollow noopener" target="_blank">FMA — Standard conditions released for licensing of financial advice</a>, 6 November 2020</li>
+<li><a href="https://financialadvicecode.govt.nz/wp-content/uploads/2025/10/financial-advice-code-of-conduct-2025.pdf" rel="nofollow noopener" target="_blank">Code of Professional Conduct for Financial Advice Services (PDF)</a>, in force 1 November 2025</li>
+<li><a href="https://www.rea.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf" rel="nofollow noopener" target="_blank">REA — Professional Conduct and Client Care Rules 2012 (PDF)</a></li>
+<li><a href="https://www.rea.govt.nz/real-estate-professionals/apply-for-your-licence/required-criteria-and-qualifications-to-work-in-real-estate/" rel="nofollow noopener" target="_blank">REA — Required criteria and qualifications to work in real estate</a></li>
+<li><a href="https://www.reinz.co.nz/common/Uploaded%20files/REINZ/Website/2024/Codes%20of%20Practice/REINZ%20Code%20of%20Agency%20Practice%20Nov%202024.pdf" rel="nofollow noopener" target="_blank">REINZ — Code of Agency Practice (PDF)</a>, November 2024, Principle 19</li>
+<li><a href="https://www.reinz.co.nz/common/Uploaded%20files/REINZ/Website/2024/Codes%20of%20Practice/REINZ%20Code%20of%20Individual%20Membership%20Nov%202024.pdf" rel="nofollow noopener" target="_blank">REINZ — Code of Individual Membership (PDF)</a>, November 2024, Principle 12</li>
+<li><a href="https://www.charteredaccountantsanz.com/member-services/certificate-of-public-practice" rel="nofollow noopener" target="_blank">CA ANZ — Certificate of Public Practice</a></li>
+<li><a href="https://www.cpaaustralia.com.au/become-a-cpa/public-practice/practising-in-new-zealand" rel="nofollow noopener" target="_blank">CPA Australia — Practising in New Zealand</a></li>
+<li><a href="https://adnz.org.nz/professional" rel="nofollow noopener" target="_blank">ADNZ — Professional membership</a></li>
+<li><a href="https://www.legislation.govt.nz/act/public/2005/0038/latest/whole.html" rel="nofollow noopener" target="_blank">Registered Architects Act 2005</a></li>
+<li><a href="https://www.legislation.govt.nz/regulation/public/2006/0161/latest/whole.html" rel="nofollow noopener" target="_blank">Registered Architects Rules 2006</a>, rule 50</li>
+<li><a href="https://www.engineeringnz.org/join-us/cpeng/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Chartered Professional Engineer</a></li>
+<li><a href="https://www.legislation.govt.nz/regulation/public/2002/0389/latest/whole.html" rel="nofollow noopener" target="_blank">Chartered Professional Engineers of New Zealand Rules (No 2) 2002</a></li>
+<li><a href="https://www.engineeringnz.org/engineer-tools/engineering-documents/producer-statements/professional-indemnity-insurance-why-200000/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Professional indemnity insurance: why $200,000?</a></li>
+<li><a href="https://www.nursingcouncil.org.nz/Public/Nursing/Annual_practising_certificate/NCNZ/nursing-section/Annual_practising_certificate.aspx" rel="nofollow noopener" target="_blank">Nursing Council of New Zealand — Annual practising certificate</a></li>
+<li><a href="https://swrb.govt.nz/for-social-workers/practising-certificate/" rel="nofollow noopener" target="_blank">Social Workers Registration Board — Practising certificate</a></li>
+<li><a href="https://www.lawsociety.org.nz/" rel="nofollow noopener" target="_blank">New Zealand Law Society</a> — cover standard: the greater of $1.2m per practice or $900k per partner</li>
+<li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025</li>
+<li><a href="https://www.mbie.govt.nz/dmsdocument/31701-regulatory-impact-statement-supporting-mechanisms-for-proportionate-liability-in-the-building-and-construction-sector-proactiverelease-pdf" rel="nofollow noopener" target="_blank">MBIE — Regulatory Impact Statement, proportionate liability (PDF)</a>, 18 November 2025 — no minimum limit proposed</li>
+<li><a href="https://www.building.govt.nz/about-building-performance/all-news-and-updates/building-amendment-bill-introduced-to-parliament" rel="nofollow noopener" target="_blank">Building Performance — Building Amendment Bill introduced to Parliament</a>, 2 July 2026</li>
+<li><a href="https://www.lawsociety.org.nz/professional-practice/practising-well/benchmarking-costs-of-law-practice-in-new-zealand/" rel="nofollow noopener" target="_blank">New Zealand Law Society and KPMG — Benchmarking costs of law practice in New Zealand</a>, March 2024. Law firms only, per firm rather than per person, 2023 data.</li>
+<li>New Zealand Society of Conveyancers — minimum indemnity limit $1.2m. Cited as text; we hold no verified URL.</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. We could not verify the position on professional indemnity across the authorities responsible under the Health Practitioners Competence Assurance Act 2003, and we have said so on the page rather than filling the gap. Some cover cannot be arranged through us — medical indemnity and professional body member schemes in particular.</p>
+</div>`,
     faqs: [
       {
         q: 'Is "professional liability insurance" the same as "professional indemnity insurance" in NZ?',
@@ -531,7 +689,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         q: 'Can I get professional liability insurance if I\'m just starting out?',
-        a: 'Yes — PI insurance is available to professionals just starting their practice. Premiums for new professionals with lower revenue levels are typically at the lower end of the range. Starting with PI cover from day one also establishes your retroactive date from the beginning of your practice — which protects all your work from the outset.',
+        a: 'Yes — PI insurance is available to professionals just starting out, and fee income is the primary rating base, so a new practice with modest revenue is a smaller risk to underwrite. Starting cover from day one also sets your retroactive date at the beginning of your practice, which means every piece of work you ever do sits inside the cover. Retrospectively buying that back later is harder and dearer.',
       },
     ],
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop&q=80',
@@ -547,7 +705,10 @@ export const landingPages: LandingPage[] = [
     metaDescription: 'Indemnity insurance for NZ small businesses: professional indemnity, public liability and management liability explained, and how to pick the right mix.',
     excerpt: 'NZ small businesses need indemnity insurance to protect against client claims, employment disputes, and regulatory breaches. Here\'s what cover your SME needs and what it costs.',
     heroContent: 'New Zealand\'s small businesses — sole traders, partnerships, and companies with 1–20 staff — face professional liability, public liability, and management liability risks every day. The right combination of indemnity insurance covers protects your business, your directors, and your personal assets from the most common and costly claims SMEs face.',
-    bodyContent: `<h2>Indemnity Insurance for Small Businesses — What It Means</h2>
+    bodyContent: `<div class="keyfact">
+<p><strong>No policy pays a Health and Safety at Work Act fine, whatever the policy is called.</strong> Section 29 of the Health and Safety at Work Act 2015 makes an insurance arrangement of no effect to the extent that it purports to indemnify a person for a fine or infringement fee under that Act, and section 30 makes it an offence to enter into, provide or take the benefit of one. The statutory liability part of a small business management liability package pays legal defence costs, representation at a regulatory investigation and reparation orders, which are compensatory — it does not pay the fine, and no bundle sold in New Zealand does. We have also removed the table of monthly premiums that used to sit on this page: New Zealand has no public professional indemnity premium dataset, no insurer here publishes rate tables, and every figure in that table was unsourced.</p>
+</div>
+<h2>Indemnity Insurance for Small Businesses — What It Means</h2>
 <p>When small business owners talk about "indemnity insurance," they typically mean one or more of three related but distinct products:</p>
 <ul>
 <li><strong>Professional indemnity (PI) insurance:</strong> Covers claims from clients alleging your professional advice or services caused them a financial loss</li>
@@ -562,10 +723,10 @@ export const landingPages: LandingPage[] = [
 <ul>
 <li>They arise from your core business activity — you cannot avoid them by changing your operational approach</li>
 <li>They can be made years after the work was done (claims-made basis)</li>
-<li>Legal defence costs alone can run to $30,000–$100,000+ for a contested PI claim</li>
+<li>Defending one, even successfully, consumes legal fees that bear no relationship to the fee you earned on the job</li>
 <li>A single large claim can exceed a small business's entire annual revenue</li>
 </ul>
-<p>For most small businesses with annual revenue under $1M, PI cover of $1M per claim is the appropriate starting level. Businesses with larger clients, government contracts, or higher-risk professional activities should consider $2M–$5M cover.</p>
+<p>There is no published New Zealand benchmark for what small businesses carry, so we will not offer one. The published minimums that exist are narrow and specific: $200,000 stated by an engineering firm issuing a producer statement, $250,000 for self-employed Professional members of Architectural Designers NZ, $1M for REINZ member agencies under Principle 19 of the Code of Agency Practice, and the greater of $1.2m per practice or $900k per partner as the New Zealand Law Society standard. If none of those apply to you, your limit will come from your client contracts or from your own assessment of the largest loss your work could cause a single client.</p>
 
 <h2>Public Liability Insurance for SMEs</h2>
 <p>Public liability insurance protects small businesses from claims arising when a client, customer, or member of the public suffers physical injury or property damage because of your business activities. Common scenarios for small businesses include:</p>
@@ -575,28 +736,33 @@ export const landingPages: LandingPage[] = [
 <li>A product you supplied or installed causes property damage or injury</li>
 <li>A contractor working on your behalf causes an accident at a client's site</li>
 </ul>
-<p>For most small businesses, $1M–$2M public liability cover is appropriate. Businesses operating in high-risk environments (construction sites, client premises with heavy foot traffic) or supplying products should consider $2M–$5M.</p>
+<p>Public liability limits are usually driven by whoever lets you onto their site. Principals, landlords, event organisers and councils commonly set a figure in their access conditions or contracts, and that is the number you need to meet. Where nobody sets one, work from the worst realistic accident on the sites you visit rather than from a default.</p>
 
 <h2>Management Liability Insurance for Small Businesses</h2>
 <p>Management liability insurance is relevant for any small business that has directors and employees. It covers three distinct risks that are not covered by PI or public liability:</p>
 <p><strong>Directors' and Officers' (D&O) Liability:</strong> Protects directors personally from claims for wrongful acts in managing the company — including shareholder claims, creditor claims in insolvency, and regulatory investigations.</p>
 <p><strong>Employment Practices Liability (EPL):</strong> Covers claims from current, former, or prospective employees for employment-related wrongful acts — unfair dismissal, discrimination, sexual harassment, constructive dismissal. NZ's ERA makes employment claims relatively easy for employees to pursue.</p>
-<p><strong>Statutory Liability:</strong> Covers the cost of defending and, where insurable, paying fines from unintentional breaches of legislation — particularly the Health and Safety at Work Act, Fair Trading Act, and Employment Relations Act.</p>
-<p>For most SMEs with 3–20 staff, a management liability policy bundling all three components is more cost-effective than separate policies. Management liability packages start from around $120–$200/month for small businesses.</p>
+<p><strong>Statutory Liability:</strong> Covers the cost of defending unintentional breaches of legislation such as the Fair Trading Act and Employment Relations Act. It does not pay Health and Safety at Work Act fines, and no policy can — sections 29 and 30 of that Act make such an indemnity of no effect and make entering into one an offence.</p>
+<p>For most SMEs with 3–20 staff, a management liability policy bundling all three components is generally cheaper than buying the components separately.</p>
 
 <h2>What Does Small Business Indemnity Insurance Cost?</h2>
-<p>Indicative costs for SMEs with annual revenue of $200,000–$1M:</p>
+<p>We used to publish a table of monthly figures here. We removed it, because we could not source a single number in it. New Zealand has no public professional indemnity premium dataset — cover is broker-distributed and individually underwritten, and no New Zealand insurer publishes rate tables. A price list by profession is not market data; it is a guess dressed up as one.</p>
+<p>The only official cost guidance published in New Zealand is the Government's, and it is narrow: the Beehive factsheet of 24 November 2025 states that professional indemnity insurance for architects typically costs between $1,500 and $3,000 per person each year, often covered by the firm. It is an estimate produced to support a policy decision, with no methodology attached, and it covers design professionals only. It says nothing about public liability or management liability, for which there is no published New Zealand guidance at all.</p>
+<p>What actually determines what your business pays:</p>
 <ul>
-<li>Professional indemnity ($1M): $65–$200/month depending on profession and risk</li>
-<li>Public liability ($1M–$2M): $50–$120/month</li>
-<li>Management liability (D&O + EPL + statutory): $120–$250/month</li>
-<li>Combined PI + PL package: $100–$280/month</li>
-<li>Full suite (PI + PL + management liability): $200–$500/month</li>
+<li><strong>Fee income or turnover.</strong> The primary rating base for PI, and a significant one for the other covers.</li>
+<li><strong>Limit of indemnity.</strong> Often chosen by your clients rather than by you.</li>
+<li><strong>What you actually do.</strong> Residential construction, structural and geotechnical work rate materially harder than advisory or creative work.</li>
+<li><strong>Headcount,</strong> for the employment practices component of management liability.</li>
+<li><strong>Claims and notification history.</strong></li>
+<li><strong>Excess.</strong> A higher excess lowers the premium and moves risk back onto your balance sheet.</li>
+<li><strong>Retroactive date,</strong> which decides how much of your past work the PI policy will answer for.</li>
+<li><strong>Whether defence costs sit inside or outside the limit.</strong></li>
 </ul>
-<p>All premiums are tax deductible as business expenses. Many insurers offer package discounts when multiple covers are purchased together.</p>
+<p>All three covers are deductible as business expenses. Bundling them with one insurer often reduces the total, but ask for the components priced separately as well so you can see what you are giving up.</p>
 
 <h2>When Small Businesses Typically Get Their First PI Claim</h2>
-<p>Based on market claims experience, PI claims against small businesses most commonly arise:</p>
+<p>There is no published New Zealand claims frequency data for SME professional indemnity, so treat the following as a description of the common patterns rather than as statistics. PI claims against small businesses commonly arise:</p>
 <ul>
 <li>When a long-term client relationship breaks down and the client retrospectively challenges the quality of advice provided</li>
 <li>When a project goes significantly over budget or under-delivers, and the client seeks to recover their losses</li>
@@ -607,7 +773,22 @@ export const landingPages: LandingPage[] = [
 
 <h2>Getting Indemnity Insurance for Your Small Business</h2>
 <p>Cover4You's licensed advisers work with small businesses across all sectors to structure the right combination of indemnity covers. We can arrange PI, public liability, and management liability as a combined package — or advise on the individual components you need based on your specific business activities, client types, and contractual requirements.</p>
-<p>Most small businesses can receive a tailored package quote within one to two business days. Contact us to discuss your requirements or to request a comparison of available options.</p>`,
+<p>Most small businesses can receive a tailored package quote within one to two business days. Contact us to discuss your requirements or to request a comparison of available options.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.legislation.govt.nz/act/public/2015/0070/latest/DLM5976660.html" rel="nofollow noopener" target="_blank">Health and Safety at Work Act 2015</a> — sections 29 and 30, insurance against fines of no effect and an offence</li>
+<li><a href="https://www.legislation.govt.nz/act/public/2000/0024/latest/whole.html" rel="nofollow noopener" target="_blank">Employment Relations Act 2000</a></li>
+<li><a href="https://www.legislation.govt.nz/act/public/1986/0121/latest/whole.html" rel="nofollow noopener" target="_blank">Fair Trading Act 1986</a></li>
+<li><a href="https://www.engineeringnz.org/engineer-tools/engineering-documents/producer-statements/professional-indemnity-insurance-why-200000/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Professional indemnity insurance: why $200,000?</a></li>
+<li><a href="https://adnz.org.nz/professional" rel="nofollow noopener" target="_blank">ADNZ — Professional membership</a> — minimum $250,000 for self-employed Professional members</li>
+<li><a href="https://www.reinz.co.nz/common/Uploaded%20files/REINZ/Website/2024/Codes%20of%20Practice/REINZ%20Code%20of%20Agency%20Practice%20Nov%202024.pdf" rel="nofollow noopener" target="_blank">REINZ — Code of Agency Practice (PDF)</a>, November 2024, Principle 19</li>
+<li><a href="https://www.lawsociety.org.nz/" rel="nofollow noopener" target="_blank">New Zealand Law Society</a> — cover standard: the greater of $1.2m per practice or $900k per partner</li>
+<li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025, for the $1,500 to $3,000 per person estimate for architects</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. Policy wordings differ between underwriters and brands — your schedule and wording govern what is covered, not this page.</p>
+</div>`,
     faqs: [
       {
         q: 'Does my small business need both PI and public liability insurance?',
@@ -636,51 +817,38 @@ export const landingPages: LandingPage[] = [
     title: 'PI Insurance for NZ Government Contractors | Meet Panel Requirements',
     h1: 'PI Insurance for NZ Government Contractors',
     metaTitle: 'PI Insurance for NZ Government Contractors',
-    metaDescription: 'Government contracts in NZ typically require $1M-$2M of professional indemnity cover. How to meet panel requirements and evidence your PI insurance.',
-    excerpt: 'NZ government and council contracts specify minimum PI insurance levels. Whether you\'re tendering for All-of-Government panels, agency-specific contracts, or local council work, here\'s what cover you need.',
+    metaDescription: 'NZ government contracts set PI requirements in the individual contract, not by a published standard. How to read an insurance schedule and evidence your cover.',
+    excerpt: 'NZ government and council contracts specify PI insurance levels in the individual contract, not by any published government-wide minimum. Whether you are tendering for All-of-Government panels, agency contracts or council work, here is how to work out what you actually need.',
     heroContent: 'NZ central government and local government contracts consistently require professional indemnity insurance as a standard contracting condition. From All-of-Government IT panels to Wellington council advisory contracts, understanding and meeting the PI requirements is essential before you can win or start government work. Our licensed advisers help government contractors get the right cover quickly.',
-    bodyContent: `<h2>PI Insurance Requirements for Government Contractors</h2>
-<p>New Zealand's central government, Crown entities, and local councils are among the largest purchasers of professional services in the country. Government procurement rules require that professional services contractors hold minimum levels of professional indemnity insurance — and these requirements are non-negotiable. If you cannot demonstrate adequate PI cover, you will be unable to join a preferred supplier panel or commence work under a government contract.</p>
-<p>This guide explains the standard PI insurance requirements for government contractors, what cover you need by contract type, and how to ensure you meet the requirements quickly when a tendering opportunity arises.</p>
+    bodyContent: `<div class="keyfact">
+<p><strong>There is no standard New Zealand government PI limit, and the three-year tail is a run-off obligation.</strong> The Government Model Contract sets no professional indemnity figure at all. Clause 8.1 of the standard terms and conditions for services requires the supplier to hold the insurance specified in Schedule 1 of that particular contract, taken out with a reputable insurer, and to maintain it for the term and for three years after the end date. Two contracts with the same agency in the same year can carry different numbers, so anyone quoting you a government-wide minimum is quoting something they cannot source. Because PI is claims-made, that three-year maintenance clause is in substance a requirement to hold run-off: a policy that lapses on the day the engagement finishes leaves you uninsured and in breach of the contract you have just completed. Your actual exposure runs longer again — six years from the act or omission under section 11 of the Limitation Act 2010, with a further three available on late knowledge under section 14.</p>
+</div>
+<h2>PI Insurance Requirements for Government Contractors</h2>
+<p>New Zealand's central government, Crown entities, and local councils are among the largest purchasers of professional services in the country. Government and council contracts for professional services routinely require professional indemnity insurance, and if you cannot evidence the cover the contract specifies, you will not join the panel or start the work.</p>
+<p>What those contracts do not do is share a common figure. This guide explains where the requirement actually comes from, how to read the insurance schedule you will be given, and what to check before you tender.</p>
 
-<h2>Central Government PI Requirements</h2>
-<p>The New Zealand Government Procurement (NZGP) rules — administered by the Ministry of Business, Innovation and Employment — set the framework for government insurance requirements. The Model Contracts and standard terms for professional services specify insurance requirements that typically include:</p>
+<h2>There Is No Standard Government PI Limit</h2>
+<p>This is the single most useful thing to know, and it is the opposite of what most insurance websites say. The Government Model Contract does not set a professional indemnity figure. Clause 8.1 of the standard terms and conditions for services provides that, if required in Schedule 1, the supplier must have the insurance specified in Schedule 1 — taking it out with a reputable insurer and maintaining it for the term of the contract and for a period of three years after the end date.</p>
+<p>Everything specific therefore lives in Schedule 1 of your particular contract: whether PI is required at all, the amount, whether the limit is per claim or in the aggregate, and what other covers sit alongside it. Two contracts with the same agency, signed in the same year, can carry different numbers. Anyone who tells you the government standard is a particular dollar figure is quoting something they cannot source, and if you buy to their figure rather than to your schedule you may still fail the check.</p>
+<p>The same is true of All-of-Government panels and of council procurement. Panel membership requires you to evidence the insurance the panel agreement specifies, and being unable to do so will get your application rejected — but the requirement is in the panel documentation, not in a published government-wide table.</p>
+
+<h2>The Three-Year Tail Is the Part People Miss</h2>
+<p>The obligation to maintain cover for three years after the end date is easy to skim past and expensive to get wrong. PI is written on a claims-made basis: the policy that responds is the one in force when the claim is made, not the one in force when the work was done. So a policy that lapses on the day the engagement finishes leaves you both uninsured and in breach of the contract you have just completed.</p>
+<p>Two practical consequences:</p>
 <ul>
-<li><strong>Professional indemnity insurance:</strong> Minimum $1M per claim and in aggregate (many contracts specify $2M)</li>
-<li><strong>Public liability insurance:</strong> Minimum $1M per claim (often $2M for contracts involving site visits or physical services)</li>
-<li><strong>Employers' liability:</strong> Where relevant</li>
+<li>If you are winding up a business or leaving contracting, you need run-off cover, not just an unbroken policy while you are trading.</li>
+<li>If you switch insurers during or after the contract, the retroactive date on the new policy has to reach back far enough to pick up the government work. Ask for it explicitly.</li>
 </ul>
-<p>These are minimum benchmarks — specific agencies and specific contracts may specify higher requirements. IT, engineering, and high-value advisory contracts commonly specify $2M–$5M PI.</p>
+<p>Separately, note that the limitation position is longer than three years. Under section 11 of the Limitation Act 2010 the primary period is six years, running from the act or omission, with a further three years available on late knowledge under section 14. The contract's three-year requirement is a floor, not a considered assessment of your exposure.</p>
 
-<h2>All-of-Government (AoG) Contract Panel Requirements</h2>
-<p>The Government's All-of-Government contracts provide pre-negotiated arrangements that multiple agencies can use. AoG panels in the professional services and technology space have their own insurance requirements:</p>
+<h2>Where the Number Actually Comes From</h2>
+<p>Because the model terms leave the amount blank, the limit in your contract has been chosen by someone at the agency, usually with reference to the scale and risk of that engagement. That has a few implications worth planning around:</p>
 <ul>
-<li><strong>AoG IT hardware and software:</strong> $1M–$2M PI typically required</li>
-<li><strong>AoG professional services panels (MBIE-managed):</strong> $1M–$2M PI depending on category</li>
-<li><strong>AoG digital marketplace (NZGDS):</strong> Variable by category — typically $1M PI minimum for digital and technology services</li>
-<li><strong>AoG legal services:</strong> Law Society membership requirements apply; typically $1M–$2M PI</li>
+<li><strong>You will not know it until you see the documents.</strong> Ask for the insurance schedule with the tender pack rather than after award.</li>
+<li><strong>It can change between rounds.</strong> A panel refresh or a new agency template can lift the limit on work you have been doing for years.</li>
+<li><strong>It is occasionally negotiable.</strong> If a limit is disproportionate to the fee, it is reasonable to ask — particularly for small engagements where the cost of the limit is a material fraction of the contract value.</li>
+<li><strong>Higher-risk disciplines attract higher limits.</strong> Engineering and technical services on physical assets are generally asked for more than advisory work, and that pattern is consistent even though the figures are not published.</li>
 </ul>
-<p>Panel membership requires submitting evidence of insurance at the time of application. Being unable to demonstrate adequate PI cover will result in rejection of your panel application.</p>
-
-<h2>Key Government Agencies and Their PI Requirements</h2>
-
-<h3>Ministry of Business, Innovation and Employment (MBIE)</h3>
-<p>MBIE manages a wide range of professional services contracts including policy advisory, IT, labour market research, and regulatory analysis. Standard PI requirements are $1M–$2M per claim. Specialist advisory work on significant regulatory changes may require higher limits.</p>
-
-<h3>Department of Internal Affairs (DIA) — Digital Government</h3>
-<p>DIA's digital government and IT transformation contracts require PI cover — typically $1M–$2M for IT contractor roles, and $2M–$5M for project management and digital transformation advisory. The Government Chief Digital Officer (GCDO) function manages some of NZ's largest IT service agreements.</p>
-
-<h3>Ministry of Health / Health New Zealand</h3>
-<p>Health sector government contracts — including clinical advisory, healthcare IT, and research contracts — typically specify $2M PI minimum. Healthcare practitioners working under government contracts face both professional registration body requirements and contract-specific PI requirements.</p>
-
-<h3>Auckland Council and Watercare</h3>
-<p>Auckland Council and its subsidiary organisations (Watercare, Auckland Transport, Auckland Unlimited) regularly engage professional services contractors in engineering, IT, planning, communications, and advisory roles. Auckland Council's standard insurance schedule typically requires $1M–$2M PI plus public liability.</p>
-
-<h3>Wellington City Council</h3>
-<p>Wellington City Council professional services contracts specify PI insurance requirements consistent with Wellington market practice — typically $1M–$2M for advisory and IT roles, $2M–$5M for engineering and construction-related professional services.</p>
-
-<h3>Christchurch City Council / Otakaro Limited</h3>
-<p>The ongoing Christchurch rebuild-related contracts managed through Christchurch City Council and Otakaro Limited typically require PI insurance for all professional services providers — with engineering and technical services requiring $2M–$5M given the rebuild context.</p>
 
 <h2>How to Ensure Your PI Cover Meets Government Contract Requirements</h2>
 
@@ -697,23 +865,37 @@ export const landingPages: LandingPage[] = [
 <p>Some government contracts run for 2–3 years. Your PI policy renews annually. You will need to provide updated certificates of currency at each renewal — ensure you do not let your policy lapse mid-contract, as this could constitute a breach of contract.</p>
 
 <h2>What Does PI Insurance Cost for Government Contractors?</h2>
-<p>Government contractors typically carry $1M–$2M PI cover, which costs:</p>
+<p>There is no published New Zealand PI premium data, for government contractors or for anyone else. Cover is broker-distributed and individually underwritten, and no New Zealand insurer publishes rate tables. We are not going to fill that gap with figures we cannot stand behind.</p>
+<p>The only official cost guidance published in New Zealand is the Government's own, and it applies to a single group: the Beehive factsheet of 24 November 2025 states that professional indemnity insurance for architects typically costs between $1,500 and $3,000 per person each year, often covered by the firm. It is an estimate published to support a policy decision, with no methodology attached, and it does not extend to IT, advisory, research or communications contractors.</p>
+<p>What moves the number on a government engagement:</p>
 <ul>
-<li>IT contractors and developers: $80–$180/month for $1M cover; $120–$250/month for $2M cover</li>
-<li>Management and policy consultants: $90–$200/month for $1M cover; $130–$280/month for $2M cover</li>
-<li>Engineering services: $200–$500/month for $2M cover (higher due to sector risk)</li>
-<li>Communications and marketing: $70–$150/month for $1M cover</li>
-<li>Research and analytics: $80–$160/month for $1M cover</li>
+<li><strong>The limit in Schedule 1.</strong> The largest single driver, and one you did not choose.</li>
+<li><strong>Fee income.</strong> The primary rating base for most PI.</li>
+<li><strong>Discipline and work type.</strong> Engineering and technical services on physical assets rate materially harder than policy or communications work.</li>
+<li><strong>The three-year post-contract obligation,</strong> which effectively means pricing continuity rather than a single year.</li>
+<li><strong>Retroactive date,</strong> especially if you are switching insurer part-way through a multi-year engagement.</li>
+<li><strong>Claims and notification history.</strong></li>
+<li><strong>Excess, and whether defence costs sit inside or outside the limit.</strong></li>
 </ul>
-<p>PI insurance premiums are fully tax deductible as business expenses for government contractors operating as businesses.</p>
+<p>PI premiums are deductible as a business expense for contractors operating as businesses.</p>
 
 <h2>Getting PI Cover for a Government Contract Quickly</h2>
 <p>If you have received a tender award or are approaching a panel application deadline, Cover4You's licensed advisers can typically arrange PI cover within one to two business days. We are familiar with the standard government insurance schedule requirements and can ensure your policy meets the specific conditions of your contract.</p>
-<p>If you need a certificate of currency urgently for a tender submission, let your adviser know at the outset — we can prioritise quotes and bind cover quickly to meet your deadline.</p>`,
+<p>If you need a certificate of currency urgently for a tender submission, let your adviser know at the outset — we can prioritise quotes and bind cover quickly to meet your deadline.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li>New Zealand Government Model Contract for services — standard terms and conditions, clause 8.1, and Schedule 1 of the individual contract. Cited as text: we hold no verified URL for the current version, and your own signed schedule governs in any case.</li>
+<li><a href="https://www.legislation.govt.nz/act/public/2010/0110/latest/whole.html" rel="nofollow noopener" target="_blank">Limitation Act 2010</a>, sections 11 and 14</li>
+<li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025 — the only official New Zealand PI cost estimate, and it covers architects and design professionals only</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. The insurance schedule attached to your own contract or panel agreement governs — read Schedule 1 and check your policy against it before you tender.</p>
+</div>`,
     faqs: [
       {
         q: 'What is the standard PI cover requirement for government contracts?',
-        a: 'Most central government contracts specify a minimum of $1M professional indemnity insurance per claim and in aggregate, plus $1M public liability. However, many contracts — particularly IT, engineering, and high-value advisory services — specify $2M PI or higher. Always check the specific insurance schedule in your contract.',
+        a: 'There is not one. The Government Model Contract deliberately leaves the amount blank: clause 8.1 of the standard terms for services requires the supplier to hold the insurance specified in Schedule 1 of that contract, with a reputable insurer, maintained for the term and for three years after the end date. The figure is chosen by the agency for each engagement, so the only reliable answer is the one in your own Schedule 1. Treat any website that quotes you a government-wide minimum as unsourced.',
       },
       {
         q: 'Can I use my existing PI insurance for a new government contract?',
@@ -741,13 +923,16 @@ export const landingPages: LandingPage[] = [
     metaDescription: 'Indemnity value pays what an item was worth just before the loss; replacement value pays to replace it. What that means at claim time in New Zealand.',
     excerpt: 'If you have found this page after reading the word “indemnity” on a house, contents, car or jewellery policy, you are in the right place — and this is not insurance we arrange. Here is what indemnity value actually means, how it differs from replacement value, and who to ask next.',
     heroContent: 'Indemnity value and replacement value are two different ways an insurer can settle a claim on your house, contents, car or jewellery. One pays what the item was worth immediately before the loss. The other pays what it costs to replace it. The difference does not show up when you buy the policy — it shows up on the day you claim.',
-    bodyContent: `<h2>Two different things share the word “indemnity”</h2>
+    bodyContent: `<div class="keyfact">
+<p><strong>Indemnity value and professional indemnity have nothing to do with each other.</strong> Indemnity value is a settlement basis for your own property: it pays what the item was worth immediately before the loss, after an allowance for age and wear, rather than what a new one costs today. Replacement value pays to replace it. Which basis applies to your house, contents, car or jewellery is stated on your policy schedule and defined in your policy wording, and a sum insured is a ceiling on the payout rather than a promise to pay it. This is personal insurance and it is not cover we arrange — for a question about your own policy, your insurer or broker is the right place to ask, and the IFSO scheme is the right place to take a dispute.</p>
+</div>
+<h2>Two different things share the word “indemnity”</h2>
 <p>In New Zealand, “indemnity insurance” is searched for by people who want three unrelated things. Some are business owners and professionals looking for <em>professional indemnity</em> — cover for a claim that their advice or services caused someone a financial loss. Some are doctors and health practitioners looking for <em>medical indemnity</em>. And some are homeowners, drivers and jewellery owners who have read the words <em>indemnity value</em> on a policy schedule and want to know what they mean.</p>
 <p>This page is for the third group. It has nothing to do with professional indemnity. It is also not a product we arrange — we do not place house, contents, motor or jewellery insurance, and we do not earn anything from you reading this. It is here because a person who arrives looking for one thing and finds only another has been badly served.</p>
 
 <h2>What indemnity value means</h2>
 <p>Indemnity value is a settlement basis. It pays what the damaged or lost thing was worth at the moment before the loss happened — not what a new one costs today.</p>
-<p>The Insurance Council of New Zealand describes indemnity value for a house as “what the house was worth just before it was damaged”, and notes that this is “roughly equivalent to the depreciated replacement cost”. In other words: work out what it would cost to rebuild, then subtract for the age, wear and remaining useful life of what was actually there.</p>
+<p>For a building, that means asking what it was worth immediately before the damage: what it would cost to rebuild, less an allowance for the age, wear and remaining useful life of what was actually standing there. That deduction is the reason an indemnity settlement on an older building can land a long way below a fresh rebuild quote.</p>
 <p>The Insurance &amp; Financial Services Ombudsman scheme puts the same idea in general terms in its glossary: indemnity value is “the value of the item at the time of the loss”, and the settlement is “designed to put you in the same financial position” you were in before the loss — not a better one.</p>
 <p>That last phrase is the whole principle. Indemnity is about restoring your position, not improving it. A twenty-year-old roof settled on an indemnity basis is paid out as a twenty-year-old roof.</p>
 
@@ -787,20 +972,28 @@ export const landingPages: LandingPage[] = [
 <p>If the two do not obviously agree, or the wording is ambiguous, ask the insurer or broker who arranged the policy to confirm in writing which basis applies to which item. A written answer is worth having, and it costs nothing to ask.</p>
 
 <h2>Who to ask — and it is not us</h2>
-<p>We arrange professional indemnity and related business liability cover. We do not arrange house, contents, motor or jewellery insurance, so we are not the right people to answer a question about your own policy schedule, and we would rather say so than take your enquiry and pass it somewhere unhelpful. Three genuinely useful places to go instead:</p>
+<p>We refer enquiries about professional indemnity and related business liability cover to licensed advisers. We do not arrange house, contents, motor or jewellery insurance, so we are not the right people to answer a question about your own policy schedule, and we would rather say so than take your enquiry and pass it somewhere unhelpful. Two genuinely useful places to go instead:</p>
 <ul>
 <li><strong>Your own insurer or broker.</strong> They hold your wording and your schedule. They are obliged to explain what your policy actually says, and they are the only people who can confirm it for your specific cover.</li>
-<li><strong>The Insurance Council of New Zealand (ICNZ).</strong> The industry body publishes plain-language consumer explanations of settlement bases, sums insured and how house cover works in New Zealand, independent of any one insurer.</li>
-<li><strong>The Insurance &amp; Financial Services Ombudsman (IFSO) scheme.</strong> An independent dispute resolution scheme, with a public glossary of insurance terms and case notes on how disputes about settlement have been decided. If you are already in disagreement with an insurer about how a claim has been settled, this is the route.</li>
+<li><strong>The Insurance &amp; Financial Services Ombudsman (IFSO) scheme.</strong> An independent dispute resolution scheme, free to consumers, with a public glossary of insurance terms and case notes showing how disputes about settlement have been decided. If you are already in disagreement with an insurer about how a claim has been settled, this is the route.</li>
 </ul>
 
 <h2>If you actually came looking for professional indemnity</h2>
 <p>If the word “indemnity” brought you here from a contract, a tender document or a professional body’s membership requirements, you are almost certainly after professional indemnity insurance instead — a completely separate class of cover that responds when a client alleges your professional advice or services caused them a financial loss. The two share a word and nothing else. Professional indemnity is written on a claims-made basis, is bought by businesses and practitioners rather than households, and is where we can help.</p>
-<p>There is a third sense again: medical indemnity for doctors and health practitioners, which in New Zealand is bought directly or through a mutual rather than through a broker. If that is what you need, we explain how it works and point you to the right place, but we cannot arrange it.</p>`,
+<p>There is a third sense again: medical indemnity for doctors and health practitioners, which in New Zealand is bought directly or through a mutual rather than through a broker. If that is what you need, we explain how it works and point you to the right place, but we cannot arrange it.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li>Insurance &amp; Financial Services Ombudsman scheme — glossary of insurance terms and published case notes on claim settlement. Cited as text: we hold no verified URL for the current page, and the scheme is free to consumers and independent of any insurer.</li>
+<li>Your own policy schedule and policy wording. These are the only documents that determine which settlement basis applies to your cover, and they govern in place of any web page, including this one.</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm. We do not arrange house, contents, motor or jewellery insurance and cannot review or quote on a personal policy — your own insurer or broker, or the IFSO scheme, is the right place for that.</p>
+</div>`,
     faqs: [
       {
         q: 'Is indemnity value the same as market value?',
-        a: 'They are close relatives rather than identical twins. Both look at what something was worth immediately before the loss rather than what a new one costs. “Market value” is the term you will usually see on a motor policy; “indemnity value” is the term you will usually see on house and contents policies, where the Insurance Council of New Zealand describes it as roughly equivalent to the depreciated replacement cost. Which term applies to you is written on your schedule.',
+        a: 'They are close relatives rather than identical twins. Both look at what something was worth immediately before the loss rather than what a new one costs. “Market value” is the term you will usually see on a motor policy; “indemnity value” is the term you will usually see on house and contents policies, where it works out as something close to the depreciated replacement cost. Which term applies to you is written on your schedule, not decided by which word sounds more generous.',
       },
       {
         q: 'Is replacement value always better than indemnity value?',
@@ -820,11 +1013,11 @@ export const landingPages: LandingPage[] = [
       },
       {
         q: 'Where can I get independent information about this in New Zealand?',
-        a: 'The Insurance Council of New Zealand publishes consumer explanations of how house and contents settlement works, independently of any single insurer. The Insurance & Financial Services Ombudsman scheme maintains a glossary of insurance terms and handles disputes between consumers and insurers, including disputes about how a claim has been settled. Both are better sources for a personal-lines question than any broker page, including this one.',
+        a: 'The Insurance & Financial Services Ombudsman scheme maintains a public glossary of insurance terms and handles disputes between consumers and insurers, including disputes about how a claim has been settled. It is free to consumers and independent of any insurer. For a question about your own cover, your insurer or broker holds the actual wording. Either is a better source for a personal-lines question than a broker page, including this one.',
       },
       {
         q: 'Does this page mean you can review my house insurance?',
-        a: 'No. We arrange professional indemnity and related business liability insurance. We do not arrange house, contents, motor or jewellery cover, and we cannot review or quote on a personal policy. If you have arrived here with a personal insurance question, your own insurer or broker, ICNZ and the IFSO scheme are the right places to take it.',
+        a: 'No. We deal with professional indemnity and related business liability insurance. We do not deal with house, contents, motor or jewellery cover, and we cannot review or quote on a personal policy. If you have arrived here with a personal insurance question, your own insurer or broker, or the IFSO scheme, are the right places to take it.',
       },
       {
         q: 'Is professional indemnity insurance settled on an indemnity value basis?',
@@ -844,7 +1037,10 @@ export const landingPages: LandingPage[] = [
     metaDescription: 'What medical indemnity covers for NZ doctors, how ACC changes the picture, and why it is bought direct or through a mutual rather than through a broker.',
     excerpt: 'Medical indemnity is the cover doctors and health practitioners hold for complaints, investigations and disciplinary proceedings arising from clinical practice. In New Zealand it is bought directly from a provider or through a mutual — it is not broker-placed, and we cannot arrange it. Here is how it works and what to look for.',
     heroContent: 'Medical indemnity is not professional indemnity with a stethoscope. It is a different market, sold through different channels, shaped by a New Zealand accident compensation system that has no equivalent in most of the countries whose medico-legal advice you will find online. This page explains the difference honestly, including the part where we tell you we cannot sell it to you.',
-    bodyContent: `<h2>What medical indemnity insurance is</h2>
+    bodyContent: `<div class="keyfact">
+<p><strong>Medical indemnity is not professional indemnity, and we cannot arrange it.</strong> In New Zealand it is bought directly from a provider or through membership of a mutual. There is no broker in the middle, and no enquiry through this site will get you a better outcome than approaching the provider yourself. It also answers a different exposure: because ACC largely displaces personal-injury damages claims, what a New Zealand practitioner realistically faces is investigative and disciplinary — a Health and Disability Commissioner complaint, a coronial inquiry, a competence review or a disciplinary proceeding — so the cover is built around representation, medico-legal advice and defence costs rather than damages. What a broker can arrange is the business around the clinical work: professional indemnity for non-clinical advisory work, public liability, statutory liability, management liability and employers’ liability.</p>
+</div>
+<h2>What medical indemnity insurance is</h2>
 <p>Medical indemnity is the cover doctors and other health practitioners hold in connection with their clinical practice. Its central purpose is not usually to pay compensation to a patient. It is to pay for representation, advice and defence costs when a practitioner’s clinical care is examined by somebody with the power to affect their career.</p>
 <p>That framing surprises people who have read overseas material. In the United States, the United Kingdom or Australia, medical indemnity is dominated by claims for damages arising from patient injury. In New Zealand, damages claims of that kind are largely displaced, and the exposure that remains is investigative and disciplinary. The cover follows the exposure.</p>
 
@@ -899,7 +1095,7 @@ export const landingPages: LandingPage[] = [
 <ul>
 <li><strong>Professional indemnity</strong> for consultancy, advisory, training, medico-legal report writing or research work that sits outside patient care.</li>
 <li><strong>Public liability</strong> for injury or property damage to third parties at your premises.</li>
-<li><strong>Statutory liability</strong> for defence costs and, where insurable, fines arising from breaches of New Zealand statutes in the running of the business.</li>
+<li><strong>Statutory liability</strong> for defence costs and representation arising from unintentional breaches of New Zealand statutes in the running of the business. Health and Safety at Work Act fines cannot be insured — sections 29 and 30 of that Act make such an indemnity of no effect.</li>
 <li><strong>Management liability and directors’ and officers’ cover</strong> if you are a director or trustee of a practice company, a PHO entity or a charitable board.</li>
 <li><strong>Employers’ liability</strong> for employee injury claims outside the ACC bar.</li>
 </ul>
@@ -911,7 +1107,21 @@ export const landingPages: LandingPage[] = [
 <li><strong>Nurses.</strong> The New Zealand Nurses Organisation includes indemnity insurance in membership — $500,000 per claim, a maximum of $1,000,000 per year and up to $200,000 for criminal defence costs, on NZNO’s own figures in its membership FAQs, last updated March 2026. It applies where you are, or were, a financial or student member working in a health care occupation covered by NZNO. It is included in membership and is not separately purchasable, so nobody can sell it to you or replace it.</li>
 <li><strong>Psychologists.</strong> The New Zealand Psychologists Board does not require indemnity insurance for registration or for an annual practising certificate. The New Zealand Psychological Society instead offers members a scheme placed through Aon New Zealand, purchased separately from membership.</li>
 </ul>
-<p>If your profession gets its indemnity through a body rather than the open market, our page on <strong>professional indemnity through your professional body</strong> sets out who does what, what those arrangements include, and the specific gaps — private practice, non-clinical work, higher limits and run-off — where separate cover is worth looking at.</p>`,
+<p>If your profession gets its indemnity through a body rather than the open market, our page on <strong>professional indemnity through your professional body</strong> sets out who does what, what those arrangements include, and the specific gaps — private practice, non-clinical work, higher limits and run-off — where separate cover is worth looking at.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.hdc.org.nz/making-a-complaint/what-happens-to-my-complaint/" rel="nofollow noopener" target="_blank">Health and Disability Commissioner — What happens to my complaint</a></li>
+<li><a href="https://www.legislation.govt.nz/act/public/2015/0070/latest/DLM5976660.html" rel="nofollow noopener" target="_blank">Health and Safety at Work Act 2015</a> — sections 29 and 30, fines cannot be insured</li>
+<li>Health Practitioners Competence Assurance Act 2003. Cited as text: we did not verify the statute text for this page, and we make no claim either way about whether it requires indemnity cover.</li>
+<li>New Zealand Resident Doctors’ Association — statement that there are two providers of indemnity cover for resident medical officers. Cited as text; we hold no verified URL.</li>
+<li>New Zealand Medical Indemnity Insurance (NZMII) — undated fact sheet referencing the 2025 HDC report. Cited as text; we hold no verified URL. Its published prices are group scheme medical indemnity, not general professional indemnity, and not cover we can arrange.</li>
+<li>New Zealand Nurses Organisation — membership FAQs, last updated March 2026, for the included indemnity limits and the warning about relying on employer indemnity. Cited as text; we hold no verified URL.</li>
+<li>New Zealand Psychologists Board and New Zealand Psychological Society. Cited as text; we hold no verified URLs. The Board requires no indemnity insurance for registration or an annual practising certificate; the Society offers members a scheme placed through Aon New Zealand, purchased separately.</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal, financial or clinical advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. We cannot arrange medical indemnity or professional body member schemes, and we say so rather than taking the enquiry — confirm the clinical side with your provider, your college or your union, and any figures with the body that published them.</p>
+</div>`,
     faqs: [
       {
         q: 'Can you arrange medical indemnity insurance for me?',
@@ -963,7 +1173,10 @@ export const landingPages: LandingPage[] = [
     metaDescription: 'Nurses, physios, psychologists, lawyers, engineers and accountants can get PI through their professional body. What it includes, and what it may not.',
     excerpt: 'For a lot of New Zealand professionals, the honest answer to “where do I buy professional indemnity” is: you may already have it, or your body may place it more cheaply than the open market will. Here is who does what, when the scheme is the better answer, and the specific gaps worth checking.',
     heroContent: 'Many New Zealand professions do not buy professional indemnity on the open market at all. Some get it included in membership. Others buy it through a scheme their body has negotiated with a named provider. None of those schemes is compulsory, and none of them covers everything. This page sets out what each arrangement is, so you can work out whether you need anything else.',
-    bodyContent: `<h2>Two arrangements that get confused with each other</h2>
+    bodyContent: `<div class="keyfact">
+<p><strong>A professional body’s insurance rule is not a law, and most New Zealand bodies have no rule at all.</strong> Engineering New Zealand requires no professional indemnity for membership or for Chartered Professional Engineer registration. The New Zealand Psychologists Board requires none for registration or an annual practising certificate. Professional indemnity is not compulsory for New Zealand lawyers — what is compulsory is disclosing your arrangements to clients. Where a body does impose a requirement it binds its own members and nobody else: CA ANZ requires current and appropriate cover from Certificate of Public Practice holders, and publishes no New Zealand dollar minimum, so the tiered figures you may have seen are Australian. Every scheme described here is non-exclusive, so a member can buy in the open market instead — except where cover is included in membership, as it is with NZNO, in which case no broker can arrange, quote on or replace it.</p>
+</div>
+<h2>Two arrangements that get confused with each other</h2>
 <p>When a professional body is involved in indemnity, it is doing one of two quite different things.</p>
 <p><strong>Included in membership.</strong> The body carries cover that extends to members. You do not buy it, you cannot shop for it, and nobody can replace it while you remain a member.</p>
 <p><strong>Placed through a scheme.</strong> The body has appointed a broker or provider and negotiated terms, but you buy the policy yourself. It is a member benefit, not an entitlement — and these schemes are non-exclusive, so members may buy elsewhere. Where cover is included, there is nothing for a broker to do except discuss what sits <em>on top</em>.</p>
@@ -1027,7 +1240,26 @@ export const landingPages: LandingPage[] = [
 <li>Who is the named insured — you, or your company?</li>
 <li>Is run-off available when you stop, at what cost and for how many years?</li>
 </ul>
-<p>Where the answer is “the scheme covers it”, stay in the scheme. Where it is “not quite”, that gap is the piece worth taking to a licensed adviser.</p>`,
+<p>Where the answer is “the scheme covers it”, stay in the scheme. Where it is “not quite”, that gap is the piece worth taking to a licensed adviser.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.engineeringnz.org/join-us/cpeng/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Chartered Professional Engineer</a></li>
+<li><a href="https://www.engineeringnz.org/engineer-tools/member-benefits/insurance/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Member benefits: insurance</a> — the CEAS arrangement, offered non-exclusively</li>
+<li><a href="https://www.engineeringnz.org/engineer-tools/engineering-documents/producer-statements/professional-indemnity-insurance-why-200000/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Professional indemnity insurance: why $200,000?</a></li>
+<li><a href="https://www.legislation.govt.nz/regulation/public/2002/0389/latest/whole.html" rel="nofollow noopener" target="_blank">Chartered Professional Engineers of New Zealand Rules (No 2) 2002</a> — no occurrence of indemnity or insurance</li>
+<li><a href="https://www.charteredaccountantsanz.com/member-services/certificate-of-public-practice" rel="nofollow noopener" target="_blank">CA ANZ — Certificate of Public Practice</a></li>
+<li><a href="https://www.lawsociety.org.nz/" rel="nofollow noopener" target="_blank">New Zealand Law Society</a> — cover standard effective 6 April 2021: the greater of $1.2m per practice or $900k per partner, shareholder or director lawyer, with the excess not exceeding the greater of 1% of the limit or $20,000</li>
+<li><a href="https://www.building.govt.nz/about-building-performance/all-news-and-updates/building-amendment-bill-introduced-to-parliament" rel="nofollow noopener" target="_blank">Building Performance — Building Amendment Bill introduced to Parliament</a>, 2 July 2026</li>
+<li>Lawyers and Conveyancers Act (Lawyers: Conduct and Client Care) Rules 2008, rules 3.4 and 3.4A — the written disclosure obligation. Cited as text; we hold no verified URL.</li>
+<li>New Zealand Law Society consultation on compulsory professional indemnity insurance for lawyers practising independently, opened 26 March 2026 and closed 5 May 2026, with no outcome published as at 7 September 2026. Cited as text; we hold no verified URL.</li>
+<li>New Zealand Nurses Organisation — membership FAQs, last updated March 2026, for the included indemnity limits and conditions. Cited as text; we hold no verified URL.</li>
+<li>Physiotherapy New Zealand — member indemnity scheme placed through BMS Group. Cited as text; we hold no verified URL.</li>
+<li>New Zealand Psychological Society — member indemnity package placed through Aon New Zealand, and New Zealand Psychologists Board registration requirements. Cited as text; we hold no verified URLs.</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. We cannot arrange or replace cover that is included in your membership, and medical indemnity is likewise not broker-placed in New Zealand — check the current terms and limits with the body itself, because a body can change its cover without any law changing.</p>
+</div>`,
     faqs: [
       {
         q: 'If my professional body includes indemnity in membership, can you sell me anything?',
@@ -1083,7 +1315,10 @@ export const landingPages: LandingPage[] = [
     metaDescription: 'Asked for professional indemnity for a school property project? What to have ready, what a certificate of currency shows, and how claims-made cover works.',
     excerpt: 'The Ministry of Education requires evidence of professional indemnity from contractors and consultants working on school property projects. If a procurement email has just asked you for it, this page explains what is being asked, what a certificate of currency needs to show, and why claims-made cover means the job is not finished when the project is.',
     heroContent: 'School property work is procurement-driven. Somebody in a Ministry of Education process, a school board office or a project manager’s office has asked you to evidence professional indemnity insurance, and there is a deadline attached. This page is written for that moment: what the requirement is, where to confirm the current version of it, and the mechanics of claims-made cover that catch people out after the project ends.',
-    bodyContent: `<h2>Why you have been asked for professional indemnity</h2>
+    bodyContent: `<div class="keyfact">
+<p><strong>Mandatory professional indemnity for design professionals is not law, and it is not aimed at builders.</strong> The Building Amendment Bill was introduced to Parliament on 2 July 2026 and is before select committee, with submissions closing at 11.59pm on Sunday 15 November 2026. The requirement covers professionals contributing to building design — the factsheet scope is architecture, design, engineering and certain building surveying services — and states expressly that it will not apply to builders. No minimum sum insured has been proposed: MBIE’s Regulatory Impact Statement of 18 November 2025 says the details of the scheme are yet to be developed and require further consultation. It is expected to take effect in 2028, after a one-year lead-in once the Bill passes, not in 2026. And the $200,000 on an engineer’s producer statement is a recommended disclosure figure on a form — not a required level of cover, not a cap on liability, and not the limit to buy for a school project.</p>
+</div>
+<h2>Why you have been asked for professional indemnity</h2>
 <p>School property is public infrastructure, and like most public procurement it runs on documented risk transfer: the agency specifies what insurance a supplier must hold, and the supplier evidences it before the contract starts and while it runs.</p>
 <p>The Ministry of Education requires professional indemnity insurance from contractors and consultants working on school property projects. If you are designing, specifying, certifying, advising or project managing, the requirement will find you — usually as a line in a contract schedule, or a request for a certificate before engagement.</p>
 <p>Professional indemnity responds when a client alleges your advice, design or services caused a financial loss. In a school property context that means the classic consultant exposures: a design that does not perform, a wrong specification, a certification issued on inadequate information, advice that leads to abortive work, a cost or programme error the client has to pay for.</p>
@@ -1141,11 +1376,11 @@ export const landingPages: LandingPage[] = [
 <ul>
 <li>The instrument is the <strong>Building Amendment Bill</strong>, <strong>introduced to Parliament on 2 July 2026</strong> and now at <strong>select committee</strong>. It is <strong>not law</strong>, and select committee can change it.</li>
 <li>MBIE states the mandatory PI requirement applies to <strong>design professionals — architects and engineers</strong> — and <strong>expressly not to builders or Licensed Building Practitioners</strong>. Anything saying mandatory PI is coming for LBPs is wrong.</li>
-<li>It also moves the sector from joint and several liability to <strong>proportionate liability</strong>, and introduces mandatory home warranties for new residential buildings of three storeys and under and renovations of $100,000 or more — a residential measure, not a school property one.</li>
+<li>It also moves the sector from joint and several liability to <strong>proportionate liability</strong>, and introduces mandatory home warranties for new residential buildings — described as three storeys and under in the November 2025 announcement, and expressed as up to 10 metres in the Bill as introduced — and renovations of $100,000 or more — a residential measure, not a school property one.</li>
 <li>MBIE indicates a <strong>one-year implementation period after the legislation passes</strong>, so even on passage it would not bite immediately.</li>
 <li>No minimum sum insured has been published for the proposed requirement. Do not accept a figure from anyone who offers one.</li>
 </ul>
-<p>Separately, increases to Licensed Building Practitioner disciplinary penalties — maximum fines from $10,000 to $20,000, maximum suspension from 12 to 24 months — are progressing through a <strong>different bill</strong>. The two are frequently conflated, which misdates both.</p>
+<p>Separately, increases to Licensed Building Practitioner disciplinary penalties — maximum fines from $10,000 to $20,000 and maximum suspension from 12 to 24 months — are progressing through a <strong>different bill</strong>. MBIE's Regulatory Impact Statement of 5 November 2025 sets out both the current maximums and the proposed ones, and records that they are to be carried by the Building and Construction (Strengthening Occupational Licensing Regimes) Amendment Bill rather than by the Building Amendment Bill dealt with above. They are not law either. The two bills are frequently conflated, which misdates both.</p>
 
 <h2>Before you submit</h2>
 <ul>
@@ -1158,7 +1393,20 @@ export const landingPages: LandingPage[] = [
 <li>Find the clause setting how long cover must run after completion, and plan run-off now.</li>
 <li>Diary your renewal against project milestones so cover never lapses.</li>
 </ul>
-<p>If the requirement does not match the cover you hold, a licensed adviser can read the contract and say what needs to change — often a limit, an entity name or an endorsement rather than a new policy.</p>`,
+<p>If the requirement does not match the cover you hold, a licensed adviser can read the contract and say what needs to change — often a limit, an entity name or an endorsement rather than a new policy.</p>
+
+<div class="sources">
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.building.govt.nz/about-building-performance/all-news-and-updates/building-amendment-bill-introduced-to-parliament" rel="nofollow noopener" target="_blank">Building Performance — Building Amendment Bill introduced to Parliament</a>, 2 July 2026</li>
+<li><a href="https://www.mbie.govt.nz/dmsdocument/31702-regulatory-impact-statement-increasing-the-maximum-fine-and-suspension-for-licensed-building-practitioners-proactiverelease-pdf" rel="nofollow noopener" target="_blank">MBIE — Regulatory Impact Statement: increasing the maximum fine and suspension for licensed building practitioners (PDF)</a>, 5 November 2025</li>
+<li><a href="https://www.beehive.govt.nz/sites/default/files/2025-11/Consumer%20protections%20for%20building%20consent%20system%20reforms%20factsheet.pdf" rel="nofollow noopener" target="_blank">Consumer protections for building consent system reforms — factsheet (PDF)</a>, 24 November 2025 — scope of the proposed PI requirement, and the statement that it will not apply to builders</li>
+<li><a href="https://www.mbie.govt.nz/dmsdocument/31701-regulatory-impact-statement-supporting-mechanisms-for-proportionate-liability-in-the-building-and-construction-sector-proactiverelease-pdf" rel="nofollow noopener" target="_blank">MBIE — Regulatory Impact Statement, proportionate liability (PDF)</a>, 18 November 2025 — no minimum limit proposed</li>
+<li><a href="https://www.engineeringnz.org/engineer-tools/engineering-documents/producer-statements/professional-indemnity-insurance-why-200000/" rel="nofollow noopener" target="_blank">Engineering New Zealand — Professional indemnity insurance: why $200,000?</a></li>
+<li>Ministry of Education — contractor and consultant insurance guidance on education.govt.nz. Cited as text: we hold no verified URL for the current version, it is updated without announcement, and your signed contract schedule governs in any case. Read it alongside your contract and save a dated copy of what you relied on.</li>
+</ul>
+<p>Last reviewed 7 September 2026. General information only, not legal or financial advice. We are an information and referral service, not an insurer and not a law firm; the advisers we refer you to are licensed. The requirement that binds you is the one in your own contract schedule, not this page, and anything describing the Building Amendment Bill is accurate only as at the review date above.</p>
+</div>`,
     faqs: [
       {
         q: 'What limit of professional indemnity does the Ministry of Education require?',

@@ -36,4 +36,22 @@
   .prose-indemnity strong {
     @apply font-bold text-slate-900;
   }
+  .prose-indemnity a {
+    @apply text-blue-700 underline underline-offset-2 decoration-blue-300 hover:decoration-blue-700;
+  }
+  .prose-indemnity .sources {
+    @apply mt-10 pt-6 border-t border-slate-200 text-sm text-slate-600;
+  }
+  .prose-indemnity .sources h2 {
+    @apply text-base font-bold text-slate-900 mt-0 mb-3;
+  }
+  .prose-indemnity .sources li {
+    @apply text-sm text-slate-600;
+  }
+  .prose-indemnity .keyfact {
+    @apply my-6 p-5 rounded-lg bg-slate-50 border border-slate-200;
+  }
+  .prose-indemnity .keyfact p:last-child {
+    @apply mb-0;
+  }
 }

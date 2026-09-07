@@ -60,7 +60,7 @@ export default function Footer() {
 
           {/* Locations */}
           <div>
-            <h4 className="text-white font-bold text-xs uppercase tracking-widest mb-3">Locations</h4>
+            <h4 className="text-white font-bold text-xs uppercase tracking-widest mb-3">Guides</h4>
             <ul className="space-y-2">
               {[
                 ['PI Insurance Auckland', '/pi-insurance-auckland/'],
@@ -71,6 +71,10 @@ export default function Footer() {
                 ['Government Contractors', '/pi-insurance-government-contractors-nz/'],
                 ['Compare PI Insurance', '/compare-professional-indemnity-insurance-nz/'],
                 ['Professional Liability', '/professional-liability-insurance-nz/'],
+                ['Indemnity vs Replacement Value', '/indemnity-value-vs-replacement-value-nz/'],
+                ['Medical Indemnity', '/medical-indemnity-insurance-nz/'],
+                ['Cover Through Your Body', '/professional-indemnity-through-your-professional-body-nz/'],
+                ['School Property Projects', '/pi-insurance-school-property-projects-nz/'],
               ].map(([label, href]) => (
                 <li key={href}><Link href={href} className="text-sm hover:text-white transition-colors">{label}</Link></li>
               ))}
@@ -83,7 +87,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {[
                 ['Get a Quote', '/contact/'],
-                ['Compare Providers', '/compare/'],
+                ['How to Compare Policies', '/compare/'],
                 ['PI Insurance Guide', '/coverage/professional-indemnity/'],
                 ['PI Insurance Cost', '/pi-insurance-cost/'],
                 ['Contractor Guide', '/indemnity-insurance-for-contractors/'],
@@ -104,6 +108,7 @@ export default function Footer() {
             <Link href="/privacy/" className="hover:text-gray-300">Privacy Policy</Link>
             <Link href="/terms/" className="hover:text-gray-300">Terms of Use</Link>
             <Link href="/disclaimer/" className="hover:text-gray-300">Disclaimer</Link>
+            <Link href="/how-we-source-this-site/" className="hover:text-gray-300">How We Source This Site</Link>
           </div>
           <p className="text-xs text-gray-500 leading-relaxed max-w-4xl">
             <strong className="text-gray-400">Disclaimer:</strong> IndemnityInsurance.co.nz is an information and referral service. We are not a licensed insurer or financial adviser. The insurance advisers we refer you to are independently licensed under the Financial Markets Conduct Act 2013. Insurance products are subject to policy terms, conditions and exclusions. Coverage information on this site is general in nature and does not constitute financial advice. Please read your policy document carefully.

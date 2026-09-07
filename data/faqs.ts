@@ -7,7 +7,7 @@ export interface FAQ {
 export const faqs: FAQ[] = [
   {
     q: 'What is professional indemnity insurance and do I need it?',
-    a: "Professional indemnity (PI) insurance protects you if a client claims your professional advice or services caused them a financial loss. It covers your legal defence costs and any compensation awarded — regardless of whether the claim is justified. If you provide professional advice, expertise or specialised services in New Zealand, PI insurance is essential. It is legally required for financial advisers (FMCA), accountants (CAANZ), real estate agents (REA/REINZ), architects (Architects Act 2022), lawyers, and many healthcare practitioners.",
+    a: "Professional indemnity (PI) insurance protects you if a client claims your professional advice or services caused them a financial loss. It covers your legal defence costs and any compensation awarded — regardless of whether the claim is justified. If you provide professional advice, expertise or specialised services in New Zealand, PI insurance is essential. Very few New Zealanders are legally required to hold it, which is the opposite of what most websites say. No statute requires PI of financial advisers, real estate agents, architects, engineers, nurses or social workers. Where a requirement does exist it usually comes from a membership body or a client contract rather than from a regulator: REINZ member agencies must hold a minimum of $1M, self-employed ADNZ Professional members $250,000, and a CA ANZ Certificate of Public Practice requires appropriate cover. Check which of the three applies to you, because they carry very different consequences.",
     category: 'Basics',
   },
   {
@@ -17,7 +17,7 @@ export const faqs: FAQ[] = [
   },
   {
     q: 'How much does professional indemnity insurance cost in New Zealand?',
-    a: "The average PI insurance premium for NZ professionals is approximately $85–$86 per month (BizCover FY2024 data, 4,000+ NZ businesses). However, costs vary by profession: architects and engineers pay ~$160/month, mortgage brokers ~$115/month, accountants ~$75/month, and marketers ~$65/month. Cover levels from $250,000 to $10M+ are available. PI insurance premiums are fully tax deductible as a business expense.",
+    a: "Nobody in New Zealand publishes a reliable answer, and we would rather tell you that than invent one. PI here is broker-distributed and individually underwritten, and neither of the two main NZ underwriters publishes rate tables. The only official cost guidance we can find is the Government's estimate, published in November 2025 to support the building reforms, that PI for architects typically costs between $1,500 and $3,000 per person each year, often covered by the firm. Treat that as a policy estimate with no methodology attached. What actually sets your premium is your fee income, the limit of indemnity, the work you do, your claims history, your excess and your retroactive date. PI premiums are deductible as a business expense.",
     category: 'Cost',
   },
   {
@@ -27,12 +27,12 @@ export const faqs: FAQ[] = [
   },
   {
     q: 'Do I need run-off cover when I retire or close my business?',
-    a: "Yes — strongly recommended. Because PI insurance is claims-made, if you let your policy lapse after retiring, any future claims from past work will not be covered. Run-off cover (also called tail cover) extends your protection after you stop practising. It is available for 1, 3, 5 or 7 years, and typically costs 1.5–2x your last annual premium for 3-year cover. For architects and engineers, 6–7 years is recommended due to long construction limitation periods.",
+    a: "Yes — strongly recommended. Because PI insurance is claims-made, if you let your policy lapse after retiring, any future claims from past work will not be covered. Run-off cover (also called tail cover) extends your protection after you stop practising. It is commonly offered in multi-year blocks. We have removed the pricing multiples we used to publish here because no New Zealand source supports them — run-off is negotiated at the point of purchase and varies with the insurer, the period and the book of work. Ask for run-off terms in writing at renewal, while you still have leverage, rather than at the point you stop trading. For building work the relevant horizon is section 393 of the Building Act 2004, which imposes an absolute ten-year longstop on civil proceedings, running from the act or omission.",
     category: 'Cover',
   },
   {
     q: 'Is PI insurance required for NZ financial advisers?',
-    a: "Yes. Financial advice providers (FAPs) must hold PI insurance as a condition of their FAP licence under the Financial Markets Conduct Act (FMCA). The FMA assesses whether your PI arrangements are adequate for your advice activities and client base during licensing and monitoring reviews. Inadequate PI cover can jeopardise your FAP licence.",
+    a: "No, and this is the most common misconception in the New Zealand advice market. PI is not among the FMA's seven standard conditions for a full FAP licence — those are record keeping, internal complaints process, regulatory returns, outsourcing, business continuity and technology systems, ongoing requirements, and notification of material changes. The FMA consulted on adding a PI condition on 17 June 2020 and confirmed on 6 November 2020 that it had decided not to include it. The Code of Professional Conduct does not require it either, and there is no obligation to disclose whether you hold it. What is true is that many product providers require PI cover under agency or distribution agreements, which is a contractual requirement from your counterparty rather than a regulatory one.",
     category: 'Regulatory',
   },
   {
@@ -42,17 +42,17 @@ export const faqs: FAQ[] = [
   },
   {
     q: 'What is management liability insurance?',
-    a: "Management liability insurance bundles several covers into one policy: Directors' and Officers' (D&O) liability, Employment Practices Liability (EPL), Statutory Liability, and Crime/Employee Dishonesty. It is designed for SMEs and growing businesses that need comprehensive management protection without separate policies for each risk. For most NZ SMEs, a management liability policy is more cost-effective than purchasing each cover separately.",
+    a: "Management liability insurance bundles several covers into one policy: Directors' and Officers' (D&O) liability, Employment Practices Liability (EPL), Statutory Liability, and Crime/Employee Dishonesty. It is designed for SMEs and growing businesses that need comprehensive management protection without separate policies for each risk. These covers are commonly bundled, but whether a bundle costs less than separate policies depends on how the individual components are underwritten for your business. We have removed the percentage saving we used to publish here because no New Zealand source supports it.",
     category: 'Cover',
   },
   {
     q: 'Does ACC cover all professional liability claims for healthcare practitioners?',
-    a: "No. ACC covers personal injury caused by accident or treatment injury in New Zealand, but it does not cover all healthcare-related claims. Claims arising from advice, informed consent failures, or circumstances where ACC declines cover are not covered by ACC. PI insurance covers these gaps, as well as the legal costs of Health and Disability Commissioner (HDC) investigations — which can be significant regardless of outcome.",
+    a: "No. ACC covers personal injury caused by accident or treatment injury in New Zealand, but it does not cover all healthcare-related claims. Claims arising from advice, informed consent failures, or circumstances where ACC declines cover are not covered by ACC. Professional indemnity or medical indemnity cover can respond to these gaps, and to the legal costs of a Health and Disability Commissioner investigation, subject to the wording. One thing to know before you shop: medical indemnity in New Zealand is generally bought directly from a medical indemnity provider or through a professional body scheme rather than through a broker, and it is not cover we can arrange.",
     category: 'Cover',
   },
   {
     q: 'How do I choose the right level of PI cover?',
-    a: "Consider: (1) Contract requirements — many clients and government contracts specify minimum PI limits; (2) Professional body requirements — CAANZ, FMA, REA and others may set minimums; (3) The scale of your clients' reliance on your advice — if you advise on multi-million dollar transactions, you need commensurate cover; (4) Your annual revenue — some insurers use revenue-based minimums. Most NZ small businesses start at $1M cover; professionals in engineering, finance and law often need $2M–$5M+.",
+    a: "Start with whatever is actually imposed on you, then work up. Client and government contracts are the most common source of a minimum limit, and for most professionals the contract sets the answer. A smaller number of membership bodies set one: REINZ requires member agencies to hold at least $1M, self-employed ADNZ Professional members at least $250,000, and an engineering firm issuing a producer statement represents that it holds at least $200,000. The FMA sets none, and the REA sets none. Beyond any imposed minimum, the question is the size of the loss a client could suffer by relying on your work, which is rarely related to your fee. Also check whether defence costs sit inside or on top of the limit, and whether the limit is per claim or in the aggregate.",
     category: 'Cost',
   },
   {
@@ -77,7 +77,7 @@ export const faqs: FAQ[] = [
   },
   {
     q: 'What is statutory liability insurance and who needs it?',
-    a: "Statutory liability insurance covers your business and directors against legal defence costs and fines arising from unintentional breaches of NZ legislation, including the Health and Safety at Work Act, Fair Trading Act, Employment Relations Act, and Resource Management Act. Any NZ business that employs people or operates in a regulated industry should consider statutory liability insurance — particularly those in construction, healthcare, food production, or environmental sectors.",
+    a: "Statutory liability insurance covers legal defence costs and representation arising from unintentional breaches of New Zealand legislation such as the Fair Trading Act, Employment Relations Act and Resource Management Act. It does not pay Health and Safety at Work Act fines, and no policy can: sections 29 and 30 of the Health and Safety at Work Act 2015 make an indemnity for an HSWA fine of no effect and make entering into one an offence. What the policy can respond to is the cost of defending you, representation during an investigation, and reparation orders, which are compensatory rather than punitive. For other statutes, whether a penalty is insurable depends on the statute and the wording, so do not assume it. Any NZ business that employs people or operates in a regulated industry should consider statutory liability insurance — particularly those in construction, healthcare, food production, or environmental sectors.",
     category: 'Cover',
   },
 ]

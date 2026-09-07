@@ -21,13 +21,13 @@ export default function AboutPage() {
         <div className="prose max-w-none space-y-8">
           <div className="bg-white rounded-xl border border-slate-200 p-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">What We Do</h2>
-            <p className="text-slate-700 leading-relaxed mb-4">IndemnityInsurance.co.nz is an information and referral service for New Zealand professionals seeking professional indemnity, public liability, management liability and statutory liability insurance. We provide educational content about coverage types, profession-specific requirements, regulatory obligations and cost benchmarks — then connect you with NZ-licensed insurance advisers who can provide personalised advice and market comparisons.</p>
+            <p className="text-slate-700 leading-relaxed mb-4">IndemnityInsurance.co.nz is an information and referral service for New Zealand professionals seeking professional indemnity, public liability, management liability and statutory liability insurance. We provide educational content about coverage types, profession-specific requirements, regulatory obligations and the published minimum limits that actually apply — then connect you with NZ-licensed insurance advisers who can provide personalised advice and market comparisons.</p>
             <p className="text-slate-700 leading-relaxed">We are not a licensed insurer or financial adviser. The advisers we connect you with are independently licensed under the Financial Markets Conduct Act 2013 and regulated by the Financial Markets Authority (FMA).</p>
           </div>
 
           <div className="bg-white rounded-xl border border-slate-200 p-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Our Referral Network</h2>
-            <p className="text-slate-700 leading-relaxed mb-4">We refer enquiries to licensed NZ insurance advisers who specialise in professional liability and management liability insurance. These advisers access the NZ professional lines market on your behalf, including insurers such as QBE, Dual, BHSI, Vero and AIG.</p>
+            <p className="text-slate-700 leading-relaxed mb-4">We refer enquiries to licensed NZ insurance advisers who specialise in professional liability and management liability insurance. These advisers access the NZ professional lines market on your behalf, including New Zealand professional lines insurers and specialist markets.</p>
             <p className="text-slate-700 leading-relaxed">All referred advisers hold Financial Advice Provider (FAP) licences from the FMA and are required to provide you with a disclosure statement before providing personalised financial advice.</p>
           </div>
 

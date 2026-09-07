@@ -28,7 +28,7 @@ export default function ProfessionsPage() {
               <span className="text-orange-400">Your Profession</span>
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed max-w-xl">
-              Every profession carries different risks. Select yours below for guidance on mandatory cover requirements, typical costs, and the policy terms that matter most to your work.
+              Every profession carries different risks — and most are not required to hold professional indemnity at all, whatever you have read elsewhere. Select yours below for a sourced answer on who actually requires cover of you, what limit applies, and the policy terms that matter most to your work.
             </p>
           </div>
         </div>

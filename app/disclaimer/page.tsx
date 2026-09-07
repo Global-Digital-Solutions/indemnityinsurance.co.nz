@@ -76,7 +76,7 @@ export default function DisclaimerPage() {
               We make every effort to ensure that the information on this website — including coverage descriptions, premium estimates, and insurer comparisons — is accurate and up to date. However, insurance products, pricing, policy terms, and regulatory requirements change frequently and without notice.
             </p>
             <p className="leading-relaxed mt-3">
-              All premium ranges and cost estimates published on this site are indicative only, based on publicly available information and market data at the time of publication. They should not be relied upon as definitive quotes or coverage guarantees. Actual premiums and policy terms will be confirmed by the relevant insurer or broker following assessment of your specific circumstances.
+              We do not publish premium estimates. New Zealand professional indemnity cover is broker-distributed and individually underwritten, and no insurer publishes rate tables. Where a cost figure appears anywhere on this site it is attributed inline to a named, dated source. Actual premiums and policy terms will be confirmed by the relevant insurer or adviser following assessment of your specific circumstances. Our sourcing standard, and a log of what we have corrected, is at /how-we-source-this-site/.
             </p>
             <p className="leading-relaxed mt-3">
               If any insurer, provider, or industry participant believes any information on this site is inaccurate, outdated, or misleading, we encourage them to contact us at{' '}

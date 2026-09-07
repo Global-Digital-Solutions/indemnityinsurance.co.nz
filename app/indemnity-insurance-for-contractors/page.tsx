@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Indemnity Insurance for NZ Contractors',
-  description: 'Professional indemnity insurance for NZ contractors, sole traders and freelancers: what it covers, when clients require it and what it typically costs.',
+  description: 'Professional indemnity insurance for NZ contractors, sole traders and freelancers: what it covers, who actually requires it, and what limit the contract in front of you sets.',
   alternates: { canonical: 'https://www.indemnityinsurance.co.nz/indemnity-insurance-for-contractors/' },
 }
 
@@ -14,7 +14,7 @@ export default function ContractorsPage() {
       <div className="bg-brand-900 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Indemnity Insurance for Contractors NZ</h1>
-          <p className="text-brand-300 text-lg max-w-2xl">PI insurance for New Zealand contractors, sole traders and freelancers — what you need, how much it costs, and how to get covered fast.</p>
+          <p className="text-brand-300 text-lg max-w-2xl">PI insurance for New Zealand contractors, sole traders and freelancers — what you need, who actually requires it, and where your limit really comes from.</p>
         </div>
       </div>
 
@@ -25,53 +25,53 @@ export default function ContractorsPage() {
             <div className="bg-white rounded-xl p-8 border border-slate-200">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">Do Contractors Need PI Insurance?</h2>
               <p className="text-slate-700 leading-relaxed mb-4">If you provide professional advice, services or expertise to clients under contract, you are personally exposed to claims that your work caused them financial loss. Unlike permanent employees, contractors have no employer shield — you carry the risk directly.</p>
-              <p className="text-slate-700 leading-relaxed mb-4">Most enterprise and government clients in New Zealand now require contractors to hold professional indemnity (PI) insurance as a condition of engagement. Common contract requirements are $1M–$2M per claim.</p>
+              <p className="text-slate-700 leading-relaxed mb-4">Many enterprise and government clients in New Zealand require contractors to hold professional indemnity insurance as a condition of engagement. There is no published New Zealand standard figure for the limit — the Government Model Contract for Services, for example, requires the insurance specified in Schedule 1 of the individual contract and states no dollar amount in its standard terms. The limit is set in the contract in front of you, so read the insurance clause rather than working from a benchmark someone published online.</p>
               <p className="text-slate-700 leading-relaxed">Even where it is not contractually mandated, PI insurance is strongly recommended for any contractor whose work could result in a client suffering a financial loss if something goes wrong.</p>
             </div>
 
             <div className="bg-white rounded-xl p-8 border border-slate-200">
-              <h2 className="text-2xl font-bold text-slate-900 mb-4">PI Insurance for Common Contractor Types</h2>
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">What Limit Applies, By Contractor Type</h2>
               <div className="space-y-3">
                 {[
                   {
                     type: 'IT Contractors & Developers',
                     risks: 'System failures, data loss, project delays, security vulnerabilities, missed deliverables',
-                    cost: '$80–$150/mo',
+                    cost: 'Set by contract',
                   },
                   {
                     type: 'Management & Business Consultants',
                     risks: 'Strategic advice that causes financial loss, project management errors, cost overruns',
-                    cost: '$65–$130/mo',
+                    cost: 'Set by contract',
                   },
                   {
                     type: 'Engineers & Architects',
-                    risks: 'Design errors, specification failures, construction defects, long limitation periods',
-                    cost: '$160–$300/mo',
+                    risks: 'Design errors, specification failures, construction defects, ten-year Building Act longstop',
+                    cost: '$200k producer statement',
                   },
                   {
                     type: 'Accountants & Bookkeepers',
-                    risks: 'Tax filing errors, incorrect accounts, late filings, CAANZ practising requirement',
-                    cost: '$60–$120/mo',
+                    risks: 'Tax filing errors, incorrect accounts, late filings. A CA ANZ Certificate of Public Practice requires appropriate cover; the NZ minimum is not published',
+                    cost: 'Not published',
                   },
                   {
                     type: 'Marketing & PR Contractors',
                     risks: 'Campaign failure, IP infringement, misleading material, reputational claims',
-                    cost: '$65–$100/mo',
+                    cost: 'Set by contract',
                   },
                   {
                     type: 'Recruitment & HR Consultants',
                     risks: 'Wrong hire recommendations, misrepresentation, employment advice errors',
-                    cost: '$115–$160/mo',
+                    cost: 'Set by contract',
                   },
                   {
                     type: 'Healthcare & Allied Health',
-                    risks: 'Professional negligence, patient harm, regulatory investigation costs',
-                    cost: '$100–$250/mo',
+                    risks: 'Professional negligence, patient harm, regulatory investigation costs. Medical indemnity is generally bought direct or through a body scheme, not through a broker',
+                    cost: 'Direct or scheme',
                   },
                   {
                     type: 'Financial Services Contractors',
-                    risks: 'FMCA mandatory for FAPs; investment advice errors, disclosure failures',
-                    cost: '$100–$200/mo',
+                    risks: 'Investment advice errors, disclosure failures. PI is not an FMA licence condition, but product providers commonly require it under distribution agreements',
+                    cost: 'Set by contract',
                   },
                 ].map(item => (
                   <div key={item.type} className="border border-slate-200 rounded-lg p-4">
@@ -85,7 +85,7 @@ export default function ContractorsPage() {
                   </div>
                 ))}
               </div>
-              <p className="text-xs text-slate-500 mt-3">Costs based on BizCover NZ FY2024 data. Actual premiums vary by revenue, claims history and cover level.</p>
+              <p className="text-xs text-slate-500 mt-3">The right-hand column is the minimum limit that actually applies, not a premium. No New Zealand insurer publishes PI rate tables, so we do not publish premium figures. For most contractors the limit is set by the client contract, which is the first place to look. See our <a href="/pi-insurance-cost/" className="text-brand-700 hover:underline">cost guide</a> for what is genuinely published in New Zealand.</p>
             </div>
 
             <div className="bg-white rounded-xl p-8 border border-slate-200">
@@ -129,14 +129,14 @@ export default function ContractorsPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 mb-2">GST Registration</h3>
-                  <p className="text-slate-700 text-sm leading-relaxed">GST-registered contractors can claim the GST portion of their PI premium. The net cost is the premium minus GST input tax credit — typically 15% off the gross premium.</p>
+                  <p className="text-slate-700 text-sm leading-relaxed">GST-registered contractors can generally claim the GST portion of their PI premium as an input tax credit. Note the arithmetic: GST is 15% of the net premium, which is 3/23 of the GST-inclusive figure, not 15% of the gross.</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-green-50 rounded-xl border border-green-200 p-6">
               <h3 className="font-bold text-green-900 mb-2">Tax Deductibility for Contractors</h3>
-              <p className="text-green-800 text-sm">PI insurance premiums are a fully deductible business expense under the Income Tax Act 2007. For a sole trader earning over $70,000 (33% marginal rate), a $1,500/year premium effectively costs only $1,005 after tax. The after-tax cost of protection is often less than the excess on a single claim.</p>
+              <p className="text-green-800 text-sm">PI insurance premiums are a fully deductible business expense under the Income Tax Act 2007. What the deduction saves you depends on your own marginal or company rate, so we are not going to publish a worked example that will be wrong for most readers. From 1 April 2025 the individual brackets step at $15,600, $53,500, $78,100 and $180,000, so a sole trader on $70,000 is on the 30% rate rather than the 33% one.</p>
             </div>
 
           </div>
@@ -151,7 +151,7 @@ export default function ContractorsPage() {
                   ['/coverage/professional-indemnity/', 'What Is PI Insurance?'],
                   ['/coverage/run-off-cover/', 'Run-off Cover Guide'],
                   ['/professions/it-consultants/', 'IT Contractor Guide'],
-                  ['/compare/', 'Compare Providers'],
+                  ['/compare/', 'How to Compare Policies'],
                 ].map(([href, label]) => (
                   <li key={href}><Link href={href} className="text-sm text-brand-700 hover:text-brand-800 hover:underline">{label} →</Link></li>
                 ))}

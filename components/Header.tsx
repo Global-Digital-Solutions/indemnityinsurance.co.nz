@@ -153,7 +153,7 @@ export default function Header() {
           </div>
           <div className="border-t border-gray-700 pt-2 space-y-1">
             {[
-              { href: '/compare/', label: 'Compare Providers' },
+              { href: '/compare/', label: 'How to Compare Policies' },
               { href: '/blog/', label: 'Resources' },
               { href: '/faq/', label: 'FAQs' },
             ].map(l => (

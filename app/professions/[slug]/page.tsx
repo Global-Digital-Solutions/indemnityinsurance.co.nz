@@ -100,7 +100,7 @@ export default async function ProfessionPage({ params }: { params: Promise<{ slu
             {pt.mandatoryRequirements && pt.mandatoryRequirements.length > 0 && (
               <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
                 <h3 className="font-bold text-amber-900 mb-4 flex items-center gap-2">
-                  <span>⚠</span> Mandatory PI Requirements for {pt.name}
+                  <span>⚠</span> Who Requires PI of {pt.name} — and Who Does Not
                 </h3>
                 <ul className="space-y-2">
                   {pt.mandatoryRequirements.map(req => (

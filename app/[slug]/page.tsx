@@ -39,6 +39,11 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
   const lp = landingPages.find(p => p.slug === slug)
   if (!lp) notFound()
 
+  const idx = landingPages.findIndex(p => p.slug === slug)
+  const otherGuides = [1, 2, 3]
+    .map(step => landingPages[(idx + step) % landingPages.length])
+    .filter(g => g && g.slug !== slug)
+
   return (
     <div className="bg-slate-50 min-h-screen">
       {/* Hero */}
@@ -129,6 +134,21 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
                 </div>
               </div>
             )}
+
+            {/* Other guides — deterministic ring so no landing page is orphaned */}
+            {otherGuides.length > 0 && (
+              <div className="bg-white rounded-xl p-6 border border-slate-200">
+                <h3 className="text-lg font-bold text-slate-900 mb-4">More Guides on This Site</h3>
+                <ul className="space-y-3">
+                  {otherGuides.map(g => (
+                    <li key={g.slug}>
+                      <Link href={`/${g.slug}/`} className="text-sm font-semibold text-brand-700 hover:underline">{g.h1} &rarr;</Link>
+                      <p className="text-xs text-slate-600 mt-1 leading-relaxed">{g.metaDescription}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
 
           {/* Sidebar */}
@@ -141,7 +161,7 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
               <div className="space-y-3 text-brand-200 text-sm">
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>
-                  <span>Access to multiple NZ PI insurers — QBE, DUAL, BHSI, Vero and more</span>
+                  <span>Access to multiple NZ professional lines insurers and specialist markets</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>
@@ -149,7 +169,7 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>
-                  <span>Mandatory PI requirements confirmed for your profession</span>
+                  <span>Who actually requires cover of you for your profession</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>
