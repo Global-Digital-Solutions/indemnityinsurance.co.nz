@@ -6,6 +6,7 @@ import QuoteForm from '../../../components/QuoteForm'
 import PriceTag from '../../../components/PriceTag'
 import { SITE } from '../../../data/site'
 import type { Metadata } from 'next'
+import ContentNotice from '@/components/ContentNotice'
 
 export function generateStaticParams() {
   return coverageTypes.map(ct => ({ slug: ct.slug }))
@@ -101,6 +102,7 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
             {ct.longFormContent && (
               <div className="bg-white rounded-xl p-8 border border-slate-200">
                 <div className="prose-indemnity" dangerouslySetInnerHTML={{ __html: ct.longFormContent }} />
+                <ContentNotice className="mt-10" />
               </div>
             )}
 

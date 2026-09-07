@@ -169,7 +169,7 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>
-                  <span>A straight answer on what your profession really requires — even if it is nothing</span>
+                  <span>Licensed to assess your situation and give you their own recommendation</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gold-400 font-bold mt-0.5 flex-shrink-0">✓</span>

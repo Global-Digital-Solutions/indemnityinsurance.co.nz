@@ -6,6 +6,7 @@ import QuoteForm from '../../../components/QuoteForm'
 import PriceTag from '../../../components/PriceTag'
 import { SITE } from '../../../data/site'
 import type { Metadata } from 'next'
+import ContentNotice from '@/components/ContentNotice'
 
 export function generateStaticParams() {
   return professionTypes.map(pt => ({ slug: pt.slug }))
@@ -144,6 +145,7 @@ export default async function ProfessionPage({ params }: { params: Promise<{ slu
             {pt.longFormContent && (
               <div className="bg-white rounded-xl p-8 border border-slate-200">
                 <div className="prose-indemnity" dangerouslySetInnerHTML={{ __html: pt.longFormContent }} />
+                <ContentNotice className="mt-10" />
               </div>
             )}
 

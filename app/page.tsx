@@ -45,7 +45,7 @@ export default function HomePage() {
                 No sales pitch. Just what the rules actually say, and a local broker who knows their stuff.
               </p>
               <p className="text-gray-400 text-base leading-relaxed mb-8 max-w-xl">
-A lot of people are told they must hold indemnity insurance when no rule says anything of the sort. So we start with the truth about your profession, and we show you where it comes from — including when the honest answer is that nothing requires you to hold it at all. If cover does make sense for you, we will put you in touch with a local broker who knows your trade and will talk to you like a person. That is the whole of it.
+A lot of people are told they are required to hold indemnity insurance when no New Zealand rule says anything of the sort. So we set out what each regulator and professional body actually requires, with the source, and we say plainly where the answer is that no rule requires it. That is a statement about the rules, not about your business — most professionals carry cover regardless, and around 90% of designers and engineers already do. Whether it is right for you is a question for a licensed broker, and we will put you in front of a local one who knows your trade.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact/"
@@ -58,7 +58,7 @@ A lot of people are told they must hold indemnity insurance when no rule says an
                 </Link>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                {['We say when you do not need it', 'Every requirement sourced', 'Local brokers we have vetted', 'No obligation'].map(pill => (
+                {['What the rules require, and what they do not', 'Every requirement sourced', 'Local brokers we have vetted', 'No obligation'].map(pill => (
                   <span key={pill} className="text-xs text-gray-300 bg-gray-800/70 px-3 py-1 rounded-full border border-gray-700">✓ {pill}</span>
                 ))}
               </div>
@@ -152,7 +152,7 @@ A lot of people are told they must hold indemnity insurance when no rule says an
               { n: '01', title: 'Tell Us What You Do', desc: 'Your profession and the kind of work you take on. Two minutes, and no phone number needed to read the site.' },
               { n: '02', title: 'A Local Broker Takes a Look', desc: 'Someone who knows your field, and whom we have met and vetted ourselves.' },
               { n: '03', title: 'They Do the Legwork', desc: 'Your broker approaches the insurers and specialist markets that suit your profession, and explains what they find.' },
-              { n: '04', title: 'You Decide', desc: 'They explain it in plain terms and leave it with you. If you do not need cover, they will tell you that too.' },
+              { n: '04', title: 'You Decide', desc: 'They are licensed to assess your situation and give you their recommendation, in plain terms. Then they leave it with you.' },
             ].map(step => (
               <div key={step.n} className="text-center">
                 <div className="w-14 h-14 rounded-full bg-brand-700 border-2 border-brand-500 flex items-center justify-center text-gold-400 font-extrabold text-lg mx-auto mb-4">{step.n}</div>
@@ -227,7 +227,7 @@ A lot of people are told they must hold indemnity insurance when no rule says an
       <div className="py-16 bg-gradient-to-br from-brand-900 to-brand-800">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">Want to Talk It Through?</h2>
-          <p className="text-brand-300 text-lg mb-8">A local broker will look at what you actually do and tell you straight what you need — including if the answer is nothing. It costs you nothing to ask.</p>
+          <p className="text-brand-300 text-lg mb-8">A local broker is licensed to look at what you actually do and give you their own recommendation, in plain terms. It costs you nothing to ask.</p>
           <Link href="/contact/"
             className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-extrabold px-10 py-4 rounded-2xl transition-colors shadow-xl text-lg">
             Get a Quote →

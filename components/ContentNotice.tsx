@@ -33,8 +33,9 @@ export default function ContentNotice({
         aria-label="About this information"
       >
         <p>
-          General information, not regulated financial advice. Figures are indicative and
-          dated where given.{' '}
+          General information about the rules and how these policies work — not regulated
+          financial advice, and not a view on what you need. Figures are dated and sourced
+          where given.{' '}
           <Link href="/disclaimer/" className="font-medium text-brand-700 underline underline-offset-2">
             How to read what is on this site
           </Link>
@@ -50,6 +51,14 @@ export default function ContentNotice({
     >
       <h2 className="text-base font-bold text-slate-900 mb-3">About the information on this page</h2>
       <ul className="space-y-2.5 text-sm leading-relaxed text-slate-600">
+        <li>
+          <span className="font-medium text-slate-800">What a rule requires is not the same as what you need.</span>{' '}
+          Where we say that no statute, regulator or professional body requires a particular
+          cover, that is a sourced statement about the rules. It is not a view about whether
+          cover is appropriate for you, and it should not be read as one. Cover is widely held,
+          and often sensible, where nothing compels it. Whether it is right for your situation
+          is a question for a licensed adviser.
+        </li>
         <li>
           <span className="font-medium text-slate-800">This is general information, not advice.</span>{' '}
           We are not a financial advice provider and we do not give regulated financial advice.

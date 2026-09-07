@@ -153,7 +153,7 @@ export const professionTypes: ProfessionType[] = [
 <li>The cover limit you require</li>
 <li>Your current insurer and policy expiry date (if renewing)</li>
 </ul>
-<p>Want to talk it through? <a href="/contact/">Get in touch</a> and we will put you in front of a local broker who knows your field. If they think you do not need cover, they will say so — see <a href="/compare/">what actually differs between policies</a> first if you would rather read up.</p>
+<p>Want to talk it through? <a href="/contact/">Get in touch</a> and we will put you in front of a local broker who knows your field and is licensed to give you a recommendation for your own situation. If you would rather read up first, see <a href="/compare/">what actually differs between policies</a>.</p>
 
 <div class="sources">
 <h2>Sources</h2>

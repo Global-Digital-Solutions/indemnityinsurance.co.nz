@@ -5,6 +5,7 @@ import { authors } from '../../../data/authors'
 import QuoteForm from '../../../components/QuoteForm'
 import { SITE } from '../../../data/site'
 import type { Metadata } from 'next'
+import ContentNotice from '@/components/ContentNotice'
 
 export function generateStaticParams() {
   return blogPosts.map(p => ({ slug: p.slug }))
@@ -92,6 +93,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             </div>
             <div className="bg-white rounded-xl border border-slate-200 p-8 shadow-sm">
               <div className="prose-indemnity" dangerouslySetInnerHTML={{ __html: post.content }} />
+              <ContentNotice className="mt-10" />
             </div>
 
             {/* Author card */}
